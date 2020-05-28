@@ -3,7 +3,7 @@ layout: home
 title: Page examples
 ---
 
-1. [Home](..)
+1. [Home](../)
 2. [Design System](../Design-system)
 2. {{ page.title }}
 

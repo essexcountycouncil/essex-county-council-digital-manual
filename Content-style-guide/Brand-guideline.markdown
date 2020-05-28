@@ -3,7 +3,7 @@ layout: home
 title: Brand guidelines
 ---
 
-1. [Home](..)
+1. [Home](../)
 2. [Content style guide](../Content-style-guide)
 3. {{ page.title }}
 

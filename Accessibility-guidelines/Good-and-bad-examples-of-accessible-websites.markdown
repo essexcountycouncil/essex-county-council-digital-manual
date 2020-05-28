@@ -3,7 +3,7 @@ layout: page
 title: Good and bad examples of accessible websites
 ---
 
-1. [Home](..)
+1. [Home](../)
 2. [Accessibility guidelines](../Accessibility-guidelines)
 3. {{ page.title }}
 
