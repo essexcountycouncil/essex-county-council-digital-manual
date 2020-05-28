@@ -3,8 +3,8 @@ layout: page
 title: Accessibility testing standards
 ---
 
-1. [Home](/)
-2. [Accessibility guidelines](/Accessibility-guidelines)
+1. [Home](..)
+2. [Accessibility guidelines](../Accessibility-guidelines)
 3. {{ page.title }}
 
 # {{ page.title }}

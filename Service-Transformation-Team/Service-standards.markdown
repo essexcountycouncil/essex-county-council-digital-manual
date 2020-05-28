@@ -3,8 +3,8 @@ layout: page
 title: Service standards
 ---
 
-1. [Home](/)
-2. [Service Transformation Team](/Service-Transformation-Team)
+1. [Home](..)
+2. [Service Transformation Team](../Service-Transformation-Team)
 3. {{ page.title }}
 
 # {{ page.title }}

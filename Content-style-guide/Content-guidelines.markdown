@@ -3,8 +3,8 @@ layout: home
 title: Content guidelines
 ---
 
-1. [Home](/)
-2. [Content style guide](/Content-style-guide)
+1. [Home](..)
+2. [Content style guide](../Content-style-guide)
 3. {{ page.title }}
 
 

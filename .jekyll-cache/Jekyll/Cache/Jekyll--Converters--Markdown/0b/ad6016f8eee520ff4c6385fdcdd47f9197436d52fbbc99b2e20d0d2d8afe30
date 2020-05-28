@@ -1,0 +1,43 @@
+I"k	<ol>
+  <li><a href="/">Home</a></li>
+  <li><a href="Design-system">Design System</a></li>
+  <li>Page examples</li>
+</ol>
+
+<h1 id="page-examples">Page examples</h1>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<h2 id="templates">Templates</h2>
+
+<ul>
+  <li><a href="/templates/information">Information</a></li>
+  <li><a href="/templates/cludo">Cludo Search</a></li>
+  <li><a href="/templates/no-results">Cludo Search no results</a></li>
+  <li><a href="/templates/step-by-step">Step by step page</a></li>
+</ul>
+
+<h2 id="prototypes">Prototypes</h2>
+
+<ul>
+  <li><a href="/prototypes/website/topic-b">Alternative Topic page</a></li>
+  <li><a href="/prototypes/app/freedom-of-information">Freedom of Information Search</a></li>
+  <li><a href="/prototypes/app/emergency-school-closures">Emergency School Closures</a></li>
+  <li><a href="/prototypes/app/find-a-childcare-provider">Find a Childcare Provider form approach</a></li>
+  <li><a href="/prototypes/app/find-a-childcare-provider-b">Find a Childcare Provider first tab</a></li>
+  <li><a href="/prototypes/app/find-a-childcare-provider-c">Find a Childcare Provider second tab</a></li>
+  <li><a href="/prototypes/app/catchment-area">Catchment Area</a></li>
+  <li><a href="/prototypes/app/childcare-sufficiency">Childcare Sufficiency</a></li>
+  <li><a href="/prototypes/app/schools-waiting-list">Schools Waiting List</a></li>
+  <li><a href="/prototypes/app/search-for-an-inquest">Search for an Inquest</a></li>
+</ul>
+
+<h2 id="static-pages">Static pages</h2>
+
+<ul>
+  <li><a href="https://essex-static-website.herokuapp.com/">Home page</a></li>
+  <li><a href="https://essex-static-website.herokuapp.com/topic.html">Topic page</a></li>
+  <li><a href="https://essex-static-website.herokuapp.com/contact-us.html">Contact us page</a></li>
+  <li><a href="https://essex-static-website.herokuapp.com/404.html">404 page</a></li>
+</ul>
+:ET

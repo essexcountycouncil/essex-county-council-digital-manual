@@ -3,8 +3,8 @@ layout: home
 title: Elements and Components
 ---
 
-1. [Home](/)
-2. [Design System](/Design-system)
+1. [Home](..)
+2. [Design System](../Design-system)
 3. {{ page.title }}
 
 # Elements and Components
