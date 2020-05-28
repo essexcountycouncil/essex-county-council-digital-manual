@@ -10,7 +10,7 @@ The Service Design Toolkit is a collection of best practice tools and guidance t
 
 This toolkit is in constant development. If you have any questions please email [service.design@essex.gov.uk](mailto:service.design@essex.gov.uk)
 
-## [Service Transformation Team](Service-Transformation-Team.html)
+## [Service Transformation Team](Service-Transformation-Team)
 
 Guidance on how we understand, design, optimise and build services
 
