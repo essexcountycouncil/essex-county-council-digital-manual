@@ -18,7 +18,7 @@ Guidance on how we understand, design, optimise and build services
 
 Includes guidance and tools to help plan, deliver and publish content
 
-## [Accessibility Guidelines](Accessibility-Guidelines)
+## [Accessibility Guidelines](Accessibility-guidelines)
 
 Includes best practice guidance on how to make content accessible to users
 
