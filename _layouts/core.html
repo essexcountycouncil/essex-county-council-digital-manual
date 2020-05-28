@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- core docs this is core.html -->
+  {% block head %}
+    {%include "includes/head.html" %}
+  {% endblock %}
+
+  <body class="{% block body_classes %}{% endblock %}" id="design-system-docs">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    {% block body_start %}{% endblock %}
+
+    <!--{% block skiplink %}
+      {% include "includes/skip-link.html" %}
+    {% endblock %}-->
+
+    {% block header %}
+      {% include "includes/search-header.html" %}
+    {% endblock %}
+
+    {% block content %}
+    {% endblock %}
+
+    {% block footer %}
+      {% include "includes/footer-bottom.html" %}
+    {% endblock %}
+
+    {% block scripts %} 
+      {% include "includes/scripts.html" %} 
+    {% endblock %}
+    <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
+    
+    {% block cludo %}
+      {% include "includes/cludo-scripts.html" %}
+    {% endblock %}
+
+  </body>
+</html>
