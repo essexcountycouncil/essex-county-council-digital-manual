@@ -3,7 +3,7 @@ layout: page
 title: Content style guide
 ---
 
-1. [Home]({{ site.baseurl }})
+1. [Home](../)
 2. {{ page.title }}
 
 # {{ page.title }}
