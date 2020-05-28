@@ -3,7 +3,7 @@ layout: home
 title: Accessibility
 ---
 
-1. [Home](../)
+1. [Home]({{ site.baseurl }})
 2. Accessibility
 
 # {{ page.title }}

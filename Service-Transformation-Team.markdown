@@ -3,7 +3,7 @@ layout: page
 title: Service Transformation Team
 ---
 
-1. [Home](../)
+1. [Home]({{ site.baseurl }})
 2. {{ page.title }}
 
 # {{ page.title }}
