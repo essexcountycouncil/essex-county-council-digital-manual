@@ -1,0 +1,49 @@
+.show-hide {
+  .show, .hide {
+    display: block;
+    margin-top: $baseline;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  li {
+    margin-top: $baseline*0.5;
+    margin-bottom: $baseline*0.5;
+    padding-left: 0;
+    a {
+      font-weight: $bold;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+  input.checkbox, .hide {
+    display: none;
+  }
+
+  // show and hide for "show" and "hide" toggle
+  input[aria-expanded="false"] + label.show + label.hide {
+    display: none;
+  }
+
+  input[aria-expanded="true"] + label.show {
+    display: none;
+  }
+
+  input[aria-expanded="true"] + label.show + label.hide {
+    display: block;
+  }
+
+  label.show, label.hide {
+    cursor: pointer;
+    color: $link;
+    text-decoration: underline;
+    &:hover {
+      color: $hover;
+    }
+  }
+}

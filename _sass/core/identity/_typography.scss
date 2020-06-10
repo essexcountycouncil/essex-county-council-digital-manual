@@ -1,0 +1,233 @@
+$modularscale: (
+  base: $ms-base,
+  ratio: $major-second
+);
+
+@mixin p {
+  font-size: ms(0);
+  line-height: $baseline;
+  margin-top: 0;
+  margin-bottom: $baseline*0.5;
+  color: $body-text-colour;
+  text-transform: none;
+}
+
+p {
+  @include p;
+  @include word-break;
+  &.lede {
+    font-size: ms(1);
+  }
+  & + ul, ol {
+    margin-top: 0;
+  }
+  @include media(mobile) {
+    font-size: ms(-1);
+    margin-bottom: $baseline*0.5;
+    &.lede {
+      font-size: ms(0);
+    }
+  }
+}
+
+@mixin small {
+  font-size: ms(-1);
+  line-height: 1.6153846rem;
+}
+
+@mixin smaller {
+  font-size: ms(-2);
+  line-height: 1.14286rem;
+}
+
+@mixin h1 {
+  font-family: $stack;
+  font-size: ms(9);
+  font-weight: $bold;
+  text-transform: none;
+  line-height: $baseline*2;
+  letter-spacing: -1.5px;
+  margin-top: $baseline*1.5;
+  margin-bottom: $baseline*1.5;
+  @include media(mobile) {
+    font-size: ms(5);
+    line-height: $baseline*1.5;
+    margin-top: $baseline*0.5;
+    margin-bottom: $baseline;
+  }
+}
+
+@mixin h2 {
+  font-family: $stack;
+  font-size: ms(5);
+  font-weight: $bold;
+  line-height: $baseline*1.5;
+  letter-spacing: -1.5px;
+  margin-top: $baseline*1.5;
+  margin-bottom: $baseline*0.5;
+  text-transform: none;
+  @include media(mobile) {
+    font-size: ms(2);
+    line-height: $baseline;
+    margin-top: $baseline*0.5;
+    margin-bottom: $baseline*0.5;
+  }
+}
+
+@mixin h3 {
+  font-family: $stack;
+  font-size: ms(3);
+  font-weight: $bold;
+  line-height: $baseline;
+  letter-spacing: -1.5px;
+  margin-top: $baseline*1.5;
+  margin-bottom: $baseline*0.5;
+  text-transform: none;
+  letter-spacing: -0.5px;
+  @include media(mobile) {
+    font-size: ms(1);
+    line-height: $baseline;
+    margin-top: $baseline*0.5;
+  }
+}
+
+@mixin h4 {
+  font-family: $stack;
+  font-size: ms(1);
+  font-weight: $bold;
+  line-height: $baseline;
+  letter-spacing: -1.5px;
+  margin-top: $baseline*1.5;
+  margin-bottom: $baseline*0.5;
+  text-transform: none;
+  letter-spacing: -0.5px;
+  @include media(mobile) {
+    font-size: ms(1);
+    line-height: $baseline;
+    margin-top: $baseline*0.5;
+  }
+}
+
+// page-heading is used at the top of each page
+h1, .h1, .page-heading {
+  @include h1;
+}
+
+// content-heading is used for each new and unlreated piece of content within a page.
+h2, .h2, .content-heading {
+  @include h2;
+}
+
+// .content-heading ~ .content-heading,
+// .page-heading ~ .content-heading {
+//   @include content-break-large;
+//   padding-top: $baseline;
+// }
+
+// section-heading is used for each section within content on a page.
+h3,.h3, .section-heading {
+  @include h3;
+}
+
+.content > h1.h3 {
+  margin-bottom: $baseline*1.5;
+}
+
+// sub-section-heading is used for those occasional
+// cases of additional breaking down within a section is required
+// or additionally certain preview sections
+h4, .h4, .sub-section-heading {
+  @include h4;
+}
+
+strong {
+  font-weight: $bold;
+}
+
+em, i {
+  font-style: italic;
+} 
+
+// Link styles
+a:link {
+  color: $link;
+}
+
+a:visited {
+  color: $visited;
+}
+
+a:hover {
+  color: $hover;
+}
+
+a:active {
+  color: $active;
+}
+
+// added this for general removing hyperlink
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: $black;
+}
+
+// Set focus styles
+a {
+  // Allow RGBA here, this line has been copied from govuk_template
+  // scss-lint:disable ColorVariable
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+
+a:focus {
+  color: $black;
+  background-color: $focus-colour;
+  outline: $border-thick solid $focus-colour;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: $border-thick solid $focus-colour;
+  outline-offset: 0;
+}
+
+
+//Lists
+
+ol,
+ul {
+  @include media(mobile) {
+    font-size: ms(-1);
+  }
+  list-style-position: outside;
+  padding-left:10px;
+  margin-left: 20px;
+  margin-top: $baseline;
+  margin-bottom: $baseline;
+  li {
+    padding-left: 10px;
+    margin-bottom: 0;
+    line-height: $baseline;
+  }
+  &.no-bullets li {
+    list-style: none;
+  }
+}
+
+ol {
+  list-style-type: decimal;
+  @include ie-lte(7) {
+    padding-left: 28px;
+  }
+  // li:nth-child(n+10) {
+  //   margin-left: 10px;
+  //   padding-left: 0px;
+  // }
+}
+
+ul {
+  list-style-type: disc;
+}

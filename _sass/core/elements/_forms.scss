@@ -1,0 +1,184 @@
+.form-block {
+  float: left;
+  clear: left;
+
+  margin-top: -5px;
+  margin-bottom: 5px;
+
+  @include media(tablet) {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+
+option:active,
+option:checked,
+select:focus::-ms-value {
+  color: $white;
+  background-color: $link;
+}
+
+.form {
+  margin-bottom: $baseline*2;
+  legend {
+    @include h4;
+    margin-top: 0;
+  }
+  .group, .all-sections {
+    display: block;
+    margin-bottom: $baseline;
+    label, input {
+      text-transform: none;
+      display: block;
+    }
+    label {
+      display: block;
+      margin-top: $baseline*0.5;
+      margin-bottom: $baseline*0.25;
+    }
+    .fieldName {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .form-hint {
+      display: block;
+      margin-top: $baseline*0.25;
+      margin-bottom: $baseline*0.25;
+    }
+    .form-control {
+      width: 50%;
+    }
+    select {
+      @include media(desktop) {
+        width: 50%;
+      }
+
+    }
+  }
+}
+
+// Form validation
+// ==========================================================================
+
+// Use .form-group-error to add a red border to the left of a .form-group
+.form-group-error {
+  margin-right: 15px;
+  border-left: $border-thicker solid $error;
+  padding-left: 10px;
+  margin-bottom: $baseline;
+  @include media(tablet) {
+    border-left: $border-thicker solid $error;
+    padding-left: $gutter-half;
+  }
+}
+// Use .form-control-error to add a red border to .form-control
+.form-control-error,
+.input-validation-error {
+  border: $border-thicker solid $error;
+}
+// Error messages should be red and bold
+.error-message,
+.field-validation-error {
+  font-weight: $bold;
+  line-height: $baseline;
+  color: $error;
+  display: block;
+  clear: both;
+  margin: 0;
+  padding: 2px 0;
+}
+.form-label .error-message,
+.form-label-bold .error-message {
+  padding-top: 4px;
+  padding-bottom: 0;
+}
+// Summary of multiple error messages
+.error-summary {
+  // Error summary has a border on all sides
+  border: $border-thicker solid $error;
+  margin-top: $gutter-half;
+  margin-bottom: $gutter-half;
+  padding: $gutter*0.5;
+  @include ie-lte(6) {
+    zoom: 1;
+  }
+  // Use the GOV.UK outline focus style
+  &:focus {
+    outline: 3px solid $focus-colour;
+  }
+  .error-summary-heading {
+    @include h3;
+    margin-top: 0;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+  .error-summary-list {
+    padding-left: 0;
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 0;
+    li {
+      @include media(tablet) {
+        margin-bottom: 5px;
+        padding-left: 0;
+      }
+    }
+    a {
+      color: $error;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+}
+
+// Date pattern
+
+// Hide the 'spinner' for webkit
+// and also for Firefox
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form-date {
+  .form-group {
+    float: left;
+    width: 50px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    clear: none;
+    label {
+      display: block;
+      padding-bottom: 2px;
+    }
+    input {
+      width: 100%;
+    }
+  }
+  .form-group-year {
+    width: 70px;
+  }
+}
+
+.form .group {
+  &.day, &.month, &.year {
+    @include box-sizing(border-box);
+    float: left;
+    width: 50px;
+    margin-right: 20px;
+    clear: none;
+    .form-control {
+      width: 100%;
+    }
+  }
+  .year {
+    width: 100px;
+    margin-right: 0;
+  }
+}

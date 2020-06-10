@@ -1,0 +1,25 @@
+// so footer looks like it isn't floating
+html {
+  background-color: $brand4;
+  @media print {
+  	background-color: $white;
+  }
+}
+
+html, body {
+	font-size: ms(0);
+	line-height: $baseline;
+}
+
+body {
+  font-family: $stack;
+  -webkit-font-smoothing: antialiased;
+  background: $white;
+  color: $body-text-colour;
+}
+
+.hidden,
+.js-enabled .js-hidden {
+  display: none;
+  visibility: hidden;
+}

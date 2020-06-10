@@ -1,0 +1,98 @@
+.pagination {
+  @media print {
+    display: none;
+  }
+  @extend %grid-row;
+  @include media(mobile) {
+    margin-left: -$gutter;
+    margin-right: -$gutter;
+  }
+  margin-left: -$gutter*0.5;
+  margin-right: -$gutter*0.5;
+  ul {
+    margin-left: 0;
+    padding: 0;
+    list-style: none;
+    @include media(mobile) {
+      display: inline-block;
+      margin-top: 0;
+      margin-bottom: 0;
+      width: 100%;
+    }
+    li.prev, li.next,
+    li a#LinkPrevPage, li a#LinkNextPage {
+      padding-left: 0;
+      width: 50%;
+      @include media(mobile) {
+        float: none;
+        width: 100%;
+      }
+    }
+    li.prev, li a#LinkPrevPage {
+      float: left;
+    }
+    li.next, li a#LinkNextPage {
+      float: right;
+    }
+    li.next a,
+    li a#LinkNextPage {
+      text-align: right;
+      @include media(mobile) {
+        text-align: left;
+      }
+    }
+    a,
+    li a#LinkPrevPage, li a#LinkNextPage {
+      @include box-sizing(border-box);
+      padding: $baseline*0.5;
+      display: block;
+      text-decoration: none;
+      @include media(mobile) {
+        padding: $baseline*0.5 $gutter;
+      }
+      &:hover {
+        color: $link;
+        background: $grey-lighter;
+      }
+      &:visited {
+        color: $link;
+      }
+      &:focus {
+        color: $black;
+      }
+      span.pagination-item {
+        @include h3;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: block;
+        @include media(mobile) {
+          @include h4;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+        .fas {
+          margin-right: $gutter*0.5;
+          &:before {
+            display: inline-block;
+            width: $icon-width;
+          }
+        }
+        & + span {
+          @include small;
+          margin-left: $gutter; 
+          display: block;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+#PagingControls {
+  li {
+    padding-left: 0;
+    #lblPageNumbers {
+      padding: $baseline*0.5;
+    }
+  }
+}

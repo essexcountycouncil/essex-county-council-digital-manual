@@ -1,0 +1,115 @@
+
+.article-alert .alert {
+  float: left;
+  @include media(mobile) {
+    margin-left: $gutter*0.5;
+    margin-right: $gutter*0.5;
+    width: calc(100% - #{$gutter});
+  }
+  @include media(tablet) {
+    margin-left: $gutter*0.5;
+    margin-right: $gutter*0.5;
+    width: calc(100% - #{$gutter});
+  }
+  @include media(desktop) {
+    margin-left: $gutter;
+    margin-right: $gutter;
+    width: calc(100% - #{$gutter*2});
+  }
+}
+
+.alert {
+  @media print {
+    display: none !important;
+  }
+  @include box-sizing(border-box);
+  position: relative;
+  text-align: left;
+  padding: $baseline*0.5;
+  margin-top: $baseline;
+  margin-bottom: $baseline;
+  float: left;
+  width: 100%;
+  &.warning {
+    border: $border-thick solid $warning;
+    .alert-icon .fa-exclamation-triangle {
+      color: $warning;
+    }
+  }
+  &.error {
+    border: $border-thick solid $error;
+    .alert-icon .fa-exclamation-circle {
+      color: $error;
+    }
+  }
+  &.info, &.information {
+    border: $border-thick solid $info;
+    .alert-icon .fa-info-circle {
+      color: $info;
+    }
+  }
+  .alert-icon {
+    @include media(mobile) {
+      text-align: left;
+      padding: 0;
+      display: block;
+      width: 100%;
+    }
+    float: left;
+    @include grid-column(1 / 12);
+    padding: $baseline*0.5 0;
+    text-align: center;
+    .fa-exclamation-triangle,
+    .fa-exclamation-circle,
+    .fa-info-circle {
+      font-size: 2em;
+      margin-bottom: $baseline*0.25;
+    }
+  }
+  .alert-text {
+    @include media(mobile) {
+      padding: 0;
+      display: block;
+      width: 100%;
+    }
+    @include grid-column(11 / 12);
+    padding-left: $outer-grid-margin*0.5;
+    padding-right: $outer-grid-margin*0.5;
+    .section-heading {
+      margin-top: 0;
+      margin-bottom: $baseline*0.25;
+    }
+    p {
+      margin-top: $baseline*0.25;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .text {
+    text-align: left;
+  }
+  .close {
+    position: absolute;
+    top: $baseline*0.5;
+    right: $baseline*0.5;
+    cursor: pointer;
+    color: $black;
+    line-height: 0;
+    .fa-times {
+      font-size: $small;
+      &:hover {
+        color: $black;
+      }
+    }
+    &.message {
+      position: relative;
+      left: 0;
+      top: 0;
+      margin-top: $baseline*0.5;
+    }
+  }
+  .checkbox {
+    display: block;
+  }
+}

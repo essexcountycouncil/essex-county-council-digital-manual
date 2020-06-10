@@ -1,0 +1,49 @@
+// Link box (used on topic pages)
+
+ul.link-boxes {
+  list-style: none;
+}
+
+.link-boxes {
+  @extend %grid-row;
+  @include media(mobile) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  @include media(tablet) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  @include media(desktop) {
+    margin-left: -$gutter;
+    margin-right: -$gutter;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  padding-left: 0;
+  .link-box {
+    padding-left: 0;
+    margin-bottom: $baseline;
+    @include media(desktop) {
+      display: flex;
+      @include grid-column(4 / 12);
+    }
+    .link-content {
+      background: $grey-lighter;
+      border-bottom: solid $border-thin $grey-light;
+      padding: $baseline*0.5;
+      @include media(mobile) {
+        width: auto;
+      }
+      @include media(tablet) {
+        width: auto;
+      }
+      @include media(desktop) {
+        width: 100%;
+      }
+      .sub-section-heading {
+        margin-top: 0;
+      }
+    }
+  }
+}

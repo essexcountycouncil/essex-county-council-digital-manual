@@ -1,0 +1,24 @@
+.social {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: $baseline;
+  li {
+    margin-left: 0;
+    margin-right: $baseline*0.5;
+    @include media(mobile) {
+      margin-left: 0;
+      margin-right: $baseline*0.5;
+    }
+    a {
+      font-size: $body;
+      color: $link;
+      &:hover {
+        color: $hover;
+      }
+      &:focus {
+        color: $focus;
+      }
+    }
+  }
+}

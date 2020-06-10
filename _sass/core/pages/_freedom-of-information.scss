@@ -1,0 +1,16 @@
+#freedom-of-information {
+	.search-results {
+			h2.h4 {
+				margin-bottom: 0;
+		}
+	}
+	.date-from, .date-to {
+		float: left;
+		width: 100%;
+		> label {
+			font-weight: $bold;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+}

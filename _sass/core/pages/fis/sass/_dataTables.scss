@@ -1,0 +1,248 @@
+/*
+ * DataTables framework
+ */
+div.dataTables_wrapper {
+	/*
+	background-color: #44abd9;
+	color:#ffffff;
+    */
+    margin-left:8px;
+}
+
+
+div.dataTables_length {
+	float: left;
+	margin: 6px 0px 0px 20px;
+	padding: 9px 3px 9px 3px;
+	background-color:#999;
+	
+	
+}
+
+div.dataTables_filter {
+	/*float: right;*/
+	padding-bottom:3px;
+	
+}
+div.dataTables_filter label
+{
+    font-family:Arial;
+    font-weight:bold;
+}
+div.dataTables_info {
+	float: left;
+	margin:6px 0px 0px 0px;
+	padding: 9px 3px 9px 3px;
+	background-color:#999;
+}
+
+div.dataTables_paginate {
+	float: right;
+	margin:6px 0px 0px 0px;
+	padding: 6px 3px 6px 3px;
+	background-color:#999;
+}
+div.paginate_enabled_next {
+	padding: 6px;
+}
+
+table.display
+{
+    background-color:#ffffff;
+    color:#000000;
+}
+div.dataTables_length,
+div.dataTables_filter,
+div.dataTables_paginate {
+	/* padding: 6px 0px 0px 0px; */
+}
+
+
+
+
+/* Self clearing - http://www.webtoolkit.info/css-clearfix.html */
+.dataTables_wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+html[xmlns] .dataTables_wrapper {
+	display: block;
+}
+ 
+* html .dataTables_wrapper {
+	height: 1%;
+}
+
+
+/*
+ * Table styles
+ */
+table.pretty {
+	width: 100%;
+	clear: both;
+	background-color:#ffffff;
+    color:#000000;
+}
+
+table.pretty td,
+table.pretty th {
+	padding: 5px;
+	border: 1px solid #fff;
+}
+
+/* Header cells */
+table.pretty thead th {
+	text-align: center;
+	background-color: #44abd9;
+	color:#ffffff;
+}
+
+/* Body cells */
+table.pretty tbody tr {
+	border-bottom-style:dotted;
+	border-bottom-width:1px;
+	border-bottom-color:Gray;
+}
+table.pretty tbody th {
+	text-align: left;
+	background: #91c5d4;
+}
+	
+table.pretty tbody td {
+	/*text-align: center;*/
+	background: #ffffff;
+}
+		
+table.pretty tbody tr.odd td { 
+	background:  #ecf6fb;
+}
+
+table.pretty tbody tr.even td { 
+	background:  #ffffff;
+}
+
+/* Footer cells */	
+table.pretty tfoot th {
+	background: #b0cc7f;
+	text-align: left;
+}
+	
+table.pretty tfoot td {
+	background: #d7e1c5;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/*
+ * Pagination
+ */
+span.paginate_button,
+span.paginate_active {
+	display: inline-block;
+	background-color: #ecf6fb;
+	padding: 2px 6px;
+	margin-left: 2px;
+	cursor: pointer;
+	*cursor: hand;
+}
+
+span.paginate_active {
+	border: 1px solid black;
+}
+
+span.paginate_button_disabled {
+	color: #3d6672;
+}
+span.paginate_disabled_previous
+{
+    background-color:rgb(204,204,204);
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    padding-bottom:0px;
+    margin-left:5px;
+    margin-right:0px;
+    
+    
+}
+span.paginate_enabled_previous
+{
+    background-color:#ffcb08;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    padding-bottom:0px;
+    margin-left:5px;
+    margin-right:0px;
+    
+}
+span.paginate_disabled_next
+{
+    background-color:rgb(204,204,204);
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    padding-bottom:0px;
+    margin-left:5px;
+    margin-right:0px;
+}
+span.paginate_enabled_next
+{
+    background-color:#ffcb08;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    padding-bottom:0px;
+    margin-left:5px;
+    margin-right:0px;
+    
+}
+.paging_full_numbers a:active {
+	outline: none
+}
+.paging_full_numbers a:hover {
+	text-decoration: none;
+}
+
+div.dataTables_paginate span>a {
+	width: 15px;
+	text-align: center;
+}
+
+
+/*
+ * Sorting
+ */
+table.pretty thead th.sorting_asc {
+	background: #66A9BD url('/Content/images/dt/sort_up_green-notfound.png') no-repeat right center;
+	background-color: #44abd9;
+	color:#ffffff;
+	cursor:hand;
+    cursor:pointer;
+    margin-right:5px;
+}
+
+table.pretty thead th.sorting_desc {
+	background: #66A9BD url('/Content/images/dt/sort_down_green-notfound.png') no-repeat right center;
+	background-color: #44abd9;
+	color:#ffffff;
+	cursor:hand;
+    cursor:pointer;
+    margin-right:5px;
+}
+
+table.pretty thead th.sorting {
+	background: #66A9BD url('/Content/images/dt/sort_neutral_green-notfound.png') no-repeat right center;
+	background-color: #44abd9;
+	color:#ffffff;
+	cursor:hand;
+    cursor:pointer;
+    margin-right:5px;
+}
+

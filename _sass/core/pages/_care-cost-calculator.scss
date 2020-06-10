@@ -1,0 +1,1238 @@
+// Achieve forms overwrite
+.AF-Category-GovUK {
+/* /////////////////////// AF ugly overwrites //////////////////////// */
+  font-family: $stack !important;
+  -webkit-font-smoothing: antialiased;
+  background: $brand4;
+  color: $body-text-colour !important;
+  // nuns
+  #customFooter,
+  #toolbar::before,
+  #session-badge,
+  .genericHeader,
+  #navigation,
+  .social,
+  .formName,
+  .fa.fa-chevron-left,
+  .fa.fa-chevron-right,
+  .fa.fa-check,
+  .fa.fa-chevron-left,
+  .section-name-hidden,
+  .fieldContent h1,
+  .sections-toggle-wrapper.visible-xs,
+  .sectionNameWrapper,
+  .fillinButtons-wrapper .btn-af.cancelbutton,
+  .fillinButtons-wrapper .icon-valid.fa.fa-check.alignAbove,
+  .icon-valid.fa.fa-check,
+  .help-img-wrapper,
+  .help-text i,
+  ._fieldName  + .mandatory {
+    display: none;
+  }
+  .loading.row {
+    background: $white;
+  }
+  #govukHeader {
+    display: block !important;
+    .header {
+      margin-left: auto;
+      margin-right: auto;
+      width: $site-width;
+    }
+  }
+  .achieveforms-container .fillinButtons-wrapper,
+  .container-fluid,
+  .footer,
+  .header,
+  #navigation > .row {
+    margin-left: auto;
+    margin-right: auto;
+    width: $site-width;
+  }
+  #govukFooter {
+    display: block !important;
+  }
+  #header {
+    background-color: $brand;
+    height: 65px;
+  }
+  .row {
+    margin: 0;
+  }
+  #navigation .navbar,
+  .nav {
+    width: 100%;
+  }
+  .nav>li>a, 
+  .nav>li>span,
+  .container, 
+  .container-fluid,
+  #page.render,
+  .renderForm,
+  #self-content,
+  .achieveforms-container .fillinButtons-wrapper {
+    padding: 0;
+    background: $white;
+  }
+  #self-content {
+    margin-top: 0;
+    margin-bottom: 0;
+  } 
+  .container {
+    width: 100%;
+  }
+  .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .nav {
+    margin: 0 auto;
+  }
+  .breadcrumbs {
+    position: absolute;
+  }
+  .renderForm #page-container, #page {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .achieveforms-container .all-sections .field .fieldContent .prefix-wrapper .prefix {
+    height: 35px;
+  }
+  .hasPrefix {
+    width: 50% !important;
+  }
+  #page,
+  .row.render {
+    margin: 0;
+    &.render {
+      padding: 0;
+    }
+  }
+  .sectionNameTab, .all-sections {
+    padding: 0;
+  }
+  h1, 
+  h2, 
+  h3, 
+  h4, 
+  h5, 
+  p {
+    font-family: $stack !important;
+    font-size: ms(0) !important;
+    line-height: $baseline !important;
+    color: $text-colour;
+  }
+  p {
+    color: $body-text-colour;
+  }
+  // Logo
+  // ==========================================================================
+
+  .logo {
+    display: inline-block;
+    img {
+      display: block;
+    }
+  }
+
+  .logo-text {
+    display: inline-block;
+    margin-top: $baseline*0.5;
+    margin-bottom: $baseline*0.5;
+    padding-left: 0;
+    @include media(mobile) {
+      margin-top: $baseline*0.25;
+      margin-bottom: $baseline*0.25;
+    }
+    a {
+      font-family: $stack-logo;
+      font-size: 1.60181em;
+      font-weight: $bold;
+      line-height: 1em;
+      color: $black;
+      text-transform: uppercase;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        span {
+          text-decoration: none;
+        }
+      }
+      &:focus {
+        background-color: $brand;
+        outline: $border-thick solid $focus-colour;
+      }
+    }
+    @media print {
+      color: $black;
+      font-weight: 700;
+      padding: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    span {
+      @include small;
+      font-weight: $light;
+      text-transform: capitalize;
+      color: $black;
+      margin-left: $gutter*0.125;
+    }
+  }
+  .header-background {
+    background-color: $brand;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    @media print {
+      height: auto;
+      @include box-shadow(none);
+    }
+    .header {
+      @extend %site-width-container;
+      @extend %contain-floats;
+      margin-top: 13px;
+      padding-left: 0;
+      padding-right: 0;
+      @media print {
+        margin: 0;
+      }
+      .nav {
+      @extend %grid-row;
+        .logo-text {
+          height: $form-height*0.75;
+          // @include grid-column(1 / 2);
+          a {
+            color: $white;
+            line-height: $form-height*0.75;
+            @media print {
+              color: $black;
+              font-size: $small;
+            }
+          }
+        }
+        span {
+          @include small;
+          font-size: 0.5em;
+          color: $white;
+          display: none;
+          @media print {
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+  .footer-container {
+    @media print {
+      display: none;
+    }
+    .footer-top, .footer-bottom {
+      font-size: 14px;
+      padding: 0;
+      padding-top: $baseline;
+    }
+    .footer-top {
+      background-color: $brand3;
+
+    }
+    .footer-bottom {
+      float: left;
+      width: 100%;
+      background-color: $brand4;
+      padding-bottom: $baseline;
+    }
+    .footer {
+      @extend %site-width-container;
+      margin: 0 auto;
+      position: relative;
+      .nav {
+        @extend %grid-row;
+        .nav-links {
+          // @include grid-column(8 / 12);
+          padding-left: 0;
+          margin-top: 0;
+          margin-bottom: 0;
+          li {
+            display: inline-block;
+            padding-left: 0;
+            margin-bottom: $baseline;
+            a {
+              color: $white;
+              line-height: $baseline;
+              font-weight: $normal;
+              &:hover, &:active, &:visited {
+                color: $white-on-black-hover;
+              }
+              &:focus {
+                color: $white;
+                outline: $border-thick solid $focus-colour;
+              }
+            }
+          }
+        }
+        .social {
+          @include grid-column(4 / 12);
+          padding-right: 0;
+          text-align: right;
+          margin-top: 0;
+          margin-bottom: 0;
+          padding-bottom: $baseline;
+          @include media(mobile) {
+            text-align: left;
+          }
+          li {
+            margin-right: 0;
+            margin-left: $baseline*0.5;
+            @include media(mobile) {
+              margin-left: 0;
+              margin-right: $baseline*0.5;
+            }
+            a {
+              font-size: $body;
+              color: $white;
+              &:hover {
+                color: $white-on-black-hover;
+              }
+              &:focus {
+                color: $white;
+                outline: $border-thick solid $focus-colour;
+              }
+            }
+          }
+        }
+      }
+      ul.credits {
+        @extend %grid-row;
+        list-style: none;
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        li {
+          padding-left: 0;
+          display: inline;
+        }
+        .design-link {
+          padding-right: 0;
+          a {
+            float: right;
+          }
+          @include media(mobile) {
+            display: block;
+            a {
+              float: left;
+            }
+          }
+        }
+        .copyright {
+          padding-left: 0;
+        }
+        .copyright, .design-link {
+          float: left;
+          width: 50%;
+          display: block;
+          color: $white;
+          line-height: $baseline*1.25;
+          text-align: left;
+          @include media(mobile) {
+            margin-bottom: $baseline;
+          }
+          a {
+            color: $white;
+            &:hover {
+              color: $white-on-black-hover;
+            }
+            &:focus {
+              color: $white;
+              outline: $border-thick solid $focus-colour;
+            }
+          }
+        }
+      }
+    }
+  }
+  .nav {
+    ul.nav-links {
+      padding-left: 0;
+      margin-left: 0;
+      li {
+        display: inline-block;
+        margin-right: $gutter*0.5;
+        padding-left: 0;
+        a {
+          color: $link;
+          font-weight: $bold;
+          text-decoration: underline;
+          &:hover, &:active {
+            color: $hover;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  .social {
+    @media print {
+      display: none;
+    }
+    padding-left: 0;
+    margin-left: 0;
+    li {
+      padding-left: 0;
+      font-size: $baseline;
+      display: inline-block;
+      a {
+        color: $link;
+        &:hover {
+          color: $hover;
+        }
+        &:focus {
+           outline: $border-thick solid $focus-colour;
+         }
+        .fab {
+          font-size: ms(4);
+        }
+      }
+    }
+    span {
+      @include visually-hidden;
+    }
+  }
+  // Icon
+  // ==========================================================================
+
+  .fa, .fas {
+      font-weight: 900;
+  }
+
+  .fa, .far, .fas {
+      font-family: "Font Awesome 5 Free";
+  }
+
+  .fa, .fab, .fal, .far, .fas {
+      font-size: $icon;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      line-height: 1;
+  }
+  .achieveforms-container .all-sections .field .fieldContent .fieldInput.content {
+    margin-bottom: 0;
+  }
+  .navbar-default {
+    background: none;
+  }
+  .sectionNameWrapper.active {
+    display: block;
+  }
+  .browser-check-background {
+    background-color: $highlight-box-light;
+    .browser-check {
+      @include box-sizing(content-box);
+      @extend %site-width-container;
+      @extend %contain-floats;
+      @media print {
+        display: none;
+      }
+      padding-top: $baseline*0.25;
+      padding-bottom: $baseline*0.25;
+      .browser-content {
+        @extend %grid-row;
+        @include grid-column(1);
+        @include small;
+        margin-top: 0;
+        margin-bottom: 0;
+        @include media(mobile) {
+          @include smaller;
+        }
+      }
+    }
+  }
+  .phase-banner-background {
+    background-color: $white;
+    .phase-banner {
+      @include box-sizing(content-box);
+      @extend %site-width-container;
+      @extend %contain-floats;
+      @media print {
+        display: none;
+      }
+      padding-top: $baseline*0.25;
+      padding-bottom: $baseline*0.25;
+      .phase-content {
+        @extend %grid-row;
+        @include grid-column(1);
+        @include small;
+        margin-top: 0;
+        margin-bottom: 0;
+        @include media(mobile) {
+          @include smaller;
+        }
+        .phase-tag {
+          font-weight: $bold;
+          line-height: 1em;
+          text-transform: uppercase;
+          color: $white;
+          background-color: $brand;
+          display: inline-block;
+          padding: $baseline*0.125 $baseline*0.25;
+          margin-right: $gutter*0.25;
+        }
+      }
+    }
+    + main#content {
+      border-top: $border-thin $grey-light solid;
+    }
+  }
+  // Multiple choice
+  // ==========================================================================
+
+  // Radio buttons & checkboxes
+
+  // By default, multiple choice inputs stack vertically
+  .form {
+    .group, .fieldContent {
+      .radio-wrapper:last-child {
+        margin-bottom: $baseline*0.5 !important;
+      }
+      .multiple-choice, .radio-wrapper {
+        display: inline-block;
+        float: left;
+        clear: left;
+        position: relative;
+        padding: 0 0 0 38px;
+        margin-bottom: $baseline*0.5;
+        // Absolutely position inputs within label, to allow text to wrap
+        input {
+          position: absolute;
+          cursor: pointer;
+          left: 0;
+          top: 0;
+          width: 38px;
+          height: 38px;
+          z-index: 1;
+          zoom: 1;
+          filter: alpha(opacity=0);
+          opacity: 0;
+
+          // IE8 doesn’t support pseudoelements, so we don’t want to hide native elements there.
+          @if ($is-ie == false) or ($ie-version == 9) {
+            margin: 0;
+            @include opacity(0);
+          }
+        }
+
+        label {
+          cursor: pointer;
+          padding: 8px $gutter*0.3 9px 12px;
+          display: block;
+          margin-top: 0;
+          margin-bottom: 0;
+
+          // remove 300ms pause on mobile
+          -ms-touch-action: manipulation;
+          touch-action: manipulation;
+        }
+        [type=radio] + label::before {
+          content: "";
+          border: 2px solid;
+          background: transparent;
+          width: 34px;
+          height: 34px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          @include border-radius(50%);
+        }
+        [type=radio] + label::after {
+          content: "";
+          border: 10px solid;
+          width: 0;
+          height: 0;
+          position: absolute;
+          top: 9px;
+          left: 9px;
+          @include border-radius(50%);
+          @include opacity(0);
+        }
+        [type=checkbox] + label::before {
+          content: "";
+          border: 2px solid;
+          background: transparent;
+          width: 34px;
+          height: 34px;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        [type=checkbox] + label::after {
+          content: "";
+          border: solid;
+          border-width: 0 0 5px 5px;
+          background: transparent;
+          border-top-color: transparent;
+          width: 17px;
+          height: 7px;
+          position: absolute;
+          top: 10px;
+          left: 8px;
+          -moz-transform: rotate(-45deg); // Firefox 15 compatibility
+          -o-transform: rotate(-45deg); // Opera 12.0 compatibility
+          -webkit-transform: rotate(-45deg); // Safari 8 compatibility
+          -ms-transform: rotate(-45deg); // IE9 compatibility
+          transform: rotate(-45deg);
+          @include opacity(0);
+        }
+
+        // Focused state
+        [type=radio]:focus + label::before {
+          @include box-shadow(0 0 0 4px $focus-colour);
+        }
+
+        [type=checkbox]:focus + label::before {
+          @include box-shadow(0 0 0 3px $focus-colour);
+        }
+
+        // Selected state
+        input:checked + label::after {
+          @include opacity(1);
+        }
+
+        // Disabled state
+        input:disabled {
+          cursor: default;
+        }
+
+        input:disabled + label {
+          @include opacity(0.5);
+          cursor: default;
+        }
+
+        &:last-child,
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+
+      // To sit multiple choice inputs next to each other, use .inline on parent
+      .inline .multiple-choice {
+        clear: none;
+        @include media (tablet) {
+          margin-bottom: 0;
+          margin-right: $gutter;
+        }
+      }
+    }
+  }
+  section {
+    margin-bottom: 0;
+  }
+  button, 
+  .btn,
+  .btn-group-lg>.btn, 
+  .btn-lg,
+  .cee.btn.btn-default:hover, 
+  .cee.btn.btn-search:hover, 
+  .cee.btn.btn-search:active, 
+  .cee.btn.btn-primary:hover, 
+  .cee.btn.btn-primary:active,
+  .btn-block,
+  .cee.btn.btn-default, 
+  .cee.btn.btn-search, 
+  .cee.btn.btn-primary {
+    @include button;
+    @include border-radius(0);
+    text-align: left;
+    padding: $baseline*0.25 $gutter*0.25;
+    &:focus {
+      outline: $border-thick solid $focus-colour;
+    }
+  }
+  h1, .section-name-hidden {
+    @include h1;
+    font-size: ms(9) !important;
+    font-weight: $bold !important;
+    text-transform: none !important;
+    line-height: $baseline*2 !important;
+    margin-top: $baseline*1.5 !important;
+    margin-bottom: $baseline*1.5 !important;
+  }
+  h2 {
+    @include h2;
+  }
+  h3 {
+    @include h3;
+  }
+  h4 {
+    @include h4;
+  }
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper label, 
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper label {
+    @include p;
+    color: $black;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error input[type=checkbox] + label:before, 
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error input[type=radio] + label:before {
+    color: $black;
+  }
+  input[type=checkbox].checked + label:before, 
+  input[type=checkbox]:checked + label:before, 
+  input[type=radio].checked + label:before, 
+  input[type=radio]:checked + label:before {
+    max-width: 34px;
+  }
+  input[type=radio] + label:before {
+    padding: 0;
+    margin-left: 0 !important;
+  }
+  *:after, 
+  *:before, 
+  .achieveforms-container *, 
+  .achieveforms-container *:after, 
+  .achieveforms-container *:before {
+    @include box-sizing(content-box);
+  }
+  .nextbutton {
+    @include box-sizing(border-box);
+  }
+  .previousbutton {
+    padding: 0;
+    background-color: $white !important;
+    border: none !important;
+    color: $black !important;
+    width: 100%;
+  }
+  .achieveforms-container .fillinButtons .btn i, 
+  .achieveforms-container .fillinButtons .btn span {
+    padding-right: 0;
+    text-decoration: underline;
+  }
+  .btn-af, 
+  .achieveforms-container .btn-af {
+    text-shadow: none;
+  }
+  .achieveforms-container .fillinButtons .btn {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin: 0;
+    min-width: initial;
+  }
+  .achieveforms-container .fillinButtons .btn 
+  ._AF .btn-af, 
+  .achieveforms-container .btn-af {
+    box-shadow: none;
+    background-color: $button;
+    border-color: $button;
+    color: $white;
+    @include border-radius(0);
+    @include transition-none;
+    &:hover {
+      border-color: $button-hover-darken;
+      background-color: $button-hover-darken;
+      @include transition-none;
+    }
+  }
+  .achieveforms-container .all-sections .field .fieldContent .fieldName ._fieldName {
+    margin-bottom: $baseline*0.5;
+  }
+  .achieveforms-container .all-sections .field {
+    padding-top: 0;
+  }
+  .achieveforms-container .all-sections .field .fieldContent .fieldName, 
+  .achieveforms-container .all-sections .field .fieldContent .subform-summary {
+    padding-left: 0;
+    color: $black;
+  }
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper label {
+    color: $black;
+  }
+  .checkbox, .radio {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .achieveforms-container .all-sections {
+    margin-top: 0;
+  }
+  #page.print, 
+  #page.render, 
+  .achieveforms-container #page.print, 
+  .achieveforms-container #page.render {
+    padding-top: 0;
+  }
+  a {
+    text-decoration: underline;
+  }
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper, 
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper {
+    margin-bottom: $baseline*0.5;
+  }
+  .achieveforms-container .fillinButtons-wrapper {
+    margin: 0;
+  }
+// Multiple choice
+// ==========================================================================
+  .group, .fieldContent {
+    .radio-wrapper:last-child {
+      margin-bottom: $baseline*0.5 !important;
+    }
+    .multiple-choice, .radio-wrapper {
+      display: inline-block;
+      float: left;
+      clear: left;
+      position: relative;
+      padding: 0 0 0 38px;
+      margin-bottom: $baseline*0.5;
+      // Absolutely position inputs within label, to allow text to wrap
+      input {
+        position: absolute;
+        cursor: pointer;
+        left: 0;
+        top: 0;
+        width: 38px;
+        height: 38px;
+        z-index: 1;
+        zoom: 1;
+        filter: alpha(opacity=0);
+        opacity: 0;
+
+        // IE8 doesn’t support pseudoelements, so we don’t want to hide native elements there.
+        @if ($is-ie == false) or ($ie-version == 9) {
+          margin: 0;
+          @include opacity(0);
+        }
+      }
+
+      label {
+        cursor: pointer;
+        padding: 8px $gutter*0.3 9px 12px;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+
+        // remove 300ms pause on mobile
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+      }
+      [type=radio] + label::before {
+        content: "";
+        border: 2px solid;
+        background: transparent;
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include border-radius(50%);
+      }
+      [type=radio] + label::after {
+        content: "";
+        border: 10px solid;
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 9px;
+        left: 9px;
+        @include border-radius(50%);
+        @include opacity(0);
+      }
+      [type=checkbox] + label::before {
+        content: "";
+        border: 2px solid;
+        background: transparent;
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      [type=checkbox] + label::after {
+        content: "";
+        border: solid;
+        border-width: 0 0 5px 5px;
+        background: transparent;
+        border-top-color: transparent;
+        width: 17px;
+        height: 7px;
+        position: absolute;
+        top: 10px;
+        left: 8px;
+        -moz-transform: rotate(-45deg); // Firefox 15 compatibility
+        -o-transform: rotate(-45deg); // Opera 12.0 compatibility
+        -webkit-transform: rotate(-45deg); // Safari 8 compatibility
+        -ms-transform: rotate(-45deg); // IE9 compatibility
+        transform: rotate(-45deg);
+        @include opacity(0);
+      }
+
+      // Focused state
+      [type=radio]:focus + label::before {
+        @include box-shadow(0 0 0 4px $focus-colour);
+      }
+
+      [type=checkbox]:focus + label::before {
+        @include box-shadow(0 0 0 3px $focus-colour);
+      }
+
+      // Selected state
+      input:checked + label::after {
+        @include opacity(1);
+      }
+
+      // Disabled state
+      input:disabled {
+        cursor: default;
+      }
+
+      input:disabled + label {
+        @include opacity(0.5);
+        cursor: default;
+      }
+
+      &:last-child,
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    // To sit multiple choice inputs next to each other, use .inline on parent
+    .inline .multiple-choice {
+      clear: none;
+      @include media (tablet) {
+        margin-bottom: 0;
+        margin-right: $gutter;
+      }
+    }
+  }
+// Forms
+// ==========================================================================
+  .achieveforms-container {
+    margin-top: $baseline;
+    margin-bottom: $baseline*2;
+  }
+  legend, ._fieldName {
+    @include h4;
+    margin-top: 0;
+  }
+  ._fieldName {
+    display: inline-block;
+  }
+  .group, .all-sections {
+    display: block;
+    margin-bottom: $baseline;
+    label, input {
+      text-transform: none;
+      display: block;
+    }
+    input {
+      @include box-sizing(border-box);
+      @include border-radius(0);
+      font-size: ms(0);
+      font-weight: $normal;
+      text-transform: none;
+      height: $form-height*0.75;
+      padding: $baseline*0.25;
+      border-width: $border-normal;
+      border-style: solid;
+      border-color: $grey-dark;
+    }
+    label {
+      display: block;
+      margin-top: $baseline*0.5;
+      margin-bottom: $baseline*0.25;
+    }
+    .fieldName {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .form-hint {
+      display: block;
+      margin-top: $baseline*0.25;
+      margin-bottom: $baseline*0.25;
+    }
+    select, input, textarea {
+      width: 100%;
+      margin-bottom: $baseline*0.25;
+    }
+    select {
+      @include media(desktop) {
+        width: 50%;
+      }
+    }
+  }
+  .fieldInput.selectInput.radio.vertical.error {
+    margin-bottom: $baseline;
+  }
+  .achieveforms-container .all-sections .field .staticText ul {
+    font-size: 1rem;
+  }
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=checkbox]+label:before, 
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=radio]+label:before {
+    color: $black;
+  }
+  label.radio-label {
+    margin-left: 0 !important;
+  }
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput {
+    margin: 0;
+    padding: 0;
+    border: none; 
+  }
+  .achieveforms-container .all-sections .field .fieldContent .fieldInput.hasCurrencyPrefix, .achieveforms-container .all-sections .field .fieldContent .fieldInput.hasPrefix, 
+  .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.hasCurrencyPrefix, 
+  .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.hasPrefix {
+    @include border-radius(0 !important);
+    border-width: $border-normal;
+    border-style: solid;
+    border-color: $grey-dark;
+    border-left: none;
+    padding: $baseline*0.25;
+  }
+  .achieveforms-container .prefix-wrapper.valid .prefix {
+    @include border-radius(0 !important);
+    border-width: $border-normal;
+    border-style: solid;
+    border-color: $grey-dark;
+    border-right: none;
+    padding: $baseline*0.25;
+  }
+  .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode {
+    margin-bottom: $baseline*0.5;
+  }
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[data-type=date-subfield], 
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=checkbox]+label.btn, 
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=radio]+label.btn, 
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid+input.other-input,
+  fieldset.valid input[type=checkbox]+label:before, 
+  fieldset.valid input[type=radio]+label:before {
+    border-color: $black !important;
+  }
+  .pull-left {
+    float: left;
+  }
+  .achieveforms-container .all-sections .field .fieldContent .prefix-wrapper .prefix {
+    @include border-radius(0);
+    padding: 0;
+    width: $gutter;
+  }
+  .prefix-wrapper.error .prefix,
+  .achieveforms-container .prefix-wrapper.error .prefix {
+    border-color: $black;
+    border-width: $border-normal;
+  }
+  ._AF input[type=date].error:focus, 
+  ._AF input[type=date]:focus, 
+  ._AF input[type=datetime-local].error:focus, 
+  ._AF input[type=datetime-local]:focus, 
+  ._AF input[type=datetime].error:focus, 
+  ._AF input[type=datetime]:focus, 
+  ._AF input[type=email].error:focus, 
+  ._AF input[type=email]:focus, 
+  ._AF input[type=month].error:focus, 
+  ._AF input[type=month]:focus, 
+  ._AF input[type=number].error:focus, 
+  ._AF input[type=number]:focus, 
+  ._AF input[type=password].error:focus, 
+  ._AF input[type=password]:focus, 
+  ._AF input[type=search].error:focus, 
+  ._AF input[type=search]:focus, 
+  ._AF input[type=tel].error:focus, 
+  ._AF input[type=tel]:focus, 
+  ._AF input[type=text].error:focus, 
+  ._AF input[type=text]:focus, 
+  ._AF input[type=time].error:focus, 
+  ._AF input[type=time]:focus, 
+  ._AF input[type=url].error:focus, 
+  ._AF input[type=url]:focus, 
+  ._AF input[type=week].error:focus, 
+  ._AF input[type=week]:focus, 
+  ._AF select.error:focus, 
+  ._AF select:focus, 
+  ._AF textarea.error:focus, 
+  ._AF textarea:focus, 
+  .achieveforms-container input[type=date].error:focus, 
+  .achieveforms-container input[type=date]:focus, 
+  .achieveforms-container input[type=datetime-local].error:focus, 
+  .achieveforms-container input[type=datetime-local]:focus, 
+  .achieveforms-container input[type=datetime].error:focus, 
+  .achieveforms-container input[type=datetime]:focus, 
+  .achieveforms-container input[type=email].error:focus, 
+  .achieveforms-container input[type=email]:focus, 
+  .achieveforms-container input[type=month].error:focus, 
+  .achieveforms-container input[type=month]:focus, 
+  .achieveforms-container input[type=number].error:focus, 
+  .achieveforms-container input[type=number]:focus, 
+  .achieveforms-container input[type=password].error:focus, 
+  .achieveforms-container input[type=password]:focus, 
+  .achieveforms-container input[type=search].error:focus, 
+  .achieveforms-container input[type=search]:focus, 
+  .achieveforms-container input[type=tel].error:focus, 
+  .achieveforms-container input[type=tel]:focus, 
+  .achieveforms-container input[type=text].error:focus, 
+  .achieveforms-container input[type=text]:focus, 
+  .achieveforms-container input[type=time].error:focus, 
+  .achieveforms-container input[type=time]:focus, 
+  .achieveforms-container input[type=url].error:focus, 
+  .achieveforms-container input[type=url]:focus, 
+  .achieveforms-container input[type=week].error:focus, 
+  .achieveforms-container input[type=week]:focus, 
+  .achieveforms-container select.error:focus, 
+  .achieveforms-container select:focus, 
+  .achieveforms-container textarea.error:focus, 
+  .achieveforms-container textarea:focus {
+    box-shadow: none;
+    @include box-shadow(0 0 0 3px $focus-colour);
+  }
+  .help-text {
+    display: block !important;
+  }
+  .achieveforms-container .help-text {
+    color: $black;
+  }
+  .col-lg-1, 
+  .col-lg-10, 
+  .col-lg-11, 
+  .col-lg-12, 
+  .col-lg-2, 
+  .col-lg-3, 
+  .col-lg-4, 
+  .col-lg-5, 
+  .col-lg-6, 
+  .col-lg-7, 
+  .col-lg-8, 
+  .col-lg-9, 
+  .col-md-1, 
+  .col-md-10, 
+  .col-md-11, 
+  .col-md-12, 
+  .col-md-2, 
+  .col-md-3, 
+  .col-md-4, 
+  .col-md-5, 
+  .col-md-6, 
+  .col-md-7, 
+  .col-md-8, 
+  .col-md-9, 
+  .col-sm-1, 
+  .col-sm-10, 
+  .col-sm-11, 
+  .col-sm-12, 
+  .col-sm-2, 
+  .col-sm-3, 
+  .col-sm-4, 
+  .col-sm-5, 
+  .col-sm-6, 
+  .col-sm-7, 
+  .col-sm-8, 
+  .col-sm-9, 
+  .col-xs-1, 
+  .col-xs-10, 
+  .col-xs-11, 
+  .col-xs-12, 
+  .col-xs-2, 
+  .col-xs-3, 
+  .col-xs-4, 
+  .col-xs-5, 
+  .col-xs-6, 
+  .col-xs-7, 
+  .col-xs-8, 
+  .col-xs-9 {
+    position: initial;
+  }
+  .achieveforms-container .sectionsHead .sectionsHeadInner {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active .sectionNameTab,
+  .achieveforms-container .sectionsHead .sectionsHeadInner, 
+  .nav-tabs>li>a:hover {
+    border: none;
+    color: $black;
+  }
+  .nav>li>a {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: $black;
+    @include h1;
+    text-decoration: none;
+  }
+  .sectionNameWrapper {
+    padding-left: 0;
+  }
+  .cee.btn.btn-default, .cee.btn.btn-search, .cee.btn.btn-primary {
+    border-color: $button;
+  }
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error input[data-type=date-subfield] {
+    border-width: $border-normal;
+    border-style: solid;
+    border-color: $grey-dark;
+  }
+  .btn.btn-af.nextbutton.pull-right {
+    float: left !important;
+    margin: $baseline*0.5 0;
+  }
+  .fieldInput content html non-input {
+    width: 100%;
+  }
+  input {
+    width: 50%;
+  }
+  table {
+    width: 100%;
+  }
+  @media (max-width: 767px) {
+    .achieveforms-container .all-sections .field .fieldContent .prefix-wrapper .prefix {
+      height: 33px;
+    }
+    .btn.btn-af.previousbutton.pull-left {
+      text-align: left;
+      padding: 0 !important;
+      width: auto;
+    }
+    .achieveforms-container .fillinButtons-wrapper .fillinButtons .btn {
+      margin: $baseline*0.5 0;
+      padding: $baseline*0.25 $gutter*0.25;
+    }
+    .col-xs-11.col-sm-11 {
+      width: 100%;
+    }
+    .achieveforms-container .sectionsHead .sections-toggle-wrapper.visible-xs {
+      display: none !important;
+    }
+    .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper .sectionNameTab {
+      padding: 0 !important;
+    }
+    .achieveform {
+      margin: 0 !important;
+    }
+    .achieveforms-container .fillinButtons-wrapper {
+      margin: $baseline*0.5 0;
+      width: 100%;
+    }
+    .footer-container .footer ul.credits .design-link {
+      float: left;
+      width: 100%;
+    }
+    .hasPrefix {
+      width: 100% !important;
+    }
+  }
+  @media (max-width: $site-width + 60px) {
+      .container-fluid,
+      .footer,
+      .header,
+      #navigation > .row,
+      #govukHeader .header {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+  }
+}

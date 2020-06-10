@@ -1,0 +1,196 @@
+﻿function EmailDialog() {
+    var _this = this;
+
+    this._sEmailDialog = '#map-dlg-email';
+    this._sEmailMessagePanel = '#map-dlg-email-msg';
+
+    this._sRecipientEmail = '#map-dlg-email-rcpt-email';
+    this._sSenderName = '#map-dlg-email-sndr-name';
+    this._sSenderEmail = '#map-dlg-email-sndr-email';
+    this._sEmailBody = '#map-dlg-email-sndr-body';
+
+    // Create email dialog 
+    jQuery(this._sEmailDialog).dialog({
+        autoOpen: false,
+        height: 470,
+        width: 400,
+        modal: true,
+        resizable: true,
+        buttons: {
+            "Send Email": function () {
+                _this.onValidateEmailForm();
+            },
+            "Cancel": function () {
+                _this.close();
+            }
+        }
+    });
+
+}
+
+
+
+EmailDialog.prototype.open = function (completeHandler) {
+    // Create email dialog 
+    jQuery(this._sEmailDialog).dialog("open");
+
+    this.clearErrors();
+
+    this.completeHandler = emailDialog.onEmailDialogOK;
+}
+
+EmailDialog.prototype.onEmailDialogOK = function () {
+    if (debug)
+        console.log("onEmailDialogOK : begin");
+
+    var p = {
+        recipientAddress: emailDialog.recipientEmail(),
+        senderAddress: emailDialog.senderEmail(),
+        senderName: emailDialog.senderName(),
+        emailBody: emailDialog.emailBody(),
+        shortListIDs: getShortListIds(),
+        comments: getComments()
+    };
+
+    emailDialog.emailPage(p);
+
+    if (this.debug)
+        console.log("onEmailDialogOK : end");
+}
+
+EmailDialog.prototype.emailPage = function (args, responseHandler, sendHandler, completeHandler) {
+    var emailRequest = {
+        RecipientAddress: args.recipientAddress,
+        SenderAddress: args.senderAddress,
+        SenderName: args.senderName,
+        EmailBody: args.emailBody,
+        ShortListIDs: args.shortListIDs,
+        Comments: args.comments
+    };
+    ajaxMessage = 'Sending email ...';
+    ajaxActionStatus = '';
+
+    jQuery.ajax(
+		{
+		    url: '/ShortList/EmailShortList',
+		    type: 'POST',
+		    dataType: 'json',
+		    data: JSON.stringify(emailRequest),
+		    contentType: 'application/json; charset=utf-8',
+
+		    beforeSend: function (jqXHR, settings) {
+	            if (sendHandler)
+		            sendHandler();
+		    },
+		    success: function (response) {
+		        if (responseHandler)
+		            responseHandler();
+		    },
+		    error: function (jqXHR, textStatus, errorThrown) {
+		        //alert( "The server encountered an error processing the request." );
+		        alert(errorThrown.toString());
+		    },
+		    complete: function (jqXHR, textStatus) {
+		        if (completeHandler)
+		            completeHandler();
+		    }
+		});
+}
+EmailDialog.prototype.close = function () {
+    // Create email dialog 
+    jQuery(this._sEmailDialog).dialog("close");
+}
+
+
+EmailDialog.prototype.onValidateEmailForm = function () {
+    var isValid = true;
+    var emailRegex = /[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/
+    var errmsgEmail = "does not appear to be a valid email address (e.g. john.smith@acme.com)";
+
+    this.clearErrors();
+
+    isValid &= this.validateFieldLength(this._sRecipientEmail, "Recipient email address", 6, 80);
+    isValid &= this.validateFieldLength(this._sSenderName, "Sender name", 2, 40);
+    isValid &= this.validateFieldLength(this._sSenderEmail, "Sender email address", 6, 80);
+
+    isValid &= this.validateFieldContent(this._sRecipientEmail, "Recipient email address", emailRegex, errmsgEmail);
+    isValid &= this.validateFieldContent(this._sSenderEmail, "Sender email address", emailRegex, errmsgEmail);
+
+    if (isValid) {
+        this.close();
+
+        //Record Analytic Event
+        var shortlistCount = getShortListCount();
+        recordAnalyticEvent('FIS - Shortlist', 'Email Shortlist', '', shortlistCount);
+
+        if (this.completeHandler)
+            this.completeHandler();
+    }
+}
+
+
+
+EmailDialog.prototype.validateFieldLength = function (fieldSelector, fieldLabel, minLen, maxLen) {
+    var s;
+    var fieldValue = jQuery(fieldSelector).val();
+
+    if (fieldValue.length < minLen || fieldValue.length > maxLen) {
+        s = fieldLabel + " must be between ";
+        s += minLen + " and " + maxLen;
+        s += " characters in length";
+        this.addError(fieldSelector, s);
+        return false;
+    }
+
+    return true;
+}
+
+
+
+EmailDialog.prototype.validateFieldContent = function (fieldSelector, fieldLabel, regex, errorMessage) {
+    var s;
+    var fieldValue = jQuery(fieldSelector).val();
+
+    if (!regex.test(fieldValue)) {
+        s = fieldLabel + " " + errorMessage;
+        this.addError(fieldSelector, s);
+        return false;
+    }
+
+    return true;
+}
+
+
+
+EmailDialog.prototype.recipientEmail = function () {
+    return jQuery(this._sRecipientEmail).val();
+}
+
+
+EmailDialog.prototype.senderName = function () {
+    return jQuery(this._sSenderName).val();
+}
+EmailDialog.prototype.emailBody = function () {
+    return jQuery(this._sEmailBody).val();
+}
+
+
+
+EmailDialog.prototype.senderEmail = function () {
+    return jQuery(this._sSenderEmail).val();
+}
+
+
+EmailDialog.prototype.clearErrors = function () {
+    jQuery(this._sEmailMessagePanel).empty();
+    jQuery(this._sEmailMessagePanel).hide();
+    jQuery('input', this._sEmailDialog).removeClass("ui-state-error");
+}
+
+EmailDialog.prototype.addError = function (fieldSelector, message) {
+    var s;
+    jQuery(fieldSelector).addClass("ui-state-error");
+    s = '<li>' + message + '</li>';
+    jQuery(this._sEmailMessagePanel).append(s);
+    jQuery(this._sEmailMessagePanel).show();
+}

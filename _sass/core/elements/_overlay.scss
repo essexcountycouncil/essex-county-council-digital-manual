@@ -1,0 +1,29 @@
+.overlay {
+  background: $overlay;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  .overlay-box {
+    @include media(tablet) {
+      margin: 0 auto;
+    }
+    .overlay-content {
+      h2, p {
+        padding-left: $gutter*0.5;
+        padding-right: $gutter*0.5;
+      }
+      h2 {
+        @include h3;
+        margin-top: $baseline*0.5;
+      }
+      p {
+        @include small;
+        font-weight: $normal;
+        color: $text-colour;
+      }
+    }
+  }
+}

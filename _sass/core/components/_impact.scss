@@ -1,0 +1,92 @@
+.impact {
+  position: relative;
+  margin-bottom: $baseline*1.5;
+  .hero {
+    @include media(tablet) {
+      background-position-x: center;
+      background-position-y: center;
+    }
+    @include media(desktop) {
+      background-position-x: 0;
+      background-position-y: 0;
+    }
+  }
+  .overlay {
+    position: absolute;
+  }
+}
+
+.impact, .hero {
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+
+.impact {
+  .overlay {
+    background: $overlay-brand;
+  }
+  .overlay-box {
+    @include grid-column(1 / 2);
+    position: relative;
+    background: $white;
+    margin: $gutter;
+    padding: $gutter !important;
+    @include media(mobile) {
+      width: 66%;
+      padding: $gutter*0.5 !important;
+      margin: $gutter*0.5;
+    }
+    .overlay-content {
+      .content-heading {
+        margin-top: 0;
+      }
+      @include media(mobile) {
+        padding: 0;
+        .content-heading {
+          display: block;
+          padding: $baseline $gutter*0.5;
+          margin-bottom: $baseline*0.5;
+          @include media(mobile) {
+            padding: 0;
+          }
+        }
+        p {
+          padding-left: 0;
+          padding-right: 0;
+          padding: 0;
+        }
+      }
+      h2, h3 {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media print {
+  .impact {
+    .hero {
+      display: none;
+    }
+    .overlay {
+      position: relative;
+      margin-top: 0;
+      margin-bottom: 0;
+      .overlay-content {
+        h2, h2 a, p, .content-heading {
+          color: $black;
+          text-decoration: none;
+          width: 100%;
+          margin-left: 0;
+          margin-right: 0;
+          padding-left: 0;
+          padding-right: 0;
+        }
+        h2, .content-heading {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

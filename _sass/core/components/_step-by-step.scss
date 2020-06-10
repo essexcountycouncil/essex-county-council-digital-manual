@@ -1,0 +1,292 @@
+.part-of {
+	margin-bottom: $baseline;
+	.part-of-head {
+		@include h4;
+		display: block;
+		margin-bottom: 0;
+		+ span {
+			margin-top: 0;
+			margin-bottom: $baseline;
+		}
+	}
+	.part-of-title {
+		@include h3;
+	}
+	+ h1 {
+		display: inline-block;
+	}
+}
+
+.step-by-step {
+	label.show, label.hide {
+		@include smaller;
+	  &:visited {
+	    color: $visited;
+	  }
+
+	  &:hover {
+	    color: $hover;
+	    text-decoration: underline;
+	  }
+
+	  &:active {
+	    color: $active;
+	  }
+	}
+	.app-step-nav__controls {
+		float: right;
+		margin-top: $baseline*0.25;
+		margin-bottom: $baseline*0.25;
+	}
+	.steps {
+		list-style: none;
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+	.js-panel {
+		li a {
+			font-weight: $regular;
+		}
+	}
+	.step, .js-step {
+		position: relative;
+		padding-left: $gutter*2;
+		.step-number {
+			position: absolute;
+			top: 22px;
+			left: 0;
+			.section-heading {
+				margin-bottom: 0;
+			}
+			span.number {
+				@include box-sizing(border-box);
+				border: $border-thick solid $grey-light;
+				font-size: ms(1);
+				line-height: 30px;
+				background: $white;
+				border-radius: 100%;
+				text-align: center;
+				margin-top: 0;
+				height: 36px;
+				width: 36px;
+				position: absolute;
+				z-index: 10;
+		    &.and {
+		    	border: none;
+		    	padding-top: $border-thick;
+		    }
+			}
+		}
+		&:after {
+			content: "";
+			border-left: $border-thick solid $grey-light;
+	    height: 100%;
+	    position: absolute;
+	    left: 17px;
+	    top: 52px;
+	    z-index: 0;
+		}
+		&:last-child:before {
+    	content: " ";
+    	border-bottom: $border-thick solid $grey-light;
+    	position: absolute;
+    	left: 10px;
+    	bottom: 0;
+    	width: 16px;
+    }
+    &:last-child:after {
+    	height: calc(100% - 52px);
+    }
+		&.app-step-nav__step--active {
+			&:after, .step-number .number {
+				border-color: $black;
+			}
+			&:last-child:before {
+	    	border-color: $black;
+	    }			
+		}
+		.js-toggle-panel {
+			@include h2;
+			line-height: $baseline;
+			border-top: $border-normal solid $grey-light;
+			margin: 0;
+	  	cursor: pointer;
+			padding: $baseline 0;
+			&:hover {
+				.number,
+				.js-step-title-text,
+				.app-step-nav__toggle-link {
+					color: $hover;
+				}
+				.app-step-nav__toggle-link {
+					text-decoration: underline;
+				}		
+				.app-step-nav__button:focus {
+					.js-step-title-text,
+					.app-step-nav__toggle-link {
+						color: $black;
+						text-decoration: none;
+					}
+				}
+			}
+		}	
+    .app-step-nav__toggle-link {
+    	@include small;
+    	display: block;
+    }
+    .js-step-title {
+    	.js-step-title-text {
+    		@include h3;
+    	}
+    }
+		.preview-list ul, .preview-list ol {
+		  @include media(mobile) {
+		    font-size: ms(-1);
+		  }
+		  list-style: none;
+		  padding-left:0;
+		  margin-left: 0;
+		  margin-top: $baseline;
+		  margin-bottom: $baseline;
+		  .app-step-nav__list-item--active {
+		  	position: relative;
+		  	&:before {
+			    @include box-sizing(border-box);
+			    content: "";
+			    position: absolute;
+			    z-index: 5;
+			    top: -2px;
+			    left: -52px;
+			    margin-left: 0;
+			    width: 17px;
+			    height: 17px;
+			    margin-top: $baseline*0.25;
+			    background: $black;
+			    border: solid 3px $white;
+			    border-radius: 100px;
+			  }
+			}
+		}
+	}
+  .app-step-nav__button--title, 
+  .app-step-nav__button {
+  	cursor: pointer;
+  	text-align: left;
+  	display: block;
+  	background: none;
+  	border: none;
+  	padding: 0;
+  	margin: 0;
+  	.app-step-nav__toggle-link {
+  		color: $link;
+  	}
+  	&:focus {
+  		color: $black;
+  		background: $focus-colour;
+  		outline: none;
+  		box-shadow: 0 -2px $focus-colour, 0 4px $black;
+  		.app-step-nav__toggle-link {
+  			color: $black;
+  		}
+  		&:hover {
+  			.js-step-title-text,
+  			.app-step-nav__toggle-link {
+					color: $black;
+					text-decoration: none;
+  			}
+  		}
+  	}
+  }
+ 	.app-step-nav__button--controls {
+  	@include small;
+  	color: $link;
+  	text-decoration: underline;
+  	&:focus {
+  		color: $black;
+  		background: $focus-colour;
+  		outline: none;
+  		box-shadow: 0 -2px $focus-colour, 0 4px $black;
+  		text-decoration: none;
+  		&:hover {
+				color: $black;
+				text-decoration: none;
+  		}
+  	}
+	}
+}
+
+.step-by-step.side {
+	.part-of {
+		.part-of-head {
+			@include p;
+			font-weight: $bold;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		.part-of-title {
+			@include h4;
+		}
+	}
+	.steps {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.js-step {
+		padding-left: $gutter*1.5;
+		.js-toggle-panel {
+			padding-top: $baseline*0.25;
+			padding-bottom: $baseline*0.5;
+			.js-step-title .js-step-title-text {
+				@include h4;
+				margin-top: 0;
+			}
+			.step-number {
+				position: absolute;
+				top: 10px;
+				left: 0;
+				span.number {
+					border-width: $border-normal;
+					height: 26px;
+					width: 26px;
+					font-size: ms(0);
+					line-height: 1.4rem;				
+				}
+			}
+		}
+		&:after {
+			border-width: $border-normal;
+	    left: 12px;
+	    top: 34px;
+		}
+    &:last-child:after {
+    	height: calc(100% - 36px);
+    }
+	  .js-list-item.app-step-nav__list-item--active {
+	  	&:before {
+		    left: -40px;
+		  }
+		}
+		&:last-child:before {
+			border-width: $border-normal;
+    	left: 6px;
+    }
+	}
+	.js-panel {
+		p, ul li, ol li {
+			font-size: $small;
+		}
+		ol, ul {
+			padding-top: $baseline*0.5;
+			padding-bottom: $baseline*0.5;
+			margin: 0;
+		}
+		ul li, ol li {
+			margin-top: $baseline*0.25;
+			margin-bottom: $baseline*0.25;
+		}
+		p {
+			margin-bottom: $baseline*0.25;
+		}
+	}
+}

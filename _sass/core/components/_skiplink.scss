@@ -1,0 +1,38 @@
+.skiplink {
+  display: inline-block;
+  position: absolute;
+  left: -9999em;
+}
+
+.skiplink:focus, .skiplink:visited {
+  color: $black;
+}
+
+.skiplink:focus {
+  display: inline-block;
+  top: $baseline*0.75;
+  left: $baseline*0.75;
+  z-index: 100;
+  position: static;
+  position: absolute;
+}
+
+#skiplink-container {
+  text-align: center;
+  background: $focus-colour;
+  overflow: hidden;
+}
+
+#skiplink-container div {
+  text-align: left;
+}
+
+#skiplink-container .skiplink {
+  display: -moz-inline-stack;
+  display: inline-block;
+  padding: $baseline*0.5;
+  margin: 0 $gutter*0.5;
+  @include media (desktop) {
+    margin: 0;
+  }
+}

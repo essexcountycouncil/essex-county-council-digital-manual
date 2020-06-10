@@ -1,0 +1,343 @@
+I"B<ol>
+  <li><a href="../">Home</a></li>
+  <li><a href="../Design-system">Design System</a></li>
+  <li>Elements and Components</li>
+</ol>
+
+<h1 id="elements-and-components">Elements and Components</h1>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<h2 id="elements">Elements</h2>
+
+<h3 id="back">Back</h3>
+
+<p><a href="/" class="link-back">Back</a></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="/" class="link-back"&gt;Back&lt;/a&gt;
+</code></pre></div></div>
+
+<h4 id="using-the-back-link">Using the back link</h4>
+
+<p>The back link takes users back to the previous page. It should be used for transactional pages, such as an online form.</p>
+
+<p>The back link shouldn’t be used instead of <a href="/">breadcrumbs</a></p>
+
+<h3 id="buttons">Buttons</h3>
+
+<p><a class="button button-start" href="financial-assessment-eligibility" role="button">Start now</a></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a class="button button-start" href="financial-assessment-eligibility" role="button"&gt;Start now&lt;/a&gt;
+</code></pre></div></div>
+
+<p><input type="submit" class="button" value="Continue" /></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;input type="submit" class="button" value="Continue"&gt;
+</code></pre></div></div>
+
+<h4 id="using-buttons">Using buttons</h4>
+
+<p>Buttons should be used to help users carry out a task, like starting an application.</p>
+
+<p>Button text should be written in sentence case and clearly tell the user what the action is. For example, ‘Start now’, ‘Continue’, ‘Subscribe’.</p>
+
+<p>Buttons can be used to:</p>
+<ul>
+  <li>Start a form</li>
+  <li>Continue to the next question of a form</li>
+  <li>Subscribe to something, such as email notifications</li>
+</ul>
+
+<p>Buttons shouldn’t be used to replace links within the body of a page.</p>
+
+<h3 id="checkbox">Checkbox</h3>
+
+<div class="form">
+  <div class="group">
+    <fieldset>
+      <legend>Ask your question?</legend>
+      <div class="multiple-choice">
+        <input id="telephone" name="checkbox" type="checkbox" value="Telephone" />
+        <label for="telephone">Telephone</label>
+      </div>
+      <div class="multiple-choice">
+        <input id="email" name="checkbox" type="checkbox" value="Email" />
+        <label for="email">Email</label>
+      </div>
+      <div class="multiple-choice">
+        <input id="post" name="checkbox" type="checkbox" value="Post" />
+        <label for="post">Post</label>
+      </div>
+      <div class="panel js-hidden" id="checkbox-selection">
+          This panel is shown if selecting last checkbox
+      </div>
+    </fieldset>
+  </div>
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="form"&gt;
+  &lt;div class="group"&gt;
+    &lt;fieldset&gt;
+      &lt;legend&gt;Ask your question?&lt;/legend&gt;
+      &lt;div class="multiple-choice"&gt;
+        &lt;input id="telephone" name="checkbox" type="checkbox" value="Telephone"&gt;
+        &lt;label for="telephone"&gt;Telephone&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="multiple-choice"&gt;
+        &lt;input id="email" name="checkbox" type="checkbox" value="Email"&gt;
+        &lt;label for="email"&gt;Email&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="multiple-choice"&gt;
+        &lt;input id="post" name="checkbox" type="checkbox" value="Post"&gt;
+        &lt;label for="post"&gt;Post&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="panel js-hidden" id="checkbox-selection"&gt;
+          This panel is shown if selecting last checkbox
+      &lt;/div&gt;
+    &lt;/fieldset&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<h4 id="using-checkbox">Using checkbox</h4>
+
+<p>Checkbox enables users to select more than one choice at a time from a selection of inputs, for examples all items that apply from a list.</p>
+
+<p>If you want users to select just one input at a time, for examples a yes or no answer, use the <a href="radio">radio element</a></p>
+
+<p>Checkbox is often used as part of a <a href="form">form</a>.</p>
+
+<p>You can avoid having long lists of options by guiding users through with better thought out questions.</p>
+
+<p>Conditionality allows you to show users additional content or questions to particular users on what they’ve selected. If you’re using this to show lots of content, maybe think about putting it on a separate page.</p>
+
+<h3 id="content-break">Content break</h3>
+
+<div class="content-break-large"></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="content-break-large"&gt;&lt;/div&gt;
+</code></pre></div></div>
+
+<div class="content-break-small"></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="content-break-small"&gt;&lt;/div&gt;
+</code></pre></div></div>
+
+<h4 id="using-content-breaks">Using content breaks</h4>
+
+<p>Content breaks are visual elements used to separate sections of content.</p>
+
+<p>They should be used to:</p>
+<ul>
+  <li>thematically divide up sections of content, such as services, news and legislation</li>
+  <li>show a divide between a list of clickable items, such as news articles, service links or guidance documents</li>
+</ul>
+
+<p>They shouldn’t be used to divide paragraphs within the body of content.</p>
+
+<h3 id="dropdown">Dropdown</h3>
+
+<div class="form">
+  <div class="group">
+    <label for="sorting" class="form-hint">Sort by</label>
+    <select class="form-control" id="sorting" name="sorting">
+      <option>Recently published</option>
+      <option selected="">Recently updated</option>
+      <option>Most views</option>
+      <option>Most comments</option>
+    </select>
+  </div>
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="form"&gt;
+  &lt;div class="group"&gt;
+    &lt;label for="sorting" class="form-hint"&gt;Sort by&lt;/label&gt;
+    &lt;select class="form-control" id="sorting" name="sorting"&gt;
+      &lt;option&gt;Recently published&lt;/option&gt;
+      &lt;option selected&gt;Recently updated&lt;/option&gt;
+      &lt;option&gt;Most views&lt;/option&gt;
+      &lt;option&gt;Most comments&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<h4 id="using-dropdown">Using dropdown</h4>
+
+<p>Dropdown should only be used if there is no other alternative as some users can struggle with the functionality.</p>
+
+<p>Try using the <a href="radio">radio</a> or <a href="checkbox">checkbox</a> elements instead.</p>
+
+<p>It’s often used when there is a long list that can’t presented in another way, such as a list of countries or languages.</p>
+
+<p><em>Note: Be sure to update all label and input attributes with the correct details i.e.</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;label for=""&gt;&lt;/label&gt;
+&lt;select id=""&gt;
+&lt;select naming=""&gt;
+</code></pre></div></div>
+
+<h3 id="embed">Embed</h3>
+
+<h4 id="embed-responsively">Embed responsively</h4>
+<div class="embed-container">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/U9nnRicMHOk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" title="School admissions not preferred school"></iframe>
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="embed-container"&gt;
+	&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/U9nnRicMHOk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" title="School admissions not preferred school"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<h3 id="external-link">External link</h3>
+
+<p>If clicking this link <a href="#" rel="external" class="external-link" target="_blank">a new tab<span class="visually-hidden">Opening a new tab from an external website</span></a> will open from an external website.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="#" rel="external" class="external-link" target="_blank"&gt;a new tab&lt;span class="visually-hidden"&gt;Opening a new tab from an external website&lt;/span&gt;&lt;/a&gt;
+</code></pre></div></div>
+
+<p>If clicking this link <a href="https://www.google.com" rel="external" class="external-link">your browser tab is replaced<span class="visually-hidden">Replacing your browser tab with an external website</span></a> by an external website.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="#" rel="external" class="external-link"&gt;your browser tab is replaced&lt;span class="visually-hidden"&gt;Replacing your browser tab with an external website&lt;/span&gt;&lt;/a&gt;
+</code></pre></div></div>
+
+<p>If clicking this link you will <a href="/public/images/test-pdf-file.pdf" rel="external" class="external-file-link">download or open a file (PDF)<span class="visually-hidden">Clicking this will download or open a PDF</span></a> from this website.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="/public/images/test-pdf-file.pdf" rel="external" class="external-file-link"&gt;download or open a file (PDF)&lt;span class="visually-hidden"&gt;Clicking this will download or open a PDF&lt;/span&gt;&lt;/a&gt;.
+</code></pre></div></div>
+
+<h4 id="using-external-link">Using External link</h4>
+
+<p>The important thing is ensuring users with screen reader and/or with cognitive disabilities are aware a new browser tab has opened or their browser tab has been replaced with an external site.</p>
+
+<p>We also need to consider how this is communicated to all users through the use of icon and supportive text.</p>
+
+<h5 id="further-thoughts">Further thoughts</h5>
+
+<p>There can be some confusion and inconsistency around the use of external link <a href="#" rel="external" class="external-link">iconography</a>. In some cases websites show this when the browserr opens a new tab, others when it is replacing the current tab with an external website.</p>
+
+<p>Currently we are using it for both cases, external tab and tab replacement, to show indication of the browser tab state changing.</p>
+
+<h3 id="headings">Headings</h3>
+
+<h1 class="page-heading">Page heading</h1>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h1 class="page-heading"&gt;Page heading&lt;/h1&gt;
+</code></pre></div></div>
+
+<h2 class="content-heading">Content heading</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h2 class="content-heading"&gt;Content heading&lt;/h2&gt;
+</code></pre></div></div>
+
+<h3 class="section-heading">Section heading</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3 class="section-heading"&gt;Section heading&lt;/h3&gt;
+</code></pre></div></div>
+
+<h4 class="sub-section-heading">Sub-section heading</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h4 class="sub-section-heading"&gt;Sub-section heading&lt;/h4&gt;
+</code></pre></div></div>
+
+<h4 id="using-headings">Using headings</h4>
+
+<p>Headings should be written in sentence case and follow correct semantic structure, for example h1 before h2.</p>
+
+<p>Page heading is styled as h1 and should only be used to display the title of the page. Every page should have a unique page heading but it shouldn’t appear more than once on a page.</p>
+
+<ul>
+  <li>Page heading is used at the top of each page.</li>
+  <li>Content heading is used for each new and unlreated piece of content within a page.</li>
+  <li>Section heading is used for each section within content on a page.</li>
+  <li>Sub-section-heading is used for those occasional cases of additional breaking down within a section is required or additionally certain preview sections.</li>
+</ul>
+
+<h2 id="achieve-forms-components-and-elements">Achieve Forms Components and Elements</h2>
+
+<ul>
+  <li><a href="https://achieve-forms.herokuapp.com">Achieve Forms</a></li>
+</ul>
+
+<h2 id="design">Design</h2>
+
+<ul>
+  <li><a href="/docs/core/typography">Typography</a></li>
+  <li><a href="/docs/core/colour">Colour</a></li>
+  <li><a href="/docs/core/grid-system">Grid System</a></li>
+</ul>
+
+<h2 id="development">Development</h2>
+
+<h2 id="code-repositories">Code repositories</h2>
+
+<ul>
+  <li><a href="https://github.com/essexcountycouncil">Github</a></li>
+  <li><a href="https://dev.azure.com/essexcountycouncil/essexdesignsystem">Azure Devops</a></li>
+</ul>
+
+<h2 id="elements-1">Elements</h2>
+
+<ul>
+  <li><a href="/docs/core/elements/back">Back</a></li>
+  <li><a href="/docs/core/elements/buttons">Buttons</a></li>
+  <li><a href="/docs/core/elements/checkbox">Checkbox</a></li>
+  <li><a href="/docs/core/elements/content-break">Content-break</a></li>
+  <li><a href="/docs/core/elements/dropdown">Dropdown</a></li>
+  <li><a href="/docs/core/elements/embed">Embed</a></li>
+  <li><a href="/docs/core/elements/external-link">External-link</a></li>
+  <li><a href="/docs/core/elements/headings">Headings</a></li>
+  <li><a href="/docs/core/elements/icon">Icon</a></li>
+  <li><a href="/docs/core/elements/image">Image</a></li>
+  <li><a href="/docs/core/elements/inputs">Inputs</a></li>
+  <li><a href="/docs/core/elements/list">List</a></li>
+  <li><a href="/docs/core/elements/logo">Logo</a></li>
+  <li><a href="/docs/core/elements/meta">Meta</a></li>
+  <li><a href="/docs/core/elements/nav">Nav</a></li>
+  <li><a href="/docs/core/elements/paragraph">Paragraph</a></li>
+  <li><a href="/docs/core/elements/print-link">Print-link</a></li>
+  <li><a href="/docs/core/elements/radio">Radio</a></li>
+  <li><a href="/docs/core/elements/social">Social</a></li>
+  <li><a href="/docs/core/elements/textarea">Textarea</a></li>
+  <li><a href="/docs/core/elements/validation">Validation</a></li>
+</ul>
+
+<h2 id="components">Components</h2>
+
+<ul>
+  <li><a href="/docs/core/components/alert">Alert</a></li>
+  <li><a href="/docs/core/components/breadcrumbs">Breadcrumbs</a></li>
+  <li><a href="/docs/core/components/browser-check">Browser-check</a></li>
+  <li><a href="/docs/core/components/contents">Contents</a></li>
+  <li><a href="/docs/core/components/file-download">File-download</a></li>
+  <li><a href="/docs/core/components/footer">Footer</a></li>
+  <li><a href="/docs/core/components/header">Header</a></li>
+  <li><a href="/docs/core/components/highlight-box">Highlight-box</a></li>
+  <li><a href="/docs/core/components/impact">Impact</a></li>
+  <li><a href="/docs/core/components/inset">Inset</a></li>
+  <li><a href="/docs/core/components/landing-preview">Landing-preview</a></li>
+  <li><a href="/docs/core/components/link-box">Link-box</a></li>
+  <li><a href="/docs/core/components/pagination">Pagination</a></li>
+  <li><a href="/docs/core/components/phase-banner">Phase-banner</a></li>
+  <li><a href="/docs/core/components/previews">Previews</a></li>
+  <li><a href="/docs/core/components/preview-list">Preview-list</a></li>
+  <li><a href="/docs/core/components/related">Related</a></li>
+  <li><a href="/docs/core/components/search">Search</a></li>
+  <li><a href="/docs/core/components/search-header">Search-header</a></li>
+  <li><a href="/docs/core/pages/search-home">Search-home</a></li>
+  <li><a href="/docs/core/components/signup">Signup</a></li>
+  <li><a href="/docs/core/components/signup-big">Signup-big</a></li>
+  <li><a href="/docs/core/components/side-nav">Side-nav</a></li>
+  <li><a href="/docs/core/components/skip-link">Skip-link</a></li>
+  <li><a href="/docs/core/components/step-by-step">Step-by-step</a></li>
+  <li><a href="/docs/core/components/table">Table</a></li>
+</ul>
+
+<h2 id="further-reading">Further reading</h2>
+
+<h2 id="component-based-design">Component Based Design</h2>
+
+<p>Component Based Design is the practice of splitting UI into smaller, more manageable parts with clear names. Each of these parts fall in one of six distinct groups listed below.</p>
+
+<p>A more detailed explaination of how we’re using Component Based Design can be found in this excellent <a href="https://medium.com/@wereheavyweight/how-were-using-component-based-design-5f9e3176babb">article over at Medium</a></p>
+:ET

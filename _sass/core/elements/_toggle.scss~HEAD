@@ -1,0 +1,36 @@
+.toggle {
+  border-bottom: 1px solid $grey-light;
+  padding-bottom: $baseline;
+  .content {
+    margin-top: $baseline;
+  }
+}
+
+.toggle-b {
+  .show, .hide {
+    display: block;
+    margin-top: $baseline;
+  }
+}
+
+input.checkbox, .hide {
+  display: none;
+}
+
+input[aria-expanded="false"] + label.show + label.hide {
+  display: none;
+}
+
+input[aria-expanded="true"] + label.show {
+  display: none;
+}
+
+input[aria-expanded="true"] + label.show + label.hide {
+  display: inline-block;
+}
+
+label.show, label.hide{
+  @include p;
+  cursor: pointer;
+  color: $black
+}

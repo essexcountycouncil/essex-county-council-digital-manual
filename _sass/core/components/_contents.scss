@@ -1,0 +1,41 @@
+.contents {
+  @media print {
+    display: none;
+  }
+  .heading, ol, ul {
+  }
+  .heading h2 {
+    @include small;
+    font-weight: $regular;
+    margin-top: 0;
+    margin-bottom: $baseline*0.5;
+    letter-spacing: 0;
+  }
+  ol, ul {
+    @include small;
+    margin: 0;
+    list-style-position: inside;
+    list-style: none;
+    padding-left: 0;
+    li {
+      padding-left: 0;
+      &:before {
+        content: "\2014 ";
+        margin-right: 10px;
+      }
+      @media print {
+        a {
+          text-decoration: none;
+        }
+      }
+      &:last-child {
+        padding-bottom: $baseline;
+        border-bottom: $border-thin $grey solid;
+      }
+    }
+    li:nth-child(n+10) {
+      margin-left: 0px;
+      padding-left: 0px;
+    }
+  }
+}

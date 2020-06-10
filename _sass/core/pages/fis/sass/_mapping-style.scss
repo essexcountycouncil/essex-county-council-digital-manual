@@ -1,0 +1,218 @@
+
+/* SN Styles  Start */
+.noResultsFound {
+	text-align:left;
+	
+}
+
+.focus {
+    /*border: 2px solid #AA88FF;
+    border: 2px  solid;
+    background-color:White;
+    */
+}
+
+.disabled {
+    
+    background-color: rgb(230, 230, 230);
+    border: 1px solid;
+    
+}
+.ui-icon-custom { background-image: url(/Content/images/ResourceMappingWebPart/cart.png) !important; }
+.hideContent
+    {
+        display: none;
+        
+    }
+    .PLUS
+    {
+        float: right;
+        margin-left: 10px;
+        height: 20px;
+        width: 100px;
+        background-image: url('/Content/images/ResourceMappingWebPart/plus.png');
+        background-repeat: no-repeat;
+    }
+    .MINUS
+    {
+        float: left;
+        height: 20px;
+        width: 30px;
+        background-image: url('/Content/images/ResourceMappingWebPart/minus.png');
+        background-repeat: no-repeat;
+    }
+    td.slider
+    {
+        height: 20px;
+        width: 300px;
+    }
+        
+    .toggler
+    {
+        width: 500px;
+        height: 200px;
+        position: relative;
+    }
+    #button
+    {
+        padding: .5em 1em;
+        text-decoration: none;
+    }
+    #effect
+    {
+        width: 240px;
+        height: 135px;
+        padding: 0.4em;
+        position: relative;
+    }
+    #effect h3
+    {
+        margin: 0;
+        padding: 0.4em;
+        text-align: center;
+    }
+    .ui-effects-transfer
+    {
+        border: 2px dotted gray;
+    }
+    #map-container .map-report h4
+    {
+        padding-top: 8px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+        padding-left: 8px;
+        font-size: 14pt;
+        background-color: rgb(255, 128, 128);
+    }
+    /* Miscelleanous Styles */
+.shortlistActionButtons {
+    width: 160px;
+    
+}
+
+.shortlist-category-header
+{
+    font-family:Arial;
+    font-size:24px;
+    font-weight:bold;
+    width:100%;
+    background-color:#44abd9;
+    color:#ffffff;
+    padding: 15px 5px 15px 15px;
+}
+.shortlist-resource-header
+{
+    color:#000000;
+    padding: 15px 5px 15px 15px;
+    background-color:#ecf6fb;
+    
+}
+
+.shortlist-resource-name
+{
+    font-family:Arial;
+    font-size:14px;
+    font-weight:bold;
+    color:#000000;
+    width:60%;
+    
+}
+.shortlist-comments-section
+{
+    padding: 15px 5px 15px 15px;
+    background-color:#ecf6fb;
+    width:100%;
+}
+.shortlist-comments-header
+{
+    font-family:Arial;
+    font-size:24px;
+    font-weight:bold;
+    width:100%;
+    padding: 0px 5px 15px 0px;
+}
+.shortlist-comments-box
+{
+    padding: 15px 5px 15px 15px;
+    width:93%;
+}
+
+.tabPanelBar
+{
+    background-color:#44abd9;
+    height:10px;
+    margin-top:-22px;
+    margin-left:-13px;
+}
+#shortlistFrame
+{
+    margin-top:2px;
+}
+
+.searchSeparator
+{
+    margin:10px 0 10px 0;
+    text-align:center;
+    font-family:Arial;
+    font-weight:bold;
+}
+
+.searchCaption
+{
+    font-family:Arial;
+    font-weight:bold;
+}
+
+.spinner {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px; /* half width of the spinner gif */
+	margin-top: -50px; /* half height of the spinner gif */
+	text-align:center;
+	z-index:1234;
+	overflow: auto;
+	width: 200px; /* width of the spinner gif */
+	height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
+	background-color:#fff;
+	border:1px solid #44abd9;
+}
+.spinner img {
+	vertical-align: middle;
+	padding:0px 5px 0px 5px;
+}
+
+.spinner table {
+	margin-top: 15px;
+}
+.spinner label {
+	font-weight:bold;
+}
+
+.center-align
+{
+    text-align:center;
+}
+.right-align
+{
+    text-align:right;
+}
+.moreInfo {
+    background-image: url("../images/details_open.png");
+    height: 21px !important;
+    width: 21px !important;
+    cursor: hand;
+    cursor: pointer;
+    display: block;
+    margin-left: 10px;
+}
+.lessInfo {
+    background-image: url("../images/details_close.png") !important;
+    height: 21px !important;
+    width: 21px !important;
+    cursor: hand;
+    cursor: pointer;
+    display: block;
+    margin-left: 10px;
+}
+/* SN Style End */

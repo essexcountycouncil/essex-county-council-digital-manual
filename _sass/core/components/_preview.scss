@@ -1,0 +1,117 @@
+.previews {
+  @extend %contain-floats;
+  @extend %grid-row;
+  margin-top: $baseline*1.5;
+  margin-bottom: $baseline*1.5;
+  @include media(mobile) {
+    margin-top: $baseline*1.5;
+    margin-bottom: $baseline;
+    margin-left: -$gutter !important;
+    margin-right: -$gutter !important;
+    .preview {
+      padding-left: $gutter !important;
+      padding-right: $gutter !important;
+    }
+  }
+  @include media(tablet) {
+    margin-left: -$gutter*0.5 !important;
+    margin-right: -$gutter*0.5 !important;
+    .preview {
+      padding-left: $gutter*0.5 !important;
+      padding-right: $gutter*0.5 !important;   
+    }
+  }
+  @include media(desktop) {
+    margin-left: -$gutter*2 !important;
+    margin-right: -$gutter*2 !important;
+    .preview {
+      padding-left: $gutter*2 !important;
+      padding-right: $gutter*2 !important;
+    }
+  }
+  .preview {
+    min-height: $baseline*5;
+    @include grid-column(4 / 12);
+    &:nth-child(2) {
+      border-left: $border-thin solid $grey-light;
+      border-right: $border-thin solid $grey-light;
+      @include media(mobile) {
+        border: none;
+      }
+    }
+    @include media(mobile) {
+      h3 {
+        margin-top: 0;
+      }
+      min-height: 0;
+    }
+    .sub-section-heading {
+      @include h4;
+      margin-top: 0;
+      margin-bottom: 0;
+      min-height: $baseline;
+      @include media(mobile) {
+        @include h4;
+        min-height: initial;
+        margin-top: 0;
+        margin-bottom: $baseline*0.25;
+      }
+      & + p {
+        @include media(mobile) {
+          @include smaller;
+        }
+      }
+    }
+    img {
+      margin-top: 0;
+      margin-bottom: $baseline;
+      height: auto;
+      width: 100%;
+      @include media(mobile) {
+        margin-bottom: 0;
+        width: 100%;
+      }
+      @media print {
+        display: none;
+      }
+      & + .sub-section-heading {
+        @include h4;
+        min-height: initial;
+        margin-top: $baseline*0.25;
+        margin-bottom: $baseline*0.25;
+        & + p {
+          margin-bottom: $baseline*0.5;
+        }
+      }
+    }
+    .meta {
+      @include smaller;
+      margin-top: 0;
+      margin-bottom: 0;
+      + .sub-section-heading {
+        margin-top: 0;
+      }
+      @include media(mobile) {
+        margin-top: $baseline*0.125;
+        margin-bottom: $baseline*0.125;
+      }
+    }
+  }
+  &.news {
+    margin-top: 0;
+    .preview {
+      border: none;
+      @include media(mobile) {
+        margin-bottom: $baseline*1.5;
+      }
+    }
+    @include media(desktop) {
+      margin-left: -$gutter*0.5 !important;
+      margin-right: -$gutter*0.5 !important;
+      .preview {
+        padding-left: $gutter*0.5 !important;
+        padding-right: $gutter*0.5 !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.social {
+  @media print {
+    display: none;
+  }
+  padding-left: 0;
+  margin-left: 0;
+  li {
+    padding-left: 0;
+    font-size: $baseline;
+    display: inline-block;
+    a {
+      color: $link;
+      &:hover {
+        color: $hover;
+      }
+      &:focus {
+         outline: $border-thick solid $focus-colour;
+       }
+      .fab {
+        font-size: ms(4);
+      }
+    }
+  }
+  span + span {
+    @include visually-hidden;
+  }
+}

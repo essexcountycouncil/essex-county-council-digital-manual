@@ -1,0 +1,35 @@
+I"X<ol>
+  <li><a href="../../">Home</a></li>
+  <li><a href="../../Content-style-guide">Content style guide</a></li>
+  <li><a href="../Content-guidelines">Content guidelines</a></li>
+  <li>Creating and publishing content</li>
+</ol>
+
+<h1 id="creating-and-publishing-content">Creating and publishing content</h1>
+
+<h2 id="before-you-start">Before you start</h2>
+
+<p>Before you write and design your content, make sure you read the <a href="https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style">Government Digital Service Style guide</a></p>
+
+<h2 id="content-types">Content types</h2>
+
+<p>You need to think about which content type to best meet the user need.</p>
+
+<p>You also need to consider the journey the user takes to get to your content. Make sure it is logical and consistent.</p>
+
+<h2 id="avoid-pdfs">Avoid PDFs</h2>
+
+<p>When thinking of creating a PDF, consider using a web page because they are <a href="https://gds.blog.gov.uk/2018/07/16/why-gov-uk-content-should-be-published-in-html-and-not-pdf/">more accessible, are easier to find and read online</a>.</p>
+
+<p>PDFs should be used in a very limited way and only in rare circumstances. The main reason for this are because PDFs are not easily findable through search engines and because they are not mobile friendly or accessible.</p>
+
+<h2 id="use-the-acceptance-criteria">Use the acceptance criteria</h2>
+
+<p>The user needs <a href="https://www.gov.uk/service-manual/agile-delivery/writing-user-stories">acceptance criteria</a> becomes the structure of your content. Use it as a checklist to make sure content is meeting the user needs.</p>
+
+<h2 id="before-you-publish">Before you publish</h2>
+
+<p>Before publishing content, you should get someone else to check the content. We call this peer review.</p>
+
+<p>The review will check that the content meets a user need and there are no errors and inaccuracies.</p>
+:ET

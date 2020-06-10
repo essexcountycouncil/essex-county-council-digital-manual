@@ -1,0 +1,87 @@
+.side-nav {  
+  @media print {
+    display: none;
+  }
+  @include box-shadow(0 -3px 0 $black);
+  border: $border-thin solid $grey-light;
+  padding: $baseline*0.5 $gutter*0.25;
+  margin-bottom: $baseline;
+  h3 {
+    @include h4;
+    margin-top: 0;
+  }
+  ul {
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  li {
+    @include small;
+    padding-bottom: $baseline*0.25;
+    padding-top: $baseline*0.25;
+    padding-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+    border-bottom: $border-thin solid $grey-light;
+    a {
+      &:hover {
+
+      }
+    }
+    &.active {
+      background: $white;
+      padding-left: 0;
+      @include media(desktop) {
+        padding-left: $gutter*0.5;
+        &:before {
+          @include font-awesome;
+          content: "\f053";
+          color: $black;
+          margin-right: $gutter*0.25;
+          margin-left: -$gutter*0.5;
+        }
+      }
+      a {
+        color: $black;
+      }
+    }
+  }
+}
+
+.side-nav {
+  .show, .hide {
+    @include small;
+    display: block;
+  }
+  ul {
+    list-style-type: none;
+    margin-top: 0;
+  }
+  input.checkbox, .hide {
+    display: none;
+  }
+
+  // show and hide for "show" and "hide" toggle
+  input[aria-expanded="false"] + label.show + label.hide {
+    display: none;
+  }
+
+  input[aria-expanded="true"] + label.show {
+    display: none;
+  }
+
+  input[aria-expanded="true"] + label.show + label.hide {
+    display: block;
+  }
+
+  label.show, label.hide {
+    cursor: pointer;
+    color: $link;
+    text-decoration: underline;
+    padding-bottom: $baseline*0.25;
+    padding-top: $baseline*0.5;
+    &:hover {
+      color: $hover;
+    }
+  }
+}

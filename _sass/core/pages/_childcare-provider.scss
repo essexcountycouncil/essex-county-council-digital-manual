@@ -1,0 +1,722 @@
+#find-childcare-provider {
+	.map-formblock.ui-dialog-content.ui-widget-content {
+		h2 {
+			margin-top: 0;
+		}
+		label {
+			width: 100%;
+		}
+		input.fld_std {
+			float: left;
+			margin-left: 0;
+			width: 100%;
+		}
+	}
+	.ui-dialog-content.ui-widget-content {
+		ol {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	}
+	#map-SearchFields h3 {
+		.ui-state-default,
+		.ui-widget-content.ui-state-default,
+		.ui-widget-header.ui-state-default,
+		.ui-state-hover,
+		.ui-state-active,
+		.ui-widget-content.ui-state-active,
+		.ui-widget-header.ui-state-active {
+			font-weight: $bold !important;
+			border: none !important;
+			background-color: $white !important;
+			color: $black !important;
+		}
+	}
+	#map-controlpanel, #map-controlpanel1 {
+		width: 253px;
+		overflow: hidden;
+		overflow: initial;
+	}
+	.ui-corner-all, 
+	.ui-corner-bottom, 
+	.ui-corner-right, 
+	.ui-corner-br,
+	.ui-corner-all, 
+	.ui-corner-top, 
+	.ui-corner-right, 
+	.ui-corner-tr {
+		@include border-radius(0);
+	}
+	#map-search-by-address {
+		height: initial !important;
+	}
+	#map-lhcol {
+		width: 253px;
+	}
+	.ui-accordion .ui-accordion-content {
+		overflow: initial !important;
+	}
+	.form {
+		.group.type-checkbox {
+			.provider, .map-category {
+				display: inline-block;
+				@include media(mobile) {
+					display: block;
+				}
+				margin-right: $gutter;
+				margin-bottom: $baseline*0.5;
+			}
+
+			span {
+				height: 1em;
+			}
+			.provider {
+				span {
+					margin-left: 5px;
+					margin-right: 5px;
+				}
+				div {
+					float: right;
+				}
+			}
+		}
+	}
+	#map-SearchByOfstedRef {
+		float: left;
+		padding: $baseline*0.25 8px 0 8px;
+		.ui-accordion-header a {
+			padding-left: 24px;
+			margin-bottom: $baseline*0.25;
+		}
+		#searchValue-OfstedReference {
+			float: left;
+			border: $border-thin solid $grey;
+			line-height: 2rem;
+			height: 35px;
+			font-size: $smaller;
+			height: 35px;
+			margin-left: 3px;
+			margin-right: 3px;
+			width: 231px;
+		}
+		#map-searchButton-OfstedRef {
+			float: left !important;
+			margin: 0;
+			margin-bottom: $baseline*0.5;
+			margin-left: 3px;
+		}
+		.ui-state-default {
+			background: none;
+			border: none;
+		}
+		.ui-accordion-content {
+			height: auto !important;
+			height: initial !important;
+			// display: block !important;
+			padding: 0;
+			border: none;
+			overflow: initial;
+			@include border-radius(0);
+		}
+	}
+	#map-container,
+	#map-shortlistpanel {
+		.disclaimertext {
+			font-size: $smaller;
+			line-height: 1rem;
+		}
+	}
+	.formhelper.yellowbg {
+		h3 {
+			@include h4;
+			margin-top: 0;
+			margin-bottom: $baseline*0.25;
+		}
+		p {
+			@include default-type;
+			margin-top: 0;
+			margin-bottom: $baseline*0.25;
+			font-size: $smaller;
+			a {
+				color: $link;
+				&:hover {
+					color: $hover;
+				}
+				&:active {
+					color: $active;
+				}
+				&:visited {
+					color: $visited;
+				}
+			}
+		}
+	}
+	#map-container {
+		float: left;
+		border: $border-thin solid $grey;
+		border-top: none;
+		margin-top: 0;
+		margin-bottom: $baseline;
+		padding: 0;
+		padding-top: $baseline*0.25;
+		@include border-radius(0);
+		.disclaimertext h3 {
+			@include h4;
+		}
+		#map-lhcol {
+			label, legend {
+				display: inline-block;
+				margin-top: $baseline*0.25;
+				margin-bottom: $baseline*0.125;
+			}
+		}
+		#map-rhcontent {
+			padding-right: $gutter*0.25;
+			padding-left: $gutter*0.25
+		}
+		button.gm-control-active img {
+			padding: 11px;
+		}
+		#map-controlpanel {
+			float: left;
+			background-color: $white;
+			border: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			overflow: initial;
+			#map-searchpanel h3 {
+				margin: 0;
+			}
+			#map-SearchFields {
+				padding: 0 8px;
+				width: 237px;
+				overflow: hidden;
+				.ui-state-active, 
+				.ui-widget-content .ui-state-active, 
+				.ui-widget-header.ui-state-active {
+					background: none;
+					border: none;
+					a {
+						color: $black;
+						font-weight: $bold;
+					}
+				}
+				.searchCaption {
+					font-size: ms(-1);
+					font-weight: $bold;
+					margin: 0;
+				}
+				h3 {
+					font-size: 1rem;
+					font-weight: $regular;
+				}
+				.ui-accordion-header {
+					margin: 0;
+				}
+				#map-search-by-address {
+					@include border-radius(0);
+					overflow: initial;
+					border: none;
+					padding: 0;
+					margin: $baseline*0.5 0 0 0;
+					background: none;
+					height: auto !important;
+					height: initial !important;
+					#map-catpanel {
+						margin-bottom: 0;
+						input[type="checkbox"] {
+							height: 1em;
+							display: inline-block;
+							margin: 0;
+							width: auto;
+						}
+						& > div {
+							margin: 0 0 $baseline*0.25 0;
+						}
+						#chk-selectAllCategories {
+							margin-left: 0;
+							margin: 0 $gutter*0.125;
+						}
+						#lbl-selectAllCategories {
+							font-size: $smaller;
+						}						
+						#map-catlist {
+							#cat-table tr {
+								display: inline-block;
+								width: 100%;
+								td {
+									line-height: 0.8rem;
+									vertical-align: top;
+								}
+								img {
+									margin: 0;
+									padding: 0;
+									width: 16px;
+									height: 16px;
+								}
+								input {
+									margin: 0 $gutter*0.125;
+								}
+								span {
+									font-size: $smaller;
+								}
+							}
+						}
+					}
+					#searchValue-Location,
+					#searchValue-Radius,
+					#searchValue-ProviderName {
+						font-size: $smaller;
+						line-height: 2rem;
+						height: 35px;
+						border: 1px solid $grey;
+						margin-bottom: 0;
+						margin-left: 3px;
+						margin-right: 3px;
+						width: 231px;
+					}
+					select#searchValue-Radius {
+						height: 40px;
+						padding: 5px;
+					}
+					#map-searchButton {
+						float: left !important;
+						margin-left: 3px;
+					}
+					#searchValue-Radius {
+						padding-top: 0;
+						padding-bottom: 0;
+					}
+				}
+			}
+			.searchSeparator {
+				padding: $gutter*0.5;
+				display: none;
+			}
+			.ui-accordion {
+				width: 237px;
+			}
+			legend {
+				padding: 0;
+				margin: 0;
+			}
+			fieldset {
+				border: none;
+				padding: 0;
+				margin: 0;
+				@include border-radius(0);
+			}		
+			& + div {
+				padding: $gutter*0.25;
+				margin: 0 !important;
+				width: 100%;
+			}
+		}
+		#map-resultspanel {
+			margin: 0;
+			.dataTables_wrapper {
+				margin: 0;
+				#resultsTableHeader {
+					.dataTables_filter {
+						label {
+							font-size: $small;
+						}
+					}
+					input {
+						border: 1px solid $grey;
+						height: $form-height*0.5;
+					}
+				}
+				#resultsTable {
+					thead tr th {
+						padding-left: 0;
+						padding-right: 5px;
+					}
+					input {
+						line-height: 1rem;
+					}
+					input[type='checkbox'] {
+						height: 13px;
+						width: 13px;
+					}
+					.map-locationdetail {
+						background-color: $white;
+						margin-top: $baseline*0.5;
+						margin-bottom: $baseline*0.5;
+						dt, dd {
+							border-top: none;
+							border-bottom: $border-thin $grey-light solid;
+							// &:first-child, &:nth-child(2) {
+							// 	border-top: none;
+							// }
+						}
+						dt, dd {
+							padding-left: 0;
+							padding-right: 5px;
+							width: calc(50% - 5px);
+							min-height: 26px;
+						}
+						dl {
+							width: 100%;
+							border-bottom: none;
+						}
+					}
+					#details-actions {
+						background: $white;
+						float: left !important;
+						padding-bottom: 0 !important;
+						padding-right: 0 !important;
+						padding-top: $baseline;
+						margin-bottom: $baseline;
+						margin-top: -$baseline;
+						width: 100%;
+						input {
+							float: left;
+							margin: 0 !important;
+							margin-right: $gutter*0.5 !important;
+						}
+					}
+				}
+				#resultsTable_info {
+					font-size: $small;
+				}
+				#resultsTable_length {
+					font-size: $small;
+					select {
+						font-size: $smaller;
+						height: 1.5rem;
+						padding-top: 0;
+						padding-bottom: 0;
+					}
+				}
+				table.pretty {
+					th, td {
+						border: none !important;
+					}
+					thead {
+						th {
+							text-align: left;
+							font-size: $small;
+							font-weight: $bold;
+							line-height: 1rem;
+							color: $black;
+							background: none;
+							padding: $gutter*0.25 $gutter*0.5;
+							width: initial !important;
+						}
+					}
+					tbody tr {
+						font-size: $small;
+						border-bottom: 1px solid $grey;
+					}
+					tbody tr.odd {
+						td {
+							background: $grey-lighter;
+							background: none;
+						}
+						td.dataTables_empty {
+							background: none;
+							padding: 0;
+						}
+					}
+					tbody tr td {
+						vertical-align: top;
+						text-align: left;
+						padding: $baseline*0.25;
+						padding-left: 0;
+						padding-right: 5px;
+						margin: 0;
+						&.details {
+							padding: 0;
+						}
+					}
+				}
+			}
+		}
+		#map-controls {
+			display: none;
+		}
+		#map-mappanel {
+			margin: 0;
+			border: none;
+			margin-bottom: $baseline*0.5;
+		}
+	}
+	#formhelperHelp {
+		float: left;
+		margin-top: $baseline*1.5;
+		margin-bottom: $baseline*0.5;
+		p {
+			font-size: $small;
+			margin-top: 0;
+			margin-bottom: $baseline*0.25;
+			a {
+				color: $link !important;
+				&:hover {
+					color: $hover !important;
+				}
+				&:active {
+					color: $active !important;
+				}
+				&:visited {
+					color: $visited !important;
+				}
+				&:focus {
+					color: $black !important;
+				}
+			}
+		}
+	}
+	.formhelper {
+		padding-right: $gutter*0.5;
+	}
+	.formhelper.yellowbg {
+		float: left;
+	}
+	.icon-map {
+		float: left;
+		img {
+			margin-bottom: 0;
+			padding: $baseline*0.125 0;
+			width: $icon;
+		}
+	}
+	.shortlist-category-header {
+		background: none;
+		color: $black;
+		padding: 0;
+	}
+	.shortlist-resource-header {
+		background: none;
+		color: $black;
+		padding: 0;
+	}
+	.map-reportitem {
+		background: none;
+		padding: $gutter*0.5;
+		border: $border-thin solid $grey-light;
+		margin-top: $baseline*0.5;
+	}
+	#map-shortlistpanel {
+		float: left;
+		margin: 0;
+		padding: 0;
+		padding-top: $baseline*0.5;
+		background: none;
+		border: $border-thin solid $grey;
+		border-top: none;
+		#map-report,
+		#shortlistFrame {
+			margin: 0;
+		}
+		#map-report {
+			overflow: initial;
+		}
+		#shortlistFrame,
+		.disclaimerbox {
+			padding-left: $gutter*0.5;
+			padding-right: $gutter*0.5;
+		}
+		#map-lhcol1 #map-controlpanel1 {
+			margin: 0;
+			padding: 0;
+			border: none;
+		}
+		.map-reportitem dl {
+			font-size: $small;
+		}
+		input {
+			margin: 0;
+			float: left;
+			@include button;
+		}
+		textarea {
+			font-family: $stack;
+			border: $border-thin solid $grey;
+		}
+		table p {
+			margin: 0 !important;
+		}
+		#map-rhcontent1 {
+			padding-right: $gutter*0.5;
+			padding-left: $gutter*0.5;
+		}
+		#map-userComments {
+			margin-top: $baseline*0.5;
+			background: none;
+			padding: 0;
+			#txtUserComments {
+				padding: $baseline*0.5 $gutter*0.5;
+				width: 100%;
+			}
+		}
+	}
+	#acrobat-reader-tip {
+		display: none;
+	}
+	#map-controlpanel1 {
+		overflow: auto;
+		overflow: initial;
+		background: none;
+		@include border-radius(0);
+		margin: 0;
+		padding: 0;
+		border: none;
+		#map-shortlist-links {
+			padding: $gutter*0.5 $gutter*0.5 0 $gutter*0.5;
+			table {
+				text-align: left !important;
+				tr {
+					display: inline-block;
+					margin-bottom: $baseline*0.25;
+				}
+			}
+		}
+		& + div {
+			margin: 0 !important;
+			padding: $gutter*0.5;
+			width: initial !important;
+			margin-left: 0;
+			border: none;
+			margin: 0;
+		}
+	}
+	.shortlist-comments-header {
+		@include h3;
+		padding: 0;
+		margin-top: 0;
+		margin-bottom: $baseline*0.5;
+	}
+	#lower {
+		font-family: $stack;
+		.ui-widget,
+		.searchCaption {
+			font-family: $stack;
+		}
+		.ui-widget-header {
+			border: none;
+		}
+		.ui-corner-all {
+			@include border-radius(initial);
+		}
+		#mainTabs {
+			overflow: initial !important;
+			border: none;
+			padding: 0;
+			.ui-tabs-nav {
+				border-bottom: $border-thin solid $grey;
+				padding: 0;
+				li {
+					top: 0;
+					margin: 0;
+					border: none;
+					@include border-radius(initial);
+					a {
+						padding: $gutter*0.125 $gutter*0.25;
+					}
+				}
+				.ui-state-default {
+					background: $grey-lighter;
+					font-size: ms(-1);
+					a {
+						border: $border-thicker solid $white;
+					}
+				}
+				.ui-tabs-selected {
+					background: $white;
+					border: $border-thin solid $grey;
+					border-bottom: none;
+					margin-bottom: -1px;
+					a {
+						color: $black;
+					}
+				}				
+			}
+		}
+		#map-controlpanel input[type='checkbox'] .ui-tabs.ui-tabs-panel {
+			padding: 0;
+		}
+		.tabPanelBar {
+			display: none;
+		}
+		#resultsTableHeader {
+			float: right;
+			margin: $baseline*0.25 0 $baseline 0;
+			input.button {
+				margin: 0 !important;
+				display: none;
+			}
+		}
+		#resultsTable {
+			margin: $baseline 0;
+			width: 100%;
+			.ui-widget input {
+				height: 1rem;
+			}
+		}
+	}
+	.bottom {
+		display: inline-block;
+		padding: $baseline 0;
+		.dataTables_info, 
+		.dataTables_length,
+		.dataTables_paginate {
+			float: left;
+			width: 100%;
+			padding: 0;
+			margin: $baseline*0.125 0;
+			background: none;
+		}
+		.dataTables_paginate.paging_four_button {
+			font-size: $smaller;
+		}
+		.paginate_enabled_previous,
+		.paginate_enabled_next {
+			background: none;
+			color: $link !important;
+			text-decoration: underline;
+			padding: 0;
+			margin: 0;
+			margin-right: $gutter*0.25;
+		}
+		.paginate_disabled_previous,
+		.paginate_disabled_next {
+			display: none;
+		}
+	}
+	.ui-accordion .ui-accordion-header {
+		a {
+			font-size: ms(-1);
+			padding-top: $gutter*0.125;
+			padding-right: $gutter*0.125;
+			padding-bottom: $gutter*0.125;
+			padding-left: 24px;
+		}
+		.ui-icon {
+			left: 0;
+		}
+	}
+	.ui-state-default .ui-icon {
+		background-image: url('images/ui-icons_000000_256x240.png');
+	}
+	.ui-state-active .ui-icon {
+		background-image: url('images/ui-icons_000000_256x240.png');
+	}
+	.lessInfo, .moreInfo {
+		margin: 0;
+		@include font-awesome;
+	}
+	.lessInfo {
+		background-image: url('images/details_close.png');
+	}
+	.moreInfo {
+		background-image: url('images/details_open.png');	
+	}
+	.ui-widget input, 
+	.ui-widget select, 
+	.ui-widget textarea, 
+	.ui-widget button {
+		font-family: $stack;
+	}
+}

@@ -1,0 +1,33 @@
+a.print-link {
+  @include small;
+  display: inline-block;
+  @media print {
+    display: none;
+  }
+  margin-top: $baseline;
+  margin-bottom: $baseline;
+  cursor: pointer;
+  text-decoration: underline;
+  &:before {
+    @include font-awesome;
+    content: "\f02f";
+    margin-right: $gutter*0.25;
+    display: inline-block;
+    width: $icon-width - 2px;
+  }
+  &:link {
+    color: $link;
+  }
+  &:visited {
+    color: $visited;
+  }
+  &:hover {
+    color: $hover;
+  }
+  &:active {
+    color: $active;
+  }
+  &:focus {
+    color: $black;
+  }
+}

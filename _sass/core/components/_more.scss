@@ -1,0 +1,16 @@
+.more-background {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: $baseline*2;
+}
+
+.button.more, a.button.more {
+  @include more;
+  @include grid-column(4 / 12);
+  float: none !important;
+  &:hover {
+    color: $white;
+    border-color: $brand-hover-darken;
+    background-color: $brand-hover-darken;
+  }
+}

@@ -1,0 +1,23 @@
+// Banner
+.browser-check-background {
+  background-color: $highlight-box-light;
+  .browser-check {
+    @extend %site-width-container;
+    @extend %contain-floats;
+    @media print {
+      display: none;
+    }
+    padding-top: $baseline*0.25;
+    padding-bottom: $baseline*0.25;
+    .browser-content {
+      @extend %grid-row;
+      @include grid-column(1);
+      @include small;
+      margin-top: 0;
+      margin-bottom: 0;
+      @include media(mobile) {
+        @include smaller;
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+/* Anonymous Modal */
+#anonymousLoginScreen {
+    padding: 50px 0px 170px 0px;
+}
+
+#anonymousLoginScreen h1 {
+    font-weight: 700;
+}
+
+#anonymousLoginScreen h4 {
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 16px
+}
+
+#anonymousLoginScreen .btn-custom {
+    color: #428bca !important;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    outline: none !important;
+}
+
+#anonymousLoginScreen .btn-custom:active,
+#anonymousLoginScreen .btn-custom.active {
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#anonymousLoginScreen .btn-custom:hover {
+    text-decoration: underline;
+}
+
+#anonymousLoginScreen #btn-anon {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-top: 6px;
+}
+
+/* Case Notes */
+.case_notes{
+    width:100%;
+    position: fixed;
+    bottom:0;
+    z-index:100;
+}
+.case_notes .case_notes_bar{
+    width:100%;
+    height:5px;
+    background-color:#428bca;
+    position: fixed;
+    bottom:0;
+}
+.case_notes .case_notes_button{
+    float:right;
+    margin-bottom:5px;
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}

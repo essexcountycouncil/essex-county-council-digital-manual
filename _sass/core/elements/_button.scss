@@ -1,0 +1,189 @@
+// Buttons
+// ==========================================================================
+
+@mixin more {
+  @include box-sizing(border-box);
+  font-size: ms(1);
+  line-height: $form-height - $ms-base*0.5;
+  padding: 0;
+  color: $white;
+  background-color: $brand;
+  font-weight: 600;
+  border: $border-thick $brand solid;
+  height: $form-height;
+  width: 100%;
+  &:hover {
+    color: $brand;
+    background-color: $white;
+    border-color: $white;
+  }
+}
+
+@mixin button {
+  @media print {
+    display: none;
+  }
+  @include inline-block;
+  font-family: $stack;
+  font-size: ms(0);
+  line-height: 1.4em;
+  background-color: $button;
+  position: relative;
+  padding: $baseline*0.25 $gutter*0.25; // 10px 15px 5px
+  border: $border-normal $button solid;
+  outline: $border-thin solid transparent; // keep some button appearance when changing colour settings in browsers
+  outline-offset: -1px; // fixes bug in Safari that outline width on focus is not overwritten, is reset to 0 on focus in govuk_template
+  -webkit-appearance: none;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  &:visited {
+    background-color: $button;
+  }
+  &:hover,
+  &:focus {
+    border-color: $button-hover-darken;
+    background-color: $button-hover-darken;
+  }
+  &:active {
+    top: 2px;
+  }
+  &.disabled,
+  &[disabled="disabled"],
+  &[disabled] {
+    @include opacity(0.5);
+    &:hover {
+      cursor: default;
+      background-color: $button;
+    }
+
+    &:active {
+      top: 0;
+    }
+  }
+  // Set text colour depending on background colour
+  @if lightness($button) < 50% {
+    color: $white;
+    &:link,
+    &:link:focus,
+    &:hover,
+    &:focus,
+    &:visited {
+      color: $white;
+    }
+  } @else {
+    color: $black;
+    &:link,
+    &:link:focus,
+    &:hover,
+    &:focus,
+    &:visited {
+      color: $black;
+    }
+  }
+  // making the click target bigger than the button
+  // (and fill the space made when the button moves)
+  &:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &:active:before {
+    top: -10%;
+    height: 120%;
+
+    // IE6 ignores the :before psuedo-class but applies the block to :active
+    // It therefore needs to be reset
+    @include ie(6) {
+      top: auto;
+      height: 100%;
+    }
+  }
+  // Fixes a bug where IE puts a black border around certain elements
+  @include ie-lte(8) {
+    &[type="submit"],
+    &[type="reset"],
+    &[type="button"] {
+      filter: chroma(color = $black);
+    }
+    &[type=submit].button {
+      filter: none;
+    }
+  }
+  @include box-sizing (border-box);
+  vertical-align: top;
+  @include media (mobile) {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.button, .btn {
+  @include button;
+}
+
+button {
+  &.text {
+    font-size: ms(0);
+    line-height: 1.4em;
+    color: $link;
+    cursor: pointer;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: $baseline*0.5 0;
+    &:hover {
+      color: $hover;
+    }
+    &:focus {
+      color: $black;
+      background-color: $focus-colour;
+    }
+  }
+}
+
+// Fix unwanted button padding in Firefox
+.button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.button:focus {
+  outline: $border-thick solid $focus-colour;
+}
+
+// Disabled buttons
+.button[disabled="disabled"] {
+  background: $button;
+}
+
+.button[disabled="disabled"]:focus {
+  outline: none;
+}
+
+// Start now buttons
+.button-start,
+.button-get-started {
+  font-size: ms(3);
+  font-weight: 700;
+  background-image: url(#{$path}/icon/icon-pointers.png);
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  padding: $baseline*0.25 $gutter*1.5 $baseline*0.25 $gutter*0.5;
+  padding-top: #{$baseline - ms(3)};
+  margin-top: $baseline*0.5;
+  margin-bottom: $baseline*0.5;
+  @include device-pixel-ratio {
+    background-image: url(#{$path}/icon/icon-pointer-2x.png);
+    background-size: 30px 19px;
+  }
+  @include ie(6) {
+    background-image: url(#{$path}/icon/icon-pointer-2x.png);
+  }
+}

@@ -1,0 +1,83 @@
+// as see top of internal searched pages
+.form {
+  .group.search {
+    @media print {
+      display: none;
+    }
+    @include media(desktop) {
+      max-width: $site-width;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    outline: none;
+    position: relative;
+    margin-bottom: $baseline;
+    label {
+      @include box-sizing(border-box);
+      padding: $baseline*0.5;
+      height: $form-height;
+      width: calc(100% - #{$form-height} - #{$border-thick});
+      input {
+        width: calc(100% - #{$form-height} - #{$border-thick});
+      }
+    }
+    label {
+      color: $body-text-colour;
+      font-size: ms(1);
+      z-index: 0;
+      margin-right: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    input {
+      font-size: 1rem;
+      text-transform: none;
+      text-align: left;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: $form-height;
+      padding: $baseline*0.5;
+      &::-ms-clear {
+        display: none;
+      }
+      &:focus {
+        height: $form-height;
+        left: 0;
+        outline-offset: 0;
+        padding: $baseline*0.5;
+        z-index: 10;
+      }
+    }
+    input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0px 1000px $white inset;
+    }
+    .fas.fa-search.search-icon-position {
+      @include box-sizing(border-box);
+      border: none;
+      padding: 0;
+      font-size: ms(2);
+      line-height: $icon;
+      color: $white;
+      text-align: center !important;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background: $brand;
+      z-index: 100;
+      height: $form-height;
+      width: $form-height;
+      &:hover {
+        cursor: pointer;
+        color: $white;
+        background: $brand-hover-darken;
+      }
+    }
+    & .no-search-button {
+      label, input {
+        width: calc(100%);
+      }
+    }
+  }
+}

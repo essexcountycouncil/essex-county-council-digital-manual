@@ -1,0 +1,40 @@
+.header-background {
+  background-color: $brand;
+  border-bottom: $border-thin solid $brand4;
+  height: auto;
+  position: relative;
+  z-index: 20;
+  @media print {
+    background-color: $white;
+    height: auto;
+    @include box-shadow(none);
+  }
+  .header {
+    @extend %site-width-container;
+    @extend %contain-floats;
+    @media print {
+      margin: 0;
+    }
+    .nav {
+    @extend %grid-row;
+      .logo-wrap {
+        height: $form-height*0.75;
+        @include grid-column(1 / 2);
+        a.logo-text {
+          @media print {
+            color: $black;
+            font-size: $small;
+          }
+        }
+      }
+      span {
+        @include small;
+        font-size: 0.5em;
+        color: $white;
+        @media print {
+          color: $black;
+        }
+      }
+    }
+  }
+}

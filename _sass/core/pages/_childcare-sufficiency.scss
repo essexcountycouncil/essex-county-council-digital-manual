@@ -1,0 +1,28 @@
+#childcare-sufficiency {
+	.form {
+		.group.type-checkbox {
+			.provider, .map-category {
+				display: inline-block;
+				margin-right: $gutter;
+				margin-bottom: $baseline*0.5;
+			}
+			input[type="checkbox"] {
+				height: 1em;
+				display: inline-block;
+				margin: 0;
+				width: auto;
+			}
+			span {
+				height: 1em;
+			}
+		}
+	}
+	.icon-map {
+		float: left;
+		img {
+			margin-bottom: 0;
+			padding: $baseline*0.125 0;
+			width: $icon;
+		}
+	}
+}

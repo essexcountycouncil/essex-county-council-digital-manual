@@ -1,0 +1,17 @@
+.hero {
+  background-image: url("/public/images/img/hero.jpg");
+  @media print {
+    background-image: none;
+  }
+  background-repeat:  no-repeat;
+  background-size: cover;
+  background-position-x: 0;
+  background-position-y: 0;
+  width: 100%;
+  &.tree {
+    background-image: url("/public/images/main-hero.jpg");
+  }
+  &.campaign {
+    background-image: url("/public/images/img/impact.jpg");
+  }
+}

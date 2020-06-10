@@ -1,0 +1,34 @@
+// Banner
+.phase-banner-background {
+  background-color: $white;
+  border-bottom: $border-thin $grey-light solid;
+  @media print {
+    display: none;
+  }
+  .phase-banner {
+    @extend %site-width-container;
+    @extend %contain-floats;
+    padding-top: $baseline*0.25;
+    padding-bottom: $baseline*0.25;
+    .phase-content {
+      @extend %grid-row;
+      @include grid-column(1);
+      @include small;
+      margin-top: 0;
+      margin-bottom: 0;
+      @include media(mobile) {
+        @include smaller;
+      }
+      .phase-tag {
+        font-weight: $bold;
+        line-height: 1em;
+        text-transform: uppercase;
+        color: $white;
+        background-color: $brand;
+        display: inline-block;
+        padding: $baseline*0.125 $baseline*0.25;
+        margin-right: $gutter*0.25;
+      }
+    }
+  }
+}

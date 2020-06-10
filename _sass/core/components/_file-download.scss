@@ -1,0 +1,24 @@
+.file-download {
+  a.file-link {
+    display: inline-block;
+    @media print {
+      display: none;
+    }
+    margin-top: $baseline*1.5;
+    margin-bottom: 0;
+    color: $link;
+    cursor: pointer;
+    text-decoration: underline;
+    &:before {
+      @include font-awesome;
+      font-weight: 400;
+      content: "\f15c";
+      margin-right: $gutter*0.25;
+    }
+  }
+  p span {
+    @include small;
+    display: block;
+    margin: $baseline*0.25 0;
+  }
+}

@@ -1,0 +1,96 @@
+.search-background {
+  background-image: url("/public/images/img/hero.jpg");
+  @media print {
+    background-image: none;
+  }
+  background-repeat:  no-repeat;
+  background-size: cover;
+  background-position-x: 0;
+  background-position-y: center;
+  @include media(mobile) {
+    height: auto;
+  }
+  @include media(tablet) {
+    background-position-y: center;
+  }
+  @include media(desktop) {
+    background-position-y: center;
+  }
+  width: 100%;
+  position: relative;
+  .overlay {
+    background: $overlay-brand;
+    @media print {
+      background: none;
+    }
+  }
+  .search-container {
+    @extend %site-width-container;
+    @extend %contain-floats;
+    @include media(mobile) {
+      padding-top: $baseline;
+      padding-bottom: $baseline;
+    }
+    @include media(tablet) {
+      padding-top: $baseline;
+      padding-bottom: $baseline;
+    }
+    @include media(desktop) {
+      padding-top: $baseline*3;
+      padding-bottom: $baseline*3;
+    }
+    @media print {
+      padding-top: $baseline;
+      padding-bottom: $baseline;
+    }
+    .greeting, .search-input {
+      @extend %grid-row;
+      @include border-radius($border-radius);
+      position: relative;;
+    }
+    .greeting {
+      @include grid-column(1);
+      @include media(mobile) {
+        margin-top: 0;
+      }
+      h1 {
+        @include box-sizing(border-box);
+        padding: $baseline*0.5;
+        display: inline-block;
+        background: $white;
+        margin-top: 0;
+        margin-bottom: $border-thick;
+        @include media(mobile){
+          width: 100%;
+        }
+        @media print {
+          padding: 0;
+        }
+      }
+    }
+    .form {
+      @include grid-column(1 / 2);
+      margin-bottom: 0;
+      @include media(mobile) {
+        width: 100%;
+      }
+      .group.search {
+        margin-bottom: 0;
+        input, label {
+          border: none;
+          margin-bottom: 0;
+        }     
+        .fa-search.search-icon-position  {
+          background: $white;
+          color: $search;
+            &:hover {
+            color: $search-hover;
+          }
+        }
+      }
+    }
+    + main#content .h3 {
+      font-weight: $light;
+    }
+  }
+}

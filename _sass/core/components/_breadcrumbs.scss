@@ -1,0 +1,59 @@
+.breadcrumbs {
+  @extend %site-width-container;
+  @media print {
+    display: none;
+  }
+  margin-top: 0;
+  margin-bottom: 0;
+  @include media(mobile) {
+    margin-left: -$gutter*0.5;
+    margin-right: -$gutter*0.5;
+  }
+  ol {
+    @extend %grid-row;
+    margin-top: $baseline*0.5;
+    margin-bottom: $baseline*0.5;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  li {
+    @include small;
+    list-style: none;
+    margin-right: 0.6em;
+    padding-left: 0.9em;
+    margin-bottom: 0;
+    float: left;
+    background-image: file-url("/icon/separator.png");
+    @include device-pixel-ratio() {
+      background-image: file-url("icon/separator-2x.png");
+      background-size: 6px 11px;
+    }
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    @include media (mobile) {
+      @include smaller;
+      margin-bottom: $baseline*0.5;
+    }
+    &:first-child {
+      background-image: none;
+      margin-left: 0;
+      padding-left: 0;
+    }
+    &:last-child {
+      a {
+        color: $black;
+        text-decoration: none;
+        pointer-events: none;
+        cursor: default;
+        &:hover {
+          cursor: default;
+        }
+      } 
+    }
+  }
+  a {
+    color: $text-colour;
+  }
+}

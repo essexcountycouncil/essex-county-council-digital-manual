@@ -1,0 +1,89 @@
+﻿
+//Custom Function for data formatting
+//This function will be provided in web part in custom javascript code
+function customFormatFieldValue(fieldDef, fieldValue, loc) {
+    var customFormattedValue = fieldValue;
+
+    if (fieldValue != null && fieldValue.length > 0) {
+
+        switch (fieldDef) {
+            case 'DateLastUpdated':
+                d = new Date(fieldValue);
+                //check correct date format
+                if (isNaN(d))
+                    return fieldValue;
+
+                //Correct date, so format it and return
+                customFormattedValue = jQuery.datepicker.formatDate('dd-MM-yy', new Date(fieldValue));
+                //customFormattedValue = (new Date(fieldValue.substr(0, 4), fieldValue.substr(5, 2), fieldValue.substr(8, 2))).toDateString();
+                break;
+
+            case 'DailySessionTimes':
+                var sessionTimes = fieldValue.split(',');
+                if (sessionTimes.length > 0) {
+                    var markup = '<table cellspacing="0" cellpadding="0" style="border: none;">';
+                    var weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+                    for (w = 0; w < weekDays.length; w++) {
+                        //Every day of the week
+
+                        var currentDay = weekDays[w];
+                        var currentDaySessionTimes = '';
+                        for (i = 0; i < sessionTimes.length; i++) {
+                            var currentDayIndex = sessionTimes[i].indexOf(currentDay);
+                            if (currentDayIndex > -1) {
+                                if (currentDaySessionTimes == '') {
+                                    currentDaySessionTimes += sessionTimes[i].slice(currentDayIndex + currentDay.length).trim();
+                                }
+                                else {
+                                    currentDaySessionTimes += ' ' + sessionTimes[i].slice(currentDayIndex + currentDay.length).trim();
+                                }
+                            }
+                        }
+                        if (currentDaySessionTimes != '') {
+                            markup += '<tr><td style="padding-right: 10px">' + currentDay + ':</td><td> ' + currentDaySessionTimes + '</td></tr>';
+                        }
+                    }
+                    markup += '</table>';
+                }
+                customFormattedValue = markup;
+                //Generate a 
+                break;
+        }
+
+
+    }
+    else {
+        customFormattedValue = 'Data not available';
+    }
+
+    return customFormattedValue;
+}
+
+
+function runEffect(target) {
+    //alert(target);
+    //alert('runEffect');
+    // get effect type from 
+    var selectedEffect = "transfer";
+
+    // most effect types need no options passed by default
+    var options = {};
+    // some effects have required parameters
+    if (selectedEffect === "scale") {
+        options = { percent: 0 };
+    } else if (selectedEffect === "transfer") {
+        options = { to: "#map-shortlistpanel", className: "ui-effects-transfer" };
+    } else if (selectedEffect === "size") {
+        options = { to: { width: 200, height: 60} };
+    }
+
+    // run the effect
+    jQuery(target).effect(selectedEffect, options, 500, callback);
+}
+// callback function to bring a hidden box back
+function callback() {
+    setTimeout(function () {
+        jQuery(target).removeAttr("style").hide().fadeIn();
+    }, 1000);
+}

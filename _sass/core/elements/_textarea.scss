@@ -1,0 +1,17 @@
+textarea {
+  font-family: $stack;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: $normal;
+  font-size: ms(0);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  min-height: $baseline*10;
+  margin-bottom: $baseline;
+  padding: $baseline*0.5 $gutter*0.25;
+  resize: vertical;
+  border: $border-normal solid $text-colour;
+  -webkit-appearance: none;
+  width: 50%;
+}

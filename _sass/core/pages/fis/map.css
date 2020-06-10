@@ -1,0 +1,519 @@
+
+#lower
+{
+	width: 100%;
+}
+
+#map-container h3
+{
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+#map-container p
+{
+	margin-top: 10px;
+}
+
+.map-infoview
+{
+	font-size: 8pt;
+	margin-top: 8px;
+}
+
+.map-table table, .map-table th, .map-table td
+{ 
+	border: 1px solid #cccccc; 
+	margin: 6px;
+	font-size: 8pt;
+}
+
+.map-table td
+{
+	padding: 2px;
+	margin-top: 8px;
+}
+
+.map-table td.map-emphasis
+{
+	font-weight: bold;
+}
+
+
+/*** page structure : begin ***/
+
+#map-container, #map-shortlistpanel
+{
+	margin-top: 10px;
+	
+}
+
+
+#map-rhcol
+{
+/*	outline: dotted 1px red;*/
+	float: left;
+	width: 100%;
+/*	margin: 10px 10px 10px 5px;*/
+}
+
+#map-rhcontent ,#map-rhcontent1
+{ 
+	margin-left: 245px; 
+	padding-right: 10px;
+}
+
+#map-lhcol
+{
+	float: left;
+	width: 245px;
+	margin-left: -100%;
+/*	margin: 10px 5px 10px 10px;*/
+}
+
+
+
+
+#map-rhcol1
+{
+/*	outline: dotted 1px red;*/
+	float: left;
+	width: 100%;
+/*	margin: 10px 10px 10px 5px;*/
+}
+
+
+
+#map-lhcol1
+{
+	float: left;
+	width: 245px;
+	margin-left: -100%;
+/*	margin: 10px 5px 10px 10px;*/
+}
+
+
+
+/*** page structure : end ***/
+
+
+
+/*** panel structure : begin ***/
+
+#map-controlpanel, #map-controlpanel1
+{
+/*	outline: 1px dashed brown;*/
+	margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+	margin-top: 2px;
+	margin-left: -12px;
+	padding: 4px 4px 4px 4px;
+	border: 1px #999 solid;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	background-color: #ecf6fb;
+	overflow: auto;
+}
+
+#map-searchpanel > div
+{
+	overflow: hidden;
+}
+
+#map-filterpanel
+{
+	overflow: auto;
+}
+
+
+#map-mappanel
+{
+	width: 100%;
+	height: 600px;
+	border: 1px solid gray;
+	margin-top:2px;
+	margin-left:8px;
+}
+
+#map-controls
+{
+	width: 100%;
+	/*border: 1px solid #999;*/
+	margin-top:2px;
+	margin-left:8px;
+}
+
+#map-directionsPanel
+{
+}
+
+
+#map-accordion
+{
+	overflow: auto;
+	margin: 20px 0px 20px 0px;
+}
+
+#map-report
+{
+	margin-top:2px;
+	overflow: auto;
+}
+
+
+
+#map-resultspanel
+{
+	margin: 20px 0px 20px 0px;
+}
+
+
+/*** panel structure : end ***/
+
+#map-controlpanel fieldset
+{
+	border: 1px #d0d0d0 solid;
+	border-radius: 4px;
+	padding: 0px 4px 8px 4px;
+	margin: 0px 0px 10px 0px;
+}
+
+#map-controlpanel legend
+{
+	padding: 4px 0px 4px 8px;
+}
+
+#map-controlpanel input[type='text'], #map-controlpanel input[type='radio'], #map-controlpanel input[type='button'],
+#map-controlpanel select, #map-controlpanel textarea
+{
+	margin-bottom: 10px;
+}
+
+#map-controlpanel input[type='checkbox']
+{
+	margin-right: 6px;
+}
+
+#map-controlpanel input[type='button']
+{
+	margin-top: 10px;
+}
+
+#map-controlpanel .fld_nrw
+{
+	width: 100px;
+}
+
+#map-controlpanel .fld_std
+{
+	width: 170px;
+}
+
+
+#map-catlist ul li
+{
+	line-height: 1.5;
+	margin-bottom: 10px;
+	clear: both;	
+	overflow: hidden;
+}
+
+#map-catlist ul
+{
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+#map-catlist img
+{
+/*	float: right;*/
+	vertical-align: top;
+	margin-top: 2px;
+	margin-right: 4px;
+}
+
+#map-catlist label
+{
+	float: left;
+	width: 135px;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+
+#map-radiuspanel input[type='text']
+{
+	background-color:  #e8ecfc;
+	margin: 0;
+	border: 0; 
+	display: inline;
+	width: 120px;
+}
+
+#map-infoPanel 
+{
+	float: left;
+	margin-left: 10px;
+}
+
+#map-infoPanel div 
+{
+	margin-bottom: 5px;
+}
+
+
+
+
+/* Used for the ajax "loading" icon during ajax calls */
+#map-map-spinner {
+	position: relative;
+	top: 50%;
+	left: 48%;
+	z-index: 10;
+}
+
+#map-dlg-email-msg
+{
+	padding: 0px 8px 0px 8px;
+	margin-bottom: 8px;
+
+	border: 1px #d0d0d0 solid;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+
+	background-color: #FBFFE0;
+	color: #CB6676;
+}
+
+
+
+/*** shortlist : begin ***/
+
+#map-shortlistpanel input
+{
+	margin: 4px 0px;
+}
+
+#map-container .map-report h1 
+{
+	color: #ffffff;
+	background-color: #424242;
+	font-size: 14pt;
+	font-weight: bold;
+	padding: 8px 8px 8px 8px;
+	text-transform: none;
+	font-variant: normal;
+	border-bottom: 1px solid #FFF;
+}
+
+#map-container .map-report h2 
+{ 
+	color: #d0d0d0;
+	background-color: #424242;
+	font-size: 14pt; 
+	padding: 8px 8px 8px 8px;
+}
+
+#map-container .map-report h3 
+{ 
+	font-size: 14pt; 
+	padding: 8px 8px 8px 8px;
+}
+
+.map-reportitem
+{
+	overflow: auto;
+	background-color: #ffffff;
+	padding: 8px 8px 8px 8px;
+}
+
+.map-reportitem dl
+{
+	float: left;
+	width: 520px;
+	margin: 1em 0;
+	padding: 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.map-reportitem dt
+{
+	clear: left;
+	float: left;
+	width: 200px;
+	margin: 0;
+	padding: 5px;
+	border-top: 1px solid #ddd;
+	font-weight: bold;
+}
+
+.map-reportitem dd
+{
+	float: left;
+	width: 300px;
+	margin: 0;
+	padding: 5px;
+	border-top: 1px solid #ddd;
+}
+
+
+#map-container .map-shortlist-highlight
+{
+	background-color: #FFE990;
+	background-image: none;
+}
+
+.map-report-transfer-effect { border: 2px dotted #d11345; } 
+
+/*** shortlist : end ***/
+
+
+/*** location list : begin; ***/
+
+table.dataTable
+{
+	background-color: #E2E4FF;
+}
+
+table.dataTable tr
+{
+	border: 1px solid white;
+}
+
+table.dataTable thead input
+{
+	vertical-align: bottom;
+}
+
+table.dataTable tbody td
+{
+	padding: 4px 4px 4px 4px;
+}
+table.dataTable tbody td.rowdetail
+{
+	padding: 0;
+	margin: 0;
+}
+
+table.dataTable tr.map-expanded
+{
+	background-color: #D7DAF3;
+	border: 1px solid white;
+	font-weight: bold;
+}
+
+.map-locationdetail
+{
+	overflow: auto;
+	background-color: #D7DAF3;
+}
+
+
+.map-locationdetail dl
+{
+	float: left;
+	width: 520px;
+	margin: 1em 0;
+	padding: 0;
+	border-bottom: 1px solid #aaa;
+}
+
+.map-locationdetail dt
+{
+	clear: left;
+	float: left;
+	width: 200px;
+	margin: 0;
+	padding: 5px;
+	border-top: 1px solid #aaa;
+	font-weight: bold;
+}
+
+.map-locationdetail dd
+{
+	float: left;
+	width: 300px;
+	margin: 0;
+	padding: 5px;
+	border-top: 1px solid #aaa;
+}
+
+/*** location list : begin; ***/
+
+
+/*** forms : begin ***/
+
+.map-formblock fieldset
+{
+	border: 1px #d0d0d0 solid;
+	border-radius: 4px;
+	padding: 1em 1em 1em 1em;
+}
+
+.map-formblock h2
+{
+	font-size: 10pt;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.map-formblock legend
+{
+	padding: 1.5em 0em 1.5em 0em;
+}
+
+.map-formblock label
+{
+	display: block;
+	float: left;
+}
+
+.map-formblock input, .map-formblock select, .map-formblock textarea
+{
+	display: block;
+	margin-left: 100px;
+	margin-bottom: 10px;
+}
+
+.map-formblock input[type='button']
+{
+	float: right;
+	margin-top: 10px;
+}
+
+.map-formblock .fld_nrw
+{
+	width: 100px;
+}
+
+.map-formblock .fld_std
+{
+	width: 200px;
+}
+
+.map-formblock .fld_wide
+{
+	width: 300px;
+}
+
+.map-formblock p
+{
+	margin-bottom: 10px;
+}
+
+.map-formblock ul li
+{
+	/*line-height: 1.5;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.map-formblock ul
+{
+	list-style-position: inside;
+	list-style-type: square;
+}
+
+/*** forms : end ***/
+

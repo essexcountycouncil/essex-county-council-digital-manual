@@ -1,0 +1,13 @@
+select {
+  font-family: $stack;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: $normal;
+  font-size: $small;
+  height: $baseline*1.5;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: $full-width;
+  padding: $baseline*0.25;
+  border: $border-normal solid $grey-dark;
+}

@@ -1,0 +1,13 @@
+@import "reset";
+@import "fonts";
+@import "variables";
+@import "mixin";
+@import "modularscale/import";
+@import "base";
+@import "gds/import";
+
+@import "app/assets/sass/core/layout/import";
+@import "app/assets/sass/core/identity/import";
+@import "app/assets/sass/core/elements/import";
+@import "app/assets/sass/core/components/import";
+@import "app/assets/sass/core/pages/import";

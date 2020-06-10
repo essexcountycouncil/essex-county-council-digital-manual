@@ -1,0 +1,25 @@
+#schools-closure {
+  ul.search-results {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+    li {
+      padding-left: 0;
+    }
+  }
+  ul.data {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+    li {
+      padding-left: 0;
+      margin-bottom: $baseline*0.25;
+      span {
+        float: left;
+        width: 100%;
+        margin-right: $gutter*0.125;
+        font-weight: $bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+html[data-useragent*='MSIE 8.0'] .iebanner,
+html[data-useragent*='MSIE 9.0'] .iebanner,
+html[data-useragent*='MSIE 10.0'] .iebanner{
+     color:#FFF;
+     text-align:center;
+     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+     padding:15px 0;
+     background: #00a1f1   none;
+     margin:15px 0;
+     display: block !important;
+ }
+.iebanner a{
+    color:#FFF;
+    text-decoration:underline;
+}
+.view_users .filter_wrapper .dataTables_filter label:before {
+    top: 4.2em;
+}

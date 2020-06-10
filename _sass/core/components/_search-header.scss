@@ -1,0 +1,70 @@
+.header {
+  position: relative;
+  .form {
+    margin-bottom: 0;
+    @include grid-column(1 / 2);
+    @include media(mobile) {
+      float: left;
+      width: 100%;
+      margin-bottom: $baseline*0.5;
+    }
+    .group.search {
+      @media print {
+        display: none;
+      }
+      position: relative;
+      float: right;
+      height: $form-height*0.75;
+      width: $gutter*8;
+      margin-top: $baseline*0.5;
+      margin-bottom: $baseline*0.5;
+      @include media(mobile) {
+        float: left;
+        width: 100%;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: $form-height*0.75;
+      }
+      input {
+        margin-top: 0;
+        margin-bottom: 0;
+        border-color: $white;
+        height: $form-height*0.75;
+        padding: $baseline*0.25;
+        &:focus {
+          padding: $baseline*0.25;
+        }
+      }
+      label {
+        @include box-sizing(border-box);
+        color: $white;
+        font-size: ms(0);
+        padding: $baseline*0.25;
+        line-height: $baseline;
+        height: $form-height*0.75;
+        position: absolute;
+        left: 0;
+        width: calc(100% - #{$form-height*0.75} - #{$border-thick});
+        border: none;
+        input {
+          width: 100%;
+        }
+      }      
+      .fas.fa-search.search-icon-position {
+        padding: $baseline*0.25;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        background: $white;
+        font-size: ms(1);
+        color: $brand;
+        height: $form-height*0.75;
+        width: $form-height*0.75;
+        @include media(mobile) {
+          @include box-sizing(border-box);
+        }
+      }
+    }
+  }
+}

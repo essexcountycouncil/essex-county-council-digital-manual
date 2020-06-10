@@ -1,0 +1,142 @@
+// font stack
+$stack: 'Open Sans', sans-serif;
+$stack-logo: 'Roboto', sans-serif;
+
+// grid measreuments
+$gutter: 30px;
+$site-width: 1020px;
+$outer-grid-margin: $gutter;
+
+$full-width: 100%;
+$one-quarter: $full-width / 4;
+$one-third: $full-width / 3;
+$half: $full-width / 2;
+$two-thirds: ($full-width) - ($one-third);
+$three-quarters: ($full-width) - ($one-quarter);
+
+// gutter dimensions
+$gutter-one-quarter: $gutter / 4;
+$gutter-one-third: $gutter / 3;
+$gutter-half: $gutter / 2;
+$gutter-two-thirds: $gutter - $gutter-one-third;
+
+$body: 1.6rem;
+$line-height: 1.625em;
+$baseline: 1.625rem;
+
+// rough sizes for p tag
+// modularscale.com
+$smaller: 0.79rem; // -2
+$small: 0.889rem; // -1
+$medium: 1.125rem; // 1
+$large: 1.266rem; // 2
+$larger: 1.424rem; // 3
+
+$light: 300;
+$normal: 400;
+$regular: $normal;
+$semi: 600;
+$bold: 700;
+
+// icon
+$icon: 1rem;
+$icon-width: $gutter*0.5;
+
+// button
+$button-height: $baseline*2;
+$form-height: $baseline*2;
+$form-padding: $gutter*0.25; //15px
+
+// brand colors
+// $brand: #e40037; // AAA fail. http://accessible-colors.com/ recommend #B4002C 
+$brand: #682558; // AAA complient
+$brand2: #d5ebf0; // ice blue
+$brand3: #213348; // used for footer top
+$brand4: #051a31; // used for footer bottom
+
+// greyscale
+$grey-lighter: #f5f5f5;
+$grey-light: #dee0e2;
+$grey: #808080;
+$grey-dark: #444444;
+$grey-darker: #111111;
+
+// This black is a very dark purple based on our brand colour. 
+// We also use this for our text-colour
+$black: #040103; // 
+$very-black: #000;
+
+// text colour
+$text-colour: $black; // Text that isn't in the main body
+$body-text-colour: #1a191a; // Only main body text
+$white: #fff;
+
+// link colour
+$link: #0043af; // AAA complient
+$hover: #2179CA; // AA complient
+$focus: #2179CA; // AA complient
+$visited: #86276e; // AAA complient
+$active: $hover;
+
+// hover colors
+$brand-hover-darken: #4b1b40;
+$button-hover-darken: #00692f;
+$white-hover: #e8e8e8;
+
+// focus colour
+$focus-colour: #fab500;
+
+// overlay
+$overlay: rgba(255,255,255,0.2);
+$overlay-heavy: rgba(255,255,255,0.8);
+$overlay-brand: rgba(0,22,150,0.17);
+
+// element color
+$button: #00823b; // green taken from gov.uk
+$button-search-box: $grey-dark;
+$button-search-box-hover: #151515;
+$white-on-black-hover: #d9d9d9;
+$search: $black;
+$search-hover: $grey-dark;
+$linkbox: #0072C6; // Linking to external sites
+
+$error: #b10e1e;
+$warning: $focus-colour;
+$info: $grey;
+
+$highlight-box: $link;
+$highlight-box-light: #dbf0ff;
+$subscribe: $brand;
+$alert: $brand;
+
+
+// border width
+$border-thin: 1px;
+$border-normal: 2px;
+$border-thick: 3px;
+$border-thicker: 5px;
+$border-very-thick: $border-thick*4;
+
+// border colour
+$border-thin-colour: $grey-light;
+
+// padding
+$padding-thin: $baseline*0.5;
+$padding-thinner: $baseline*0.25;
+
+// border radius
+$border-radius: 3px;
+
+// logo dimensions
+$logo-width: 300px;
+$logo-height: 40px;
+$logo-height: 1.602em;
+
+$logo-b-width: 225px;
+$logo-b-height: 30px;
+
+$seax-width: 36px;
+$seax-height: 30px;
+
+// header dimensions, based on logo
+$nav-height: $logo-height*2.5;

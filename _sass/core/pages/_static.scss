@@ -1,0 +1,8 @@
+.static {
+	.alert {
+		@include media(mobile) {
+			margin-left: -$gutter*0.5;
+			margin-right: -$gutter*0.5;
+		}
+	}
+}

@@ -1,0 +1,2110 @@
+[data-page=test] .table>tbody>tr>td,
+[data-page=test] .table>tbody>tr>th,
+[data-page=test] .table>tfoot>tr>td,
+[data-page=test] .table>tfoot>tr>th,
+[data-page=test] .table>thead>tr>td,
+[data-page=test] .table>thead>tr>th {
+    padding: 6px 3px
+}
+
+[data-page=test] .flexBox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 1em 3vw 0 1vw
+}
+
+[data-page=test] .flexContent {
+    flex: 1;
+    overflow: auto;
+    height: calc(100vh - 419px)
+}
+
+@media (min-width:768px) {
+    [data-page=test] .flexBox {
+        position: fixed;
+        min-width: calc(33vw - 80px)
+    }
+
+    [data-page=test] #currentTestName {
+        width: calc(58.3vw - 344px)
+    }
+
+    [data-page=test] .previousbutton+#testCancelBtn+#testNextBtn+#currentTestName {
+        width: calc(58.3vw - 444px)
+    }
+}
+
+.saveDisabled #testSaveBtn,
+.saveDisabled .test-play {
+    pointer-events: none;
+    opacity: .5
+}
+
+.testListTestName {
+    background: 0 0;
+    border: none;
+    border-bottom: 1px dashed #03C;
+    font-size: 16px;
+    padding: 0
+}
+
+.testListTestName.disabled {
+    border: none
+}
+
+.hiddenSubmitBtn {
+    display: none
+}
+
+#testSaveBtn {
+    margin: 0;
+    background-color: #428BCA;
+    color: #fff
+}
+
+#testNextBtn {
+    margin-left: 1em
+}
+
+#testCancelBtn {
+    margin-right: 0
+}
+
+body._AF,
+div._AF {
+    position: relative
+}
+
+body._AF,
+div._AF,
+html._AF {
+    font-weight: 400;
+    font-style: normal;
+    cursor: default;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    background: #fff;
+    font-family: Arial, 'Open Sans', sans-serif
+}
+
+body._AF a,
+body._AF div,
+body._AF h1,
+body._AF h2,
+body._AF h3,
+body._AF h4,
+body._AF h5,
+body._AF p,
+body._AF span:not(.fa),
+div._AF a,
+div._AF div,
+div._AF h1,
+div._AF h2,
+div._AF h3,
+div._AF h4,
+div._AF h5,
+div._AF p,
+div._AF span:not(.fa),
+html._AF a,
+html._AF div,
+html._AF h1,
+html._AF h2,
+html._AF h3,
+html._AF h4,
+html._AF h5,
+html._AF p,
+html._AF span:not(.fa) {
+    font-family: Arial, 'Open Sans', sans-serif
+}
+
+body._AF article,
+body._AF footer,
+body._AF form,
+body._AF header,
+body._AF input,
+body._AF label,
+body._AF nav,
+body._AF section,
+body._AF select,
+body._AF textarea,
+div._AF article,
+div._AF footer,
+div._AF form,
+div._AF header,
+div._AF input,
+div._AF label,
+div._AF nav,
+div._AF section,
+div._AF select,
+div._AF textarea,
+html._AF article,
+html._AF footer,
+html._AF form,
+html._AF header,
+html._AF input,
+html._AF label,
+html._AF nav,
+html._AF section,
+html._AF select,
+html._AF textarea {
+    font-family: Arial, 'Open Sans', sans-serif
+}
+
+body._AF h1,
+div._AF h1,
+html._AF h1 {
+    font-size: 2em
+}
+
+body._AF h2,
+div._AF h2,
+html._AF h2 {
+    font-size: 1.75em
+}
+
+body._AF h3,
+div._AF h3,
+html._AF h3 {
+    font-size: 1.5em
+}
+
+body._AF h4,
+div._AF h4,
+html._AF h4 {
+    font-size: 1.25em
+}
+
+body._AF h5,
+div._AF h5,
+html._AF h5 {
+    font-size: 1.125em
+}
+
+body._AF h6,
+div._AF h6,
+html._AF h6 {
+    font-size: 1em
+}
+
+@media only print,
+only screen and (max-width:767px) {
+
+    body._AF,
+    div._AF,
+    html._AF {
+        font-size: 95%
+    }
+
+    body._AF h1,
+    div._AF h1,
+    html._AF h1 {
+        font-size: 1.75em
+    }
+
+    body._AF h2,
+    div._AF h2,
+    html._AF h2 {
+        font-size: 1.5em
+    }
+
+    body._AF h3,
+    div._AF h3,
+    html._AF h3 {
+        font-size: 1.25em
+    }
+
+    body._AF h4,
+    div._AF h4,
+    html._AF h4 {
+        font-size: 1.125em
+    }
+
+    body._AF h5,
+    body._AF h6,
+    div._AF h5,
+    div._AF h6,
+    html._AF h5,
+    html._AF h6 {
+        font-size: 1em
+    }
+}
+
+.achieveforms-container {
+    border: 1px solid #ccc
+}
+
+.achieveforms-container .achieveforms-container {
+    border: 0;
+    padding: 0
+}
+
+.render-subform-modal .achieveforms-container {
+    border: none !important
+}
+
+.lookup-modal table {
+    margin-bottom: 0
+}
+
+.lookup-modal table input[type=radio] {
+    margin: 0 !important
+}
+
+.lookup-modal table thead tr th {
+    border-bottom: solid 1px #ccc
+}
+
+.lookup-modal table tbody tr td {
+    border-top: none
+}
+
+.lookup-modal .modal-footer {
+    margin-top: 0
+}
+
+.achieveforms-container .form-actions.dropdown {
+    right: -.9em
+}
+
+.achieveforms-container .form-actions.dropdown .form-actions-dropdown-toggle {
+    color: #03c;
+    background: #fff;
+    padding: 0
+}
+
+.achieveforms-container .form-actions.dropdown .form-actions-dropdown-toggle:hover {
+    color: #090
+}
+
+.achieveforms-container .form-actions.dropdown .form-actions-dropdown-toggle i {
+    font-size: 1.2em;
+    padding-left: .2em
+}
+
+.achieveforms-container .form-actions.dropdown .dropdown-menu {
+    font-size: 13px
+}
+
+.achieveforms-container .form-actions.dropdown .dropdown-menu li a {
+    display: block !important
+}
+
+.achieveforms-container .form-actions.dropdown .dropdown-menu .fa {
+    vertical-align: middle;
+    margin-right: 1em
+}
+
+.achieveforms-container .language-select-wrapper {
+    margin: 1em 0 0;
+    padding: 0
+}
+
+.achieveforms-container .form-error-wrapper {
+    position: absolute;
+    margin-top: .2em
+}
+
+.achieveforms-container .must-be-valid-wrapper {
+    position: absolute;
+    top: -1.5em;
+    left: 0;
+    padding: 0;
+    font-size: 13px
+}
+
+.achieveforms-container .form-settings-nav {
+    list-style: none;
+    font-size: 11px;
+    position: absolute;
+    top: .5em;
+    right: .8em;
+    z-index: 4
+}
+
+.achieveforms-container .form-settings-nav .dropdown-form-actions-toggle {
+    color: #03c
+}
+
+.achieveforms-container .form-settings-nav .dropdown-form-actions-toggle i {
+    padding-right: .3em
+}
+
+.achieveforms-container .form-settings-nav .dropdown-form-actions.open .dropdown-menu {
+    left: auto;
+    right: 0
+}
+
+.achieveforms-container .form-settings-nav .dropdown-form-actions.open .dropdown-menu li {
+    font-size: 11px
+}
+
+.achieveforms-container .form-settings-nav .dropdown-form-actions.open .dropdown-menu li i {
+    color: #03c;
+    margin-right: 2em
+}
+
+.achieveforms-container .form-settings-nav .dropdown-form-actions.open .dropdown-menu li:last-child i {
+    color: #b0171f
+}
+
+.achieveforms-container header.formHeader,
+.achieveforms-container header.processHeader {
+    z-index: 1;
+    padding: 0 1em
+}
+
+.achieveforms-container header.formHeader.design .formDescription,
+.achieveforms-container header.formHeader.design .processDescription,
+.achieveforms-container header.processHeader.design .formDescription,
+.achieveforms-container header.processHeader.design .processDescription {
+    min-height: 1.55em
+}
+
+.achieveforms-container header.formHeader .formDescription,
+.achieveforms-container header.formHeader .processDescription,
+.achieveforms-container header.processHeader .formDescription,
+.achieveforms-container header.processHeader .processDescription {
+    margin-bottom: .5em
+}
+
+.achieveforms-container header.formHeader .formDescription,
+.achieveforms-container header.formHeader .formName,
+.achieveforms-container header.formHeader .processDescription,
+.achieveforms-container header.formHeader .processName,
+.achieveforms-container header.processHeader .formDescription,
+.achieveforms-container header.processHeader .formName,
+.achieveforms-container header.processHeader .processDescription,
+.achieveforms-container header.processHeader .processName {
+    color: #444
+}
+
+.achieveforms-container header.formHeader .editable-container,
+.achieveforms-container header.formHeader .editable-container .editable-input,
+.achieveforms-container header.formHeader .editable-form,
+.achieveforms-container header.formHeader .editable-form .editable-input,
+.achieveforms-container header.formHeader .form-group,
+.achieveforms-container header.formHeader .form-group .editable-input,
+.achieveforms-container header.processHeader .editable-container,
+.achieveforms-container header.processHeader .editable-container .editable-input,
+.achieveforms-container header.processHeader .editable-form,
+.achieveforms-container header.processHeader .editable-form .editable-input,
+.achieveforms-container header.processHeader .form-group,
+.achieveforms-container header.processHeader .form-group .editable-input {
+    width: 100%
+}
+
+.achieveforms-container .edit-range-field {
+    width: 80px !important;
+    border-bottom-right-radius: 4px !important;
+    border-top-right-radius: 4px !important
+}
+
+.achieveforms-container .sectionsHead {
+    background: #f5fbfe;
+    position: relative;
+    box-shadow: none
+}
+
+.achieveforms-container .sectionsHead .addSection {
+    position: absolute;
+    top: .7em;
+    right: 0;
+    min-height: inherit;
+    font-size: 1.2em;
+    color: #303030;
+    cursor: pointer;
+    z-index: 2
+}
+
+.achieveforms-container .sectionsHead .removeSection {
+    margin: 0;
+    padding: 0;
+    top: .6em;
+    right: .5em;
+    cursor: pointer;
+    position: absolute
+}
+
+.achieveforms-container .sectionsHead .editable-container,
+.achieveforms-container .sectionsHead .editable-form,
+.achieveforms-container .sectionsHead .form-group {
+    width: 100%
+}
+
+.achieveforms-container .sectionsHead .editable-container .editable-input,
+.achieveforms-container .sectionsHead .editable-form .editable-input,
+.achieveforms-container .sectionsHead .form-group .editable-input {
+    width: 90%
+}
+
+.achieveforms-container .sectionsHead .editable-container .editable-input input,
+.achieveforms-container .sectionsHead .editable-form .editable-input input,
+.achieveforms-container .sectionsHead .form-group .editable-input input {
+    margin-bottom: 0
+}
+
+.achieveforms-container .sectionsHead.design .sectionsHeadInner {
+    padding-right: 6%
+}
+
+.achieveforms-container .sectionsHead.design .sectionNameWrapper .sectionNameTab {
+    padding-right: 2em
+}
+
+.achieveforms-container .sectionsHead.design .sectionNameWrapper.ui-state-disabled {
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-opacity: 1;
+    opacity: 1;
+    -ms-filter: alpha(opacity=100);
+    filter: alpha(opacity=100)
+}
+
+.achieveforms-container .sectionsHead.design.isSubform .sectionNameWrapper .sectionNameTab {
+    padding-right: 15px
+}
+
+.achieveforms-container .sectionsHead .sections-toggle-wrapper {
+    min-height: 3em;
+    border-bottom: solid 1px #d0e7f0
+}
+
+.achieveforms-container .sectionsHead .sections-toggle-wrapper .navbar-toggle {
+    width: 2em;
+    z-index: 4;
+    height: 2em;
+    float: right;
+    border: none;
+    margin-right: 0;
+    background-color: transparent
+}
+
+.achieveforms-container .sectionsHead .sections-toggle-wrapper .navbar-toggle:focus {
+    background-color: transparent
+}
+
+.achieveforms-container .sectionsHead .sections-toggle-wrapper .navbar-toggle .icon-bar {
+    background-color: #ccc;
+    width: 1em
+}
+
+.achieveforms-container .sectionsHead .sections-toggle-wrapper .navbar-toggle i {
+    color: #03c
+}
+
+.achieveforms-container .sectionsHead .sections-toggle-wrapper .active-section-name {
+    top: 1em;
+    font-size: 14px;
+    padding-left: .25em;
+    position: relative;
+    color: #03c
+}
+
+.achieveforms-container .sectionsHead .sectionsHeadInner {
+    border-bottom: solid 1px #d0e7f0
+}
+
+.achieveforms-container .sectionsHead .sectionsHeadInner.collapse {
+    visibility: visible
+}
+
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper {
+    cursor: pointer
+}
+
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper .sectionNameTab {
+    color: inherit;
+    word-wrap: break-word;
+    text-decoration: none
+}
+
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active:first-child,
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active:first-child .sectionNameTab,
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active:first-child span.editable-container,
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.isSorting:first-child,
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.isSorting:first-child .sectionNameTab,
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.isSorting:first-child span.editable-container,
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.ui-sortable-helper:first-child,
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.ui-sortable-helper:first-child .sectionNameTab,
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.ui-sortable-helper:first-child span.editable-container,
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.ui-state-highlight:first-child,
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.ui-state-highlight:first-child .sectionNameTab,
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.ui-state-highlight:first-child span.editable-container {
+    border-left: 0;
+    border-top-left-radius: 0
+}
+
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.ui-state-highlight {
+    border-radius: 4px;
+    border-bottom: 0
+}
+
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.isSorting {
+    width: 7em;
+    border-radius: 4px
+}
+
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.sectionHover {
+    color: #090 !important
+}
+
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.valid {
+    color: #090
+}
+
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.invalid {
+    color: #b0171f
+}
+
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active {
+    color: #03c
+}
+
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active .sectionNameTab {
+    border-color: #d0e7f0;
+    border-bottom-color: rgba(0, 0, 0, 0)
+}
+
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active.ui-state-highlight {
+    backround-color: #fff;
+    color: #03c;
+    border: 0
+}
+
+.no-touch .achieveforms-container .sectionsHead .navbar-toggle:hover {
+    background-color: transparent
+}
+
+.no-touch .achieveforms-container .sectionsHead .addSection:hover {
+    color: #03c
+}
+
+.no-touch .achieveforms-container .sectionsHead .removeSection:hover {
+    color: #b0171f
+}
+
+.no-touch .achieveforms-container .sectionsHead .sectionNameWrapper:hover {
+    color: #03c
+}
+
+.achieveforms-container .all-sections {
+    margin-bottom: 1em;
+    margin-top: 1em
+}
+
+.achieveforms-container .all-sections:after,
+.achieveforms-container .all-sections:before {
+    content: " ";
+    display: table
+}
+
+.achieveforms-container .all-sections:after {
+    clear: both
+}
+
+.achieveforms-container .all-sections .hideLabel~.inlineSubform .all-sections {
+    margin-top: 0
+}
+
+.achieveforms-container .all-sections .fields {
+    margin-bottom: 0;
+    padding-left: 1px
+}
+
+.achieveforms-container .all-sections .fields .section-name-hidden {
+    height: 1px;
+    width: 1px;
+    left: -10000px;
+    top: auto;
+    overflow: hidden;
+    position: absolute !important;
+    display: none
+}
+
+.achieveforms-container .all-sections .fields.design .help-img-wrapper {
+    right: 0
+}
+
+.achieveforms-container .all-sections .fields.design .field[data-inline-subform=true] {
+    outline: #aaa dashed 1px;
+    outline-offset: 4px
+}
+
+.achieveforms-container .all-sections .field {
+    position: relative;
+    padding-top: .5em
+}
+
+.achieveforms-container .all-sections .field .html dl,
+.achieveforms-container .all-sections .field .html ol,
+.achieveforms-container .all-sections .field .html ul,
+.achieveforms-container .all-sections .field .staticText dl,
+.achieveforms-container .all-sections .field .staticText ol,
+.achieveforms-container .all-sections .field .staticText ul {
+    padding-left: 1.5em;
+    list-style-position: outside
+}
+
+.achieveforms-container .all-sections .field:after,
+.achieveforms-container .all-sections .field:before {
+    content: " ";
+    display: table
+}
+
+.achieveforms-container .all-sections .field:after {
+    clear: both
+}
+
+.achieveforms-container .all-sections .field .conditionValue,
+.achieveforms-container .all-sections .field .hiddenValue {
+    color: #aaa;
+    font-size: 11px;
+    padding-left: 0
+}
+
+.achieveforms-container .all-sections .field .field-actions {
+    margin: 0;
+    padding: .2em 0 0;
+    top: .6em;
+    right: -3em;
+    height: 2em;
+    position: absolute;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    -webkit-opacity: 0;
+    opacity: 0;
+    -ms-filter: alpha(opacity=0);
+    filter: alpha(opacity=0)
+}
+
+.achieveforms-container .all-sections .field .field-actions .field-action {
+    font-size: 1.2em;
+    margin-left: 1em;
+    cursor: pointer;
+    float: right;
+    height: inherit
+}
+
+.achieveforms-container .all-sections .field .field-actions .field-action:last-child {
+    margin-left: 0
+}
+
+.achieveforms-container .all-sections .field.active .field-actions {
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-opacity: 1;
+    opacity: 1;
+    -ms-filter: alpha(opacity=100);
+    filter: alpha(opacity=100)
+}
+
+.achieveforms-container .all-sections .field.active .field-actions .editField {
+    color: #03c
+}
+
+.achieveforms-container .all-sections .field.outline {
+    border: 1px solid #ccc;
+    border-radius: 4px
+}
+
+.achieveforms-container .all-sections .field[data-field-type=hidden] {
+    padding: 0;
+    height: 0;
+    margin: 0;
+    width: 100%
+}
+
+.achieveforms-container .all-sections .field .fieldContent {
+    position: relative
+}
+
+.achieveforms-container .all-sections .field .fieldContent:after,
+.achieveforms-container .all-sections .field .fieldContent:before {
+    content: " ";
+    display: table
+}
+
+.achieveforms-container .all-sections .field .fieldContent:after {
+    clear: both
+}
+
+.achieveforms-container .all-sections .field .fieldContent .af-block {
+    padding: 0;
+    width: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldName,
+.achieveforms-container .all-sections .field .fieldContent .subform-summary {
+    z-index: 1;
+    font-size: 14px;
+    cursor: pointer;
+    padding-left: 3px;
+    line-height: 30px;
+    color: #444;
+    word-wrap: break-word
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldName .collapsible-btn,
+.achieveforms-container .all-sections .field .fieldContent .subform-summary .collapsible-btn {
+    padding-left: .3em
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldName {
+    min-height: 35px;
+    line-height: 1.6em;
+    font-weight: 400
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldName ._fieldName {
+    margin-bottom: .3em;
+    width: auto
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldName legend._fieldName {
+    font-size: 18px;
+    display: inline-block
+}
+
+.achieveforms-container .all-sections .field .fieldContent input.other-input {
+    margin-left: 10em
+}
+
+.achieveforms-container .all-sections .field .fieldContent input[readonly].other-input {
+    border: 1px solid #ccc !important;
+    padding: 6px 8px !important
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput-wrapper {
+    padding: 0;
+    float: left;
+    max-width: 100%;
+    overflow: visible;
+    margin-bottom: 14px
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput-wrapper button {
+    margin-bottom: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput-wrapper .download-pdf {
+    padding-left: 0;
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+    color: #52a8ec;
+    padding-top: .6em;
+    margin-bottom: .6em;
+    text-decoration: none;
+    vertical-align: middle
+}
+
+.achieveforms-container .all-sections .field .fieldContent .read_only_field {
+    border: none
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode {
+    float: left;
+    margin-top: 0;
+    max-width: 100%;
+    overflow: visible;
+    word-wrap: break-word;
+    min-height: 35px
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput .noUi-base,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode .noUi-base {
+    cursor: pointer
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput .noUi-base .noUi-background,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode .noUi-base .noUi-background {
+    border-radius: 0;
+    box-shadow: none;
+    background: #fff
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput .noUi-base .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode .noUi-base .noUi-background .noUi-handle {
+    cursor: pointer;
+    height: 37px !important;
+    width: 18px !important;
+    left: -4px !important;
+    top: -2px !important
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput .noUi-base .noUi-background .noUi-handle:after,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput .noUi-base .noUi-background .noUi-handle:before,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode .noUi-base .noUi-background .noUi-handle:after,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode .noUi-base .noUi-background .noUi-handle:before {
+    top: 10px
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput .noUi-base .noUi-background .noUi-handle:before,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode .noUi-base .noUi-background .noUi-handle:before {
+    left: 5px
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput .noUi-base .noUi-background .noUi-handle:after,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode .noUi-base .noUi-background .noUi-handle:after {
+    left: 9px
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-connect,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-target,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-connect,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-target {
+    background-color: #f5fbfe;
+    box-shadow: none
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-connect.disabled,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-connect[disabled],
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-target.disabled,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-target[disabled],
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-connect.disabled,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-connect[disabled],
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-target.disabled,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-target[disabled] {
+    background-color: #ddd
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-connect.readonly,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-connect[readonly],
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-target.readonly,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-target[readonly],
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-connect.readonly,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-connect[readonly],
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-target.readonly,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-target[readonly] {
+    border: none;
+    background-color: #fff
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-connect.error,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-target.error,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-connect.error,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-target.error {
+    border-color: #f0cccc;
+    background-color: #b0171f
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-connect.valid,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-target.valid,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-connect.valid,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-target.valid {
+    border-color: #468847;
+    background-color: #090
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-connect.disabled .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-connect.readonly .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-connect[disabled] .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-connect[readonly] .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-target.disabled .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-target.readonly .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-target[disabled] .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.noUi-target[readonly] .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-connect.disabled .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-connect.readonly .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-connect[disabled] .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-connect[readonly] .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-target.disabled .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-target.readonly .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-target[disabled] .noUi-background .noUi-handle,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.noUi-target[readonly] .noUi-background .noUi-handle {
+    top: -1px !important
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.range,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.range {
+    padding-right: 0;
+    padding-left: 0;
+    z-index: 5
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.select[multiple=true],
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.select[multiple=true] {
+    overflow: auto;
+    min-height: 65px
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.content,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.upload,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.content,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.upload {
+    padding: 0;
+    font-size: 14px;
+    margin-bottom: 14px
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.content:after,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.content:before,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.upload:after,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.upload:before,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.content:after,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.content:before,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.upload:after,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.upload:before {
+    content: " ";
+    display: table
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.content:after,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.upload:after,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.content:after,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.upload:after {
+    clear: both
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.hasCurrencyPrefix,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.hasPostfix,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.hasPrefix,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.hasCurrencyPrefix,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.hasPostfix,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.hasPrefix {
+    margin: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.hasCurrencyPrefix[type=range],
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.hasPostfix[type=range],
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.hasPrefix[type=range],
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.hasCurrencyPrefix[type=range],
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.hasPostfix[type=range],
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.hasPrefix[type=range] {
+    margin-bottom: .7em
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.hasCurrencyPrefix,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.hasPrefix,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.hasCurrencyPrefix,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.hasPrefix {
+    border-radius: 0 4px 4px 0 !important;
+    border-left: none;
+    padding-left: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.hasPostfix,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.hasPostfix {
+    border-radius: 4px 0 0 4px !important;
+    border-right: none
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.hasPostfix.hasCurrencyPrefix,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.hasPrefix.hasPostfix,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.hasPostfix.hasCurrencyPrefix,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.hasPrefix.hasPostfix {
+    border-radius: 0 !important
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.view-data,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.view-data {
+    padding-left: 0;
+    font-size: 14px;
+    line-height: 30px
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput .ace-input,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput .map-holder,
+.achieveforms-container .all-sections .field .fieldContent .fieldInput .mce-container,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode .ace-input,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode .map-holder,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode .mce-container {
+    max-width: 100%
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput label.btn,
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode label.btn {
+    color: #444;
+    display: inline-block;
+    border-color: #ccc
+}
+
+.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode {
+    margin: 0 0 1em;
+    padding: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent select.fieldInput.error+input.other-input {
+    border-color: #f0cccc
+}
+
+.achieveforms-container .all-sections .field .fieldContent select.fieldInput.valid+input.other-input {
+    border-color: #468847
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform .all-sections {
+    margin-top: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=checkbox]+label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=radio]+label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory input.error,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory input.error input[type=checkbox]+label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory input.error input[type=radio]+label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory select.error,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory select.error input[type=checkbox]+label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory select.error input[type=radio]+label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory textarea.error,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory textarea.error input[type=checkbox]+label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory textarea.error input[type=radio]+label.btn {
+    border-color: #ccc
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=checkbox].check2+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=checkbox].radio2+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=radio].check2+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=radio].radio2+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory input.error input[type=checkbox].check2+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory input.error input[type=checkbox].radio2+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory input.error input[type=radio].check2+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory input.error input[type=radio].radio2+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory select.error input[type=checkbox].check2+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory select.error input[type=checkbox].radio2+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory select.error input[type=radio].check2+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory select.error input[type=radio].radio2+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory textarea.error input[type=checkbox].check2+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory textarea.error input[type=checkbox].radio2+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory textarea.error input[type=radio].check2+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.inlineSubform.non-mandatory textarea.error input[type=radio].radio2+label:before {
+    color: #666
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput {
+    padding: 0;
+    overflow: visible
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper {
+    margin-right: .5em;
+    margin-bottom: .5em;
+    display: inline-block
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .check2:focus+label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .radio2:focus+label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .check2:focus+label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .radio2:focus+label.btn {
+    border-color: #52a8ec;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 3px 0 8px rgba(102, 175, 233, .6)
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .check2:focus+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .radio2:focus+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .check2:focus+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .radio2:focus+label:before {
+    color: #52a8ec
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .check2[disabled],
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .radio2[disabled],
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .check2[disabled],
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .radio2[disabled] {
+    display: none
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper label,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper label {
+    font-size: 14px;
+    color: #444;
+    display: inline-block
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper label:before {
+    font-size: 18px
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper label.disabled,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper label.disabled {
+    color: #444 !important
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper input,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper input {
+    float: none;
+    margin-left: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .checkbox-wrapper,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .radio-wrapper {
+    display: block;
+    margin-right: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .checkbox-wrapper label,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .radio-wrapper label {
+    width: 90%;
+    word-wrap: break-word
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .checkbox-wrapper label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .radio-wrapper label.btn {
+    width: 100%
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .render-subform {
+    padding: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .render-subform .all-sections {
+    margin-bottom: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error input[type=checkbox]+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error input[type=radio]+label:before {
+    color: #f0bbbb
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error input[type=checkbox]+label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error input[type=radio]+label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error+input.other-input {
+    border-color: #f0cccc
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error input[data-type=date-subfield] {
+    border-color: #f0bbbb
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=checkbox]+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=radio]+label:before {
+    color: #468847
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[data-type=date-subfield],
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=checkbox]+label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=radio]+label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid+input.other-input {
+    border-color: #468847
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput input[type=checkbox]:disabled+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput input[type=radio]:disabled+label:before {
+    color: #ddd
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput input[type=checkbox]:disabled+label.btn,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput input[type=radio]:disabled+label.btn {
+    border-color: #ddd
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.select2-container {
+    padding: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.select2-container.select2-container-multi .select2-choices .select2-search-choice .select2-search-choice-close {
+    top: 4.5px
+}
+
+.achieveforms-container .all-sections .field .fieldContent .upload.fieldInput.error .resumable-drop {
+    border-color: #f0cccc
+}
+
+.achieveforms-container .all-sections .field .fieldContent .upload.fieldInput.valid .resumable-drop {
+    border-color: #468847
+}
+
+.achieveforms-container .all-sections .field .fieldContent textarea.fieldInput {
+    min-height: 5em;
+    transition: height .2s
+}
+
+.achieveforms-container .all-sections .field .fieldContent textarea.fieldInput.lengthCount {
+    border-right: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent span.input-length-count,
+.achieveforms-container .all-sections .field .fieldContent span.textarea-length-count {
+    border-left: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent span.input-length-count.error,
+.achieveforms-container .all-sections .field .fieldContent span.textarea-length-count.error {
+    border-color: #f0cccc
+}
+
+.achieveforms-container .all-sections .field .fieldContent span.input-length-count.valid,
+.achieveforms-container .all-sections .field .fieldContent span.textarea-length-count.valid {
+    border-color: #468847
+}
+
+.achieveforms-container .all-sections .field .fieldContent .postfix-wrapper:not(.textarea-length-count):not(.input-length-count),
+.achieveforms-container .all-sections .field .fieldContent .prefix-wrapper {
+    padding: 0;
+    border: none;
+    margin-top: 0;
+    font-size: 16px;
+    background: inherit
+}
+
+.achieveforms-container .all-sections .field .fieldContent .postfix-wrapper:not(.textarea-length-count):not(.input-length-count) .postfix,
+.achieveforms-container .all-sections .field .fieldContent .postfix-wrapper:not(.textarea-length-count):not(.input-length-count) .prefix,
+.achieveforms-container .all-sections .field .fieldContent .prefix-wrapper .postfix,
+.achieveforms-container .all-sections .field .fieldContent .prefix-wrapper .prefix {
+    height: 35px;
+    padding-top: 2px;
+    background: inherit
+}
+
+.achieveforms-container .all-sections .field .fieldContent .postfix-wrapper:not(.textarea-length-count):not(.input-length-count) .prefix,
+.achieveforms-container .all-sections .field .fieldContent .prefix-wrapper .prefix {
+    padding: 1px 2px 0 6px;
+    border-radius: 4px 0 0 4px
+}
+
+.achieveforms-container .all-sections .field .fieldContent .postfix-wrapper:not(.textarea-length-count):not(.input-length-count) .postfix,
+.achieveforms-container .all-sections .field .fieldContent .prefix-wrapper .postfix {
+    padding: 1px 2px 0 6px;
+    border-radius: 0 4px 4px 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent .postfix-wrapper:not(.textarea-length-count):not(.input-length-count).range,
+.achieveforms-container .all-sections .field .fieldContent .prefix-wrapper.range {
+    float: left
+}
+
+.achieveforms-container .all-sections .field .fieldContent .postfix-wrapper:not(.textarea-length-count):not(.input-length-count) .range-alignAbove-field,
+.achieveforms-container .all-sections .field .fieldContent .prefix-wrapper .range-alignAbove-field {
+    padding: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent .postfix-wrapper:not(.textarea-length-count):not(.input-length-count)+.postfix-wrapper,
+.achieveforms-container .all-sections .field .fieldContent .prefix-wrapper+.postfix-wrapper {
+    margin-left: -3px
+}
+
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper,
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper {
+    vertical-align: top
+}
+
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper .range-prefix,
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper .range-prefix {
+    border-right: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper .range-postfix,
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper .range-postfix {
+    border-left: 0
+}
+
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper .range-postfix,
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper .range-prefix,
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper .range-postfix,
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper .range-prefix {
+    text-align: center;
+    border-color: #ccc
+}
+
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper.valid .range-postfix,
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper.valid .range-prefix,
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper.valid .range-postfix,
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper.valid .range-prefix {
+    border-color: #468847
+}
+
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper.valid .range-postfix.disabled,
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper.valid .range-postfix[disabled],
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper.valid .range-prefix.disabled,
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper.valid .range-prefix[disabled],
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper.valid .range-postfix.disabled,
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper.valid .range-postfix[disabled],
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper.valid .range-prefix.disabled,
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper.valid .range-prefix[disabled] {
+    background: #ddd;
+    border-color: #ccc
+}
+
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper.error .range-postfix,
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper.error .range-prefix,
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper.error .range-postfix,
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper.error .range-prefix {
+    border-color: #f0cccc
+}
+
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper.error .range-postfix.disabled,
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper.error .range-postfix[disabled],
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper.error .range-prefix.disabled,
+.achieveforms-container .all-sections .field .fieldContent .range-postfix-wrapper.error .range-prefix[disabled],
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper.error .range-postfix.disabled,
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper.error .range-postfix[disabled],
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper.error .range-prefix.disabled,
+.achieveforms-container .all-sections .field .fieldContent .range-prefix-wrapper.error .range-prefix[disabled] {
+    background: #ddd;
+    border-color: #ccc
+}
+
+.achieveforms-container .all-sections .field .icon-valid {
+    font-size: 1.1em;
+    color: #090;
+    position: absolute;
+    top: .5em;
+    right: 1.5em
+}
+
+.achieveforms-container .all-sections .field .icon-valid.alignAbove {
+    top: 2.9em
+}
+
+.achieveforms-container .all-sections .field .icon-valid:before {
+    content: '\2714'
+}
+
+.achieveforms-container .upload-button {
+    cursor: pointer
+}
+
+.achieveforms-container .upload-button i {
+    padding-right: .3em
+}
+
+.achieveforms-container .field-btn {
+    margin-bottom: 14px
+}
+
+.no-touch .achieveforms-container .field .field-actions .field-action.editField:hover {
+    color: #03c
+}
+
+.no-touch .achieveforms-container .field .field-actions .field-action.removeField:hover {
+    color: #b0171f
+}
+
+.no-touch .achieveforms-container .field fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=checkbox]+label.btn:hover,
+.no-touch .achieveforms-container .field fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=radio]+label.btn:hover,
+.no-touch .achieveforms-container .field label.btn:hover {
+    background-color: #eee
+}
+
+.no-touch .achieveforms-container .field fieldset.fieldInput.error input[type=checkbox]:checked+label.btn:hover,
+.no-touch .achieveforms-container .field fieldset.fieldInput.error input[type=radio]:checked+label.btn:hover {
+    background-color: #090;
+    border-color: #468847
+}
+
+.no-touch .achieveforms-container .field fieldset.fieldInput.error input[type=checkbox]+label.btn:hover,
+.no-touch .achieveforms-container .field fieldset.fieldInput.error input[type=radio]+label.btn:hover {
+    background-color: #f0dddd
+}
+
+.no-touch .achieveforms-container .field fieldset.fieldInput.valid input[type=checkbox]+label.btn:hover,
+.no-touch .achieveforms-container .field fieldset.fieldInput.valid input[type=radio]+label.btn:hover {
+    color: #fff;
+    background-color: #090
+}
+
+.no-touch .achieveforms-container .field:hover .field-actions {
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-opacity: 1;
+    opacity: 1;
+    -ms-filter: alpha(opacity=100);
+    filter: alpha(opacity=100)
+}
+
+.achieveforms-container .submission-message {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    word-wrap: break-word
+}
+
+.achieveforms-container .submission-message p.subform-value {
+    margin-bottom: 0
+}
+
+.achieveforms-container .submission-message .submission-message-btn-wrapper {
+    text-align: center;
+    margin-top: .5em
+}
+
+.achieveforms-container .submission-message .submission-message-btn-wrapper .btn.save {
+    margin-right: 1em
+}
+
+.achieveforms-container .submission-message .submission-message-btn-wrapper .btn.save i {
+    padding-right: .5em
+}
+
+.achieveforms-container .submission-message .submission-message-btn-wrapper .btn.finish i {
+    padding-left: .5em
+}
+
+.achieveforms-container .submission-message img {
+    max-width: 300px;
+    max-height: 300px
+}
+
+.achieveforms-container .resumable-error {
+    display: none;
+    font-size: 12px;
+    font-style: italic
+}
+
+.achieveforms-container .upload-button {
+    font-weight: 400
+}
+
+.achieveforms-container .resumable-drop {
+    z-index: 4;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    color: #aaa;
+    border: 1px dashed #aaa;
+    border-radius: 0 0 .5em .5em;
+    border-top: none !important
+}
+
+.achieveforms-container .resumable-dragover {
+    -moz-opacity: .4;
+    -khtml-opacity: .4;
+    -webkit-opacity: .4;
+    opacity: .4;
+    -ms-filter: alpha(opacity=40);
+    filter: alpha(opacity=40);
+    color: #666;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    border-top: none
+}
+
+.achieveforms-container .resumable-progress {
+    margin: 10px 10px 10px 0;
+    width: 100%;
+    display: none
+}
+
+.achieveforms-container .resumable-list {
+    padding-left: 0;
+    margin-top: .5em
+}
+
+.achieveforms-container .resumable-list i,
+.achieveforms-container .resumable-progress i {
+    color: #090;
+    cursor: pointer;
+    vertical-align: text-top
+}
+
+.achieveforms-container .resumable-progress .progress-pause i {
+    color: #b0171f
+}
+
+.achieveforms-container .resumable-list i.remove-upload {
+    font-size: 1.1em;
+    color: #b0171f;
+    float: right;
+    margin: 4px 0 0;
+    vertical-align: top
+}
+
+.achieveforms-container .resumable-list i.remove-upload:before {
+    content: '\274c'
+}
+
+.achieveforms-container .resumable-list i.resume-upload {
+    font-size: .9em
+}
+
+.achieveforms-container .progress-control {
+    margin: 0 1em;
+    display: inline-block
+}
+
+.achieveforms-container .progress-container {
+    height: 7px;
+    background: #9cbd94;
+    position: relative
+}
+
+.achieveforms-container .progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #090;
+    width: 0
+}
+
+.achieveforms-container .progress-text {
+    font-size: 12px;
+    line-height: 9px;
+    padding-left: 10px
+}
+
+.achieveforms-container .progress-pause-wrapper {
+    padding: 0 0 0 7px
+}
+
+.achieveforms-container .progress-pause,
+.achieveforms-container .progress-resume {
+    display: inline-block
+}
+
+.achieveforms-container .progress-pause {
+    display: none
+}
+
+.achieveforms-container .resumable-list {
+    overflow: auto;
+    display: none;
+    list-style: none;
+    max-height: 10em
+}
+
+.achieveforms-container .resumable-file {
+    min-height: 2em;
+    overflow: hidden
+}
+
+.achieveforms-container .resumable-file .success {
+    color: #9cbd94
+}
+
+.achieveforms-container .resumable-file .error {
+    color: #b0171f
+}
+
+.achieveforms-container .resumable-file .resumable-file-name {
+    max-width: 19em;
+    text-overflow: ellipsis
+}
+
+.achieveforms-container .resumable-file .resumable-file-name,
+.achieveforms-container .resumable-file .resumable-file-progress {
+    font-size: 12px;
+    padding-left: 0;
+    padding-top: 3px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block
+}
+
+.achieveforms-container .fillinButtons-wrapper {
+    margin: 0 auto .5em;
+    text-align: center
+}
+
+.achieveforms-container .fillinButtons-wrapper:after,
+.achieveforms-container .fillinButtons-wrapper:before {
+    content: " ";
+    display: table
+}
+
+.achieveforms-container .fillinButtons-wrapper:after {
+    clear: both
+}
+
+.achieveforms-container .fillinButtons {
+    padding-left: 0
+}
+
+.achieveforms-container .fillinButtons:after,
+.achieveforms-container .fillinButtons:before {
+    content: " ";
+    display: table
+}
+
+.achieveforms-container .fillinButtons:after {
+    clear: both
+}
+
+.achieveforms-container .fillinButtons .btn {
+    margin: 0 1em 0 0;
+    min-width: 7em;
+    font-size: 12px;
+    color: #444
+}
+
+.achieveforms-container .fillinButtons .btn i,
+.achieveforms-container .fillinButtons .btn span {
+    padding-right: .3em
+}
+
+.achieveforms-container .fillinButtons .btn span+i {
+    padding-left: .3em;
+    padding-right: 0
+}
+
+.achieveforms-container .fillinButtons .btn.btn-link {
+    color: #52a8ec
+}
+
+.achieveforms-container .fillinButtons .btn:last-child {
+    margin-right: 0
+}
+
+.achieveforms-container .fillinButtons .btn.savebutton {
+    margin-right: 1em
+}
+
+.achieveforms-container .fillinButtons .btn.cancelbutton.pull-right,
+.achieveforms-container .fillinButtons .btn.nextbutton,
+.achieveforms-container .fillinButtons .btn.submitbutton {
+    margin-right: 0
+}
+
+.achieveforms-container .fillinButtons .btn.cancelbutton.pull-right {
+    margin-left: 1em
+}
+
+.form-reference-wrapper {
+    margin: 1em 0;
+    text-align: center;
+    font-size: 12px
+}
+
+.toggle-console-wrapper,
+.toggle-console-wrapper .toggle-console {
+    padding-right: 0
+}
+
+.achieveforms-container div.repeatable-table-wrapper {
+    overflow-x: auto;
+    float: left;
+    width: 100%
+}
+
+.achieveforms-container div.repeatable-table-wrapper table.repeatable-table td,
+.achieveforms-container div.repeatable-table-wrapper table.repeatable-table th {
+    word-break: normal
+}
+
+.achieveforms-container div.repeatable-table-wrapper table.repeatable-table td.edit-column,
+.achieveforms-container div.repeatable-table-wrapper table.repeatable-table th.edit-column {
+    width: 6em;
+    min-width: 4em
+}
+
+.achieveforms-container div.repeatable-table-wrapper table.repeatable-table th:not(.edit-column) {
+    min-width: 10em
+}
+
+.achieveforms-container table.repeatable-table {
+    width: 91.66667%;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-bottom: .5em;
+    border: 1px solid #ccc
+}
+
+.achieveforms-container table.repeatable-table thead {
+    border-bottom: solid 1px #ccc
+}
+
+.achieveforms-container table.repeatable-table tr td,
+.achieveforms-container table.repeatable-table tr th {
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+    word-wrap: normal;
+    word-break: break-all
+}
+
+.achieveforms-container table.repeatable-table tr td.edit-column,
+.achieveforms-container table.repeatable-table tr th.edit-column {
+    text-align: center
+}
+
+.achieveforms-container table.repeatable-table tr.repeatable-value-totals {
+    border-top: solid 1px #ccc
+}
+
+.achieveforms-container table.repeatable-table thead {
+    font-size: 12px
+}
+
+.achieveforms-container table.repeatable-table thead th {
+    border-bottom: solid 1px #ccc
+}
+
+.achieveforms-container table.repeatable-table tr.editing,
+.achieveforms-container table.repeatable-table tr.editing td {
+    background-color: #f5fbfe
+}
+
+.achieveforms-container .repeatable-actions i {
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-left: .8em
+}
+
+.achieveforms-container .repeatable-actions .repeat-remove-btn,
+.achieveforms-container .repeatable-actions .repeat-remove-btn2 {
+    color: #b0171f
+}
+
+.achieveforms-container .repeatable-actions .repeat-edit-btn {
+    color: #090
+}
+
+.no-touch .achieveforms-container .repeat-remove-btn2:hover,
+.no-touch .achieveforms-container .repeat-remove-btn:hover {
+    color: red
+}
+
+.no-touch .achieveforms-container .repeat-edit-btn:hover {
+    color: green
+}
+
+.achieveforms-container .field.showOutline.fieldHover,
+.achieveforms-container .field.showOutline.helpActive,
+.field.helpActive,
+.no-touch .achieveforms-container #fieldsDesigner .field:hover,
+.touch .achieveforms-container .field.fieldHover {
+    background: #f5fbfe;
+    border-radius: .5em;
+    outline: 0;
+    outline: dotted thin
+}
+
+.achieveforms-container span.help-img-wrapper {
+    vertical-align: middle;
+    padding-left: .2em;
+    padding-right: 0;
+    height: 35px
+}
+
+.achieveforms-container span.help-img-wrapper.subform-help-wrapper.inline {
+    position: absolute;
+    right: 0
+}
+
+.achieveforms-container .help-img {
+    font-size: 1.7em;
+    color: #aaa;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: .12em;
+    float: right
+}
+
+.achieveforms-container .help-img.fa-question-circle:before {
+    content: "\24D8"
+}
+
+.render-subform-modal .help-img {
+    right: 0
+}
+
+.no-touch .achieveforms-container .help-img:hover,
+.touch .achieveforms-container .help-img {
+    color: #52a8ec
+}
+
+.no-touch .achieveforms-container .design .help-img:hover {
+    color: #aaa
+}
+
+.achieveforms-container .english,
+.achieveforms-container .help-text,
+.achieveforms-container .numberToText {
+    padding-left: 0;
+    font-size: .8em;
+    color: #52a8ec;
+    padding-bottom: .5em
+}
+
+.achieveforms-container .english i,
+.achieveforms-container .help-text i,
+.achieveforms-container .numberToText i {
+    padding-right: .7em
+}
+
+.achieveforms-container .help-text {
+    color: #2270ae
+}
+
+.achieveforms-container .help-text .fa-info-circle:before {
+    content: "\24D8"
+}
+
+.achieveforms-container .help-text.is-hidden {
+    display: none;
+    border-radius: 2px;
+    padding: 0 0 1em;
+    text-align: justify
+}
+
+.achieveforms-container .help-text.is-hidden i {
+    padding-right: .7em
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu .help-text {
+    font-size: .8em;
+    color: #52a8ec;
+    margin-top: .3em;
+    padding: .5em .5em .3em;
+    border-top: 1px solid rgba(0, 0, 0, .4)
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu .help-text .info-icon {
+    padding-right: .7em
+}
+
+.achieveforms-container .field .popover {
+    border-color: #52a8ec;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .2)
+}
+
+.achieveforms-container .field .popover:after,
+.achieveforms-container .field .popover:before {
+    content: " ";
+    display: table
+}
+
+.achieveforms-container .field .popover:after {
+    clear: both
+}
+
+.achieveforms-container .field .popover.right .arrow {
+    border-right-color: #52a8ec
+}
+
+.achieveforms-container .field .popover.bottom .arrow {
+    border-bottom-color: #52a8ec
+}
+
+.achieveforms-container .field .popover.top .arrow {
+    border-top-color: #52a8ec
+}
+
+.achieveforms-container .field .popover.left .arrow {
+    border-left-color: #52a8ec
+}
+
+.achieveforms-container .field .popover .popover-title {
+    display: none
+}
+
+.achieveforms-container .field .popover .popover-content:after,
+.achieveforms-container .field .popover .popover-content:before {
+    content: " ";
+    display: table
+}
+
+.achieveforms-container .field .popover .popover-content:after {
+    clear: both
+}
+
+.achieveforms-container html.portrait .icon-valid {
+    display: none
+}
+
+.lt-ie9 .achieveforms-container .all-sections .field .block {
+    margin: 0;
+    padding: 0;
+    width: none;
+    height: none;
+    min-width: 0;
+    max-width: 0;
+    min-height: 0;
+    max-height: 0;
+    display: none
+}
+
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent .error-wrapper {
+    float: right
+}
+
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent .fieldInput {
+    min-height: 20px
+}
+
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent input[type=date],
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent input[type=datetime-local],
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent input[type=datetime],
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent input[type=email],
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent input[type=month],
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent input[type=number],
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent input[type=password],
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent input[type=search],
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent input[type=tel],
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent input[type=text],
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent input[type=time],
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent input[type=url],
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent input[type=week],
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent select,
+.lt-ie9 .achieveforms-container .all-sections .field .fieldContent textarea {
+    display: block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.428571429;
+    vertical-align: middle;
+    border-radius: 4px;
+    margin: 0 0 1em
+}
+
+.lt-ie9 .achieveforms-container .all-sections .field .ie8_upload {
+    -ms-filter: "alpha(Opacity=20)"
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) {
+    .addSection i {
+        float: right
+    }
+}
+
+@media only print,
+only screen and (min-width:768px) {
+    .achieveforms-container .sectionsHead .sectionsHeadInner {
+        display: block
+    }
+}
+
+@media only print,
+only screen and (max-width:767px) {
+    .achieveforms-container {
+        border: none
+    }
+
+    .achieveforms-container header.formHeader,
+    .achieveforms-container header.processHeader {
+        padding: 0 .25em
+    }
+
+    .achieveforms-container .form-actions.dropdown {
+        right: 0
+    }
+
+    .achieveforms-container .form-actions.dropdown .dropdown-menu .fa {
+        margin-right: .5em
+    }
+
+    .achieveforms-container span.help-img-wrapper,
+    .achieveforms-container span.help-img-wrapper .help-img {
+        right: 0
+    }
+
+    .achieveforms-container .icon-valid {
+        display: none
+    }
+
+    .achieveforms-container .sectionsHead .addSection {
+        top: .8em
+    }
+
+    .achieveforms-container .sectionsHead.design .navbar-toggle {
+        margin-right: 1.5em
+    }
+
+    .achieveforms-container .sectionsHead.design .sectionsHeadInner {
+        padding-right: 0;
+        width: 100%
+    }
+
+    .achieveforms-container .sectionsHead .sectionsHeadInner {
+        width: 100%;
+        padding-right: 0
+    }
+
+    .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper {
+        width: 100%
+    }
+
+    .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper .sectionNameTab {
+        margin-right: 0;
+        border-radius: 0;
+        padding-left: .25em
+    }
+
+    .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active .sectionNameTab {
+        border: 1px solid #d0e7f0;
+        border-right: 0;
+        border-left: 0
+    }
+
+    .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active:first-child .sectionNameTab {
+        border-top: 0
+    }
+
+    .achieveforms-container .sectionsHead .editable-container .editable-input,
+    .achieveforms-container .sectionsHead .editable-form .editable-input,
+    .achieveforms-container .sectionsHead .form-group .editable-input {
+        width: 97%
+    }
+
+    .achieveforms-container .sectionsHead .addSection i {
+        float: right
+    }
+
+    .achieveforms-container .all-sections .fields .field .field-actions {
+        right: -1em
+    }
+
+    .achieveforms-container .all-sections .fields .field .fieldContent input[type=date][readonly],
+    .achieveforms-container .all-sections .fields .field .fieldContent input[type=datetime-local][readonly],
+    .achieveforms-container .all-sections .fields .field .fieldContent input[type=datetime][readonly],
+    .achieveforms-container .all-sections .fields .field .fieldContent input[type=email][readonly],
+    .achieveforms-container .all-sections .fields .field .fieldContent input[type=month][readonly],
+    .achieveforms-container .all-sections .fields .field .fieldContent input[type=number][readonly],
+    .achieveforms-container .all-sections .fields .field .fieldContent input[type=password][readonly],
+    .achieveforms-container .all-sections .fields .field .fieldContent input[type=search][readonly],
+    .achieveforms-container .all-sections .fields .field .fieldContent input[type=tel][readonly],
+    .achieveforms-container .all-sections .fields .field .fieldContent input[type=text][readonly],
+    .achieveforms-container .all-sections .fields .field .fieldContent input[type=time][readonly],
+    .achieveforms-container .all-sections .fields .field .fieldContent input[type=url][readonly],
+    .achieveforms-container .all-sections .fields .field .fieldContent input[type=week][readonly],
+    .achieveforms-container .all-sections .fields .field .fieldContent select[readonly],
+    .achieveforms-container .all-sections .fields .field .fieldContent textarea[readonly] {
+        top: 0
+    }
+
+    .achieveforms-container .fillinButtons-wrapper {
+        padding-left: 3px;
+        padding-right: 0
+    }
+
+    .achieveforms-container .fillinButtons-wrapper .fillinButtons .btn {
+        margin-right: .5em;
+        font-size: 10px;
+        min-width: 5em;
+        padding: .6em
+    }
+
+    .achieveforms-container .fillinButtons-wrapper .fillinButtons .btn:last-child {
+        margin-right: 0
+    }
+
+    .achieveforms-container .fillinButtons-wrapper .fillinButtons .btn.savebutton {
+        margin-right: .5em
+    }
+
+    .achieveforms-container .fillinButtons-wrapper .fillinButtons .btn.cancelbutton.pull-right,
+    .achieveforms-container .fillinButtons-wrapper .fillinButtons .btn.nextbutton,
+    .achieveforms-container .fillinButtons-wrapper .fillinButtons .btn.submitbutton {
+        margin-right: 0
+    }
+
+    .achieveforms-container .fillinButtons-wrapper .fillinButtons .btn.cancelbutton.pull-right {
+        margin-left: .5em
+    }
+}
+
+.lt-ie9 .achieveforms-container .sectionsHead .sectionsHeadInner {
+    display: block
+}
+
+.ie8 .achieveforms-container .fields .field[data-field-type=range] .fieldContent .postfix-wrapper .range-postfix {
+    left: -1.1em !important
+}
+
+.ie8 .achieveforms-container .fields .field[data-field-type=range] .fieldContent .prefix-wrapper .prefix {
+    width: 150% !important
+}
+
+.ie8 .achieveforms-container .fields .field[data-field-type=range] .fieldContent .range.noUi-horizontal {
+    height: 32px !important
+}
+
+.ie8 .achieveforms-container .fields .field[data-field-type=range] .fieldContent .range.noUi-horizontal .noUi-base .noUi-background .noUi-handle.noUi-handle-lower {
+    top: -4px !important
+}
