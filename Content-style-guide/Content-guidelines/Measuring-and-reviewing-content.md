@@ -2,9 +2,10 @@
 layout: page
 title: Measuring and reviewing content
 ---
-1. [Home](/docs/core/contents)
-2. [Content](/docs/core/content/overview)
-3. [Measuring and reviewing content](#)
+1. [Home](../../)
+2. [Content style guide](../../Content-style-guide)
+3. [Content guidelines](../Content-guidelines)
+4. {{ page.title }}
 
 # Measuring and reviewing content
 

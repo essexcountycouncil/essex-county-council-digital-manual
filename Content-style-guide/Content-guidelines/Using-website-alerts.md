@@ -2,9 +2,10 @@
 layout: page
 title: Using website alerts
 ---
-1. [Home](/docs/core/contents)
-2. [Content](docs/core/content/overview)
-3. [Using website alerts](#)
+1. [Home](../../)
+2. [Content style guide](../../Content-style-guide)
+3. [Content guidelines](../Content-guidelines)
+4. {{ page.title }}
 
 # Using website alerts
 
@@ -96,5 +97,7 @@ This is an example of a warning alert.
   <button class="text" type="button" onclick="toggle_visibility('tab-three');">Hide this message</button>
 </div>
 
+## How to implement an alert
 
+You can find guidance on how to implement an alert on the [alert component](/essex-service-transformation-playbook/Design-system/Components/alert) page.
  

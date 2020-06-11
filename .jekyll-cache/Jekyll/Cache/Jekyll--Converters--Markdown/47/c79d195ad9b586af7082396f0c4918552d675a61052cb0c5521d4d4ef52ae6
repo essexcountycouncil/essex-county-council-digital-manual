@@ -1,0 +1,31 @@
+I"�<ol>
+  <li><a href="/essex-service-transformation-playbook/">Home</a></li>
+  <li><a href="/essex-service-transformation-playbook/Design-system">Design System</a></li>
+  <li><a href="/essex-service-transformation-playbook/Design-system/Elements-and-Components">Elements and Components</a></li>
+  <li>Browser check</li>
+</ol>
+
+<h1 id="browser-check">Browser check</h1>
+
+<div id="browser-check" class="browser-check-background" role="region" aria-label="browsercheck">
+  <div class="browser-check">
+    <p class="browser-content">You’re currently using an old browser. <a href="/browsers" title="Learn about the latest browsers">Find out how to update your browser</a> to get the best experience on this website.&lt;/a&gt;</p>
+  </div>
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div id="browser-check" class="browser-check-background" role="region" aria-label="browsercheck"&gt;
+  &lt;div class="browser-check"&gt;
+    &lt;p class="browser-content"&gt;You’re currently using an old browser. &lt;a href="/browsers" title="Learn about the latest browsers"&gt;Find out how to update your browser&lt;/a&gt; to get the best experience on this website.&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;!--[if lte IE 8]&gt;
+  &lt;div id="browser-check" class="browser-check-background" role="region" aria-label="browsercheck"&gt;
+    &lt;div class="browser-check"&gt;
+      &lt;p class="browser-content"&gt;You’re currently using an old browser. &lt;a href="/browsers" title="Learn about the latest browsers"&gt;Find out how to update your browser&lt;/a&gt; to get the best experience on this website.&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;![endif]--&gt;
+</code></pre></div></div>
+:ET

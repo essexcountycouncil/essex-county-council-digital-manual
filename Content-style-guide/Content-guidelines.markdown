@@ -4,7 +4,7 @@ title: Content guidelines
 ---
 
 1. [Home](../)
-2. [Content style guide](../Content-style-guide)
+2. [Content style guide](../../Content-style-guide)
 3. {{ page.title }}
 
 
@@ -18,8 +18,8 @@ Use our practical 'how to' guides to help with writing and designing content.
 - [Optimise your content for search](/essex-service-transformation-playbook/Content-style-guide/Content-guidelines/Optimise-your-content-for-search)
 - [What to do with FAQs](/essex-service-transformation-playbook/Content-style-guide/Content-guidelines/What-to-do-with-faqs)
 - [Creating and publishing content](/essex-service-transformation-playbook/Content-style-guide/Content-guidelines/Creating-and-publishing-content)
-- [Manage your content](/essex-service-transformation-playbook/Content-style-guide/Content-guidelines/Manag-your-content)
-- [Measuring and reviewing your content](/essex-service-transformation-playbook/Content-style-guide/Content-guidelines/Measuring-and-reviewing-your-content)
+- [Manage your content](/essex-service-transformation-playbook/Content-style-guide/Content-guidelines/Manage-your-content)
+- [Measuring and reviewing your content](/essex-service-transformation-playbook/Content-style-guide/Content-guidelines/Measuring-and-reviewing-content)
 - [URL guidelines](/essex-service-transformation-playbook/Content-style-guide/Content-guidelines/Url-guidelines)
 - [Using images](/essex-service-transformation-playbook/Content-style-guide/Content-guidelines/Using-images)
 - [Using video and audio](/essex-service-transformation-playbook/Content-style-guide/Content-guidelines/Using-video-and-audio)

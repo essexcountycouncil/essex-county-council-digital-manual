@@ -1,0 +1,19 @@
+I"V<ol>
+  <li><a href="/essex-service-transformation-playbook/">Home</a></li>
+  <li><a href="/essex-service-transformation-playbook/Design-system">Design System</a></li>
+  <li><a href="/essex-service-transformation-playbook/Design-system/Elements-and-Components">Elements and Components</a></li>
+  <li>Embed</li>
+</ol>
+
+<h1 id="embed">Embed</h1>
+
+<h2 id="embedresponsively">Embedresponsively</h2>
+<div class="embed-container">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/U9nnRicMHOk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" title="School admissions not preferred school"></iframe>
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="embed-container"&gt;
+	&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/U9nnRicMHOk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" title="School admissions not preferred school"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+:ET

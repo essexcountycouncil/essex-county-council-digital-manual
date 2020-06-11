@@ -1327,7 +1327,7 @@ a.logo-text.seax {
   float: left;
   background-position: 0 0;
   line-height: 1;
-  background: url("/public/images/seax.png") no-repeat;
+  background: url("/assets/images/seax.png") no-repeat;
   background-size: 36px 30px;
   border-bottom: 2px #682558 solid;
   margin-top: 4px;
@@ -1993,14 +1993,14 @@ label.show, label.hide {
   padding-left: 0.9em;
   margin-bottom: 0;
   float: left;
-  background-image: url("/public/images//icon/separator.png");
+  background-image: url("/assets/images/icon/separator.png");
   background-position: 0% 50%;
   background-repeat: no-repeat;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .breadcrumbs li {
-    background-image: url("/public/images/icon/separator-2x.png");
+    background-image: url("/assets/images/icon/separator-2x.png");
     background-size: 6px 11px;
   }
 }
@@ -12478,14 +12478,14 @@ table.pretty thead th.sorting {
   padding-left: 0.9em;
   margin-bottom: 0;
   float: left;
-  background-image: url(/public/images//icon/separator.png);
+  background-image: url(/assets/images/icon/separator.png);
   background-position: 0% 50%;
   background-repeat: no-repeat;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   #design-system-docs .content ol:first-child li {
-    background-image: url(/public/images//icon/separator-2x.png);
+    background-image: url(/assets/images/icon/separator-2x.png);
     background-size: 6px 11px;
   }
 }
