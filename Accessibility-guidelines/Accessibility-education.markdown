@@ -3,10 +3,6 @@ layout: page
 title: Accessibility education
 ---
 
-1. [Home](../)
-2. [Accessibility guidelines](../Accessibility-guidelines)
-3. {{ page.title }}
-
 # {{ page.title }}
 
 ## Why is it important

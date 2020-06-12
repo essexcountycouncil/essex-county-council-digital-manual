@@ -32,7 +32,7 @@ body { font-family: "Open Sans", sans-serif; -webkit-font-smoothing: antialiased
 
 .hidden, .js-enabled .js-hidden { display: none; visibility: hidden; }
 
-.AF-Category-GovUK .phase-banner-background .phase-banner:after, .AF-Category-GovUK .browser-check-background .browser-check:after, .AF-Category-GovUK .header-background .header:after, .search-background .search-container:after, .signup-background .signup:after, .previews:after, .phase-banner-background .phase-banner:after, .landing:after, .header-background .header:after, .browser-check-background .browser-check:after, .AF-Category-GovUK .phase-banner-background .phase-banner .phase-content:after, .AF-Category-GovUK .browser-check-background .browser-check .browser-content:after, .AF-Category-GovUK .footer-container .footer ul.credits:after, .AF-Category-GovUK .footer-container .footer .nav:after, .AF-Category-GovUK .header-background .header .nav:after, .search-background .search-container .greeting:after, .search-background .search-container .search-input:after, #catchment-area .pagination:after, #grammer-school-checker .pagination:after, #childcare-provider .pagination:after, #childcare-sufficiency .pagination:after, #schools-closure .pagination:after, #find-childcare-provider .pagination:after, #freedom-of-information .pagination:after, #priority-admission .pagination:after, #schools-waiting-list .pagination:after, #search-for-an-inquest .pagination:after, .signup-background .signup .section-heading:after, .signup-background .signup p:after, .signup .form:after, .phase-banner-background .phase-banner .phase-content:after, .pagination:after, .link-boxes:after, .header-background .header .nav:after, .footer-container .footer ul.credits:after, .footer-container .footer .nav:after, .browser-check-background .browser-check .browser-content:after, .breadcrumbs ol:after, main#content .container .main:after { content: ""; display: block; clear: both; }
+.AF-Category-GovUK .phase-banner-background .phase-banner:after, .AF-Category-GovUK .browser-check-background .browser-check:after, .AF-Category-GovUK .header-background .header:after, .search-background .search-container:after, .signup-background .signup:after, .previews:after, .phase-banner-background .phase-banner:after, .landing:after, .header-background .header:after, .browser-check-background .browser-check:after, #design-system-docs .content .grid-row:after, .AF-Category-GovUK .phase-banner-background .phase-banner .phase-content:after, .AF-Category-GovUK .browser-check-background .browser-check .browser-content:after, .AF-Category-GovUK .footer-container .footer ul.credits:after, .AF-Category-GovUK .footer-container .footer .nav:after, .AF-Category-GovUK .header-background .header .nav:after, .search-background .search-container .greeting:after, .search-background .search-container .search-input:after, #catchment-area .pagination:after, #grammer-school-checker .pagination:after, #childcare-provider .pagination:after, #childcare-sufficiency .pagination:after, #schools-closure .pagination:after, #find-childcare-provider .pagination:after, #freedom-of-information .pagination:after, #priority-admission .pagination:after, #schools-waiting-list .pagination:after, #search-for-an-inquest .pagination:after, .signup-background .signup .section-heading:after, .signup-background .signup p:after, .signup .form:after, .phase-banner-background .phase-banner .phase-content:after, .pagination:after, .link-boxes:after, .header-background .header .nav:after, .footer-container .footer ul.credits:after, .footer-container .footer .nav:after, .browser-check-background .browser-check .browser-content:after, .breadcrumbs ol:after, main#content .container .main:after { content: ""; display: block; clear: both; }
 
 @media (max-width: 640px) { .AF-Category-GovUK .phase-banner-background .phase-banner, .AF-Category-GovUK .browser-check-background .browser-check, .AF-Category-GovUK .footer-container .footer, .AF-Category-GovUK .header-background .header, .search-background .search-container, .signup-background .signup, .phase-banner-background .phase-banner, .header-background .header, .footer-container .footer, .browser-check-background .browser-check, .breadcrumbs, main#content .container { padding-left: 45px; padding-right: 45px; } }
 
@@ -40,11 +40,11 @@ body { font-family: "Open Sans", sans-serif; -webkit-font-smoothing: antialiased
 
 @media (min-width: 769px) { .AF-Category-GovUK .phase-banner-background .phase-banner, .AF-Category-GovUK .browser-check-background .browser-check, .AF-Category-GovUK .footer-container .footer, .AF-Category-GovUK .header-background .header, .search-background .search-container, .signup-background .signup, .phase-banner-background .phase-banner, .header-background .header, .footer-container .footer, .browser-check-background .browser-check, .breadcrumbs, main#content .container { padding-left: 60px; padding-right: 60px; margin-left: auto; margin-right: auto; max-width: 1020px; } }
 
-@media (max-width: 640px) { .AF-Category-GovUK .phase-banner-background .phase-banner .phase-content, .AF-Category-GovUK .browser-check-background .browser-check .browser-content, .AF-Category-GovUK .footer-container .footer ul.credits, .AF-Category-GovUK .footer-container .footer .nav, .AF-Category-GovUK .header-background .header .nav, .search-background .search-container .greeting, .search-background .search-container .search-input, #catchment-area .pagination, #grammer-school-checker .pagination, #childcare-provider .pagination, #childcare-sufficiency .pagination, #schools-closure .pagination, #find-childcare-provider .pagination, #freedom-of-information .pagination, #priority-admission .pagination, #schools-waiting-list .pagination, #search-for-an-inquest .pagination, .signup-background .signup .section-heading, .signup-background .signup p, .signup .form, .previews, .phase-banner-background .phase-banner .phase-content, .pagination, .link-boxes, .landing, .header-background .header .nav, .footer-container .footer ul.credits, .footer-container .footer .nav, .browser-check-background .browser-check .browser-content, .breadcrumbs ol, main#content .container .main { margin-left: -30px; margin-right: -30px; } }
+@media (max-width: 640px) { #design-system-docs .content .grid-row, .AF-Category-GovUK .phase-banner-background .phase-banner .phase-content, .AF-Category-GovUK .browser-check-background .browser-check .browser-content, .AF-Category-GovUK .footer-container .footer ul.credits, .AF-Category-GovUK .footer-container .footer .nav, .AF-Category-GovUK .header-background .header .nav, .search-background .search-container .greeting, .search-background .search-container .search-input, #catchment-area .pagination, #grammer-school-checker .pagination, #childcare-provider .pagination, #childcare-sufficiency .pagination, #schools-closure .pagination, #find-childcare-provider .pagination, #freedom-of-information .pagination, #priority-admission .pagination, #schools-waiting-list .pagination, #search-for-an-inquest .pagination, .signup-background .signup .section-heading, .signup-background .signup p, .signup .form, .previews, .phase-banner-background .phase-banner .phase-content, .pagination, .link-boxes, .landing, .header-background .header .nav, .footer-container .footer ul.credits, .footer-container .footer .nav, .browser-check-background .browser-check .browser-content, .breadcrumbs ol, main#content .container .main { margin-left: -30px; margin-right: -30px; } }
 
-@media (min-width: 641px) { .AF-Category-GovUK .phase-banner-background .phase-banner .phase-content, .AF-Category-GovUK .browser-check-background .browser-check .browser-content, .AF-Category-GovUK .footer-container .footer ul.credits, .AF-Category-GovUK .footer-container .footer .nav, .AF-Category-GovUK .header-background .header .nav, .search-background .search-container .greeting, .search-background .search-container .search-input, #catchment-area .pagination, #grammer-school-checker .pagination, #childcare-provider .pagination, #childcare-sufficiency .pagination, #schools-closure .pagination, #find-childcare-provider .pagination, #freedom-of-information .pagination, #priority-admission .pagination, #schools-waiting-list .pagination, #search-for-an-inquest .pagination, .signup-background .signup .section-heading, .signup-background .signup p, .signup .form, .previews, .phase-banner-background .phase-banner .phase-content, .pagination, .link-boxes, .landing, .header-background .header .nav, .footer-container .footer ul.credits, .footer-container .footer .nav, .browser-check-background .browser-check .browser-content, .breadcrumbs ol, main#content .container .main { margin-left: -15px; margin-right: -15px; } }
+@media (min-width: 641px) { #design-system-docs .content .grid-row, .AF-Category-GovUK .phase-banner-background .phase-banner .phase-content, .AF-Category-GovUK .browser-check-background .browser-check .browser-content, .AF-Category-GovUK .footer-container .footer ul.credits, .AF-Category-GovUK .footer-container .footer .nav, .AF-Category-GovUK .header-background .header .nav, .search-background .search-container .greeting, .search-background .search-container .search-input, #catchment-area .pagination, #grammer-school-checker .pagination, #childcare-provider .pagination, #childcare-sufficiency .pagination, #schools-closure .pagination, #find-childcare-provider .pagination, #freedom-of-information .pagination, #priority-admission .pagination, #schools-waiting-list .pagination, #search-for-an-inquest .pagination, .signup-background .signup .section-heading, .signup-background .signup p, .signup .form, .previews, .phase-banner-background .phase-banner .phase-content, .pagination, .link-boxes, .landing, .header-background .header .nav, .footer-container .footer ul.credits, .footer-container .footer .nav, .browser-check-background .browser-check .browser-content, .breadcrumbs ol, main#content .container .main { margin-left: -15px; margin-right: -15px; } }
 
-@media (min-width: 769px) { .AF-Category-GovUK .phase-banner-background .phase-banner .phase-content, .AF-Category-GovUK .browser-check-background .browser-check .browser-content, .AF-Category-GovUK .footer-container .footer ul.credits, .AF-Category-GovUK .footer-container .footer .nav, .AF-Category-GovUK .header-background .header .nav, .search-background .search-container .greeting, .search-background .search-container .search-input, #catchment-area .pagination, #grammer-school-checker .pagination, #childcare-provider .pagination, #childcare-sufficiency .pagination, #schools-closure .pagination, #find-childcare-provider .pagination, #freedom-of-information .pagination, #priority-admission .pagination, #schools-waiting-list .pagination, #search-for-an-inquest .pagination, .signup-background .signup .section-heading, .signup-background .signup p, .signup .form, .previews, .phase-banner-background .phase-banner .phase-content, .pagination, .link-boxes, .landing, .header-background .header .nav, .footer-container .footer ul.credits, .footer-container .footer .nav, .browser-check-background .browser-check .browser-content, .breadcrumbs ol, main#content .container .main { margin-left: -30px; margin-right: -30px; } }
+@media (min-width: 769px) { #design-system-docs .content .grid-row, .AF-Category-GovUK .phase-banner-background .phase-banner .phase-content, .AF-Category-GovUK .browser-check-background .browser-check .browser-content, .AF-Category-GovUK .footer-container .footer ul.credits, .AF-Category-GovUK .footer-container .footer .nav, .AF-Category-GovUK .header-background .header .nav, .search-background .search-container .greeting, .search-background .search-container .search-input, #catchment-area .pagination, #grammer-school-checker .pagination, #childcare-provider .pagination, #childcare-sufficiency .pagination, #schools-closure .pagination, #find-childcare-provider .pagination, #freedom-of-information .pagination, #priority-admission .pagination, #schools-waiting-list .pagination, #search-for-an-inquest .pagination, .signup-background .signup .section-heading, .signup-background .signup p, .signup .form, .previews, .phase-banner-background .phase-banner .phase-content, .pagination, .link-boxes, .landing, .header-background .header .nav, .footer-container .footer ul.credits, .footer-container .footer .nav, .browser-check-background .browser-check .browser-content, .breadcrumbs ol, main#content .container .main { margin-left: -30px; margin-right: -30px; } }
 
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) { .container { margin: 0 auto 3.25rem auto; max-width: 1050px; } }
 
@@ -3629,5 +3629,107 @@ table.pretty thead th.sorting { background: #66A9BD url("/Content/images/dt/sort
 @media (max-width: 767px) { .AF-Category-GovUK .achieveforms-container .all-sections .field .fieldContent .prefix-wrapper .prefix { height: 33px; } .AF-Category-GovUK .btn.btn-af.previousbutton.pull-left { text-align: left; padding: 0 !important; width: auto; } .AF-Category-GovUK .achieveforms-container .fillinButtons-wrapper .fillinButtons .btn { margin: 0.8125rem 0; padding: 0.40625rem 7.5px; } .AF-Category-GovUK .col-xs-11.col-sm-11 { width: 100%; } .AF-Category-GovUK .achieveforms-container .sectionsHead .sections-toggle-wrapper.visible-xs { display: none !important; } .AF-Category-GovUK .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper .sectionNameTab { padding: 0 !important; } .AF-Category-GovUK .achieveform { margin: 0 !important; } .AF-Category-GovUK .achieveforms-container .fillinButtons-wrapper { margin: 0.8125rem 0; width: 100%; } .AF-Category-GovUK .footer-container .footer ul.credits .design-link { float: left; width: 100%; } .AF-Category-GovUK .hasPrefix { width: 100% !important; } }
 
 @media (max-width: 1080px) { .AF-Category-GovUK .container-fluid, .AF-Category-GovUK .footer, .AF-Category-GovUK .header, .AF-Category-GovUK #navigation > .row, .AF-Category-GovUK #govukHeader .header { width: 100%; padding-left: 30px; padding-right: 30px; } }
+
+#design-system-docs .content #logotype-text + .logo-wrap, #design-system-docs .content #logotype-image + .logo-wrap, #design-system-docs .content #logotype-text-with-seax-image + .logo-wrap { background-color: #682558; padding: 1.625rem; }
+
+#design-system-docs .content ol:first-child { display: inline-block; padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0; margin-top: 0.8125rem; margin-bottom: 0.8125rem; }
+
+#design-system-docs .content ol:first-child li { font-size: 0.8888888889rem; line-height: 1.6153846rem; list-style: none; margin-right: 0.6em; padding-left: 0.9em; margin-bottom: 0; float: left; background-image: url("/essex-service-transformation-playbook//assets/images/icon/separator.png"); background-position: 0% 50%; background-repeat: no-repeat; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20/10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { #design-system-docs .content ol:first-child li { background-image: url("/essex-service-transformation-playbook//assets/icon/images/separator-2x.png"); background-size: 6px 11px; } }
+
+@media (max-width: 640px) { #design-system-docs .content ol:first-child li { font-size: 0.7901234568rem; line-height: 1.14286rem; margin-bottom: 0.8125rem; } }
+
+#design-system-docs .content ol:first-child li:first-child { background-image: none; margin-left: 0; padding-left: 0; }
+
+#design-system-docs .content ol:first-child li:last-child a { color: #040103; text-decoration: none; pointer-events: none; cursor: default; }
+
+#design-system-docs .content ol:first-child li:last-child a:hover { cursor: default; }
+
+#design-system-docs .content ol:first-child a { color: #040103; }
+
+#design-system-docs .content .light { font-weight: 300; }
+
+#design-system-docs .content .regular { font-weight: 400; }
+
+#design-system-docs .content .semi-bold { font-weight: 600; }
+
+#design-system-docs .content .bold { font-weight: 700; }
+
+#design-system-docs .content pre { position: relative; white-space: pre; margin: 1.625rem 0; display: inline-block; width: 100%; }
+
+#design-system-docs .content pre code { white-space: pre-wrap; /* Since CSS 2.1 */ white-space: -moz-pre-wrap; /* Mozilla, since 1999 */ white-space: -pre-wrap; /* Opera 4-6 */ white-space: -o-pre-wrap; /* Opera 7 */ word-wrap: break-word; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin: 0 0 1.625rem 0; padding: 1.625rem; border: 1px solid #dee0e2; background-color: #f5f5f5; display: inline-block; width: 100%; }
+
+#design-system-docs .content .colour-swatch { top: 0; left: 0; width: 40px; height: 40px; border: 1px solid transparent; border-radius: 20%; }
+
+#design-system-docs .content .colour-swatch-border { border-color: #000; }
+
+#design-system-docs .content .table thead tr { font-weight: 600; border-bottom: 2px solid; }
+
+#design-system-docs .content .demo-box { background-color: #f5f5f5; border: 1px solid #dee0e2; padding: 1.625rem; margin-top: 1.625rem; }
+
+#design-system-docs .content .cookies { position: relative; }
+
+#design-system-docs .content .column-full { padding: 0 60px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+@media (min-width: 641px) { #design-system-docs .content .column-full { float: left; width: 100%; } }
+
+@media (max-width: 640px) { #design-system-docs .content .column-full { padding-left: 15px; padding-right: 15px; } }
+
+@media (min-width: 641px) { #design-system-docs .content .column-full { padding-left: 15px; padding-right: 15px; } }
+
+@media (min-width: 769px) { #design-system-docs .content .column-full { padding-left: 30px; padding-right: 30px; } }
+
+#design-system-docs .content .column-quarter { padding: 0 60px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+@media (min-width: 641px) { #design-system-docs .content .column-quarter { float: left; width: 25%; } }
+
+@media (max-width: 640px) { #design-system-docs .content .column-quarter { padding-left: 15px; padding-right: 15px; } }
+
+@media (min-width: 641px) { #design-system-docs .content .column-quarter { padding-left: 15px; padding-right: 15px; } }
+
+@media (min-width: 769px) { #design-system-docs .content .column-quarter { padding-left: 30px; padding-right: 30px; } }
+
+#design-system-docs .content .column-half { padding: 0 60px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+@media (min-width: 641px) { #design-system-docs .content .column-half { float: left; width: 50%; } }
+
+@media (max-width: 640px) { #design-system-docs .content .column-half { padding-left: 15px; padding-right: 15px; } }
+
+@media (min-width: 641px) { #design-system-docs .content .column-half { padding-left: 15px; padding-right: 15px; } }
+
+@media (min-width: 769px) { #design-system-docs .content .column-half { padding-left: 30px; padding-right: 30px; } }
+
+#design-system-docs .content .column-third { padding: 0 60px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+@media (min-width: 641px) { #design-system-docs .content .column-third { float: left; width: 33.3333333333%; } }
+
+@media (max-width: 640px) { #design-system-docs .content .column-third { padding-left: 15px; padding-right: 15px; } }
+
+@media (min-width: 641px) { #design-system-docs .content .column-third { padding-left: 15px; padding-right: 15px; } }
+
+@media (min-width: 769px) { #design-system-docs .content .column-third { padding-left: 30px; padding-right: 30px; } }
+
+#design-system-docs .content .column-two-thirds { padding: 0 60px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+@media (min-width: 641px) { #design-system-docs .content .column-two-thirds { float: left; width: 66.6666666667%; } }
+
+@media (max-width: 640px) { #design-system-docs .content .column-two-thirds { padding-left: 15px; padding-right: 15px; } }
+
+@media (min-width: 641px) { #design-system-docs .content .column-two-thirds { padding-left: 15px; padding-right: 15px; } }
+
+@media (min-width: 769px) { #design-system-docs .content .column-two-thirds { padding-left: 30px; padding-right: 30px; } }
+
+#design-system-docs .content .column-desktop-third { padding: 0 60px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+@media (min-width: 769px) { #design-system-docs .content .column-desktop-third { float: left; width: 33.3333333333%; } }
+
+@media (max-width: 640px) { #design-system-docs .content .column-desktop-third { padding-left: 15px; padding-right: 15px; } }
+
+@media (min-width: 641px) { #design-system-docs .content .column-desktop-third { padding-left: 15px; padding-right: 15px; } }
+
+@media (min-width: 769px) { #design-system-docs .content .column-desktop-third { padding-left: 30px; padding-right: 30px; } }
+
+#design-system-docs code { white-space: pre-wrap; /* Since CSS 2.1 */ white-space: -moz-pre-wrap; /* Mozilla, since 1999 */ white-space: -pre-wrap; /* Opera 4-6 */ white-space: -o-pre-wrap; /* Opera 7 */ word-wrap: break-word; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-family: monospace; font-size: 1rem; line-height: 1.21875rem; margin: 0; padding: 0.203125rem; border: 1px solid #dee0e2; background-color: #f5f5f5; display: inline-block; width: auto; }
 
 /*# sourceMappingURL=application.css.map */
