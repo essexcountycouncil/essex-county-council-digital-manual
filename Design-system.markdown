@@ -9,7 +9,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ## [Elements & Components](/essex-service-transformation-playbook/Design-system/Elements-and-Components)
 
-
+Details of all elements and components used in the design and development of Essex.gov.uk.
 
 ## [Page Examples](/essex-service-transformation-playbook/Design-system/Page-examples)
 
