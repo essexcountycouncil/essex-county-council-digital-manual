@@ -3,11 +3,6 @@ layout: page
 title: Buttons
 ---
 
-1. [Home](/essex-service-transformation-playbook/)
-2. [Design System](/essex-service-transformation-playbook/Design-system)
-3. [Elements and Components](/essex-service-transformation-playbook/Design-system/Elements-and-Components)
-4. {{ page.title }}
-
 # {{ page.title }}
 
 <a class="button button-start" href="financial-assessment-eligibility" role="button">Start now</a>

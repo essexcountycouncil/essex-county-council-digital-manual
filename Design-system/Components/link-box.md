@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Link box](#)
+---
+layout: page
+title: Link box
+---
 
-# Link box
+# {{ page.title }}
 
 <ul class="link-boxes">
   <li class="link-box">

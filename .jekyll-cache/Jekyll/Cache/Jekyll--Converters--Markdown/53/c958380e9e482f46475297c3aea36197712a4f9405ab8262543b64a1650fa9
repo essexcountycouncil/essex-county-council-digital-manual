@@ -1,0 +1,64 @@
+I"ë<h1 id="link-box">Link box</h1>
+
+<ul class="link-boxes">
+  <li class="link-box">
+    <div class="link-content">
+      <a href="#" class="sub-section-heading">Link box</a>
+        <p>Link box copy explaining what content it contains</p>
+    </div>
+  </li>
+  <li class="link-box">
+    <div class="link-content">
+      <a href="#" class="sub-section-heading">Link box</a>
+        <p>Link box copy explaining what content it contains</p>
+    </div>
+  </li>
+  <li class="link-box">
+    <div class="link-content">
+      <a href="#" class="sub-section-heading">Link box</a>
+        <p>Link box copy explaining what content it contains</p>
+    </div>
+  </li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;ul class="link-boxes"&gt;
+  &lt;li class="link-box"&gt;
+    &lt;div class="link-content"&gt;
+      &lt;a href="#" class="sub-section-heading"&gt;Link box&lt;/a&gt;
+        &lt;p&gt;Link box copy explaining what content it contains&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li class="link-box"&gt;
+    &lt;div class="link-content"&gt;
+      &lt;a href="#" class="sub-section-heading"&gt;Link box&lt;/a&gt;
+        &lt;p&gt;Link box copy explaining what content it contains&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li class="link-box"&gt;
+    &lt;div class="link-content"&gt;
+      &lt;a href="#" class="sub-section-heading"&gt;Link box&lt;/a&gt;
+        &lt;p&gt;Link box copy explaining what content it contains&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</code></pre></div></div>
+
+<h2 id="using-link-boxes">Using link boxes</h2>
+
+<p>Link boxes are usually displayed on topic pages and help to signpost users to the most popular or useful content within that section.</p>
+
+<p>The are likely to link to internal content but could sometimes link to external content - usually another site within the essex.gov.uk web estate.</p>
+
+<p>Link boxes should always have:</p>
+<ul>
+  <li>a link to another page of content</li>
+  <li>clear and concise link text</li>
+  <li>a short description of what the user can expect to find on the page</li>
+</ul>
+<p>They shouldnâ€™t have:</p>
+<ul>
+  <li>lengthy text</li>
+  <li>email addresses or telephone numbers</li>
+  <li>additional formatting such as bold, italics or lists</li>
+</ul>
+:ET

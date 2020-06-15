@@ -1,0 +1,42 @@
+I"�<h1 id="information-alert">Information alert</h1>
+<div class="alert info js-hidden" id="tab-one" aria-hidden="true">
+  <div class="alert-icon">
+    <i class="fas fa-exclamation-triangle alert-icon"></i>
+  </div>
+  <div class="alert-text">
+    <h2>School closures</h2>
+    <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
+  </div>
+  <div data-target="tab-one">
+    <input class="checkbox" id="hide-one" type="checkbox" aria-controls="tab-one" aria-expanded="false" />
+    <label class="close" for="hide-one"><i class="fas fa-times"></i></label>
+  </div>
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="alert info js-hidden" id="tab-one" aria-hidden="true"&gt;
+  &lt;div class="alert-icon"&gt;
+    &lt;i class="fas fa-exclamation-triangle alert-icon"&gt;&lt;/i&gt;
+  &lt;/div&gt;
+  &lt;div class="alert-text"&gt;
+    &lt;h2&gt;School closures&lt;/h2&gt;
+    &lt;p&gt;Some schools in Essex are closed due to severe weather. &lt;a href="#"&gt;Check if your child's school is closed&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div data-target="tab-one"&gt;
+    &lt;input class="checkbox" id="hide-one" type="checkbox" aria-controls="tab-one" aria-expanded="false"&gt;
+    &lt;label class="close" for="hide-one"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<h2 id="using-information-alerts">Using Information alerts</h2>
+
+<p>Information alerts are used to direct a user’s attention to important information. This could include:</p>
+<ul>
+  <li>adverse weather information</li>
+  <li>changes to regular council services</li>
+</ul>
+
+<p>An alert can be displayed on the homepage or on lower level pages, depending on the topic and severity. They should always be clear and concise and link to another page with further information if necessary.</p>
+
+<p>They shouldn’t be used within paragraphs of text.</p>
+:ET

@@ -1,8 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Information alert](#)
+---
+layout: page
+title: Information alert
+---
 
-# Information alert
-
+# {{ page.title }}
 <div class="alert info js-hidden" id="tab-one" aria-hidden="true">
   <div class="alert-icon">
     <i class="fas fa-exclamation-triangle alert-icon"></i>

@@ -1,0 +1,107 @@
+I"�<h1 id="radio">Radio</h1>
+
+<div class="form">
+  <div class="group">
+    <fieldset>
+      <legend>Asking your question?</legend>
+      <div class="multiple-choice">
+        <input id="selection-one" type="radio" name="radio" value="yes" />
+        <label for="selection-one">Yes</label>
+      </div>
+      <div class="multiple-choice">
+        <input id="selection-two" type="radio" name="radio" value="no" />
+        <label for="selection-two">No</label>
+      </div>
+    </fieldset>
+  </div>
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="form"&gt;
+  &lt;div class="group"&gt;
+    &lt;fieldset&gt;
+      &lt;legend&gt;Asking your question?&lt;/legend&gt;
+      &lt;div class="multiple-choice"&gt;
+        &lt;input id="selection-one" type="radio" name="radio" value="yes"&gt;
+        &lt;label for="selection-one"&gt;Yes&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="multiple-choice"&gt;
+        &lt;input id="selection-two" type="radio" name="radio" value="no"&gt;
+        &lt;label for="selection-two"&gt;No&lt;/label&gt;
+      &lt;/div&gt;
+    &lt;/fieldset&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<div class="form">
+  <div class="group">
+    <fieldset>
+      <legend>Asking your question?</legend>
+      <div class="multiple-choice">
+        <input id="selection-three" type="radio" name="radio" value="yes" />
+        <label for="selection-three">Yes</label>
+      </div>
+      <div class="multiple-choice" data-target="radio-selection">
+        <input id="selection-four" type="radio" name="radio" value="no" aria-controls="radio-selection" aria-expanded="false" />
+        <label for="selection-four" class="show">No show result</label>
+      </div>
+      <!-- show/hide this -->
+      <div class="inset panel js-hidden" id="radio-selection" aria-hidden="true">
+          This panel is shown if selecting last radio
+      </div>
+    </fieldset>
+  </div>
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="form"&gt;
+  &lt;div class="group"&gt;
+    &lt;fieldset&gt;
+      &lt;legend&gt;Asking your question?&lt;/legend&gt;
+      &lt;div class="multiple-choice"&gt;
+        &lt;input id="selection-three" type="radio" name="radio" value="yes"&gt;
+        &lt;label for="selection-three"&gt;Yes&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="multiple-choice" data-target="radio-selection"&gt;
+        &lt;input id="selection-four" type="radio" name="radio" value="no" aria-controls="radio-selection" aria-expanded="false"&gt;
+        &lt;label for="selection-four" class="show"&gt;No show result&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;!-- show/hide this --&gt;
+      &lt;div class="inset panel js-hidden" id="radio-selection" aria-hidden="true"&gt;
+          This panel is shown if selecting last radio
+      &lt;/div&gt;
+    &lt;/fieldset&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<h1 id="using-radio">Using radio</h1>
+
+<p>Radio enables users to select just one input at a time from a selection of inputs, for examples a yes or no answer.</p>
+
+<p>If you want users to select multiple inputs at a time, use the <a href="checkbox">checkbox element</a></p>
+
+<p>Radio is often used as part of a <a href="form">form</a></p>
+
+<p><em>Note: Be sure to update all label and input attributes with the correct details i.e.</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;label for=""&gt;
+&lt;input id=""&gt;
+&lt;input type=""&gt;
+&lt;input name=""&gt;
+&lt;input value=""&gt;
+</code></pre></div></div>
+
+<h2 id="how-to-use-radios">How to use radios</h2>
+
+<p>Always position radios to the left of their labels. This makes them easier to find, especially for users of screen magnifiers.</p>
+
+<p>Unlike with checkboxes, users can only select one option from a list of radios. Do not assume that users will know how many options they can select based on the visual difference between radios and checkboxes alone.</p>
+
+<p>If needed, add a hint explaining this, for example, ‘Select one option’.</p>
+
+<p>You should arrange options alphabetically, unless there’s a clear need to arrange by use. You shouldn’t pre-select an option, as users may miss the question.</p>
+
+<h2 id="stacking">Stacking</h2>
+
+<p>If there are only 2 options, it’s fine to have them laid out horizontally. If there are more, they should be stacked vertically. Try to avoid having too many options. More than 5 or 6 and users could get confused or miss options. If necessary, use a series of simpler questions.</p>
+:ET

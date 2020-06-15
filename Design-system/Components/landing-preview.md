@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Previews](#)
+---
+layout: page
+title: Landing preview
+---
 
-# Landing preview
+# {{ page.title }}
 
 <div class="landing">
 	<ul>

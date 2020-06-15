@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Related](#)
+---
+layout: page
+title: Related
+---
 
-# Related
+# {{ page.title }}
 
 <aside class="related">
   <h3>Related content</h3>

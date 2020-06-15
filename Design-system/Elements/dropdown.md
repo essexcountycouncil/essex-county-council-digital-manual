@@ -3,11 +3,6 @@ layout: page
 title: Dropdown
 ---
 
-1. [Home](/essex-service-transformation-playbook/)
-2. [Design System](/essex-service-transformation-playbook/Design-system)
-3. [Elements and Components](/essex-service-transformation-playbook/Design-system/Elements-and-Components)
-4. {{ page.title }}
-
 # {{ page.title }}
 
 <div class="form">

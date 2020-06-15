@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Skip link](#)
+---
+layout: page
+title: Skip link
+---
 
-# Skip link
+# {{ page.title }}
 
 The skip link is used to help keyboard only users to skip repeated content.
 

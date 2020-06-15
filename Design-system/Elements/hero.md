@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Hero](#)
+---
+layout: page
+title: Hero
+---
 
-# Hero
+# {{ page.title }}
 
     <div class="hero"></div>
 

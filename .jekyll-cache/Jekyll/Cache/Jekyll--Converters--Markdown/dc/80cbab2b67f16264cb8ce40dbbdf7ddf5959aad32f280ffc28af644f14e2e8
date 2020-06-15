@@ -1,0 +1,35 @@
+I"Ì<h1 id="header">Header</h1>
+
+<header class="header-background">
+  <div class="header">
+    <div class="nav">
+      <div class="logo-wrap">
+        <a href="/" class="logo-text seax">
+          <img src="/public/images/seax.png" width="36" height="30" alt="Essex County Council logo" />
+          Essex.gov.uk
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;header class="header-background"&gt;
+  &lt;div class="header"&gt;
+    &lt;div class="nav"&gt;
+      &lt;div class="logo-wrap"&gt;
+        &lt;a href="/" class="logo-text seax"&gt;
+          &lt;img src="/public/images/seax.png" width="36" height="30" alt="Essex County Council logo"&gt;
+          Essex.gov.uk
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/header&gt;
+</code></pre></div></div>
+
+<h2 id="using-the-header">Using the header</h2>
+
+<p>The header is displayed at the top of every page and is consistent across the entire site.</p>
+
+<p>It should display the siteâ€™s identity and branding, making it clear to the user what website they are on. The header may also contain some <a href="/docs/core/elements/nav">navigation links</a>.</p>
+:ET

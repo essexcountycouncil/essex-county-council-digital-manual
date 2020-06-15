@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Side-nav](#)
+---
+layout: page
+title: Side nav
+---
 
-# Side-nav
+# {{ page.title }}
 
 <div class="side-nav" role="navigation" aria-label="sidenav">
   <h3>Social care and health</h3>

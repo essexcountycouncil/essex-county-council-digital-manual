@@ -1,0 +1,27 @@
+I"l<h1 id="highlight-box">Highlight box</h1>
+
+<div class="highlight-box">
+  <h1>
+    Financial checker complete
+  </h1>
+  <p>
+    Self funded care
+  </p>
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="highlight-box"&gt;
+  &lt;h1&gt;
+    Financial checker complete
+  &lt;/h1&gt;
+  &lt;p&gt;
+    Self funded care
+  &lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<h2 id="using-the-highlight-box">Using the highlight box</h2>
+
+<p>The highlight box should display important information to a user after completing a transaction. It will usually be on the final page of a <a href="/docs/core/elements/form">form</a>.</p>
+
+<p>A <code>h1</code> tag is included within Hilight-box, and so should be the page heading where this is used, or if this is not the case to be swapped out for the class <code>.page-heading</code></p>
+:ET

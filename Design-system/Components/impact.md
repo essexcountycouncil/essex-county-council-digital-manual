@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Impact](#)
+---
+layout: page
+title: Impact
+---
 
-# Impact
+# {{ page.title }}
 
 <div class="impact">
   <div class="hero campaign">

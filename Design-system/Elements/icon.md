@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Icon](#)
+---
+layout: page
+title: Icon
+---
 
-# Icon
+# {{ page.title }}
 
 <span class="fas fa-external-link-alt"></span>
 

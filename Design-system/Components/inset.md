@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Inset](#)
+---
+layout: page
+title: Inset
+---
 
-# Inset
+# {{ page.title }}
 
 <div class="inset">
   <p>

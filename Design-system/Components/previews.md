@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Previews](#)
+---
+layout: page
+title: Previews
+---
 
-# Previews
+# {{ page.title }}
 
 <div class="previews">
   <div class="preview">

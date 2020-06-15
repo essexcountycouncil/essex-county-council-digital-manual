@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Search-header](#)
+---
+layout: page
+title: Search header
+---
 
-# Search-header
+# {{ page.title }}
 
 <header class="header-background">
   <div class="header">

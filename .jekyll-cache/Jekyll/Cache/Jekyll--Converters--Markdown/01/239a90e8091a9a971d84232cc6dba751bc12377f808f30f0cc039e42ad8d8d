@@ -1,0 +1,102 @@
+I"m<h1 id="icon">Icon</h1>
+
+<p><span class="fas fa-external-link-alt"></span></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span class="fas fa-external-link-alt"&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<p><span class="fas fa-exclamation-triangle"></span></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span class="fas fa-exclamation-triangle"&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<p><span class="fas fa-exclamation-circle"></span></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span class="fas fa-exclamation-circle"&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<p><span class="fas fa-info-circle"></span></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span class="fas fa-info-circle"&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<p><span class="fas fa-search"></span></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span class="fas fa-search"&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<p><span class="fas fa-print"></span></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span class="fas fa-print"&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<p><span class="far fa-file-alt"></span></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span class="far fa-file-alt"&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<p><span class="fab fa-facebook-f"></span></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span class="fab fa-facebook-f"&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<p><span class="fab fa-twitter"></span></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span class="fab fa-twitter"&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<p><span class="fab fa-youtube"></span></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span class="fab fa-youtube"&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<p><span class="fab fa-instagram"></span></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span class="fab fa-instagram"&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<p><span class="fab fa-linkedin"></span></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span class="fab fa-linkedin"&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<p><span class="fab fa-flickr"></span></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span class="fab fa-flickr"&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<p><span class="fas fa-times"></span></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span class="fas fa-times"&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<p><span class="fas fa-external-link-alt"></span></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	&lt;span class="fas fa-external-link-alt"&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<h2 id="using-icons">Using icons</h2>
+
+<p>Icons should only be used when there is a user need.</p>
+
+<p>They should be clear, simple and accompanied by relevant text.</p>
+
+<p>Icons can be used for:</p>
+<ul>
+  <li>alerts</li>
+  <li>search</li>
+  <li>print page</li>
+  <li>social media</li>
+  <li>general functionality <em>i.e. closing alerts</em></li>
+</ul>
+
+<p>Icons shouldn’t be used:</p>
+<ul>
+  <li>to decorate content</li>
+  <li>instead of an image</li>
+  <li>to hide a function, such as a button</li>
+</ul>
+
+<p>Our Icons are provided by Fontawesome. Fontawesome code is using <code class="highlighter-rouge">&lt;i&gt;&lt;/i&gt;</code>, but you can use also <code class="highlighter-rouge">&lt;span&gt;&lt;/span&gt;</code> instead, and we recommened that.</p>
+
+:ET

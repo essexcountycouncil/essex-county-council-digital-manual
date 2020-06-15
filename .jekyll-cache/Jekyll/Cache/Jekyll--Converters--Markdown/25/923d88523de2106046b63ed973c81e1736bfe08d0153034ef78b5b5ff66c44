@@ -1,0 +1,103 @@
+I"x<h1 id="using-website-alerts">Using website alerts</h1>
+
+<h2 id="what-are-they">What are they?</h2>
+
+<p>An alert informs or warns users of a temporary situation that may have an impact on them accessing a council service (either online or offline).</p>
+
+<p>They are displayed at the top of web pages, above the main body of content.</p>
+
+<h2 id="when-to-use-an-alert">When to use an alert</h2>
+
+<p>Alerts should be used for:</p>
+
+<ul>
+  <li>a temporary period - usually for a few hours or days</li>
+  <li>critical information that prevents or alters users accessing a council service</li>
+</ul>
+
+<p>Examples of alerts include:</p>
+
+<ul>
+  <li>school closures</li>
+  <li>severe weather resulting in road closures</li>
+  <li>a technical error with a website, transaction or high-volume phone line</li>
+  <li>scheduled system downtime for online application portals like the <a href="https://emsonline.essexcc.gov.uk/CitizenPortal_LIVE/Account/Login?ReturnUrl=/CitizenPortal_LIVE/">Education Portal</a> or the PARIS payment service</li>
+</ul>
+
+<h3 id="using-alerts-in-the-main-body-of-content">Using alerts in the main body of content</h3>
+
+<p>There may be instances where you need an alert for a longer period of time, for example, a school consultation is closed for comment. On <a href="https://www.essex.gov.uk/">essex.gov.uk</a> you can use inline alert within an information or section page for this. You can remove the alert when the final outcome is available.</p>
+
+<h2 id="when-not-to-use-an-alert">When not to use an alert</h2>
+
+<p>Alerts should not be used for:</p>
+
+<ul>
+  <li>news and events</li>
+  <li>promoting new services or features</li>
+  <li>information that doesn’t impact council services</li>
+  <li>content that is better provided by another organisation</li>
+</ul>
+
+<p>Examples of things that wouldn’t be an alert:</p>
+
+<ul>
+  <li>weather warnings - these are provided by the Met Office</li>
+  <li>internal messages such as IT outage, payroll deadlines and building issues – these can be communicated by other means like emails or online newsletters</li>
+  <li>reminders for online applications like school admissions – a news story or a social media post is more suitable</li>
+</ul>
+
+<h2 id="writing-alerts">Writing alerts</h2>
+
+<p>Keep the alerts short. No more than 2 sentences. Any more will push the content further down the page.</p>
+
+<p>Include links to internal pages where you have to, for example, a school closures alert will link to the school closures page.</p>
+
+<h2 id="what-alerts-look-like">What alerts look like</h2>
+
+<p>This is specific to essex.gov.uk. Other websites or microsites will have their own way of adding alerts but the same principles of when and when not to use them apply.</p>
+
+<p>This is an example of an error alert.</p>
+
+<div class="alert error" id="tab-one">
+  <div class="alert-icon">
+    <span class="fas fa-exclamation-circle"></span>
+  </div>
+  <div class="alert-text">
+    <div class="section-heading">We are experiencing some issues</div>
+    <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</p>
+  </div>
+  <button class="text" type="button" onclick="toggle_visibility('tab-one');">Hide this message</button>
+</div>
+
+<p>This is an example of an information alert.</p>
+
+<div class="alert info" id="tab-two">
+  <div class="alert-icon">
+    <span class="fas fa-info-circle"></span>
+  </div>
+  <div class="alert-text">
+    <div class="section-heading">We are updating our system</div>
+    <p>We have been doing lots of research and you have helped us update this service.&lt;/a&gt;</p>
+  </div>
+  <button class="text" type="button" onclick="toggle_visibility('tab-two');">Hide this message</button>
+</div>
+
+<p>This is an example of a warning alert.</p>
+
+<div class="alert warning" id="tab-three">
+  <div class="alert-icon">
+    <span class="fas fa-exclamation-triangle"></span>
+  </div>
+  <div class="alert-text">
+    <div class="section-heading">School closures</div>
+    <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
+  </div>
+  <button class="text" type="button" onclick="toggle_visibility('tab-three');">Hide this message</button>
+</div>
+
+<h2 id="how-to-implement-an-alert">How to implement an alert</h2>
+
+<p>You can find guidance on how to implement an alert on the <a href="/essex-service-transformation-playbook/Design-system/Components/alert">alert component</a> page.</p>
+
+:ET

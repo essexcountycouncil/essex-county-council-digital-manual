@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Image](#)
+---
+layout: page
+title: Image
+---
 
-# Image
+# {{ page.title }}
 
 Use images only if there is a real user need. Avoid unnecessary decoration.
 

@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Inputs](#)
+---
+layout: page
+title: Inputs
+---
 
-# Inputs
+# {{ page.title }}
 
 <form class="form">
   <div class="group">

@@ -1,0 +1,57 @@
+I"É	<h1 id="side-nav">Side nav</h1>
+
+<div class="side-nav" role="navigation" aria-label="sidenav">
+  <h3>Social care and health</h3>
+  <nav id="sidenav">
+    <ul>
+      <li><a href="#">Children, young people and family care</a></li>
+      <li><a href="#">Adult social care and health</a></li>
+      <li><a href="#">Support for carers</a></li>
+    </ul>
+    <div class="js-hidden" id="side-show" aria-hidden="true">
+      <ul>
+        <li><a href="#">Accessible transport and mobility</a></li>
+        <li><a href="#">Advocacy</a></li>
+        <li><a href="#">Autism</a></li>
+      </ul>
+    </div>
+    <div data-target="tab-one">
+      <input class="checkbox" id="side-one" type="checkbox" aria-controls="side-show" aria-expanded="false" />
+      <label class="show" for="side-one">Show</label>
+      <label class="hide" for="side-one">Hide</label>
+    </div>
+  </nav>
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="side-nav" role="navigation" aria-label="sidenav"&gt;
+  &lt;h3&gt;Social care and health&lt;/h3&gt;
+  &lt;nav id="sidenav"&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Children, young people and family care&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Adult social care and health&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Support for carers&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class="js-hidden" id="side-show" aria-hidden="true"&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Accessible transport and mobility&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Advocacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Autism&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div data-target="tab-one"&gt;
+      &lt;input class="checkbox" id="side-one" type="checkbox" aria-controls="side-show" aria-expanded="false"&gt;
+      &lt;label class="show" for="side-one"&gt;Show&lt;/label&gt;
+      &lt;label class="hide" for="side-one"&gt;Hide&lt;/label&gt;
+    &lt;/div&gt;
+  &lt;/nav&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<h2 id="using-side-nav">Using side nav</h2>
+
+<p>The side nav is a vertical list of links positioned at the right side of the body content.</p>
+
+<p>It gives users the ability to navigate to other sections of content within that topic.</p>
+
+<p>The side nav shouldnâ€™t repeat the links used in the <a href="">page contents</a> or <a href="">related links</a>. It should only link to pages within the hierarchy of that topic.</p>
+:ET

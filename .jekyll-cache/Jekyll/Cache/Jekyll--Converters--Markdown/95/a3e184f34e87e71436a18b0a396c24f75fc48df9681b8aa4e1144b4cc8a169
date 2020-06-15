@@ -1,0 +1,51 @@
+I"i<h1 id="pagination">Pagination</h1>
+
+<nav class="pagination" aria-label="pagination">
+  <ul>
+    <li class="prev">
+      <a href="#">
+        <span class="pagination-item">
+          <span class="fas fa-arrow-left"></span>Previous
+        </span>
+        <span>Paying for care and support</span>
+      </a>
+    </li>
+    <li class="next">
+      <a href="#">
+        <span class="pagination-item">
+          <span class="fas fa-arrow-right"></span>Next
+        </span>
+        <span>Personal budget</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;nav class="pagination" aria-label="pagination"&gt;
+  &lt;ul&gt;
+    &lt;li class="prev"&gt;
+      &lt;a href="#"&gt;
+        &lt;span class="pagination-item"&gt;
+          &lt;span class="fas fa-arrow-left"&gt;&lt;/span&gt;Previous
+        &lt;/span&gt;
+        &lt;span&gt;Paying for care and support&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="next"&gt;
+      &lt;a href="#"&gt;
+        &lt;span class="pagination-item"&gt;
+          &lt;span class="fas fa-arrow-right"&gt;&lt;/span&gt;Next
+        &lt;/span&gt;
+        &lt;span&gt;Personal budget&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre></div></div>
+
+<h2 id="using-pagination">Using pagination</h2>
+
+<p>Pagination helps users navigate through content pages that are grouped together.</p>
+
+<p>It is commonly used on information pages to enable users to move to the previous or next page of content. However it could also be adapted and used for navigating multiple pages of news articles.</p>
+:ET

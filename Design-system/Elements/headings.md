@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Headings](#)
+---
+layout: page
+title: Headings
+---
 
-# Headings
+# {{ page.title }}
 
 <h1 class="page-heading">Page heading</h1>
 

@@ -1,0 +1,49 @@
+I"ó<h1 id="search-header">Search header</h1>
+
+<header class="header-background">
+  <div class="header">
+    <div class="nav">
+      <div class="logo-wrap">
+        <a href="/" class="logo-text seax">
+          <img src="/public/images/seax.png" width="36" height="30" alt="Essex County Council logo" />
+          Essex.gov.uk
+        </a>
+      </div>
+      <form action="/search" method="get" class="form" role="search" aria-label="Search essex.gov.uk">
+        <div class="group search">
+          <div class="search-input">
+            <label for="cludo-search-hero-form">Search essex.gov.uk
+              <input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk" autocomplete="off" />
+            </label>
+            <button class="fas fa-search search-icon-position" aria-label="Search button"></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</header>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;header class="header-background"&gt;
+  &lt;div class="header"&gt;
+    &lt;div class="nav"&gt;
+      &lt;div class="logo-wrap"&gt;
+        &lt;a href="/" class="logo-text seax"&gt;
+          &lt;img src="/public/images/seax.png" width="36" height="30" alt="Essex County Council logo"&gt;
+          Essex.gov.uk
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;form action="/search" method="get" class="form" role="search" aria-label="Search essex.gov.uk"&gt;
+        &lt;div class="group search"&gt;
+          &lt;div class="search-input"&gt;
+            &lt;label for="cludo-search-hero-form"&gt;Search essex.gov.uk
+              &lt;input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk" autocomplete="off"&gt;
+            &lt;/label&gt;
+            &lt;button class="fas fa-search search-icon-position" aria-label="Search button"&gt;&lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/header&gt;
+</code></pre></div></div>
+:ET

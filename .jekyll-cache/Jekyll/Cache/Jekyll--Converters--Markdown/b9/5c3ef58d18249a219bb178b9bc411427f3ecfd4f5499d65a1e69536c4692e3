@@ -1,0 +1,28 @@
+I"<h1 id="nav">Nav</h1>
+<nav class="nav">
+  <ul class="nav-links">
+    <li>
+      <a href="#">Link A</a></li><li>
+      <a href="#">Link B</a></li><li>
+      <a href="#">Link C</a></li>
+  </ul>
+</nav>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;nav class="nav"&gt;
+  &lt;ul class="nav-links"&gt;
+    &lt;li&gt;
+      &lt;a href="#"&gt;Link A&lt;/a&gt;&lt;/li&gt;&lt;li&gt;
+      &lt;a href="#"&gt;Link B&lt;/a&gt;&lt;/li&gt;&lt;li&gt;
+      &lt;a href="#"&gt;Link C&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre></div></div>
+
+<h2 id="using-the-nav">Using the nav</h2>
+
+<p>The nav element is a horizontal list of links that help users to navigate to other sections of the website. It typically displays the top level of information architecture.</p>
+
+<p>This is designed to be used in the <a href="/docs/core/components/header">header component</a></p>
+
+<p>It shouldn’t be used at the top of lower level pages - see <a href="/docs/core/components/breadcrumbs">breadcrumbs</a></p>
+:ET

@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Radio](#)
+---
+layout: page
+title: Radio
+---
 
-# Radio
+# {{ page.title }}
 
 <div class="form">
   <div class="group">

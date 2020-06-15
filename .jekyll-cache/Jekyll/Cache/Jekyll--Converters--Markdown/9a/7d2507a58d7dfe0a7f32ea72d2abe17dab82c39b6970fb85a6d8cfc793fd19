@@ -1,0 +1,120 @@
+I"�<h1 id="form-validation">Form validation</h1>
+
+<div class="error-summary" role="alert" aria-label="error-summary-heading-example-1" tabindex="-1">
+  <h2 class="heading-medium error-summary-heading" id="error-summary-heading-example-1">
+    Message to alert the user to a problem goes here
+  </h2>
+  <p>
+    Optional description of the errors and how to correct them
+  </p>
+  <ul class="error-summary-list">
+    <li><a href="#">Descriptive link to the question with an error</a></li>
+  </ul>
+</div>
+<form class="form">
+  <div class="group form-group-error">
+    <label for="name">Full name</label>
+    <span class="form-hint">As shown on your birth certificate or passport</span>
+    <span class="error-message">Error message goes here</span>
+    <input class="form-control form-control-error" id="name" name="name" type="text" />
+  </div>
+  <div class="group form-group-error">
+    <label for="details">Label</label>
+    <span class="form-hint">Form Hint message</span>
+    <span class="error-message">Error message goes here</span>
+    <textarea class="form-control form-control-error" id="details" name="detail" type="text"></textarea>
+  </div>
+  <div class="group form-group-error">
+    <label for="sorting">Sort by</label>
+    <span class="error-message">Error message goes here</span>
+    <select class="form-control form-control-error" id="sorting" name="sorting">
+      <option>Recently published</option>
+      <option selected="">Recently updated</option>
+      <option>Most views</option>
+      <option>Most comments</option>
+    </select>
+  </div>
+  <input type="submit" class="button" value="Continue" />
+</form>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="error-summary" role="alert" aria-label="error-summary-heading-example-1" tabindex="-1"&gt;
+  &lt;h2 class="heading-medium error-summary-heading" id="error-summary-heading-example-1"&gt;
+    Message to alert the user to a problem goes here
+  &lt;/h2&gt;
+  &lt;p&gt;
+    Optional description of the errors and how to correct them
+  &lt;/p&gt;
+  &lt;ul class="error-summary-list"&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Descriptive link to the question with an error&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;form class="form"&gt;
+  &lt;div class="group form-group-error"&gt;
+    &lt;label for="name"&gt;Full name&lt;/label&gt;
+    &lt;span class="form-hint"&gt;As shown on your birth certificate or passport&lt;/span&gt;
+    &lt;span class="error-message"&gt;Error message goes here&lt;/span&gt;
+    &lt;input class="form-control form-control-error" id="name" name="name" type="text"&gt;
+  &lt;/div&gt;
+  &lt;div class="group form-group-error"&gt;
+    &lt;label for="details"&gt;Label&lt;/label&gt;
+    &lt;span class="form-hint"&gt;Form Hint message&lt;/span&gt;
+    &lt;span class="error-message"&gt;Error message goes here&lt;/span&gt;
+    &lt;textarea class="form-control form-control-error" id="details" name="detail" type="text"&gt;&lt;/textarea&gt;
+  &lt;/div&gt;
+  &lt;div class="group form-group-error"&gt;
+    &lt;label for="sorting"&gt;Sort by&lt;/label&gt;
+    &lt;span class="error-message"&gt;Error message goes here&lt;/span&gt;
+    &lt;select class="form-control form-control-error" id="sorting" name="sorting"&gt;
+      &lt;option&gt;Recently published&lt;/option&gt;
+      &lt;option selected&gt;Recently updated&lt;/option&gt;
+      &lt;option&gt;Most views&lt;/option&gt;
+      &lt;option&gt;Most comments&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/div&gt;
+  &lt;input type="submit" class="button" value="Continue"&gt;
+&lt;/form&gt;
+</code></pre></div></div>
+
+<h2 id="descriptive-error-and-validation-messages">Descriptive error and validation messages</h2>
+
+<p>Use an error message to explain why what’s been entered isn’t right, and how to fix it.</p>
+
+<p>These should only be shown if a user tries to move on to the next stage of the form, not when they select a field, are typing or move away from the field.</p>
+
+<p>A good error message is concise, positive and specific. Avoid things like, ‘An error occurred’ or ‘invalid information entered’. The message should make sense out of context and sound like something you’d say to a user.</p>
+
+<h3 id="examples-of-good-error-messages-include">Examples of good error messages include:</h3>
+
+<h4 id="addresses">Addresses</h4>
+<p>‘Enter a real postcode’</p>
+<h4 id="character-count">Character count</h4>
+<p>‘X must be 350 characters or fewer’
+‘You have X characters too many’</p>
+<h4 id="check-boxes">Check boxes</h4>
+<p>‘Select if you are X, Y or Z’</p>
+<h4 id="dates">Dates</h4>
+<p>‘Enter a real date of birth’
+‘X must be today or in the future’
+‘A date of birth must include a day, a month and a year’</p>
+<h4 id="emails">Emails</h4>
+<p>‘Enter an email address in the correct format, like name@example.com</p>
+<h4 id="file-upload">File upload</h4>
+<p>‘The X file must be smaller than 2MB’
+‘The selected file must be a JPG, PNG or PDF’</p>
+<h4 id="names">Names</h4>
+<p>‘Enter your full name’</p>
+<h4 id="national-insurance-number">National Insurance number</h4>
+<p>‘Enter a National Insurance number in the correct format’</p>
+<h4 id="radio-buttons">Radio buttons</h4>
+<p>‘Select yes if….’
+‘Select if…’</p>
+<h4 id="telephone-numbers">Telephone numbers</h4>
+<p>‘Enter a UK telephone number’</p>
+<h4 id="text-area">Text area</h4>
+<p>‘Enter…’
+‘X must between Y and Z’</p>
+
+<h3 id="when-not-to-use-validation-or-error-messages">When not to use validation or error messages</h3>
+
+<p>These messages should only be used to resolve validation issues, they shouldn’t be used to tell users they’re not eligible for a service. This should be done on a separate screen that gives a way for the user to end or continue their journey.</p>
+:ET

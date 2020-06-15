@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Preview list](#)
+---
+layout: page
+title: Preview list
+---
 
-# Preview list
+# {{ page.title }}
 
 <div class="preview-list">
   <ul>

@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Contents](#)
+---
+layout: page
+title: Contents
+---
 
-# Contents
+# {{ page.title }}
 
 <nav class="contents" aria-label="pages-in-this-service">
   <div class="heading"><h2>Contents</h2></div>

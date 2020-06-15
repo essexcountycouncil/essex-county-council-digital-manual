@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Meta](#)
+---
+layout: page
+title: Meta
+---
 
-# Meta
+# {{ page.title }}
 
 <p class="meta">
   Last updated: 25 June 2018

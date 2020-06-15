@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Step by step](#)
+---
+layout: page
+title: Step by step
+---
 
-# Step by step
+# {{ page.title }}
 
 <div class="step-by-step">
   <span class="step-by-step-side-title">Part of</span>

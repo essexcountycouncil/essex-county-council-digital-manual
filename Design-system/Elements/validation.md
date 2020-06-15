@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Form Validation](#)
+---
+layout: page
+title: Form validation
+---
 
-# Form Validation
+# {{ page.title }}
 
 <div class="error-summary" role="alert" aria-label="error-summary-heading-example-1" tabindex="-1">
   <h2 class="heading-medium error-summary-heading" id="error-summary-heading-example-1">

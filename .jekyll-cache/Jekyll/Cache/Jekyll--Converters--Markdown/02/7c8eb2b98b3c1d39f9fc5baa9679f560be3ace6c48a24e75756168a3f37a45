@@ -1,0 +1,31 @@
+I"%<h1 id="search">Search</h1>
+
+<form action="/search" method="get" class="form">
+  <div class="group search" role="search">
+    <div class="search-input">
+      <label for="cludo-search-hero-form">Search
+        <input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk" autocomplete="off" />
+      </label>
+      <button class="fas fa-search search-icon-position" aria-label="Searching essex.gov.uk button"></button>
+    </div>
+  </div>
+</form>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;form action="/search" method="get" class="form"&gt;
+  &lt;div class="group search" role="search"&gt;
+    &lt;div class="search-input"&gt;
+      &lt;label for="cludo-search-hero-form"&gt;Search
+        &lt;input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk" autocomplete="off"&gt;
+      &lt;/label&gt;
+      &lt;button class="fas fa-search search-icon-position" aria-label="Search essex.gov.uk button"&gt;&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+</code></pre></div></div>
+
+<h2 id="using-search">Using search</h2>
+
+<p>The search component enables users to look for content on the website by typing in words.</p>
+
+<p>It should only be used on the homepage and the search results page.</p>
+:ET

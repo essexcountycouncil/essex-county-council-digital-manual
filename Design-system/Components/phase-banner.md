@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Phase banner](#)
+---
+layout: page
+title: Phase banner
+---
 
-# Phase banner
+# {{ page.title }}
 
 <div class="phase-banner-background" role="region" aria-label="phasebanner">
   <div class="phase-banner" id="phasebanner">

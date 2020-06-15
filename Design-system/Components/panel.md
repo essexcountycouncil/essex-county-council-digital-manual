@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Panel](#)
+---
+layout: page
+title: Panel
+---
 
-# Panel
+# {{ page.title }}
 
 <div class="inset panel">
   <p>

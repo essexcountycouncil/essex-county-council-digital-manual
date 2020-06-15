@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Print-link](#)
+---
+layout: page
+title: Print link
+---
 
-# Print-link
+# {{ page.title }}
 
 <a href="javascript:window.print()" class="print-link">Print this page</a>
 

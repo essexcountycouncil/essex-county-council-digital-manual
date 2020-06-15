@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Logo](#)
+---
+layout: page
+title: Logo
+---
 
-# Logo
+# {{ page.title }}
 
 ## Logotype text with seax image
 

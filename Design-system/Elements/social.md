@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Social](#)
+---
+layout: page
+title: Social
+---
 
-# Social
+# {{ page.title }}
 
 <ul class="social">
   <li>

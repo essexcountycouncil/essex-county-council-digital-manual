@@ -1,8 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Nav](#)
+---
+layout: page
+title: Nav
+---
 
-# Nav
-
+# {{ page.title }}
 <nav class="nav">
   <ul class="nav-links">
     <li>

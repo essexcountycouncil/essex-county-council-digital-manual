@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Signup](#)
+---
+layout: page
+title: Big signup
+---
 
-# Big signup
+# {{ page.title }}
 
 <section class="signup-background" aria-label="Subscribe to email">
   <div class="signup">

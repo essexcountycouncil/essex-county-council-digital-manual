@@ -1,0 +1,35 @@
+I"�<h1 id="image">Image</h1>
+
+<p>Use images only if there is a real user need. Avoid unnecessary decoration.</p>
+
+<h2 id="example">Example</h2>
+
+<p><img src="/public/images/shutterstock_398303077.jpg" alt="Family of four biking through the woods" /></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;img src="/public/images/shutterstock_398303077.jpg" alt="Discover something new with the Essex Explorer Pass"/&gt;
+</code></pre></div></div>
+
+<h2 id="when-to-use-an-image">When to use an image</h2>
+
+<p>Only use images if it adds value and purpose to your content. For example:</p>
+
+<ul>
+  <li>different types of pothole to report a dangerous pothole</li>
+  <li>different wedding venues for weddings</li>
+  <li>a caravan’s internal layout for booking short breaks</li>
+</ul>
+
+<h2 id="when-not-to-use-an-image">When not to use an image</h2>
+
+<p>Don’t use images for decorative purposes unles it’s for a news story or a social media post.</p>
+
+<h2 id="how-to-use-images">How to use images</h2>
+
+<p>Images should flow with the text content, not appear too prominent or isolated.</p>
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>Follow <a href="https://www.w3.org/TR/WCAG20-TECHS/H37.html">W3C’s guidance on making content accessible</a>. Images must have text alternatives that describe the information or function they represent. This makes sure that peope with disabilities can understand them.
+Don’t use images that have words in them, because screen readers won’t be able to read the words.
+When using an image (or img element), specify a text alternative with the alt attribute. Alternative text, or alt text, is read out by screen readers or displayed if an image does not load or if images have been switched off.</p>
+:ET

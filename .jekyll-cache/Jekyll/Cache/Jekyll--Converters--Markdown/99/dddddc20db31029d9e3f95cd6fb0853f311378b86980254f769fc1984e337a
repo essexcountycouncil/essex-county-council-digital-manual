@@ -1,0 +1,33 @@
+I"Ð<h1 id="related">Related</h1>
+
+<aside class="related">
+  <h3>Related content</h3>
+  <nav aria-label="related-navigation">
+    <ul id="related-navigation">
+      <li><a href="#">Start your financial assessment</a></li>
+      <li><a href="#">Independent financial advice</a></li>
+      <li><a href="#">Pay your care invoice</a></li>
+    </ul>
+  </nav>
+</aside>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;aside class="related"&gt;
+  &lt;h3&gt;Related content&lt;/h3&gt;
+  &lt;nav aria-label="related-nav"&gt;
+    &lt;ul id="related-nav"&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Start your financial assessment&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Independent financial advice&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Pay your care invoice&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+&lt;/aside&gt;
+</code></pre></div></div>
+
+<h2 id="using-related-content">Using related content</h2>
+
+<p>The realted content component is a vertical list of links, signposting users to other content that might be useful.</p>
+
+<p>Related content links shouldnâ€™t be the same as the links used in the page <a href="contents">contents</a> or in the <a href="breadcrumbs">breadcrumbs</a>. They should signpost users to relevant content held in different sections of the website or on external websites.</p>
+
+<p>Related content should be positioned on the right side of a page or at the bottom, below the main body of content.</p>
+:ET

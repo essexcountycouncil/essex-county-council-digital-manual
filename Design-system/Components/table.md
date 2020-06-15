@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Table](#)
+---
+layout: page
+title: Table
+---
 
-# Table
+# {{ page.title }}
 
 Use a table to make it easier for users to compare and scan information.
 

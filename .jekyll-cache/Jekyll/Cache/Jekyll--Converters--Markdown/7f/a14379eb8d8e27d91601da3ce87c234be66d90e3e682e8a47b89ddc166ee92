@@ -1,0 +1,140 @@
+I"i<h1 id="designing-content">Designing content</h1>
+
+<p>Content needs to be clear and easy to understand so users can get the information they need quickly. Here’s guidance on designing and structuring good content.</p>
+
+<h2 id="use-plain-english">Use plain English</h2>
+
+<p>Write simply and clearly. Here’s an example:</p>
+
+<p>Before:</p>
+
+<p>High-quality learning environments are a necessary precondition for facilitation and enhancement of the ongoing learning process.</p>
+
+<p>After:<br />
+Children need good schools if they are to learn properly.</p>
+
+<h2 id="use-short-sentences">Use short sentences</h2>
+
+<p>Short sentences are easier to read and understand. Sentences <a href="https://www.gov.uk/guidance/content-design/writing-for-gov-uk">should be no more than 25 words</a>. Here’s an example:</p>
+
+<p>Before:</p>
+
+<p>You have the legal right to appeal to an independent appeal panel against the decision not to admit your child at any of your preferred schools for which you have not been offered a place.</p>
+
+<p>After:</p>
+
+<p>If your child is not offered a place at your preferred school, you can appeal against the decision.</p>
+
+<h2 id="use-headings-and-bullets">Use headings and bullets</h2>
+
+<p>Avoid using large blocks of text as this is hard to read. Use headings, subheadings and bullet points to break them down.</p>
+
+<p>See our guidance on <a href="creating-an-accessible-pdf">creating accessible content</a> for more on using headings and bulleted lists.</p>
+
+<h2 id="use-active-voice">Use active voice</h2>
+
+<p>With active voice, the user does the action.</p>
+
+<p>For example:</p>
+
+<p>Use ‘Essex County Council published the Essex Dementia Strategy’, rather than ‘The Essex Dementia Strategy was published by Essex County Council.’</p>
+
+<h2 id="tone-of-voice">Tone of voice</h2>
+
+<p>Our tone of voice should be consistent and informative. You should communicate information clearly and in simple language that everyone can understand.</p>
+
+<p>You can also use a more informal tone of voice to engage your users.</p>
+
+<p>For example:</p>
+
+<p>“If you are worried about your or your loved one’s memory, make an appointment with your or their doctor. You could suggest that you go along with them.”</p>
+
+<p>“If you are finding it difficult to look after yourself and manage everyday tasks, you can contact us to discuss your care and support needs. “</p>
+
+<h2 id="avoid-jargon">Avoid jargon</h2>
+
+<p>Jargon is only understood by a particular group of people. Use words that people will understand.</p>
+
+<p>For example:</p>
+
+<p>Use ‘Report a concern’ rather than ‘Safeguarding’.</p>
+
+<h2 id="technical-terms">Technical terms</h2>
+
+<p>Technical terms are fine if users are familiar with them, but this isn’t always the case. Use both the technical term and a simpler version that users identify with.</p>
+
+<p>For example:</p>
+
+<p>“We charge the following rates for care and support services at home, sometimes called non-residential or domiciliary care.”</p>
+
+<h2 id="use-verb-forms-instead-of-noun-forms">Use verb forms, instead of noun forms</h2>
+
+<p>For example:</p>
+
+<p>Use ‘We will consider’ rather than ‘We will give consideration to’</p>
+
+<h2 id="formatting-links">Formatting links</h2>
+
+<p>Make your link text active and descriptive.</p>
+
+<p>Don’t use ‘Click here’ or ‘Read more’.</p>
+
+<p>For example:<br />
+“See the <a href="https://www.gov.uk/government/publications/care-act-statutory-guidance/care-and-support-statutory-guidance#disability-related-expenditure" title="GOV.UK guidance on disability-related expenditure">statutory guidance on disability-related expenditure on GOV.UK</a> for more information.”</p>
+
+<p>“Find out <a href="https://www.essex.gov.uk/financial-support-for-carers" title="Support for carers">how your carer can get support</a> so they can continue caring for you.”</p>
+
+<h2 id="how-users-read-online">How users read online</h2>
+
+<p>People don’t read online, they scan, and they won’t stay for long, or look very far. Research shows that <a href="https://www.nngroup.com/articles/how-little-do-users-read/">users only have time to read 20% to 28%</a> of the words on a web page during an average visit.</p>
+
+<h2 id="f-shaped-pattern">F-shaped pattern</h2>
+
+<p>Eye-tracking studies have shown people’s eyes skip over the page in an <a href="https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/">F-shaped pattern</a>:</p>
+
+<p><img src="/public/images/chesfs50-euchomedirs-carolinemccabe-my-documents-my-pictures-images-for-digital-toolkit-f-shape-pattern.jpg?width=500&amp;height=222.3404255319149" alt="three images showing heatmap pattern in an f shape" /></p>
+
+<p>You need to make it as easy as possible for users to find and read the content. This means designing content around the F-pattern by putting the content in a logical place and structure.</p>
+
+<h2 id="inverted-pyramid">Inverted Pyramid</h2>
+
+<p>You can also use the <a href="https://www.nngroup.com/articles/inverted-pyramid/">inverted pyramid</a> writing style to structure your content. This means putting the information users need to complete a task as high up the page as possible and using clear language.</p>
+
+<p>For example, see <a href="https://www.essex.gov.uk/blue-badge/apply-for-a-blue-badge">apply for a Blue Badge</a>.</p>
+
+<h2 id="reading-age">Reading age</h2>
+
+<p>The average reading age of the UK is 9 years. Half of the UK workforce have a reading age of 11.</p>
+
+<p>For your content, <a href="https://contentdesign.london/reading/specifying-a-reading-age-for-web-content/">aim for a reading age of 9 to 11 years old</a>.</p>
+
+<p>Use <a href="useful-tools" title="Useful tools">readability tools</a> to help you write clear and concise content.</p>
+
+<p>You don’t need to write everything about a topic. Write only what users need to know so they can complete a task. The more content you include, the harder it is for the user to read and find information.</p>
+
+<h2 id="optimise-content-for-search">Optimise content for search</h2>
+
+<p>We have evidence that most of our users use Google to search for content first, so it’s very important to use keywords in your content.</p>
+
+<p>This includes adding keywords in the title, teaser text, meta description and body of content.</p>
+
+<p>It’s also important to use the same terms that your audience use to search. This helps them find your content easily and quickly.</p>
+
+<p>See our guidance on <a href="optimise-your-content-for-search">optimising your content for search</a></p>
+
+<h2 id="make-content-accessible">Make content accessible</h2>
+
+<p>Accessible information is information that people can understand.</p>
+
+<p>When we are designing content, we need to make sure the <a href="https://www.gov.uk/guidance/content-design/planning-content#accessibity">content is accessible</a> to all users. We need to provide information in a friendly format that screen readers and other assistive technology can read.</p>
+
+<p>See the <a href="/docs/core/accessibility/overview">accessibility section</a> of this toolkit for guidance on how to make your content accessible.</p>
+
+<h2 id="write-content-in-pairs">Write content in pairs</h2>
+
+<p>You can work with subject matter experts, content owners and other content designers to <a href="https://gds.blog.gov.uk/2016/09/21/it-takes-2-how-we-use-pair-writing/">pair write content</a>. This means sitting together and taking it in turns to write clear and factual content.</p>
+
+<p>This avoids conflict when editing content because it’s not written to style or doesn’t use best practice.</p>
+
+<p>This GDS blog sets out <a href="https://gds.blog.gov.uk/2018/02/06/how-to-pair-program-effectively-in-6-steps/">how to pair program effectively in 6 steps</a>.</p>
+:ET

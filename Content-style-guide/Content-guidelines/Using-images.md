@@ -3,11 +3,6 @@ layout: page
 title: Using images
 ---
 
-1. [Home](../../)
-2. [Content style guide](../../Content-style-guide)
-3. [Content guidelines](../Content-guidelines)
-4. {{ page.title }}
-
 # Using images on web pages
 
 Only use images if it adds value and purpose to your content. For example, images showing:

@@ -1,7 +1,9 @@
-1.  [Contents](/docs/core/design/overview)
-2.  [Highlight-box](#)
+---
+layout: page
+title: Highlight box
+---
 
-# Highlight-box
+# {{ page.title }}
 
 <div class="highlight-box">
   <h1>

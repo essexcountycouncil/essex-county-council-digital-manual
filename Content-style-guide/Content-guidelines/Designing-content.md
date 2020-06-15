@@ -2,10 +2,6 @@
 layout: page
 title: Designing content
 ---
-1. [Home](../../)
-2. [Content style guide](../../Content-style-guide)
-3. [Content guidelines](../Content-guidelines)
-4. {{ page.title }}
 
 # Designing content
 
