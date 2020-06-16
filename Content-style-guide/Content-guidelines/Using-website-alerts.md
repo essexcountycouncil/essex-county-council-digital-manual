@@ -95,5 +95,5 @@ This is an example of a warning alert.
 
 ## How to implement an alert
 
-You can find guidance on how to implement an alert on the [alert component](/essex-service-transformation-playbook/Design-system/Components/alert) page.
+You can find guidance on how to implement an alert on the [alert component](/essex-service-transformation-playbook/Design-system/Elements-and-Components/alert) page.
  

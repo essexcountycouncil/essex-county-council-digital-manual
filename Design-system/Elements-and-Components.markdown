@@ -7,7 +7,7 @@ title: Elements and Components
 
 ## Elements
 
-Here you can find how to implement differnet page elements when creating structure and content
+Here you can find how to implement different page elements when creating structure and content
 
 - [Back](/essex-service-transformation-playbook/Design-system/Elements-and-Components/back)
 - [Buttons](/essex-service-transformation-playbook/Design-system/Elements-and-Components/buttons)
@@ -33,7 +33,7 @@ Here you can find how to implement differnet page elements when creating structu
 
 ## Components
 
-Here you can find how to implement page components to incorporate differnt functionality
+Here you can find how to implement page components to incorporate different functionality
 
 - [Alert](/essex-service-transformation-playbook/Design-system/Elements-and-Components/alert)
 - [Breadcrumbs](/essex-service-transformation-playbook/Design-system/Elements-and-Components/breadcrumbs)

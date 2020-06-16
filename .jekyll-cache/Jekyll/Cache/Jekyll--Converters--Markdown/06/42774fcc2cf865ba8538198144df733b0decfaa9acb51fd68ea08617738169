@@ -1,4 +1,6 @@
-I"œ<h1 id="content-break">Content break</h1>
+I"œ<h1 id="content-break">Content break</h1>
+
+<p>Content breaks are used to visually seperate sections of content.</p>
 
 <div class="content-break-large"></div>
 
@@ -10,9 +12,15 @@
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="content-break-small"&gt;&lt;/div&gt;
 </code></pre></div></div>
 
-<h2 id="using-content-breaks">Using content breaks</h2>
+<h2 id="when-to-use-content-breaks">When to use Content breaks</h2>
 
-<p>Content breaks are visual elements used to separate sections of content.</p>
+<p>Use Content breaks to break up a page that has differne content of information</p>
+
+<h2 id="when-not-to-use-a-content-break">When not to use a Content break</h2>
+
+<p>Do not use Content breaks to break up paragraphs within a body of text or divide up forms.</p>
+
+<h2 id="how-to-use-content-breaks">How to use Content breaks</h2>
 
 <p>They should be used to:</p>
 <ul>
@@ -20,5 +28,4 @@
   <li>show a divide between a list of clickable items, such as news articles, service links or guidance documents</li>
 </ul>
 
-<p>They shouldnâ€™t be used to divide paragraphs within the body of content.</p>
 :ET
