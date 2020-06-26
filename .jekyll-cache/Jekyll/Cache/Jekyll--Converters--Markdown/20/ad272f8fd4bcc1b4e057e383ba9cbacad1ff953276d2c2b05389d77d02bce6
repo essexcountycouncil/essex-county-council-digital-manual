@@ -1,0 +1,112 @@
+I"½<h1 id="signup">Signup</h1>
+
+<p>Use the signup to allow users to register for notifications. The method used applies to email notifcations, but could be applied to other methoda of communications.</p>
+
+<p>We have 2 types of signup that we use at Essex County Council Website (Essex.gov.uk)</p>
+
+<ul>
+  <li>the <a href="#basic-sign-up">basic sign up</a></li>
+  <li>the <a href="#big-sign-up">big sign up</a></li>
+</ul>
+
+<h2 id="basic-sign-up">Basic sign up</h2>
+
+<h2 id="when-to-use-sign-up">When to use sign up</h2>
+
+<section class="signup" role="form" aria-label="Subscribe to email">
+  <h2 class="section-heading">Stay up to date</h2>
+  <p>Get the latest news and information about your council services</p>
+  <form action="/search" method="get" class="form">
+    <div class="group">
+      <div class="signup-input">
+        <label for="email">Enter your email address
+          <input type="text" id="email" name="email" autocomplete="off" />
+        </label>
+      </div>
+      <div class="signup-button" id="submitYourEmailAddress">
+        <button type="submit" class="button subscribe">Subscribe</button>
+      </div>
+    </div>
+  </form>
+</section>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;section class="signup" role="form" aria-label="Subscribe to email"&gt;
+  &lt;h2 class="section-heading"&gt;Stay up to date&lt;/h2&gt;
+  &lt;p&gt;Get the latest news and information about your council services&lt;/p&gt;
+  &lt;form action="/search" method="get" class="form"&gt;
+    &lt;div class="group"&gt;
+      &lt;div class="signup-input"&gt;
+        &lt;label for="email"&gt;Enter your email address
+          &lt;input type="text" id="email" name="email" autocomplete="off"&gt;
+        &lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="signup-button" id="submitYourEmailAddress"&gt;
+        &lt;button type="submit" class="button subscribe"&gt;Subscribe&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/form&gt;
+&lt;/section&gt;
+</code></pre></div></div>
+
+<h2 id="big-sign-up">Big sign up</h2>
+
+<h2 id="when-to-use-big-sign-up">When to use big sign up</h2>
+
+<section class="signup-background" aria-label="Subscribe to email">
+  <div class="signup">
+    <h2 class="section-heading">Stay up to date</h2>
+    <p>Get the latest news and information about your council services</p>
+    <form action="/search" method="get" class="form">
+      <div class="group">
+        <div class="signup-input">
+          <label for="email">Enter your email address
+            <input type="text" id="email" name="email" autocomplete="off" />
+          </label>
+        </div>
+        <div class="signup-button" id="submitYourEmailAddress">
+          <button type="submit" class="button subscribe">Subscribe</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;section class="signup-background" aria-label="Subscribe to email"&gt;
+  &lt;div class="signup"&gt;
+    &lt;h2 class="section-heading"&gt;Stay up to date&lt;/h2&gt;
+    &lt;p&gt;Get the latest news and information about your council services&lt;/p&gt;
+    &lt;form action="/search" method="get" class="form"&gt;
+      &lt;div class="group"&gt;
+        &lt;div class="signup-input"&gt;
+          &lt;label for="email"&gt;Enter your email address
+            &lt;input type="text" id="email" name="email" autocomplete="off" placeholder="Enter your email address"&gt;
+          &lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="signup-button" id="submitYourEmailAddress"&gt;
+          &lt;button type="submit" class="button subscribe"&gt;Subscribe&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+</code></pre></div></div>
+
+<h2 id="how-to-use-sign-ups">How to use sign ups</h2>
+
+<p>When using sign up it should include a heading that should clearly and concisely tell the user what they are signing up to.</p>
+
+<h3 id="accessibility">Accessibility</h3>
+
+<p>To ensure sign ups are accessible it is important that the input and label are connected so assisstive technologies can recognise they are connected.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;label for="email"&gt;Enter your email address
+  &lt;input type="text" id="email" name="email" autocomplete="off"&gt;
+ &lt;/label&gt;
+</code></pre></div></div>
+
+<h2 id="content-to-be-published">Content to be published</h2>
+
+<ul>
+  <li>Error handling with inputs</li>
+</ul>
+:ET

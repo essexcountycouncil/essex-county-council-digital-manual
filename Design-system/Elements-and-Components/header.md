@@ -5,6 +5,19 @@ title: Header
 
 # {{ page.title }}
 
+Use the header to show users they are on an Essex County Council website and to provide tools to help them find what they need.
+
+We have 2/3 versions of the header
+
+- the [deault header](#default-header)
+- the header without search/navigation
+
+## Default header
+
+## When to use the default header
+
+Use the default header for Essex County Council web pages that use the Essex.gov.uk domain.
+
 <header class="header-background">
   <div class="header">
     <div class="nav">
@@ -31,8 +44,11 @@ title: Header
       </div>
     </header>
 
+## When not to use the header
 
-## Using the header
+Do not use a header unless your websie is part of the Essex.gov.uk domain.
+
+## How to use the header
 
 The header is displayed at the top of every page and is consistent across the entire site.
 

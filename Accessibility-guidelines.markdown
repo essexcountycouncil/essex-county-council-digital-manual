@@ -1,28 +1,26 @@
 ---
-layout: home
+layout: page
 title: Accessibility
 ---
 
 # {{ page.title }}
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Accessibility means not excluding anyone. 
 
-## [Accessibility education](/essex-service-transformation-playbook/Accessibility-guidelines/Accessibility-education)
+We have a responsibility to make sure our online services (made up of websites, apps, forms and online documents) are accessible to everyone. 
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+## [Why accessibility is important](/essex-service-transformation-playbook/Accessibility-guidelines/Why-accessibility-is-important)
+
+Includes information on the legal requirements and the benefits of creating accessible services
 
 ## [Content guidelines](/essex-service-transformation-playbook/Content-style-guide/Content-guidelines)
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Includes practical 'how to' guides and useful resources to help with writing and designing content
 
-## [Good and bad examples of accessible websites](/essex-service-transformation-playbook/Accessibility-guidelines/Good-and-bad-examples-of-accessible-websites)
+## [Making your service accessible](/essex-service-transformation-playbook/Accessibility-guidelines/Making-your-service-accessible)
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Includes guidance on user research, testing for accessibility and how to publish an accessibility statement 
 
-## [Checklist before procuring a website](/essex-service-transformation-playbook/Accessibility-guidelines/Checklist-before-procuring-a-website)
+<!--## [Learn about accessibility](/essex-service-transformation-playbook/Accessibility-guidelines/Learn-about-accessiblity)-->
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-## [Accessibility testing standards](/essex-service-transformation-playbook/Accessibility-guidelines/Accessibility-testing-standards)
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.

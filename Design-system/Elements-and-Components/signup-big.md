@@ -48,3 +48,4 @@ title: Big signup
 Signup enables users to enter their email address to subscribe to notifications. It's primarily used for email signups but could also be applied to other methods of communication.
 
 It includes a heading that should clearly and concisely tell the user what they are signing up to.
+

@@ -5,6 +5,8 @@ title: Headings
 
 # {{ page.title }}
 
+Page headings are used to define areas of content
+
 <h1 class="page-heading">Page heading</h1>
 
     <h1 class="page-heading">Page heading</h1>
@@ -22,7 +24,7 @@ title: Headings
     <h4 class="sub-section-heading">Sub-section heading</h4>
 
 
-## Using headings
+## When to use a heading
 
 Headings should be written in sentence case and follow correct semantic structure, for example h1 before h2.
 

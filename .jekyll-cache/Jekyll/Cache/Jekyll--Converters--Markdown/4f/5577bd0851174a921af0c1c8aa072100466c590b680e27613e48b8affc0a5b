@@ -1,0 +1,62 @@
+I"><h1 id="why-accessibility-is-important">Why accessibility is important</h1>
+
+<p>Making a website or mobile app accessible means making sure it can be used by as many people as possible.</p>
+
+<p>This includes those with:</p>
+
+<ul>
+  <li>impaired vision</li>
+  <li>motor difficulties</li>
+  <li>cognitive impairments or learning disabilities</li>
+  <li>deafness or impaired hearing</li>
+</ul>
+
+<p>At least <a href="https://www.scope.org.uk/media/disability-facts-figures/">1 in 5 people in the UK have a long term illness, impairment or disability, many others have temporary disabilities</a>.</p>
+
+<p>A temporary disability could be:</p>
+
+<ul>
+  <li>using a mobile phone in a noisy café</li>
+  <li>trying to use a computer with a broken arm</li>
+  <li>using a screen in direct sunlight</li>
+</ul>
+
+<p>Accessibility means more than putting things online. It means making your content and design clear and simple enough so that most people can use it without needing to adapt it, while supporting those who do.</p>
+
+<p>People may not have a choice when using a public sector website or app, so it’s important they work for everyone. The people who need them the most are often the people who find them hardest to use.</p>
+
+<p>W3C have a series of videos called <a href="https://www.w3.org/WAI/perspective-videos/">web accessibility perspectives</a> that show how accessible design helps people with disabilities.</p>
+
+<h2 id="what-the-law-says">What the law says</h2>
+
+<p>New regulations came into force for public sector bodies on 23 September 2018. This means that we now have a legal duty to make sure that our online services are accessible.</p>
+
+<p>You can find out more about the <a href="https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps">new regulations on GOV.UK</a></p>
+
+<p>The <a href="https://www.legislation.gov.uk/ukpga/2010/15/contents">Equality Act 2010</a> also means we have a legal obligation to make our services accessible to everyone who needs it.</p>
+
+<h2 id="meeting-accessibility-requirements">Meeting accessibility requirements</h2>
+
+<p>All digital services we create must:</p>
+
+<ul>
+  <li>meet level AA of the <a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20">Web Content Accessibility Guidelines (WCAG 2.1)</a> as a minimum</li>
+  <li>work on the most commonly used assistive technologies - including screen magnifiers, screen readers and speech recognition tools</li>
+  <li>include people with disabilities in user research</li>
+  <li>have an accessibility statement that explains how accessible the service is - you need to publish this when the service moves into public beta</li>
+</ul>
+
+<p>The <a href="https://theappbusiness.github.io/accessibility-guidelines/index.html">plain English version of the WCAG 2.1 guidelines</a> simplifies the accessibility requirements.</p>
+
+<h2 id="other-benefits">Other benefits</h2>
+
+<p>Accessible websites are better for everyone. For example, they are:</p>
+
+<ul>
+  <li>faster and easier to use</li>
+  <li>ranked higher in search engines so users can easily find them</li>
+  <li>robust – this means they work as expected with different types of technology</li>
+  <li>cost saving – accessible websites help users find what they need online, reducing the need for phone calls and face to face visits</li>
+</ul>
+
+:ET

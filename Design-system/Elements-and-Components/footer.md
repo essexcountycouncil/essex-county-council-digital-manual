@@ -5,6 +5,12 @@ title: Footer
 
 # {{ page.title }}
 
+Use footers to show to users that they are on an Essex County Council site. The footer also helps users to find supplementary information such as:
+
+- Social media links
+- Contact links
+- Copyright information
+
 <footer id="main-footer" class="footer-container">
   <div class="footer-top">
     <div class="footer">
@@ -69,8 +75,14 @@ title: Footer
       </div>
     </footer>
 
-## Using the footer
+## When to use the footer
 
-The footer is displayed at the bottom of every page and is consistent across the entire site.
+Use the footer on every Essex County Council website that uses the Essex County Council branding.
 
-It should provide users with supplementary information, such as social media links, contact links and copyright information.
+## When not to use the footer
+
+Do not use the footer on any website that does not use the Essex County Council branding.
+
+## How to use the footer
+
+Place the Footer at the bottom of every page. Nothing should be placed below it. Avoid adding extra links unles completely nescessary.

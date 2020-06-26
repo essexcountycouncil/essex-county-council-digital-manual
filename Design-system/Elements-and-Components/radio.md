@@ -5,16 +5,18 @@ title: Radio
 
 # {{ page.title }}
 
+Use radios when you want users to select one option from a list.
+
 <div class="form">
   <div class="group">
     <fieldset>
       <legend>Asking your question?</legend>
       <div class="multiple-choice">
-        <input id="selection-one" type="radio" name="radio" value="yes">
+        <input id="selection-one" type="radio" name="yes" value="yes">
         <label for="selection-one">Yes</label>
       </div>
       <div class="multiple-choice">
-        <input id="selection-two" type="radio" name="radio" value="no">
+        <input id="selection-two" type="radio" name="no" value="no">
         <label for="selection-two">No</label>
       </div>
     </fieldset>
@@ -26,18 +28,46 @@ title: Radio
         <fieldset>
           <legend>Asking your question?</legend>
           <div class="multiple-choice">
-            <input id="selection-one" type="radio" name="radio" value="yes">
+            <input id="selection-one" type="radio" name="yes" value="yes">
             <label for="selection-one">Yes</label>
           </div>
           <div class="multiple-choice">
-            <input id="selection-two" type="radio" name="radio" value="no">
+            <input id="selection-two" type="radio" name="no" value="no">
             <label for="selection-two">No</label>
           </div>
         </fieldset>
       </div>
     </div>
 
-<div class="form">
+## When to use radios
+
+Use radios if users can only select one option available.
+
+## When not to use radios
+
+Do not use radios if users may need to select multiple options. Use [checkboxes](/essex-service-transformation-playbook/Design-system/Elements-and-Components/radio) instead.
+
+## How to use radios
+
+Order radio options alphateically. 
+
+Radios should be grouped together in a <fieldset> to help users understand they are related with a <legend> that describes the group clearly.
+
+### Accessiblity
+
+To ensure radios are accessible it is important that the input and label are connected so assisstive technologies can recognise they are connected.  
+
+        <input id="selection-one" type="radio" name="yes" value="yes">
+        <label for="selection-one">Yes</label>
+
+## Content to be published
+
+- Error handling with radios
+- Conditionally revealing content
+- Radio hints
+
+
+<!-- <div class="form">
   <div class="group">
     <fieldset>
       <legend>Asking your question?</legend>
@@ -48,16 +78,16 @@ title: Radio
       <div class="multiple-choice" data-target="radio-selection">
         <input id="selection-four" type="radio" name="radio" value="no" aria-controls="radio-selection" aria-expanded="false">
         <label for="selection-four" class="show">No show result</label>
-      </div>
-      <!-- show/hide this -->
-      <div class="inset panel js-hidden" id="radio-selection" aria-hidden="true">
+      </div> -->
+  <!-- show/hide this -->
+<!--       <div class="inset panel js-hidden" id="radio-selection" aria-hidden="true">
           This panel is shown if selecting last radio
       </div>
     </fieldset>
   </div>
 </div>
-
-    <div class="form">
+ -->
+  <!-- <div class="form">
       <div class="group">
         <fieldset>
           <legend>Asking your question?</legend>
@@ -68,22 +98,22 @@ title: Radio
           <div class="multiple-choice" data-target="radio-selection">
             <input id="selection-four" type="radio" name="radio" value="no" aria-controls="radio-selection" aria-expanded="false">
             <label for="selection-four" class="show">No show result</label>
-          </div>
-          <!-- show/hide this -->
-          <div class="inset panel js-hidden" id="radio-selection" aria-hidden="true">
+          </div> -->
+  <!-- show/hide this -->
+ <!--          <div class="inset panel js-hidden" id="radio-selection" aria-hidden="true">
               This panel is shown if selecting last radio
           </div>
         </fieldset>
       </div>
-    </div>
+    </div> -->
 
 
 
-# Using radio
+<!-- # Using radio
 
-Radio enables users to select just one input at a time from a selection of inputs, for examples a yes or no answer.
+Radio enables users to select just one input at a time from a selection of inputs, for examples a yes or no answer. -->
 
-If you want users to select multiple inputs at a time, use the <a href="checkbox">checkbox element</a>
+<!-- If you want users to select multiple inputs at a time, use the <a href="checkbox">checkbox element</a>
 
 Radio is often used as part of a <a href="form">form</a>
 
@@ -108,3 +138,4 @@ You should arrange options alphabetically, unless there's a clear need to arrang
 ## Stacking
 
 If there are only 2 options, it's fine to have them laid out horizontally. If there are more, they should be stacked vertically. Try to avoid having too many options. More than 5 or 6 and users could get confused or miss options. If necessary, use a series of simpler questions. 
+ -->

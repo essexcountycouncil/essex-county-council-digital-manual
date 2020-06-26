@@ -1,0 +1,32 @@
+I"�<h1 id="testing-for-accessibility">Testing for accessibility</h1>
+
+<p>Testing your service is an important step in meeting the <a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag#wcag-20-design-principles">Web Content Accessibility Guidelines (WCAG 2.1)</a>.</p>
+
+<p>Test during development and check for accessibility issues regularly once it’s gone live.</p>
+
+<h2 id="automated-testing">Automated testing</h2>
+
+<p>Automated testing tools are a useful way of checking to see if your service is accessible. They are quick to run, provide instant feedback and can be used across lots of pages.</p>
+
+<p>There are different automated testing tools available like <a href="https://chrome.google.com/webstore/detail/siteimprove-accessibility/efcfolpjihicnikpmhnmphjhhpiclljc">Siteimprove</a>, <a href="https://www.deque.com/axe/">aXe</a> and <a href="http://wave.webaim.org/extension/">Wave</a>. Some are free to use and can be accessed online.</p>
+
+<p>Automated tools only pick up around 30% of accessibility issues, so it’s important to use manual testing to identify issues that have been missed.</p>
+
+<h2 id="manual-testing">Manual testing</h2>
+
+<p>Manual testing finds accessibility issues that automated testing has missed.</p>
+
+<p>These include:</p>
+
+<ul>
+  <li>keyboard-only navigation</li>
+  <li>link text that isn’t descriptive (for example, ‘click here’ links)</li>
+  <li>lack of colour contrast</li>
+  <li>missing alt text</li>
+  <li>online forms that aren’t marked up correctly</li>
+</ul>
+
+<p>You can use the handy accessibility checklist from 18F to complete a manual test for your service.</p>
+
+<h2 id="accessibility-checking-tools">Accessibility checking tools</h2>
+:ET

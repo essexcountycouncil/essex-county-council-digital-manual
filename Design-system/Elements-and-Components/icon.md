@@ -63,7 +63,7 @@ title: Icon
 
 <span class="fas fa-external-link-alt"></span>
 
-		<span class="fas fa-external-link-alt"></span>
+	<span class="fas fa-external-link-alt"></span>
 
 ## Using icons
 

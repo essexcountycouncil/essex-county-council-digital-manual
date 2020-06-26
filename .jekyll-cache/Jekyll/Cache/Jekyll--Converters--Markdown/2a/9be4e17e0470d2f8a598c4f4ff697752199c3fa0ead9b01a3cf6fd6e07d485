@@ -1,0 +1,90 @@
+I"%<h1 id="checkbox">Checkbox</h1>
+
+<p>Checkbox enables users to select more than one choice at a time from a selection of inputs, for examples all items that apply from a list.</p>
+
+<div class="form">
+  <div class="group">
+    <fieldset>
+      <legend>Ask your question?</legend>
+      <div class="multiple-choice">
+        <input id="telephone" name="telephone" type="checkbox" value="Telephone" />
+        <label for="telephone">Telephone</label>
+      </div>
+      <div class="multiple-choice">
+        <input id="email" name="email" type="checkbox" value="Email" />
+        <label for="email">Email</label>
+      </div>
+      <div class="multiple-choice">
+        <input id="post" name="post" type="checkbox" value="Post" />
+        <label for="post">Post</label>
+      </div>
+      <div class="panel js-hidden" id="checkbox-selection">
+          This panel is shown if selecting last checkbox
+      </div>
+    </fieldset>
+  </div>
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="form"&gt;
+  &lt;div class="group"&gt;
+    &lt;fieldset&gt;
+      &lt;legend&gt;Ask your question?&lt;/legend&gt;
+      &lt;div class="multiple-choice"&gt;
+        &lt;input id="telephone" name="telephone" type="checkbox" value="Telephone"&gt;
+        &lt;label for="telephone"&gt;Telephone&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="multiple-choice"&gt;
+        &lt;input id="email" name="checkemailbox" type="checkbox" value="Email"&gt;
+        &lt;label for="email"&gt;Email&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="multiple-choice"&gt;
+        &lt;input id="post" name="post" type="checkbox" value="Post"&gt;
+        &lt;label for="post"&gt;Post&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="panel js-hidden" id="checkbox-selection"&gt;
+          This panel is shown if selecting last checkbox
+      &lt;/div&gt;
+    &lt;/fieldset&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<h2 id="when-to-use-checkboxes">When to use checkboxes</h2>
+
+<p>Use checkboxes to give users the ability to:</p>
+
+<ul>
+  <li>select multiple options from a list</li>
+  <li>toggle an option on or off</li>
+</ul>
+
+<h2 id="when-not-to-use-a-checkbox">When not to use a checkbox</h2>
+
+<p>If you want users to select just one option from a selection, for examples a yes or no answer, use the <a href="radio">radio</a> element.</p>
+
+<h2 id="how-to-use-checkboxes">How to use checkboxes</h2>
+
+<p>Checkboxes should be grouped together in a &lt;fieldset&gt; to help users understand they are related with a &lt;legend&gt; that describes the group clearly.</p>
+
+<h3 id="accessibility">Accessibility</h3>
+
+<p>To ensure checkboxes are accessible it is important that the input and label are connected so assisstive technologies can recognise they are connected.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;input id="post" name="post" type="checkbox" value="Post"&gt;
+    &lt;label for="post"&gt;Post&lt;/label&gt;
+</code></pre></div></div>
+
+<h2 id="content-to-be-published">Content to be published</h2>
+
+<ul>
+  <li>Error handling with checkboxes</li>
+  <li>Conditionally revealing content</li>
+  <li>Checkbox hints</li>
+</ul>
+
+<!-- Checkbox is often used as part of a <a href="form">form</a>.
+
+You can avoid having long lists of options by guiding users through with better thought out questions. 
+
+Conditionality allows you to show users additional content or questions to particular users on what they've selected. If you're using this to show lots of content, maybe think about putting it on a separate page.  -->
+:ET

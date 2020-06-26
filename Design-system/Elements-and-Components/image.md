@@ -31,6 +31,8 @@ Images should flow with the text content, not appear too prominent or isolated.
 
 ## Accessibility
 
-Follow [W3C's guidance on making content accessible](https://www.w3.org/TR/WCAG20-TECHS/H37.html). Images must have text alternatives that describe the information or function they represent. This makes sure that peope with disabilities can understand them.
-Don't use images that have words in them, because screen readers won't be able to read the words.
-When using an image (or img element), specify a text alternative with the alt attribute. Alternative text, or alt text, is read out by screen readers or displayed if an image does not load or if images have been switched off.
+Follow [W3C's guidance on making content accessible](https://www.w3.org/TR/WCAG20-TECHS/H37.html). 
+
+- Images must have text alternatives that describe the information or function they represent. This makes sure that peope with disabilities can understand them.
+- Don't use images that have words in them, because screen readers won't be able to read the words.
+- When using an image (or img element), specify a text alternative with the alt attribute. Alternative text, or alt text, is read out by screen readers or displayed if an image does not load or if images have been switched off.

@@ -1,11 +1,9 @@
 .previews {
   @extend %contain-floats;
   @extend %grid-row;
-  margin-top: $baseline*1.5;
-  margin-bottom: $baseline*1.5;
+
   @include media(mobile) {
-    margin-top: $baseline*1.5;
-    margin-bottom: $baseline;
+
     margin-left: -$gutter !important;
     margin-right: -$gutter !important;
     .preview {
@@ -31,15 +29,19 @@
   }
   .preview {
     min-height: $baseline*5;
+    margin-top: $baseline*.75;
+    margin-bottom: $baseline*.75;
     @include grid-column(4 / 12);
-    &:nth-child(2) {
+    &:nth-child(3n + 2) {
       border-left: $border-thin solid $grey-light;
       border-right: $border-thin solid $grey-light;
       @include media(mobile) {
         border: none;
-      }
+      }      
     }
     @include media(mobile) {
+      margin-top: $baseline*1.5;
+      margin-bottom: $baseline;
       h3 {
         margin-top: 0;
       }

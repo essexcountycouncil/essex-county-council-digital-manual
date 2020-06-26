@@ -1,0 +1,87 @@
+I"V<h1 id="footer">Footer</h1>
+
+<p>Use footers to show to users that they are on an Essex County Council site. The footer also helps users to find supplementary information such as:</p>
+
+<ul>
+  <li>Social media links</li>
+  <li>Contact links</li>
+  <li>Copyright information</li>
+</ul>
+
+<footer id="main-footer" class="footer-container">
+  <div class="footer-top">
+    <div class="footer">
+      <div class="nav">
+        <ul class="nav-links">
+          <li><a href="https://www.essex.gov.uk/topic/about-essexgovuk">About essex.gov.uk</a></li><li>
+            <a href="https://www.essex.gov.uk/accessibility">Accessibility</a></li><li>
+            <a href="https://www.essex.gov.uk/cookies">Cookies</a></li><li>
+            <a href="https://www.essex.gov.uk/terms-conditions">Terms and conditions</a></li><li>
+            <a href="https://www.essex.gov.uk/privacy-and-data-protection">Privacy and data protection</a></li><li>
+            <a href="/topic/contact-us">Contact us</a></li>
+        </ul>
+        <ul class="social">
+          <li>
+            <a href="https://www.facebook.com/essexcountycouncil"><span class="fab fa-facebook-f"></span><span>Facebook</span></a></li><li>
+            <a href="https://twitter.com/essex_cc"><span class="fab fa-twitter"></span><span>Twitter</span></a></li><li>
+            <a href="http://www.youtube.com/user/EssexCountyCouncil"><span class="fab fa-youtube"></span><span>Youtube</span></a></li><li>
+            <a href="https://www.flickr.com/photos/essexcc/"><span class="fab fa-flickr"></span><span>Flickr</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer">
+      <ul class="credits">
+        <li class="copyright">© Essex County Council 2019</li>
+        <li class="design-link"><a href="https://servicedesign.blog.essex.gov.uk/">Built by the Service Design Team</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;footer id="main-footer" class="footer-container"&gt;
+  &lt;div class="footer-top"&gt;
+    &lt;div class="footer"&gt;
+      &lt;div class="nav"&gt;
+        &lt;ul class="nav-links"&gt;
+          &lt;li&gt;&lt;a href="https://www.essex.gov.uk/topic/about-essexgovuk"&gt;About essex.gov.uk&lt;/a&gt;&lt;/li&gt;&lt;li&gt;
+            &lt;a href="https://www.essex.gov.uk/accessibility"&gt;Accessibility&lt;/a&gt;&lt;/li&gt;&lt;li&gt;
+            &lt;a href="https://www.essex.gov.uk/cookies"&gt;Cookies&lt;/a&gt;&lt;/li&gt;&lt;li&gt;
+            &lt;a href="https://www.essex.gov.uk/terms-conditions"&gt;Terms and conditions&lt;/a&gt;&lt;/li&gt;&lt;li&gt;
+            &lt;a href="https://www.essex.gov.uk/privacy-and-data-protection"&gt;Privacy and data protection&lt;/a&gt;&lt;/li&gt;&lt;li&gt;
+            &lt;a href="/topic/contact-us"&gt;Contact us&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul class="social"&gt;
+          &lt;li&gt;
+            &lt;a href="https://www.facebook.com/essexcountycouncil"&gt;&lt;span class="fab fa-facebook-f"&gt;&lt;/span&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;
+            &lt;a href="https://twitter.com/essex_cc"&gt;&lt;span class="fab fa-twitter"&gt;&lt;/span&gt;&lt;span&gt;Twitter&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;
+            &lt;a href="http://www.youtube.com/user/EssexCountyCouncil"&gt;&lt;span class="fab fa-youtube"&gt;&lt;/span&gt;&lt;span&gt;Youtube&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;
+            &lt;a href="https://www.flickr.com/photos/essexcc/"&gt;&lt;span class="fab fa-flickr"&gt;&lt;/span&gt;&lt;span&gt;Flickr&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="footer-bottom"&gt;
+    &lt;div class="footer"&gt;
+      &lt;ul class="credits"&gt;
+        &lt;li class="copyright"&gt;© Essex County Council 2019&lt;/li&gt;
+        &lt;li class="design-link"&gt;&lt;a href="https://servicedesign.blog.essex.gov.uk/"&gt;Built by the Service Design Team&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+</code></pre></div></div>
+
+<h2 id="when-to-use-the-footer">When to use the footer</h2>
+
+<p>Use the footer on every Essex County Council website that uses the Essex County Council branding.</p>
+
+<h2 id="when-not-to-use-the-footer">When not to use the footer</h2>
+
+<p>Do not use the footer on any website that does not use the Essex County Council branding.</p>
+
+<h2 id="how-to-use-the-footer">How to use the footer</h2>
+
+<p>Place the Footer at the bottom of every page. Nothing should be placed below it. Avoid adding extra links unles completely nescessary.</p>
+:ET

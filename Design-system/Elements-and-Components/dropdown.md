@@ -5,6 +5,8 @@ title: Dropdown
 
 # {{ page.title }}
 
+Use select to let users select from a long list. As some users can struggle this functionality, only use as a last resort.
+
 <div class="form">
   <div class="group">
     <label for="sorting" class="form-hint">Sort by</label>
@@ -29,16 +31,21 @@ title: Dropdown
       </div>
     </div>
 
-## Using dropdown
+## How to use select
 
-Dropdown should only be used if there is no other alternative as some users can struggle with the functionality.
-
-Try using the <a href="radio">radio</a> or <a href="checkbox">checkbox</a> elements instead.
+Try using the <a href="/essex-service-transformation-playbook/Design-system/Elements-and-Components/radio">radio</a> or <a href="/essex-service-transformation-playbook/Design-system/Elements-and-Components/checkbox">checkbox</a> elements instead.
 
 It's often used when there is a long list that can't presented in another way, such as a list of countries or languages.
 
-*Note: Be sure to update all label and input attributes with the correct details i.e.*
+## Content to be published 
+
+- Error handling with select
+- Conditionally revealing content
+- Select hints
+- Accessibility information
+
+<!-- *Note: Be sure to update all label and input attributes with the correct details i.e.*
     
     <label for=""></label>
     <select id="">
-    <select naming="">
+    <select naming=""> -->

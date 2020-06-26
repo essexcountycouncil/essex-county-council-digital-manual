@@ -1,0 +1,37 @@
+I"Ø<h1 id="headings">Headings</h1>
+
+<p>Page headings are used to define areas of content</p>
+
+<h1 class="page-heading">Page heading</h1>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h1 class="page-heading"&gt;Page heading&lt;/h1&gt;
+</code></pre></div></div>
+
+<h2 class="content-heading">Content heading</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h2 class="content-heading"&gt;Content heading&lt;/h2&gt;
+</code></pre></div></div>
+
+<h3 class="section-heading">Section heading</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3 class="section-heading"&gt;Section heading&lt;/h3&gt;
+</code></pre></div></div>
+
+<h4 class="sub-section-heading">Sub-section heading</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h4 class="sub-section-heading"&gt;Sub-section heading&lt;/h4&gt;
+</code></pre></div></div>
+
+<h2 id="when-to-use-a-heading">When to use a heading</h2>
+
+<p>Headings should be written in sentence case and follow correct semantic structure, for example h1 before h2.</p>
+
+<p>Page heading is styled as h1 and should only be used to display the title of the page. Every page should have a unique page heading but it shouldnâ€™t appear more than once on a page.</p>
+
+<ul>
+  <li>Page heading is used at the top of each page.</li>
+  <li>Content heading is used for each new and unlreated piece of content within a page.</li>
+  <li>Section heading is used for each section within content on a page.</li>
+  <li>Sub-section-heading is used for those occasional cases of additional breaking down within a section is required or additionally certain preview sections.</li>
+</ul>
+:ET
