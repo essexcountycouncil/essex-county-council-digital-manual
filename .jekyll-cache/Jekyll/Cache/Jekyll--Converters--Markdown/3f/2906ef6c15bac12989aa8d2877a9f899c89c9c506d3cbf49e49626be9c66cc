@@ -1,0 +1,73 @@
+I"�<h1 id="making-your-service-accessible">Making your service accessible</h1>
+
+<nav class="contents" aria-labelledby="contents-title">
+  <div class="heading"><h2 id="contents-title">Page Contents</h2></div>
+  <ol class="list list-number" id="pages-in-this-service">
+    <li><a href="#think-about-accessibility-for-the-start">Think about accessibility for the start</a></li>
+    <li><a href="#roles-and-responsibilities-for-accessibility">Roles and responsibilities for accessibility</a></li>
+    <li><a href="#test-your-service-with-users">Test your service with users
+</a></li>
+    <li><a href="#carry-out-automated-and-manual-testing">Carry out automated and manual testing
+</a></li>
+    <li><a href="#publish-an-accessibility-statement">Publish an accessibility statement
+</a></li>
+    <li><a href="#test-regularly">Test regularly
+</a></li>
+    <li><a href="#offline-services">Offline services
+</a></li>
+  </ol>
+</nav>
+
+<h2 id="think-about-accessibility-for-the-start">Think about accessibility for the start</h2>
+
+<p>Before you design and build a service, think about who might use it and how they will access it.</p>
+
+<p>You should only create something if there is a <a href="">user need</a> for it.</p>
+
+<p>The GOV.UK Service Manual has detailed guidance on <a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#what-to-do-about-accessibility-in-discovery">how to make your service accessible</a>.</p>
+
+<p>If there is a clear user need for a new website, read through this <a href="">checklist before procuring a website</a>.</p>
+
+<p>This will make ensure that you’ have thought about accessibility before anything has been built.</p>
+
+<h2 id="roles-and-responsibilities-for-accessibility">Roles and responsibilities for accessibility</h2>
+
+<p>Find out what <a href="">each role does in a service team to make sure content is accessible to everyone</a>.</p>
+
+<h2 id="test-your-service-with-users">Test your service with users</h2>
+
+<p>When you are doing research, you need to include users who have disabilities or use assistive technologies. Find out more about <a href="">how to do user research for accessibility</a>.</p>
+
+<h2 id="carry-out-automated-and-manual-testing">Carry out automated and manual testing</h2>
+
+<p>Test your website regularly with automated and manual testing. It’s important to use both methods as automated testing alone will only pick up 30% of accessibility issues. Find out more about <a href="/essex-service-transformation-playbook/Accessibility-guidelines/Making-your-service-accessible/Testing-for-accessibility">testing for accessibility</a>.</p>
+
+<h2 id="publish-an-accessibility-statement">Publish an accessibility statement</h2>
+
+<p>Once you’ve finished researching and testing your service, you need to write an accessibility statement. This is an important step as it’s part of the requirements of the <a href="https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps">accessibility regulations</a>.</p>
+
+<p>Read the guidance on <a href="/essex-service-transformation-playbook/Accessibility-guidelines/Making-your-service-accessible/Publishing-an-accessibility-statement">publishing an accessibility statement</a>.</p>
+
+<h2 id="test-regularly">Test regularly</h2>
+
+<p>Once your service is live, it’s important to carry on testing and researching.</p>
+
+<p>You need to:</p>
+
+<ul>
+  <li>check any new features you add meet accessibility regulations</li>
+  <li>continue testing the service with users with disabilities</li>
+</ul>
+
+<p>Review your accessibility statement at least once a year and update it if there are any changes that affect the accessibility of your site.</p>
+
+<h2 id="offline-services">Offline services</h2>
+
+<p>Think about other ways users will interact with your service.</p>
+
+<p>Users who are deaf or have a speech impairment should have an alternative way to contact you. This could be by text, email or visiting in person with a <a href="https://intranet.essex.gov.uk/Pages/Translation_and_interpreting.aspx">British Sign Language translator or lip reader</a>.</p>
+
+<p>If you send letters out, write them in <a href="">plain English</a> and provide these in alternative accessible formats (EasyRead, large print or Braille).</p>
+
+<p><a href="https://intranet.essex.gov.uk/Pages/Inclusive_Communication_Essex.aspx">Inclusive Communication Essex</a> can supply EasyRead documents and <a href="https://intranet.essex.gov.uk/Pages/Alternative_formats.aspx">Paragon Print</a> can supply other alternative formats.</p>
+:ET

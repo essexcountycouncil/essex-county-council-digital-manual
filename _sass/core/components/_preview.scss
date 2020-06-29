@@ -1,7 +1,8 @@
 .previews {
   @extend %contain-floats;
   @extend %grid-row;
-
+  display: flex;
+  flex-wrap: wrap;
   @include media(mobile) {
 
     margin-left: -$gutter !important;
@@ -29,8 +30,8 @@
   }
   .preview {
     min-height: $baseline*5;
-    margin-top: $baseline*.75;
-    margin-bottom: $baseline*.75;
+    margin-top: $baseline*.5;
+    margin-bottom: $baseline*.5;
     @include grid-column(4 / 12);
     &:nth-child(3n + 2) {
       border-left: $border-thin solid $grey-light;
@@ -40,8 +41,8 @@
       }      
     }
     @include media(mobile) {
-      margin-top: $baseline*1.5;
-      margin-bottom: $baseline;
+      margin-top: $baseline*0;
+      margin-bottom: $baseline*0;
       h3 {
         margin-top: 0;
       }

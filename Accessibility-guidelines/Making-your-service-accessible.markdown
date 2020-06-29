@@ -5,6 +5,24 @@ title: Making your service accessible
 
 # {{ page.title }}
 
+<nav class="contents" aria-labelledby="contents-title">
+  <div class="heading"><h2 id="contents-title">Page Contents</h2></div>
+  <ol class="list list-number" id="pages-in-this-service">
+    <li><a href="#think-about-accessibility-for-the-start">Think about accessibility for the start</a></li>
+    <li><a href="#roles-and-responsibilities-for-accessibility">Roles and responsibilities for accessibility</a></li>
+    <li><a href="#test-your-service-with-users">Test your service with users
+</a></li>
+    <li><a href="#carry-out-automated-and-manual-testing">Carry out automated and manual testing
+</a></li>
+    <li><a href="#publish-an-accessibility-statement">Publish an accessibility statement
+</a></li>
+    <li><a href="#test-regularly">Test regularly
+</a></li>
+    <li><a href="#offline-services">Offline services
+</a></li>
+  </ol>
+</nav>
+
 ## Think about accessibility for the start
 
 Before you design and build a service, think about who might use it and how they will access it. 
