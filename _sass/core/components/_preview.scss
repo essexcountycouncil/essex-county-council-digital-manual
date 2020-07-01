@@ -36,7 +36,10 @@
     &:nth-child(3n + 2) {
       border-left: $border-thin solid $grey-light;
       border-right: $border-thin solid $grey-light;
-      @include media(mobile) {
+      &:last-child{
+        border-right: none;
+      }
+      @include media(mobile){
         border: none;
       }      
     }

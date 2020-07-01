@@ -5,12 +5,13 @@ title: Service Transformation Team
 
 # {{ page.title }}
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-## [About the service transformation team](/essex-service-transformation-playbook/Service-Transformation-Team/About-the-Service-Transformation-Team)
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-## [Service standards](/essex-service-transformation-playbook/Service-Transformation-Team/Service-standards)
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<div class="previews">
+  <div class="preview">
+    <h2 class="sub-section-heading"><a href="/essex-service-transformation-playbook/Service-Transformation-Team/About-the-Service-Transformation-Team">About the service transformation team</a></h2>
+    <p>Information about Service Transormation</p>
+  </div>
+  <div class="preview">
+    <h2 class="sub-section-heading"><a href="/essex-service-transformation-playbook/Service-Transformation-Team/Service-standards">Service standards</a></h2>
+    <p>Includes guidance on the standard that Service Transformation adheres to</p>
+  </div>
+</div>

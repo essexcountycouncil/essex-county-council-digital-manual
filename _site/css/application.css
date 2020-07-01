@@ -1028,6 +1028,8 @@ ul.link-boxes { list-style: none; }
 
 .previews .preview:nth-child(3n + 2) { border-left: 1px solid #dee0e2; border-right: 1px solid #dee0e2; }
 
+.previews .preview:nth-child(3n + 2):last-child { border-right: none; }
+
 @media (max-width: 640px) { .previews .preview:nth-child(3n + 2) { border: none; } }
 
 @media (max-width: 640px) { .previews .preview { margin-top: 0rem; margin-bottom: 0rem; min-height: 0; } .previews .preview h3 { margin-top: 0; } }
