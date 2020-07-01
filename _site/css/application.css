@@ -372,7 +372,7 @@ a.logo-text:hover { text-decoration: none; border-bottom: 2px #fff solid; }
 
 a.logo-text:focus { background-color: #682558; outline: 3px solid #fab500; border-bottom: 2px #fff solid; }
 
-a.logo-text.seax { float: left; background-position: 0 0; line-height: 1; background: url("/public/images/seax.png") no-repeat; background-size: 36px 30px; border-bottom: 2px #682558 solid; margin-top: 4px; margin-bottom: -6px; padding-bottom: 6px; }
+a.logo-text.seax { float: left; background-position: 0 0; line-height: 1; background: url("/assets/images/seax.png") no-repeat; background-size: 36px 30px; border-bottom: 2px #682558 solid; margin-top: 4px; margin-bottom: -6px; padding-bottom: 6px; }
 
 @media print { a.logo-text.seax { background-image: none; border-bottom: 2px #fff solid; } }
 

@@ -4,14 +4,14 @@
 
 <div class="logo-wrap">
 	<a href="/" class="logo-text seax">
-		<img src="/public/images/seax.png" width="36" height="30" alt="Essex County Council logo" />
+		<img src="/assets/images/seax.png" width="36" height="30" alt="Essex County Council logo" />
 		Essex.gov.uk
 	</a>
 </div>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="logo-wrap"&gt;
 	&lt;a href="/" class="logo-text seax"&gt;
-		&lt;img src="/public/images/seax.png" width="36" height="30" alt="Essex County Council logo"&gt;
+		&lt;img src="/assets/images/seax.png" width="36" height="30" alt="Essex County Council logo"&gt;
 		Essex.gov.uk
 	&lt;/a&gt;
 &lt;/div&gt;

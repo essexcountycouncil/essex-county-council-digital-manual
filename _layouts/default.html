@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
   {%- include head.html -%}
 
    <body class="" id="design-system-docs">
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    <div id="skiplink-container" role="region" aria-label="skiplink">
+      <div>
+        <a href="#content" class="skiplink" id="skiplink">Skip to main content</a>
+      </div>
+    </div>
     {%- include header.html -%}
 
     <main id="content" class="markdown">
@@ -12,14 +17,35 @@
         <div class="main only">
           <div class="content">
             {% include breadcrumbs.html %}
-        {{ content }}
+            {{ content }}
           </div>
         </div>
       </div>
     </main>
 
     {%- include footer.html -%}
-   
+    <!-- <script src="/assets/js/govuk-template.js?0.18.3" type="text/javascript"></script> -->
+    <!-- Javascript -->
+<!--[if lte IE 8]><script src="/public/javascripts/bind.js"></script><![endif]-->
+<!-- <script src="{{ site.baseurl }}/assets/js/details.polyfill.js"></script> -->
+<script src="{{ site.baseurl }}/assets/js/jquery-1.11.3.js"></script>
+<!-- <script src="{{ site.baseurl }}/assets/js/govuk/shim-links-with-button-role.js"></script>
+<script src="{{ site.baseurl }}/assets/js/govuk/show-hide-content.js"></script>
+<script src="{{ site.baseurl }}/assets/js/application.js"></script>
+<script src="{{ site.baseurl }}/assets/js/close.js"></script> -->
+<script src="{{ site.baseurl }}/assets/js/step-by-step-navigation.js"></script>
+<script type="text/javascript">
+  var $element = $('#step-by-step-navigation')
+  var stepByStepNavigation = new GOVUK.Modules.StepByStepNavigation()
+  stepByStepNavigation.start($element)
+</script>
+
+
+  <!-- <script src="{{ site.baseurl }}/assets/js/auto-store-data.js"></script> -->
+
+ 
+    
+    <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
   </body>
 
 </html>
