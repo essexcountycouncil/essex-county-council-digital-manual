@@ -9,7 +9,6 @@ title: Agile delivery
 - Our communications
 - How we work remotely while Agile(tools/processes)
 
-
 ## Agile toolkit
 
 - Project kickoff checklist and templates

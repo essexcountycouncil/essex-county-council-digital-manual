@@ -1,0 +1,124 @@
+I"�<h1 id="identify-service-patterns">Identify service patterns</h1>
+
+<p>Identify one of the 7 service patterns across our services.</p>
+
+<h2 id="check-something">Check something</h2>
+
+<p>The check something pattern allows a user to look up information and understand if it applies to them. The information might be about their eligibility, status or location.</p>
+
+<p>This is usually the first pattern in a user’s journey. It helps people make decisions early on before they engage with a service. For example, an eligibility check.</p>
+
+<p>The pattern also keeps users up to date after they’ve used a service. Follow one of the 3 scenarios under the ‘check something’ pattern.</p>
+
+<p>The scenarios we’ve developed are:</p>
+
+<ul>
+  <li>Check before you apply</li>
+  <li>Check my nearest or most relevant</li>
+</ul>
+
+<p>The scenario still to be developed is:</p>
+
+<ul>
+  <li>Check to understand something</li>
+</ul>
+
+<h2 id="apply-for-something">Apply for something</h2>
+
+<p>The ‘apply for something’ pattern allows a user to receive or access a service. When applying for a service, the service is responsible for authorising an outcome for the user.</p>
+
+<p>The user will follow the ‘check something’ pattern before using the ‘apply for something’ pattern.</p>
+
+<p>Applications ask for personal and sensitive information, so we must keep the information safe and secure.</p>
+
+<p>Think about whether an application is essential to help the decision making practice.</p>
+
+<p>If there’s no eligibility criteria, then consider moving users to a ‘book’ or ‘register’ pattern to continue their access to a service. Follow one of the 5 scenarios under the ‘apply for something’ pattern.</p>
+
+<p>The scenario we’ve developed is:</p>
+
+<ul>
+  <li><a href="">apply for something we do</a></li>
+</ul>
+
+<p>The scenarios still under development are:</p>
+
+<ul>
+  <li>apply for a role or job</li>
+  <li>apply for a grant</li>
+  <li>apply for permission to do something myself</li>
+  <li>apply to appeal a decision</li>
+</ul>
+
+<h2 id="tell-something">Tell something</h2>
+
+<p>Tell something helps users to tell us something. Typically to update us about changes in circumstance.</p>
+
+<p>The scenarios still under development are:</p>
+
+<ul>
+  <li>report something</li>
+  <li>report a safeguarding or legal concern</li>
+  <li>feedback about something</li>
+  <li>refer someone</li>
+  <li>respond to something</li>
+  <li>create to share</li>
+  <li>update something</li>
+</ul>
+
+<h2 id="request-something">Request something</h2>
+
+<p>Request something helps users to get something they want. Usually, there is no eligibility check as the user is entitled to what they want by default.</p>
+
+<p>The scenarios still under development are:</p>
+
+<ul>
+  <li>request information</li>
+  <li>request financial compensation</li>
+  <li>request support from us</li>
+  <li>request to be added to something</li>
+</ul>
+
+<h2 id="register-something">Register something</h2>
+
+<p>Register something helps users to complete a process. Users will create an account with personal and sensitive data that they can return to.</p>
+
+<p>The scenarios still under development are:</p>
+
+<ul>
+  <li>register to create a thing</li>
+  <li>register to apply for a role</li>
+  <li>register to access an existing service, scheme or entitlement</li>
+</ul>
+
+<h2 id="pay-for-something">Pay for something</h2>
+
+<p>Pay for something helps users to transfer money to us.</p>
+
+<p>The scenarios still under development are:</p>
+
+<ul>
+  <li>pay for an official status, record or event</li>
+  <li>pay to manage my account</li>
+  <li>pay for an activity or service</li>
+  <li>pay to donate or support a service</li>
+</ul>
+
+<h2 id="book-something">Book something</h2>
+
+<p>The ‘book something’ pattern helps users to book something. For example a room, an item or someone’s time. Most of these ask the user to choose a date and time. Follow one of the 4 scenarios under the ‘book something’ pattern.</p>
+
+<p>The scenario we’ve developed is:</p>
+
+<ul>
+  <li>book onto an event that already exists</li>
+</ul>
+
+<p>The scenarios still under development are:</p>
+
+<ul>
+  <li>book an appointment</li>
+  <li>book an asset</li>
+  <li>book a place</li>
+</ul>
+:ET
