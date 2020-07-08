@@ -3,7 +3,7 @@ layout: page
 title: Measuring and reviewing content
 ---
 
-# {{ page.title }
+# {{ page.title }}
 
 ## Content reviews
 
