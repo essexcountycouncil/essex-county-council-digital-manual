@@ -12,33 +12,13 @@ The Service Design Toolkit is a collection of best practice tools and guidance t
 
 This toolkit is in constant development. If you have any questions please email [service.design@essex.gov.uk](mailto:service.design@essex.gov.uk)
 
-<!-- ## [Service Transformation Team](Service-Transformation-Team)
-
-Guidance on how we understand, design, optimise and build services
-
-## [Content Style Guide](Content-style-guide)
-
-Includes guidance and tools to help plan, deliver and publish content
-
-## [Accessibility Guidelines](Accessibility-guidelines)
-
-Includes best practice guidance on how to make content accessible to users
-
-## [Design system](Design-system)
-
-Includes the styles and common components we use for essex.gov.uk
-
-## [Measure success](Measure-success)
-
-Learn how to measure traffic and campaigns on your site and pages -->
-
 <div class="previews">
   <div class="preview">
     <h2 class="sub-section-heading"><a href="Service-Transformation-Team">Service Transformation Team</a></h2>
     <p>Guidance on how we understand, design, optimise and build services</p>
   </div>
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="Content-style-guide">Content Style Guide</a></h2>
+    <h2 class="sub-section-heading"><a href="Content-standards">Content Style Guide</a></h2>
     <p>Includes guidance and tools to help plan, deliver and publish content</p>
   </div>
   <div class="preview">

@@ -28,3 +28,16 @@ We have a responsibility to make sure our online services (made up of websites, 
     <p>Accessibility training and information</p>
   </div>
 </div>
+
+{% assign ag = site.pages | where_exp: "item", "item.category contains 'Accessibility-guidelines' and item.live == true" %}
+<div class="previews">
+{% for item in ag %}
+<div class="preview">
+<h2 class="sub-section-heading"><a href="{{ item.url }}">
+  {{ item.title }}
+  </a>
+</h2>
+<p>{{ item.description }}</p>
+</div>
+{% endfor %}
+</div>

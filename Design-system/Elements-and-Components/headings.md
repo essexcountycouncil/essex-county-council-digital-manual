@@ -33,4 +33,4 @@ Page heading is styled as h1 and should only be used to display the title of the
 * Page heading is used at the top of each page.
 * Content heading is used for each new and unlreated piece of content within a page.
 * Section heading is used for each section within content on a page.
-* Sub-section-heading is used for those occasional cases of additional breaking down within a section is required or additionally certain preview sections.
+* Sub-section heading is used for those occasional cases where you need to break a content section down further or for certain preview sections.

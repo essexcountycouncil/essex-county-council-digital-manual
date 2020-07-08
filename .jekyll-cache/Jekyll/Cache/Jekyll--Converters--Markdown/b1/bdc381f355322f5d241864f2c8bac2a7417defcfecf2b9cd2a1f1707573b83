@@ -1,0 +1,50 @@
+I"m	<h1 id="textarea">Textarea</h1>
+
+<p>The textarea element enables users to input multiple lines of text.</p>
+
+<h2 id="example">Example</h2>
+
+<div class="form">
+  <div class="group">
+    <label for="details">Can you provide more detail?</label>
+    <span class="form-hint">Don’t include personal or financial information, such as your credit card details.</span>
+    <textarea class="textarea" id="details" name="details" rows="5"></textarea>
+  </div>
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="form"&gt;
+  &lt;div class="group"&gt;
+    &lt;label for="details"&gt;Can you provide more detail?&lt;/label&gt;
+    &lt;span class="form-hint"&gt;Don’t include personal or financial information, such as your credit card details.&lt;/span&gt;
+    &lt;textarea class="textarea" id="details" name="details" rows="5"&gt;&lt;/textarea&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<h2 id="when-to-use-this-component">When to use this component</h2>
+
+<p>This component should be used for when users need to input information that is longer than a single line. For example, leaving feedback or providing supporting information in a form.</p>
+
+<p>It shouldn’t be used for single answer inputs, such as email address or National Insurance number.</p>
+
+<p>Before using the textarea element, see if it’s better to ask closed questions using <a href="multiple-choice">multiple choice</a> or <a href="inputs">inputs</a></p>
+
+<p>Textarea is sometimes used as part of the <a href="">form component</a></p>
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>To ensure checkboxes are accessible it is important that the textarea and label are connected so assisstive technologies can recognise they are connected.</p>
+
+<p>To do this ensure the <code>for</code> attribute on the label matches the <code>id</code> attribute on the textarea.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;label for="details"&gt;Can you provide more detail?&lt;/label&gt;
+  &lt;span class="form-hint"&gt;Don’t include personal or financial information, such as your credit card details.&lt;/span&gt;
+&lt;textarea class="textarea" id="details" name="details" rows="5"&gt;&lt;/textarea&gt;
+</code></pre></div></div>
+
+<h2 id="content-to-be-published">Content to be published</h2>
+
+<ul>
+  <li>Error handling with textareas</li>
+</ul>
+:ET

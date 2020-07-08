@@ -1,0 +1,13 @@
+I"D<h1 id="paragraph">Paragraph</h1>
+
+<p>Paragraphs should be used for default body text.</p>
+
+<p>Italics and bold should not be used to style it.</p>
+
+<h2 id="example">Example</h2>
+
+<p>Most people have to pay for some or all of their care. Whether you receive any help to pay depends on your financial circumstances.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;Most people have to pay for some or all of their care. Whether you receive any help to pay depends on your financial circumstances.&lt;/p&gt;
+</code></pre></div></div>
+:ET

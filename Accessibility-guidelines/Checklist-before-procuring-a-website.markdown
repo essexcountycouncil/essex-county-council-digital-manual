@@ -1,6 +1,11 @@
 ---
 layout: page
+
+category: Accessibility-guidelines
 title: Checklist before procuring a website
+description: This is a description
+
+live: false
 ---
 
 # {{ page.title }}

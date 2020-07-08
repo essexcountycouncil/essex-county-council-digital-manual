@@ -17,7 +17,7 @@ Content breaks are used to visually seperate sections of content.
 
 ## When to use Content breaks
 
-Use Content breaks to break up a page that has differne content of information
+Use Content breaks to break up a page that has differne content of information.
 
 ## When not to use a Content break
 

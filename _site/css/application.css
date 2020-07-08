@@ -420,11 +420,11 @@ a.logo-text.seax img { vertical-align: bottom; height: initial; display: inline-
 
 @media (min-width: 641px) { .form .group .inline .multiple-choice, .form .fieldContent .inline .multiple-choice { margin-bottom: 0; margin-right: 30px; } }
 
-.nav ul.nav-links { padding-left: 0; margin-left: 0; }
+.nav ul.nav-links { padding-left: 0; margin-left: 0; display: inline-block; margin: 19.5px; }
 
 .nav ul.nav-links li { display: inline-block; margin-right: 15px; padding-left: 0; }
 
-.nav ul.nav-links li a { color: #0043af; font-weight: 700; text-decoration: underline; }
+.nav ul.nav-links li a { color: #0043af; color: #FFFFFF; font-weight: 700; text-decoration: none; }
 
 .nav ul.nav-links li a:hover, .nav ul.nav-links li a:active { color: #2179CA; text-decoration: underline; }
 

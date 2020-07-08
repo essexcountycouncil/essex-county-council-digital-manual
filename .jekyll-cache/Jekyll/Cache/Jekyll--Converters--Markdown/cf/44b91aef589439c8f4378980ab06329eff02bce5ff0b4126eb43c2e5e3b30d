@@ -1,0 +1,97 @@
+I"¼<h1 id="header">Header</h1>
+
+<p>Use the header to show users they are on an Essex County Council website and to provide tools to help them find what they need.</p>
+
+<p>We have 2 versions of the header</p>
+
+<ul>
+  <li>the <a href="#default-header">deault header</a></li>
+  <li>the <a href="#navigation-header">navigation header</a></li>
+</ul>
+
+<h2 id="default-header">Default header</h2>
+
+<h3 id="when-to-use-the-default-header">When to use the default header</h3>
+
+<p>Use the default header for Essex County Council web pages that use the Essex.gov.uk domain.</p>
+
+<header class="header-background">
+  <div class="header">
+    <div class="nav">
+      <div class="logo-wrap">
+        <a href="/" class="logo-text seax">
+          <img src="http://localhost:4000/essex-service-transformation-playbook/assets/images/seax.png" width="36" height="30" alt="Essex County Council logo" />
+          Essex.gov.uk
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;header class="header-background"&gt;
+  &lt;div class="header"&gt;
+    &lt;div class="nav"&gt;
+      &lt;div class="logo-wrap"&gt;
+        &lt;a href="/" class="logo-text seax"&gt;
+          &lt;img src="/assets/images/seax.png" width="36" height="30" alt="Essex County Council logo"&gt;
+          Essex.gov.uk
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/header&gt;
+</code></pre></div></div>
+
+<h2 id="navigation-header">Navigation header</h2>
+
+<h3 id="when-to-use-the-navigation-header">When to use the navigation header</h3>
+
+<p>Use the navigation header to add navigational assistance to users on Essex Councty Council websites.</p>
+
+<header class="header-background">
+  <div class="header">
+    <div class="nav">
+      <div class="logo-wrap">
+        <a href="/" class="logo-text seax">
+          <img src="http://localhost:4000/essex-service-transformation-playbook/assets/images/seax.png" width="36" height="30" alt="Essex County Council logo" />
+          Essex.gov.uk
+        </a>
+      </div>
+       <ul class="nav-links">
+            <li><a href="#">Link A</a></li>
+            <li><a href="#">Link B</a></li>
+            <li><a href="#">Link C</a></li>
+          </ul>   
+    </div>                     
+  </div>
+</header>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;header class="header-background"&gt;
+  &lt;div class="header"&gt;
+    &lt;div class="nav"&gt;
+      &lt;div class="logo-wrap"&gt;
+        &lt;a href="/" class="logo-text seax"&gt;
+          &lt;img src="/assets/images/seax.png" width="36" height="30" alt="Essex County Council logo"&gt;
+          Essex.gov.uk
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;ul class="nav-links"&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Link A&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Link B&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Link C&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;   
+    &lt;/div&gt;                     
+  &lt;/div&gt;
+&lt;/header&gt;
+</code></pre></div></div>
+
+<h2 id="when-not-to-use-the-header">When not to use the header</h2>
+
+<p>Do not use a header unless your websie is part of the Essex.gov.uk domain.</p>
+
+<h2 id="how-to-use-the-header">How to use the header</h2>
+
+<p>The header is displayed at the top of every page and is consistent across the entire site.</p>
+
+<p>It should display the siteâ€™s identity and branding, making it clear to the user what website they are on.</p>
+:ET

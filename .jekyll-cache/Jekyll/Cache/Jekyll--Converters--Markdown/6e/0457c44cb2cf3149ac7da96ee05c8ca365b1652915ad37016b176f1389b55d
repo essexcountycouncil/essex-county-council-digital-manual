@@ -1,7 +1,0 @@
-I"<<h1 id="print-link">Print link</h1>
-
-<p><a href="javascript:window.print()" class="print-link">Print this page</a></p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="javascript:window.print()" class="print-link"&gt;Print this page&lt;/a&gt;
-</code></pre></div></div>
-:ET

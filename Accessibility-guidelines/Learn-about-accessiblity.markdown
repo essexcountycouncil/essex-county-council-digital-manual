@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Accessibility testing standards
+title: Learn about accessibility
 ---
 
 # {{ page.title }}
