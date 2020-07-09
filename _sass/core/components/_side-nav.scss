@@ -23,11 +23,11 @@
     padding-right: 0;
     list-style-type: none;
     border-bottom: $border-thin solid $grey-light;
-    a {
-      &:hover {
+/*     a {
+      // &:hover {
 
-      }
-    }
+      // }
+    } */
     &.active {
       background: $white;
       padding-left: 0;

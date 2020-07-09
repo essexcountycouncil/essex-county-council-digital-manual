@@ -372,7 +372,7 @@ a.logo-text:hover { text-decoration: none; border-bottom: 2px #fff solid; }
 
 a.logo-text:focus { background-color: #682558; outline: 3px solid #fab500; border-bottom: 2px #fff solid; }
 
-a.logo-text.seax { float: left; background-position: 0 0; line-height: 1; background: url("/assets/images/seax.png") no-repeat; background-size: 36px 30px; border-bottom: 2px #682558 solid; margin-top: 4px; margin-bottom: -6px; padding-bottom: 6px; }
+a.logo-text.seax { float: left; background-position: 0 0; line-height: 1; background: url("/essex-service-transformation-playbook/assets/images/seax.png") no-repeat; background-size: 36px 30px; border-bottom: 2px #682558 solid; margin-top: 4px; margin-bottom: -6px; padding-bottom: 6px; }
 
 @media print { a.logo-text.seax { background-image: none; border-bottom: 2px #fff solid; } }
 
@@ -1182,7 +1182,7 @@ ul.link-boxes { list-style: none; }
 
 .side-nav ul { padding-left: 0; margin-left: 0; margin-bottom: 0; }
 
-.side-nav li { font-size: 0.8888888889rem; line-height: 1.6153846rem; padding-bottom: 0.40625rem; padding-top: 0.40625rem; padding-left: 0; padding-right: 0; list-style-type: none; border-bottom: 1px solid #dee0e2; }
+.side-nav li { font-size: 0.8888888889rem; line-height: 1.6153846rem; padding-bottom: 0.40625rem; padding-top: 0.40625rem; padding-left: 0; padding-right: 0; list-style-type: none; border-bottom: 1px solid #dee0e2; /*     a { // &:hover { // } } */ }
 
 .side-nav li.active { background: #fff; padding-left: 0; }
 

@@ -3,7 +3,7 @@ layout: page
 title: Optimise your content for search
 ---
 
-# Optimise your content for search
+# {{ page.title }}
 
 ## Why it's important
 

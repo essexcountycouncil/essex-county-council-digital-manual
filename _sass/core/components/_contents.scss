@@ -2,8 +2,8 @@
   @media print {
     display: none;
   }
-  .heading, ol, ul {
-  }
+  // .heading, ol, ul {
+  // }
   .heading h2 {
     @include small;
     font-weight: $regular;
