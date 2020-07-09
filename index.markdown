@@ -5,7 +5,7 @@
 layout: home
 title: Essex County Council Digital Manual
 ---
-# Service Transformation Playbook
+# {{ page.title }}
 
 The Service Design Toolkit is a collection of best practice tools and guidance to help design and deliver high quality, consistent and cost effective services.
 
