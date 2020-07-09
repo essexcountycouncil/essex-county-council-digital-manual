@@ -1,13 +1,8 @@
----
-layout: page
-title: Accessibility
----
+I"±<h1 id="accessibility">Accessibility</h1>
 
-# {{ page.title }}
+<p>Accessibility means not excluding anyone.</p>
 
-Accessibility means not excluding anyone. 
-
-We have a responsibility to make sure our online services (made up of websites, apps, forms and online documents) are accessible to everyone. 
+<p>We have a responsibility to make sure our online services (made up of websites, apps, forms and online documents) are accessible to everyone.</p>
 
 <div class="previews">
   <div class="preview">
@@ -29,17 +24,10 @@ We have a responsibility to make sure our online services (made up of websites, 
   </div>
 </div>
 
-{% assign ag = site.pages | where_exp: "item", "item.category contains 'Accessibility' and item.live == true" %}
-{% if ag.size > 0 %}
 <div class="previews">
-{% for item in ag %}
-<div class="preview">
-<h2 class="sub-section-heading"><a href="{{ item.url }}">
-  {{ item.title }}
-  </a>
-</h2>
-<p>{{ item.description }}</p>
+
 </div>
-{% endfor %}
-</div>
-{% endif %}
+<ul>
+   
+</ul>
+:ET
