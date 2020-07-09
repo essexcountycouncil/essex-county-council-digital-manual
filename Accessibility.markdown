@@ -32,19 +32,3 @@ We have a responsibility to make sure our online services (made up of websites, 
     <p>Accessibility training and information</p>
   </div>
 </div>
-
-{% assign accessibility = site.pages | where_exp: item.live == true" %}
-{% if accessibility.size > 0 %}
-  <div class="previews">
-    {% for item in accessibility %}
-      <div class="preview">
-        <h2 class="sub-section-heading"><a href="{{ item.url }}">
-        {{ item.title }}
-        </a>
-        </h2>
-        <p>{{ item.description }}</p>
-      </div>
-    {% endfor %}
-  </div>
-{% endif %}
-
