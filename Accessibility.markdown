@@ -33,7 +33,7 @@ We have a responsibility to make sure our online services (made up of websites, 
   </div>
 </div>
 
-{% assign accessibility = site.pages | where_exp: "item", item.live == true" %}
+{% assign accessibility = site.pages | where_exp: item.live == true" %}
 {% if accessibility.size > 0 %}
   <div class="previews">
     {% for item in accessibility %}
