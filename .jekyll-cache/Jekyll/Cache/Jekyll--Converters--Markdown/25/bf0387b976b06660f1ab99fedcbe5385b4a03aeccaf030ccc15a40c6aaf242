@@ -1,0 +1,55 @@
+I"�	<h1 id="creating-and-publishing-content">Creating and publishing content</h1>
+
+<h2 id="before-you-start">Before you start</h2>
+
+<p>Before you write and design your content, make sure you read the <a href="https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style">Government Digital Service Style guide</a></p>
+
+<h2 id="content-types">Content types</h2>
+
+<p>You need to think about which content type best meets the user need.</p>
+
+<p>You also need to consider the journey the user takes to get to your content. Make sure it is logical and consistent.</p>
+
+<h2 id="avoid-pdfs">Avoid PDFs</h2>
+
+<p>Content should be web pages (HTML) rather than PDFs as they aren’t accessible.</p>
+
+<h3 id="the-problem-with-pdfs">The problem with PDF’s</h3>
+
+<p>PDFs are not the best solution because:</p>
+
+<ul>
+  <li>assistive technologies such as screen readers find it much easier to read content on a webpage</li>
+  <li>the content can’t be searched by Google or the website search</li>
+  <li>they are not designed to be read on mobile devices</li>
+  <li>they can quickly become out of date with broken links</li>
+</ul>
+
+<h3 id="when-to-use-a-pdf">When to use a PDF</h3>
+
+<p>PDFs should only be used:</p>
+
+<ul>
+  <li>if there is a clear user need, with evidence to support it</li>
+  <li>when there is a legal requirement to have a formal document</li>
+  <li>a specific audience that need a special format, like an Easy Read document</li>
+</ul>
+
+<p>The legislation says that if you create a new PDF it must be fully accessible. Use the guidance on <a href="">creating an accessible PDF</a> to help you.</p>
+
+<h3 id="old-pdfs">Old PDFs</h3>
+
+<p>PDFs or other documents published before 23 September 2018 are exempt from the 23 September 2020 deadline, unless users need them in order to use a service.</p>
+
+<p>Old PDFs should be replaced with a HTML web page or deleted if they are not needed.</p>
+
+<h2 id="use-the-acceptance-criteria">Use the acceptance criteria</h2>
+
+<p>The user needs <a href="https://www.gov.uk/service-manual/agile-delivery/writing-user-stories">acceptance criteria</a> becomes the structure of your content. Use it as a checklist to make sure content is meeting the user needs.</p>
+
+<h2 id="before-you-publish">Before you publish</h2>
+
+<p>Before publishing content, you should get someone else to check the content. We call this peer review.</p>
+
+<p>The review will check that the content meets a user need and there are no errors and inaccuracies.</p>
+:ET

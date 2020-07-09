@@ -17,9 +17,33 @@ You also need to consider the journey the user takes to get to your content. Mak
 
 ## Avoid PDFs
 
-When thinking of creating a PDF, consider using a web page because they are [more accessible, are easier to find and read online](https://gds.blog.gov.uk/2018/07/16/why-gov-uk-content-should-be-published-in-html-and-not-pdf/).
+Content should be web pages (HTML) rather than PDFs as they aren’t accessible. 
 
-PDFs should be used in a very limited way and only in rare circumstances. The main reason for this are because PDFs are not easily findable through search engines and because they are not mobile friendly or accessible.
+### The problem with PDF’s 
+
+PDFs are not the best solution because:  
+
+- assistive technologies such as screen readers find it much easier to read content on a webpage
+- the content can't be searched by Google or the website search 
+- they are not designed to be read on mobile devices 
+- they can quickly become out of date with broken links 
+
+### When to use a PDF
+
+PDFs should only be used:  
+
+- if there is a clear user need, with evidence to support it 
+- when there is a legal requirement to have a formal document  
+- a specific audience that need a special format, like an Easy Read document 
+
+The legislation says that if you create a new PDF it must be fully accessible. Use the guidance on [creating an accessible PDF]() to help you. 
+
+### Old PDFs 
+
+ 
+PDFs or other documents published before 23 September 2018 are exempt from the 23 September 2020 deadline, unless users need them in order to use a service. 
+
+Old PDFs should be replaced with a HTML web page or deleted if they are not needed. 
 
 ## Use the acceptance criteria
 
