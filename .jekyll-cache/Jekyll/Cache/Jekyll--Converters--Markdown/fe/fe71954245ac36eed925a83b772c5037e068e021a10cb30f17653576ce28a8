@@ -1,9 +1,4 @@
----
-layout: page
-title: Service Transformation team
----
-
-# {{ page.title }}
+I"m<h1 id="service-transformation-team">Service Transformation team</h1>
 
 <div class="previews">
   <div class="preview">
@@ -27,3 +22,4 @@ title: Service Transformation team
     <p>Includes guidance on how to understand the needs of users</p>
   </div>
 </div>
+:ET
