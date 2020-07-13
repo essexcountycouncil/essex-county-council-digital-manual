@@ -1,6 +1,6 @@
 ---
 layout: page
-title: test the prototype
+title: Test the prototype
 ---
 
 # {{ page.title }}
