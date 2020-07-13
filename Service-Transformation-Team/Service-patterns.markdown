@@ -34,6 +34,6 @@ To get the most from the library follow these steps in this order:
 
 1. [Identify service patterns](/essex-service-transformation-playbook/Service-Transformation-Team/Service-standards/Identify-service-patterns)
 2. [Map the ‘as is’ service](/essex-service-transformation-playbook/Service-Transformation-Team/Service-standards/Map-the-as-is-service)
-3. [Identify insights and design opportunities](/essex-service-transformation-playbook/Service-Transformation-Team/Service-standards)
-4. [Create a prototype](/essex-service-transformation-playbook/Service-Transformation-Team/Service-standards)
-5. [Test the prototype](/essex-service-transformation-playbook/Service-Transformation-Team/Service-standards)
+3. [Identify insights and design opportunities](/essex-service-transformation-playbook/Service-Transformation-Team/Service-standards/Identify-insights-and-design-opportunities)
+4. [Create a prototype](/essex-service-transformation-playbook/Service-Transformation-Team/Service-standards/Create-a-prototype)
+5. [Test the prototype](/essex-service-transformation-playbook/Service-Transformation-Team/Service-standards/Test-the-prototype)
