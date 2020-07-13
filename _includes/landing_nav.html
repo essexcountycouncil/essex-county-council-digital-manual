@@ -1,0 +1,15 @@
+{% assign pageList = site.pages | where_exp: "item", "item.categories contains include.category and item.live == true" %}
+
+{% if pageList.size > 0 %}
+  <div class="previews">
+    {% for item in pageList %}
+      <div class="preview">
+        <h2 class="sub-section-heading"><a href="{{ item.url | prepend: site.baseurl}}">
+        {{ item.title }}
+        </a>
+        </h2>
+        <p>{{ item.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

@@ -27,7 +27,7 @@ When you’re writing an accessibility statement, include:
 
 The statement needs to be updated regularly. For example, when accessibility issues have been fixed, or when new ones have been found. 
 
-Government Digital Services (GDS) have produced a [sample accessibility statement](https://www.gov.uk/government/publications/sample-accessibility-statement/sample-accessibility-statement-for-a-fictional-public-sector-website). It includes sample wording, guidance on what to include in your statement and where to publish it. 
+The Government Digital Services (GDS) has produced a [sample accessibility statement](https://www.gov.uk/government/publications/sample-accessibility-statement/sample-accessibility-statement-for-a-fictional-public-sector-website). It includes sample wording, guidance on what to include in your statement and where to publish it. 
 
 The [accessibility statement on essex.gov.uk](https://www.essex.gov.uk/accessibility) is a good example of what a published accessibility statement looks like. 
 

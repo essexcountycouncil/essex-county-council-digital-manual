@@ -7,15 +7,15 @@ title: Design System
 
 <div class="previews">
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="/essex-service-transformation-playbook/Design-system/Elements-and-Components">Elements & Components</a></h2>
-    <p>Guidance on how we understand, design, optimise and build services</p>
+    <h2 class="sub-section-heading"><a href="/essex-service-transformation-playbook/Design-system/Elements-and-Components">Elements and components</a></h2>
+    <p>Guidance on how we understand, design, improve and build services</p>
   </div>
   <div class="preview">
     <h2 class="sub-section-heading"><a href="/essex-service-transformation-playbook/Design-system/Page-examples">Page examples</a></h2>
-    <p>Examples of how your finished branded page should look</p>
+    <p>Includes examples of how your branded page should look when finished</p>
   </div>
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="">Accessibility testing standards</a></h2>
+    <h2 class="sub-section-heading"><a href="/essex-service-transformation-playbook/Accessibility/Making-your-service-accessible/Testing-for-accessibility">Testing for accessibility</a></h2>
     <p>The standards and techniques needed for effective accessibility testing</p>
   </div>
 </div>

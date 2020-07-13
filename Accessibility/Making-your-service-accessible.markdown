@@ -33,7 +33,7 @@ The GOV.UK Service Manual has detailed guidance on [how to make your service acc
 
 If there is a clear user need for a new website, read through this [checklist before procuring a website]().  
 
-This will make ensure that you’ have thought about accessibility before anything has been built. 
+This will make ensure that you’ve thought about accessibility before anything has been built. 
 
 
 ## Roles and responsibilities for accessibility 
@@ -43,7 +43,7 @@ Find out what [each role does in a service team to make sure content is access
 
 ## Test your service with users  
 
-When you are doing research, you need to include users who have disabilities or use assistive technologies. Find out more about [how to do user research for accessibility](/essex-service-transformation-playbook/Placeholder-page). 
+When you are doing research, you need to include users who have disabilities or use assistive technologies. The GOV.UK Service Manual has guidance on [running research sessions with people with disabilities](/essex-service-transformation-playbook/Placeholder-page). 
 
 
 ## Carry out automated and manual testing  
@@ -76,6 +76,6 @@ Think about other ways users will interact with your service.
  
 Users who are deaf or have a speech impairment should have an alternative way to contact you. This could be by text, email or visiting in person with a [British Sign Language translator or lip reader](https://intranet.essex.gov.uk/Pages/Translation_and_interpreting.aspx). 
  
-If you send letters out, write them in [plain English](/essex-service-transformation-playbook/Placeholder-page) and provide these in alternative accessible formats (EasyRead, large print or Braille). 
+If you send letters out, write them in [plain English](/essex-service-transformation-playbook/Content-standards/Content-guidelines/Designing-content) and provide these in alternative accessible formats (EasyRead, large print or Braille). 
  
 [Inclusive Communication Essex](https://intranet.essex.gov.uk/Pages/Inclusive_Communication_Essex.aspx) can supply EasyRead documents and [Paragon Print](https://intranet.essex.gov.uk/Pages/Alternative_formats.aspx) can supply other alternative formats. 

@@ -5,17 +5,13 @@ title: Accessibility
 
 # {{ page.title }}
 
-Accessibility means not excluding anyone. 
-
-We have a responsibility to make sure our online services (made up of websites, apps, forms and online documents) are accessible to everyone. 
-
 <div class="previews">
   <div class="preview">
     <h2 class="sub-section-heading"><a href="/essex-service-transformation-playbook/Accessibility/Why-accessibility-is-important">Why accessibility is important</a></h2>
     <p>Includes information on the legal requirements and the benefits of creating accessible services</p>
   </div>
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="/essex-service-transformation-playbook/Content-style-guide/Content-guidelines">Content guidelines</a></h2>
+    <h2 class="sub-section-heading"><a href="/essex-service-transformation-playbook/Content-standards/Content-guidelines">Content guidelines</a></h2>
     <p>Includes practical 'how to' guides and useful resources to help with writing and designing content</p>
   </div>
   <div class="preview">
@@ -25,26 +21,11 @@ We have a responsibility to make sure our online services (made up of websites, 
 
   <div class="preview">
     <h2 class="sub-section-heading"><a href="/essex-service-transformation-playbook/Accessibility/Learn-about-accessiblity">Learn about accessibility</a></h2>
-    <p>Accessibility training and information</p>
-  </div>
-    <div class="preview">
-    <h2 class="sub-section-heading"><a href="/essex-service-transformation-playbook/Accessibility/Learn-about-accessiblity">Checklist before procuring a website</a></h2>
-    <p>Accessibility training and information</p>
+    <p>Information on accessibility training and useful resources</p>
   </div>
 </div>
 
-{% assign accessibility = site.pages | where_exp: "item", item.live == true" %}
-{% if accessibility.size > 0 %}
-  <div class="previews">
-    {% for item in accessibility %}
-      <div class="preview">
-        <h2 class="sub-section-heading"><a href="{{ item.url }}">
-        {{ item.title }}
-        </a>
-        </h2>
-        <p>{{ item.description }}</p>
-      </div>
-    {% endfor %}
-  </div>
-{% endif %}
+{% include landing_nav.html category=page.title %}
+
+
 
