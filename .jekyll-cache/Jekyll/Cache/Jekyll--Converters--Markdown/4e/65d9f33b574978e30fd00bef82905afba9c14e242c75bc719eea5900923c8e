@@ -1,9 +1,4 @@
----
-layout: page
-title: Accessibility
----
-
-# {{ page.title }}
+I"Ì<h1 id="accessibility">Accessibility</h1>
 
 <div class="previews">
   <div class="preview">
@@ -24,3 +19,4 @@ title: Accessibility
     <p>Information on accessibility training and useful resources</p>
   </div>
 </div>
+:ET
