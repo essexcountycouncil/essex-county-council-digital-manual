@@ -27,13 +27,13 @@ title: Making your service accessible
 
 Before you design and build a service, think about who might use it and how they will access it. 
 
-You should only create something if there is a [user need](/essex-service-transformation-playbook/Placeholder-page) for it. 
+You should only create something if there is a [user need](/essex-service-transformation-playbook/Service-Transformation-team/User-need) for it. 
 
 The GOV.UK Service Manual has detailed guidance on [how to make your service accessible](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#what-to-do-about-accessibility-in-discovery). 
 
-If there is a clear user need for a new website, read through this [checklist before procuring a website]().  
+If there is a clear user need for a new website, read the [guidance on buying a digital product or service]().  
 
-This will make ensure that you’ve thought about accessibility before anything has been built. 
+This will make sure that you’ve thought about accessibility before anything has been built. 
 
 
 ## Roles and responsibilities for accessibility 
@@ -43,7 +43,7 @@ Find out what [each role does in a service team to make sure content is access
 
 ## Test your service with users  
 
-When you are doing research, you need to include users who have disabilities or use assistive technologies. The GOV.UK Service Manual has guidance on [running research sessions with people with disabilities](/essex-service-transformation-playbook/Placeholder-page). 
+When you are doing research, you need to include users who have disabilities or use assistive technologies. The GOV.UK Service Manual has guidance on [running research sessions with people with disabilities](https://www.gov.uk/service-manual/user-research/running-research-sessions-with-people-with-disabilities). 
 
 
 ## Carry out automated and manual testing  

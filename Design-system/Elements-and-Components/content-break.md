@@ -15,15 +15,15 @@ Content breaks are used to visually seperate sections of content.
 
     <div class="content-break-small"></div>
 
-## When to use Content breaks
+## When to use content breaks
 
-Use Content breaks to break up a page that has differne content of information.
+Use content breaks to break up a page that has different content of information.
 
-## When not to use a Content break
+## When not to use a content break
 
-Do not use Content breaks to break up paragraphs within a body of text or divide up forms.
+Do not use content breaks to break up paragraphs within a body of text or divide up forms.
 
-## How to use Content breaks
+## How to use content breaks
 
 They should be used to:
 <ul>

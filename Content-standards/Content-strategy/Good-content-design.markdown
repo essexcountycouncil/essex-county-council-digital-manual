@@ -9,7 +9,7 @@ title: Good content design
 
 Good web content is designed around user needs. It’s what the user needs from your service and not what you want to tell them.
 
-Start by [learning who you are designing for]().
+Start by [learning who you are designing for](/essex-service-transformation-playbook/Service-Transformation-team/User-need).
 
 ## Designing good content
 

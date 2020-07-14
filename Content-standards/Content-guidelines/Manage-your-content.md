@@ -13,7 +13,7 @@ You can use data, user feedback and user research to keep improving your service
 
 You need to understand how people are using your content.
 
-[Google Analytics reports](google-analytics-basics) can tell you:
+Google Analytics reports<!--(google-analytics-basics)--> can tell you:
 
 *   which pages people are going to
 *   where they are coming from

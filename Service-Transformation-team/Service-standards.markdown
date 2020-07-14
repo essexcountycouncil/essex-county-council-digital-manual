@@ -5,7 +5,7 @@ title: Service standards
 
 # {{ page.title }}
 
-The GDS’s Service Standard provides the principles of building a good service. This manual explains what teams can do to build great services that will meet the standard. (Rewording required)
+The GOV.UK Service Standard provides the principles of building a good service. This manual explains what teams can do to build great services that will meet the standard. (Rewording required)
 
 1. **Understand users and their needs**
 

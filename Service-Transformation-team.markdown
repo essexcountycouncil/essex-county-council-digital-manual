@@ -12,7 +12,7 @@ title: Service Transformation team
   </div>
   <div class="preview">
     <h2 class="sub-section-heading"><a href="/essex-service-transformation-playbook/Service-Transformation-team/Service-standards">Service standards</a></h2>
-    <p>includes the principles of building a good service</p>
+    <p>Includes the principles of building a good service</p>
   </div>
   <div class="preview">
     <h2 class="sub-section-heading"><a href="/essex-service-transformation-playbook/Service-Transformation-team/Service-patterns">Service patterns</a></h2>

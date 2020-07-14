@@ -1,0 +1,31 @@
+I"ž<h1 id="content-break">Content break</h1>
+
+<p>Content breaks are used to visually seperate sections of content.</p>
+
+<div class="content-break-large"></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="content-break-large"&gt;&lt;/div&gt;
+</code></pre></div></div>
+
+<div class="content-break-small"></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="content-break-small"&gt;&lt;/div&gt;
+</code></pre></div></div>
+
+<h2 id="when-to-use-content-breaks">When to use content breaks</h2>
+
+<p>Use content breaks to break up a page that has different content of information.</p>
+
+<h2 id="when-not-to-use-a-content-break">When not to use a content break</h2>
+
+<p>Do not use content breaks to break up paragraphs within a body of text or divide up forms.</p>
+
+<h2 id="how-to-use-content-breaks">How to use content breaks</h2>
+
+<p>They should be used to:</p>
+<ul>
+  <li>thematically divide up sections of content, such as services, news and legislation</li>
+  <li>show a divide between a list of clickable items, such as news articles, service links or guidance documents</li>
+</ul>
+
+:ET

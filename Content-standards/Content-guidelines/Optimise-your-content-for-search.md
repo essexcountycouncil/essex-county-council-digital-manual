@@ -15,7 +15,7 @@ Search engine optimisation (SEO) ensures that search engines rank your content s
 
 Design content around user needs to ensure your content is useful and relevant.
 
-See the [user needs section](user-need) of this toolkit for more why user needs are important.
+See the [user needs section](/essex-service-transformation-playbook/Service-Transformation-team/User-need) of this toolkit for more why user needs are important.
 
 ## Keywords in content
 
@@ -33,7 +33,7 @@ Use hyphens to separate the words so search engines understands the words clearl
 
 Here’s an example: [https://www.essex.gov.uk/blue-badge/who-can-get-a-blue-badge](https://www.essex.gov.uk/blue-badge/who-can-get-a-blue-badge)
 
-See our [URL guidance](url-guidelines).
+See our [URL guidance](/essex-service-transformation-playbook/Content-standards/Content-guidelines/Url-guidelines).
 
 ### Titles, teaser text and meta description
 
@@ -64,7 +64,7 @@ Use headings and subheadings. They help search engines understand what you’re 
 
 Apply heading styles correctly. Use subheadings to structure your content. Use them in order, for example Heading 2 is after Heading 1, Heading 2 is followed by Heading 3. 
 
-See [creating accessible document](creating-an-accessible-pdf) for guidance on applying heading styles.
+<!--See [creating accessible document](creating-an-accessible-pdf) for guidance on applying heading styles.-->
 
 See our [guidance on using images](using-images).
 
@@ -75,7 +75,7 @@ Use Google Analytics to help you find out what your users are searching for when
 -	external search terms that led users to a page from Google or other search engines
 -	internal search terms that users used while on Essex.gov.uk or other sites
 
-See the [measurement section](/measurement/overview) of this toolkit for more guidance on using Google Analytics.
+<!-- See the [measurement section](/essex-service-transformation-playbook/Measuring-success) of this toolkit for more guidance on using Google Analytics.-->
 
 ## Tools and more guidance
 
