@@ -1,0 +1,40 @@
+I"é<h1 id="file-download">File download</h1>
+
+<ol>
+  <li><a href="/essex-county-council-digital-manual/">Home</a></li>
+  <li><a href="/essex-county-council-digital-manual/Design-system">Design System</a></li>
+  <li><a href="/essex-county-council-digital-manual/Design-system/Elements-and-Components">Elements and Components</a></li>
+  <li>File download</li>
+</ol>
+
+<h1 id="file-download-1">File download</h1>
+
+<div class="file-download"><a href="/public/images/test-pdf-file.pdf" class="file-link">This is a title for the file download link</a>
+	<p><span>PDF, 4.84 MB</span>This is used for any descriptions required for this downloadable file.</p>
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="file-download"&gt;&lt;a href="/public/images/test-pdf-file.pdf" class="file-link"&gt;This is a title for the file download link&lt;/a&gt;
+	&lt;p&gt;&lt;span&gt;PDF, 4.84 MB&lt;/span&gt;This is used for any descriptions required for this downloadable file.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<p>If we need to show multiple files it is recommended to have signposting to accessibilty concerns to apply to all files so to avoid unnecessary repetition.</p>
+
+<div class="file-collection">
+	<h4>Related information</h4>
+	<p>The following files are in downloadable formats and may not be suitable for users of assistive technology.</p>
+	<div class="file-download"><a href="/public/images/test-pdf-file.pdf" class="file-link">This is a title for the file download link</a>
+		<p><span>PDF, 4.84 MB</span>This is used for any descriptions required for this downloadable file.</p>
+	</div>
+	<div class="file-download"><a href="/public/images/test-pdf-file.pdf" class="file-link">This is a title for the file download link</a>
+		<p><span>PDF, 4.84 MB</span>This is used for any descriptions required for this downloadable file.</p>
+	</div>
+	<div class="file-download"><a href="/public/images/test-pdf-file.pdf" class="file-link">This is a title for the file download link</a>
+		<p><span>PDF, 4.84 MB</span>This is used for any descriptions required for this downloadable file.</p>
+	</div>
+</div>
+
+<h2 id="using-file-links">Using file links</h2>
+
+<p>We use file links for displaying to users downloadable files such as pdf.</p>
+:ET
