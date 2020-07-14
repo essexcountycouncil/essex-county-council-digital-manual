@@ -22,11 +22,11 @@ Use breadcrumbs to help users understand where they are on your website
     </nav>
 
 
-## When to usereadcrumbs
+## When to use breadcrumbs
 
 Breadcrumbs show users where they are in the website hierarchy and they provide a way to navigate through previous levels of content.
 
-## Whne not to use breadcrumbs
+## When not to use breadcrumbs
 
 You should not use breadcrumbs on transactional journeys. This could potentially get in the way of a user completing a task.
 

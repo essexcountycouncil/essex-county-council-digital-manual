@@ -1,0 +1,35 @@
+I"_<h1 id="highlight-box">Highlight box</h1>
+
+<p>The highlight box is a visible container to convey important information to the user following a transaction or completion of a form.</p>
+
+<div class="highlight-box">
+  <h1>
+    Financial checker complete
+  </h1>
+  <p>
+    Self funded care
+  </p>
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="highlight-box"&gt;
+  &lt;h1&gt;
+    Financial checker complete
+  &lt;/h1&gt;
+  &lt;p&gt;
+    Self funded care
+  &lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<h2 id="when-to-use-the-highlight-box">When to use the highlight box</h2>
+
+<p>Use the highlight box to display confirmation and important information to the user when a transaction has been completed succesfully.</p>
+
+<h2 id="when-not-to-use-the-highlight-box">When not to use the highlight box</h2>
+
+<p>Do not use the highlight box on pages that are not transactional.</p>
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>A <code>h1</code> tag is included within highlight box. This heading should replace the main<code>&lt;h1&gt;</code>tag on the page.</p>
+:ET

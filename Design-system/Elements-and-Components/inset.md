@@ -5,17 +5,14 @@ title: Inset
 
 # {{ page.title }}
 
-<div class="inset">
-  <p>
-    It can only be completed if you have already been assessed as needing care and support.
-  </p>
-</div>
+Use the inset component to highlight important text on a page.
 
-	<div class="inset">
-		<p>
-		  It can only be completed if you have already been assessed as needing care and support.
-		</p>
-	</div>
+You can use insets:
+
+- [with a heading](#with-a-heading)
+- [without a heading](#without-a-heading)
+
+## With a heading
 
 <div class="inset">
 	<div class="section-heading">There are over 260 grit bins.</div>
@@ -31,16 +28,29 @@ title: Inset
 		</p>
 	</div>
 
-## Using insets
-
-An inset is a visual aid to differentiate an excerpt of text from the body of content. It should contain information that's useful or important to the user.
+## Without a heading
 
 <div class="inset">
   <p>
-  	It can be embedded anywhere within the body content of a page.
+    It can only be completed if you have already been assessed as needing care and support.
   </p>
 </div>
 
-It shouldn't be used instead of an <a href="/docs/core/components/alert">alert</a> which should provide very important information for a limited time. This could be both service or system alerts.
+	<div class="inset">
+		<p>
+		  It can only be completed if you have already been assessed as needing care and support.
+		</p>
+	</div>
 
-** Note: ** * the Stockport codebase uses the term Alert Inline for what we call Inset. *
+## When to use inset
+
+Use the inset component as visual aid to differentiate an excerpt of text from the body of content. It should contain information that's useful or important to the user, for example:
+
+- quotes
+- facts
+- statistics
+- pertinent information
+
+## When not to use inset
+
+Insets shouldn't be used instead of an [alert](/essex-service-transformation-playbook/Design-system/Elements-and-Components/alert) which should provide very important information for a limited time.

@@ -5,10 +5,12 @@ title: Contents
 
 # {{ page.title }}
 
-<nav class="contents" aria-label="pages-in-this-service">
+Use contents pages to allow users to navigate between a set of related pages.
+
+<nav class="contents" aria-label="Pages in this service">
   <div class="heading"><h2>Contents</h2></div>
   <ol class="list list-number" id="pages-in-this-service">
-    <li>Paying for care and support</li>
+    <li aria-current="page">Paying for care and support</li>
     <li><a href="#">Financial assessment </a></li>
     <li><a href="#">Personal budget</a></li>
     <li><a href="#">Care charges</a></li>
@@ -37,10 +39,26 @@ title: Contents
       </ol>
     </nav>
 
-## Using contents
+## When to use contents
 
-Contents is an in-page navigation to guide the user through a series of pages that are linked together.
+Use a contents list to allow users to navigate between a small group of related pages to help users find related information, for example a group of pages about paying for care and support. 
 
-It should be used on information pages and should be positioned at the top, just below the page title.
+## When not use contents
 
-It shouldn't be used to link to other sections of the website or pages that aren't grouped together.
+Do not use contents to group pages that are not related, this could confuse users. 
+
+Do not use contents on transactional pages or forms. 
+
+Consider using [buttons](/essex-service-transformation-playbook/Design-system/Elements-and-Components/buttons) or [back](/essex-service-transformation-playbook/Design-system/Elements-and-Components/back) links instead.
+
+## How to use contents
+
+Use the contents at the top of page, just below the title, along with [pagination](/essex-service-transformation-playbook/Design-system/Elements-and-Components/pagination) at the bottom of the page.
+
+Links should be short and descriptive. Long links make the list difficult to scan.
+
+### Accessibility
+
+The contents list is wrapped by a <code><nav></code> element to show that these links are a form of navigation. This <code><nav></code> also has the attribute <code>aria-label</code> with the value <code>Pages in this service</code>. Screen readers will read out this label to identify what type of navigation it is.
+
+If the list item refers to the current page the user is on it should also have the attribute <code>aria-label</code> with the value <code>page</code>. This indicates to screen readers the link represents the page the user is on.

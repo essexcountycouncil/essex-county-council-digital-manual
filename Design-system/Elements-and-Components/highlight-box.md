@@ -5,6 +5,8 @@ title: Highlight box
 
 # {{ page.title }}
 
+The highlight box is a visible container to convey important information to the user following a transaction or completion of a form.
+
 <div class="highlight-box">
   <h1>
     Financial checker complete
@@ -23,8 +25,14 @@ title: Highlight box
       </p>
     </div>
 
-## Using the highlight box
+## When to use the highlight box
 
-The highlight box should display important information to a user after completing a transaction. It will usually be on the final page of a <a href="/docs/core/elements/form">form</a>.
+Use the highlight box to display confirmation and important information to the user when a transaction has been completed succesfully.
 
-A <code>h1</code> tag is included within Hilight-box, and so should be the page heading where this is used, or if this is not the case to be swapped out for the class <code>.page-heading</code> 
+## When not to use the highlight box
+
+Do not use the highlight box on pages that are not transactional. 
+
+## Accessibility
+
+A <code>h1</code> tag is included within highlight box. This heading should replace the main <code><h1></code> tag on the page.
