@@ -33,7 +33,7 @@ Use select to let users select from a long list. As some users can struggle this
 
 ## How to use select
 
-Try using the <a href="/essex-service-transformation-playbook/Design-system/Elements-and-Components/radio">radio</a> or <a href="/essex-service-transformation-playbook/Design-system/Elements-and-Components/checkbox">checkbox</a> elements instead.
+Try using the <a href="/essex-county-council-digital-manual/Design-system/Elements-and-Components/radio">radio</a> or <a href="/essex-county-council-digital-manual/Design-system/Elements-and-Components/checkbox">checkbox</a> elements instead.
 
 It's often used when there is a long list that can't presented in another way, such as a list of countries or languages.
 

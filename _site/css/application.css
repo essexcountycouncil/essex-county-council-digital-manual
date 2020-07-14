@@ -372,7 +372,7 @@ a.logo-text:hover { text-decoration: none; border-bottom: 2px #fff solid; }
 
 a.logo-text:focus { background-color: #682558; outline: 3px solid #fab500; border-bottom: 2px #fff solid; }
 
-a.logo-text.seax { float: left; background-position: 0 0; line-height: 1; background: url("/essex-service-transformation-playbook/assets/images/seax.png") no-repeat; background-size: 36px 30px; border-bottom: 2px #682558 solid; margin-top: 4px; margin-bottom: -6px; padding-bottom: 6px; }
+a.logo-text.seax { float: left; background-position: 0 0; line-height: 1; background: url("/essex-county-council-digital-manual/assets/images/seax.png") no-repeat; background-size: 36px 30px; border-bottom: 2px #682558 solid; margin-top: 4px; margin-bottom: -6px; padding-bottom: 6px; }
 
 @media print { a.logo-text.seax { background-image: none; border-bottom: 2px #fff solid; } }
 
@@ -3636,9 +3636,9 @@ table.pretty thead th.sorting { background: #66A9BD url("/Content/images/dt/sort
 
 #design-system-docs .content ol:first-child { display: inline-block; padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0; margin-top: 0.8125rem; margin-bottom: 0.8125rem; }
 
-#design-system-docs .content ol:first-child li { font-size: 0.8888888889rem; line-height: 1.6153846rem; list-style: none; margin-right: 0.6em; padding-left: 0.9em; margin-bottom: 0; float: left; background-image: url("/essex-service-transformation-playbook/assets/images/icon/separator.png"); background-position: 0% 50%; background-repeat: no-repeat; }
+#design-system-docs .content ol:first-child li { font-size: 0.8888888889rem; line-height: 1.6153846rem; list-style: none; margin-right: 0.6em; padding-left: 0.9em; margin-bottom: 0; float: left; background-image: url("/essex-county-council-digital-manual/assets/images/icon/separator.png"); background-position: 0% 50%; background-repeat: no-repeat; }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20/10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { #design-system-docs .content ol:first-child li { background-image: url("/essex-service-transformation-playbook/assets/icon/images/separator-2x.png"); background-size: 6px 11px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20/10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { #design-system-docs .content ol:first-child li { background-image: url("/essex-county-council-digital-manual/assets/icon/images/separator-2x.png"); background-size: 6px 11px; } }
 
 @media (max-width: 640px) { #design-system-docs .content ol:first-child li { font-size: 0.7901234568rem; line-height: 1.14286rem; margin-bottom: 0.8125rem; } }
 

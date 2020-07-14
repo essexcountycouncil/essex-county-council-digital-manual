@@ -1,4 +1,4 @@
-I"ú<h1 id="browser-check">Browser check</h1>
+I"ï¿½<h1 id="browser-check">Browser check</h1>
 
 <p>Browser check notifies users if they are using an older browser</p>
 
@@ -30,5 +30,5 @@
 
 <h2 id="how-to-use-browser-check">How to use browser check</h2>
 
-<p>Browser check should be placed near the start of the <code>&lt;body&gt;</code> tag, directly after the <a href="/essex-service-transformation-playbook/Design-system/Elements-and-Components/skip-link">skip link</a> element.</p>
+<p>Browser check should be placed near the start of the <code>&lt;body&gt;</code> tag, directly after the <a href="/essex-county-council-digital-manual/Design-system/Elements-and-Components/skip-link">skip link</a> element.</p>
 :ET

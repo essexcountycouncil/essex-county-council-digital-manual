@@ -45,7 +45,7 @@ Use radios if users can only select one option available.
 
 ## When not to use radios
 
-Do not use radios if users may need to select multiple options. Use [checkboxes](/essex-service-transformation-playbook/Design-system/Elements-and-Components/radio) instead.
+Do not use radios if users may need to select multiple options. Use [checkboxes](/essex-county-council-digital-manual/Design-system/Elements-and-Components/radio) instead.
 
 ## How to use radios
 

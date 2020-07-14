@@ -1,4 +1,4 @@
-I"Ì
+I"ï¿½
 <h1 id="contents">Contents</h1>
 
 <p>Use contents pages to allow users to navigate between a set of related pages.</p>
@@ -42,7 +42,7 @@
 
 <h2 id="when-not-use-contents">When not use contents</h2>
 
-<p>Do not use contents to group pages that are not related, this could confuse users. Do not use contents on transactional pages or forms. Consider using <a href="/essex-service-transformation-playbook/Design-system/Elements-and-Components/buttons">buttons</a> or <a href="/essex-service-transformation-playbook/Design-system/Elements-and-Components/back">back</a> links instead.</p>
+<p>Do not use contents to group pages that are not related, this could confuse users. Do not use contents on transactional pages or forms. Consider using <a href="/essex-county-council-digital-manual/Design-system/Elements-and-Components/buttons">buttons</a> or <a href="/essex-county-council-digital-manual/Design-system/Elements-and-Components/back">back</a> links instead.</p>
 
 <p>It should be used on information pages and should be positioned at the top, just below the page title.</p>
 

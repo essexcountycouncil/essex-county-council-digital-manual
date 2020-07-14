@@ -27,7 +27,7 @@ title: Making your service accessible
 
 Before you design and build a service, think about who might use it and how they will access it. 
 
-You should only create something if there is a [user need](/essex-service-transformation-playbook/Service-Transformation-team/User-need) for it. 
+You should only create something if there is a [user need](/essex-county-council-digital-manual/Service-Transformation-team/User-need) for it. 
 
 The GOV.UK Service Manual has detailed guidance on [how to make your service accessible](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#what-to-do-about-accessibility-in-discovery). 
 
@@ -38,7 +38,7 @@ This will make sure that you’ve thought about accessibility before anything ha
 
 ## Roles and responsibilities for accessibility 
  
-Find out what [each role does in a service team to make sure content is accessible to everyone](/essex-service-transformation-playbook/Placeholder-page). 
+Find out what [each role does in a service team to make sure content is accessible to everyone](/essex-county-council-digital-manual/Placeholder-page). 
  
 
 ## Test your service with users  
@@ -48,14 +48,14 @@ When you are doing research, you need to include users who have disabilities or 
 
 ## Carry out automated and manual testing  
 
-Test your website regularly with automated and manual testing. It’s important to use both methods as automated testing alone will only pick up 30% of accessibility issues. Find out more about [testing for accessibility](/essex-service-transformation-playbook/Accessibility/Making-your-service-accessible/Testing-for-accessibility). 
+Test your website regularly with automated and manual testing. It’s important to use both methods as automated testing alone will only pick up 30% of accessibility issues. Find out more about [testing for accessibility](/essex-county-council-digital-manual/Accessibility/Making-your-service-accessible/Testing-for-accessibility). 
  
 
 ## Publish an accessibility statement 
 
 Once you’ve finished researching and testing your service, you need to write an accessibility statement. This is an important step as it’s part of the requirements of the [accessibility regulations](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps). 
  
-Read the guidance on [publishing an accessibility statement](/essex-service-transformation-playbook/Accessibility/Making-your-service-accessible/Publishing-an-accessibility-statement). 
+Read the guidance on [publishing an accessibility statement](/essex-county-council-digital-manual/Accessibility/Making-your-service-accessible/Publishing-an-accessibility-statement). 
 
 
 ## Test regularly  
@@ -76,6 +76,6 @@ Think about other ways users will interact with your service.
  
 Users who are deaf or have a speech impairment should have an alternative way to contact you. This could be by text, email or visiting in person with a [British Sign Language translator or lip reader](https://intranet.essex.gov.uk/Pages/Translation_and_interpreting.aspx). 
  
-If you send letters out, write them in [plain English](/essex-service-transformation-playbook/Content-standards/Content-guidelines/Designing-content) and provide these in alternative accessible formats (EasyRead, large print or Braille). 
+If you send letters out, write them in [plain English](/essex-county-council-digital-manual/Content-standards/Content-guidelines/Designing-content) and provide these in alternative accessible formats (EasyRead, large print or Braille). 
  
 [Inclusive Communication Essex](https://intranet.essex.gov.uk/Pages/Inclusive_Communication_Essex.aspx) can supply EasyRead documents and [Paragon Print](https://intranet.essex.gov.uk/Pages/Alternative_formats.aspx) can supply other alternative formats. 

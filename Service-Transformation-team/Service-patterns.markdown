@@ -32,8 +32,8 @@ The toolkit will:
 
 To get the most from the library follow these steps in this order: 
 
-1. [Identify service patterns](/essex-service-transformation-playbook/Service-Transformation-team/Service-patterns/Identify-service-patterns)
-2. [Map the ‘as is’ service](/essex-service-transformation-playbook/Service-Transformation-team/Service-patterns/Map-the-as-is-service)
-3. [Identify insights and design opportunities](/essex-service-transformation-playbook/Service-Transformation-team/Service-patterns/Identify-insights-and-design-opportunities)
-4. [Create a prototype](/essex-service-transformation-playbook/Service-Transformation-team/Service-patterns/Create-a-prototype)
-5. [Test the prototype](/essex-service-transformation-playbook/Service-Transformation-team/Service-patterns/Test-the-prototype)
+1. [Identify service patterns](/essex-county-council-digital-manual/Service-Transformation-team/Service-patterns/Identify-service-patterns)
+2. [Map the ‘as is’ service](/essex-county-council-digital-manual/Service-Transformation-team/Service-patterns/Map-the-as-is-service)
+3. [Identify insights and design opportunities](/essex-county-council-digital-manual/Service-Transformation-team/Service-patterns/Identify-insights-and-design-opportunities)
+4. [Create a prototype](/essex-county-council-digital-manual/Service-Transformation-team/Service-patterns/Create-a-prototype)
+5. [Test the prototype](/essex-county-council-digital-manual/Service-Transformation-team/Service-patterns/Test-the-prototype)

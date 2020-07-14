@@ -1,12 +1,12 @@
 {% if page.layout != "home" %}<ol>
     {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-         <li><a href="/essex-service-transformation-playbook/">Home</a></li>      
+         <li><a href="/essex-county-council-digital-manual/">Home</a></li>      
     {% for crumb in crumbs offset: 1 %}
     <li>
     {% if forloop.last %}
          {{ page.title }}
       {% else %}
-         <a href="/essex-service-transformation-playbook{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{% if forloop.last %}{{ crumb }}{% else %}{{ crumb | append: '/'' }}{% endif %}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+         <a href="/essex-county-council-digital-manual{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{% if forloop.last %}{{ crumb }}{% else %}{{ crumb | append: '/'' }}{% endif %}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
       {% endif %}
       </li>
     {% endfor %}

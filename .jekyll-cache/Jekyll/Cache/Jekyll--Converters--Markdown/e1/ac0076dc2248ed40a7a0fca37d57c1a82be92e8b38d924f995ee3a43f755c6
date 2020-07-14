@@ -1,4 +1,4 @@
-I"�<h1 id="inset">Inset</h1>
+I"�<h1 id="inset">Inset</h1>
 
 <p>Use the inset component to highlight important text on a page.</p>
 
@@ -54,5 +54,5 @@
 
 <h2 id="when-not-to-use-inset">When not to use inset</h2>
 
-<p>Insets shouldn’t be used instead of an <a href="/essex-service-transformation-playbook/Design-system/Elements-and-Components/alert">alert</a> which should provide very important information for a limited time.</p>
+<p>Insets shouldn’t be used instead of an <a href="/essex-county-council-digital-manual/Design-system/Elements-and-Components/alert">alert</a> which should provide very important information for a limited time.</p>
 :ET

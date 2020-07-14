@@ -35,4 +35,4 @@ Use browser check on all pages of the website to ensure that no matter what page
 
 ## How to use browser check
 
-Browser check should be placed near the start of the <code><body></code> tag, directly after the [skip link](/essex-service-transformation-playbook/Design-system/Elements-and-Components/skip-link) element.
+Browser check should be placed near the start of the <code><body></code> tag, directly after the [skip link](/essex-county-council-digital-manual/Design-system/Elements-and-Components/skip-link) element.
