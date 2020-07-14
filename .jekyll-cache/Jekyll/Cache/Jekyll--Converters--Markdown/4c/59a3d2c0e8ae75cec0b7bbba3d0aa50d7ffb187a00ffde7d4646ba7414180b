@@ -1,4 +1,4 @@
-I"›<h1 id="radio">Radio</h1>
+I"ï¿½<h1 id="radio">Radio</h1>
 
 <p>Use radios when you want users to select one option from a list.</p>
 
@@ -41,7 +41,7 @@
 
 <h2 id="when-not-to-use-radios">When not to use radios</h2>
 
-<p>Do not use radios if users may need to select multiple options. Use <a href="/essex-service-transformation-playbook/Design-system/Elements-and-Components/radio">checkboxes</a> instead.</p>
+<p>Do not use radios if users may need to select multiple options. Use <a href="/essex-county-council-digital-manual/Design-system/Elements-and-Components/radio">checkboxes</a> instead.</p>
 
 <h2 id="how-to-use-radios">How to use radios</h2>
 

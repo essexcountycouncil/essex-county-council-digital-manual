@@ -1,4 +1,4 @@
-I"�	<h1 id="service-patterns">Service patterns</h1>
+I"�	<h1 id="service-patterns">Service patterns</h1>
 
 <p>Service patterns describes common behaviour as users use our services. They might want to check information, apply for something or book an event. But many of our services are implemented differently and offer users inconsistent experiences. If we understand the common patterns of behaviour, we can build services that feel consistent as users go from one service to another.</p>
 
@@ -32,10 +32,10 @@
 <p>To get the most from the library follow these steps in this order:</p>
 
 <ol>
-  <li><a href="/essex-service-transformation-playbook/Service-Transformation-team/Service-patterns/Identify-service-patterns">Identify service patterns</a></li>
-  <li><a href="/essex-service-transformation-playbook/Service-Transformation-team/Service-patterns/Map-the-as-is-service">Map the ‘as is’ service</a></li>
-  <li><a href="/essex-service-transformation-playbook/Service-Transformation-team/Service-patterns/Identify-insights-and-design-opportunities">Identify insights and design opportunities</a></li>
-  <li><a href="/essex-service-transformation-playbook/Service-Transformation-team/Service-patterns/Create-a-prototype">Create a prototype</a></li>
-  <li><a href="/essex-service-transformation-playbook/Service-Transformation-team/Service-patterns/Test-the-prototype">Test the prototype</a></li>
+  <li><a href="/essex-county-council-digital-manual/Service-Transformation-team/Service-patterns/Identify-service-patterns">Identify service patterns</a></li>
+  <li><a href="/essex-county-council-digital-manual/Service-Transformation-team/Service-patterns/Map-the-as-is-service">Map the ‘as is’ service</a></li>
+  <li><a href="/essex-county-council-digital-manual/Service-Transformation-team/Service-patterns/Identify-insights-and-design-opportunities">Identify insights and design opportunities</a></li>
+  <li><a href="/essex-county-council-digital-manual/Service-Transformation-team/Service-patterns/Create-a-prototype">Create a prototype</a></li>
+  <li><a href="/essex-county-council-digital-manual/Service-Transformation-team/Service-patterns/Test-the-prototype">Test the prototype</a></li>
 </ol>
 :ET

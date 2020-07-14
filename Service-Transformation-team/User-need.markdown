@@ -13,9 +13,9 @@ Read: [Start by learning user needs, GOV.UK Service Manual](https://www.gov.uk/s
 
 Find out more about:
 
-- [why it matters](/essex-service-transformation-playbook/Service-Transformation-team/User-need/Why-it-matters)
-- [who are our users?](/essex-service-transformation-playbook/Service-Transformation-team/User-need/Who-are-our-users)
-- [insight and discovery](/essex-service-transformation-playbook/Service-Transformation-team/User-need/Insight-and-discovery)
-- [user stories](/essex-service-transformation-playbook/Service-Transformation-team/User-need/User-stories)
-- [user testing](/essex-service-transformation-playbook/Service-Transformation-team/User-need/User-testing)
-- [testing tools](/essex-service-transformation-playbook/Service-Transformation-team/User-need/Testing-tools)
+- [why it matters](/essex-county-council-digital-manual/Service-Transformation-team/User-need/Why-it-matters)
+- [who are our users?](/essex-county-council-digital-manual/Service-Transformation-team/User-need/Who-are-our-users)
+- [insight and discovery](/essex-county-council-digital-manual/Service-Transformation-team/User-need/Insight-and-discovery)
+- [user stories](/essex-county-council-digital-manual/Service-Transformation-team/User-need/User-stories)
+- [user testing](/essex-county-council-digital-manual/Service-Transformation-team/User-need/User-testing)
+- [testing tools](/essex-county-council-digital-manual/Service-Transformation-team/User-need/Testing-tools)

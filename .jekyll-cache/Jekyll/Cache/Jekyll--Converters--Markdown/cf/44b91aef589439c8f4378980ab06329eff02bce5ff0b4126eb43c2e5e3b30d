@@ -1,4 +1,5 @@
-I"¼<h1 id="header">Header</h1>
+I"ï¿½
+<h1 id="header">Header</h1>
 
 <p>Use the header to show users they are on an Essex County Council website and to provide tools to help them find what they need.</p>
 
@@ -19,7 +20,7 @@
   <div class="header">
     <div class="nav">
       <div class="logo-wrap">
-        <a href="/" class="logo-text seax">
+        <a href="/" class="logo-text seax"essex-county-council-digital-manual
           <img src="http://localhost:4000/essex-service-transformation-playbook/assets/images/seax.png" width="36" height="30" alt="Essex County Council logo" />
           Essex.gov.uk
         </a>
@@ -52,7 +53,7 @@
   <div class="header">
     <div class="nav">
       <div class="logo-wrap">
-        <a href="/" class="logo-text seax">
+        <a href="/" class="logo-text seax"essex-county-council-digital-manual
           <img src="http://localhost:4000/essex-service-transformation-playbook/assets/images/seax.png" width="36" height="30" alt="Essex County Council logo" />
           Essex.gov.uk
         </a>

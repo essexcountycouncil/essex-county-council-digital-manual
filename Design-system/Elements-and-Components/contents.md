@@ -49,11 +49,11 @@ Do not use contents to group pages that are not related, this could confuse user
 
 Do not use contents on transactional pages or forms. 
 
-Consider using [buttons](/essex-service-transformation-playbook/Design-system/Elements-and-Components/buttons) or [back](/essex-service-transformation-playbook/Design-system/Elements-and-Components/back) links instead.
+Consider using [buttons](/essex-county-council-digital-manual/Design-system/Elements-and-Components/buttons) or [back](/essex-county-council-digital-manual/Design-system/Elements-and-Components/back) links instead.
 
 ## How to use contents
 
-Use the contents at the top of page, just below the title, along with [pagination](/essex-service-transformation-playbook/Design-system/Elements-and-Components/pagination) at the bottom of the page.
+Use the contents at the top of page, just below the title, along with [pagination](/essex-county-council-digital-manual/Design-system/Elements-and-Components/pagination) at the bottom of the page.
 
 Links should be short and descriptive. Long links make the list difficult to scan.
 

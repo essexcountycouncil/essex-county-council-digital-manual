@@ -53,4 +53,4 @@ Use the inset component as visual aid to differentiate an excerpt of text from t
 
 ## When not to use inset
 
-Insets shouldn't be used instead of an [alert](/essex-service-transformation-playbook/Design-system/Elements-and-Components/alert) which should provide very important information for a limited time.
+Insets shouldn't be used instead of an [alert](/essex-county-council-digital-manual/Design-system/Elements-and-Components/alert) which should provide very important information for a limited time.
