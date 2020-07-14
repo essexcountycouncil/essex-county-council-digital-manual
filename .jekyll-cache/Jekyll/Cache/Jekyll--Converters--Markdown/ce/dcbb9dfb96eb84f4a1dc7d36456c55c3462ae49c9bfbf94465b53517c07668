@@ -1,18 +1,14 @@
----
-layout: page
-title: Page examples
----
+I"®<h1 id="page-examples">Page examples</h1>
 
-# {{ page.title }}
+<p>Content currently in development.</p>
 
-Content currently in development.
-
-- Home page
-- Landing page
-- Topic page
-- Form page
-- Search results page
-
+<ul>
+  <li>Home page</li>
+  <li>Landing page</li>
+  <li>Topic page</li>
+  <li>Form page</li>
+  <li>Search results page</li>
+</ul>
 
 <!-- ## Templates
 
@@ -40,3 +36,4 @@ Content currently in development.
 *	[Topic page](https://essex-static-website.herokuapp.com/topic.html)
 *	[Contact us page](https://essex-static-website.herokuapp.com/contact-us.html)
 *	[404 page](https://essex-static-website.herokuapp.com/404.html) -->
+:ET
