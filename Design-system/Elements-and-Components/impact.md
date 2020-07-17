@@ -33,6 +33,6 @@ title: Impact
 
 The impact component brings together a <a href="/docs/core/elements/hero">hero image</a> and <a href="/docs/core/elements/overlay">overlay</a> to highlight content for news, campaigns and promotions.
 
-It should only be used on the homepage and landing pages that have a campaign focus, such as the news landing page.
+It should only be used on the homepage and topic pages that have a campaign focus, such as the news landing page.
 
 It shouldn't be used on information and topic pages.

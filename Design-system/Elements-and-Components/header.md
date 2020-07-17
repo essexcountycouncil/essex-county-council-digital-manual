@@ -95,3 +95,8 @@ Do not use a header unless your websie is part of the Essex.gov.uk domain.
 The header is displayed at the top of every page and is consistent across the entire site.
 
 It should display the site's identity and branding, making it clear to the user what website they are on.
+
+## Content to be added
+
+- Logo with header
+- Accessibility

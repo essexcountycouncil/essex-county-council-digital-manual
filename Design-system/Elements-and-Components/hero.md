@@ -20,6 +20,6 @@ Images should always:
   <li>have alt text</li>
 </ul>
 
-A hero image can be used on the homepage and landing pages that have a campaign focus, such as the news landing page.
+A hero image can be used on the homepage and topic pages that have a campaign focus, such as the news landing page.
 
 It shouldn't be used on information and topic pages.

@@ -22,7 +22,7 @@ The back link should only be used on transactional services or multi-page forms.
 
 ## When not to use a back link
 
-Do not use a back link on a content, navigational or landing pages.
+Do not use a back link on a content, navigational or topic pages.
 
 The back link should not be used as a replacement for breadcrumbs
 
