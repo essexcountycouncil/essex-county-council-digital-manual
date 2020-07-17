@@ -5,7 +5,7 @@ title: Contents
 
 # {{ page.title }}
 
-Use contents pages to allow users to navigate between a set of related pages.
+Use contents to allow users to navigate between a set of related pages.
 
 <nav class="contents" aria-label="Pages in this service">
   <div class="heading"><h2>Contents</h2></div>

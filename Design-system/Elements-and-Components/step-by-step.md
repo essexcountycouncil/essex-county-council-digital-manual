@@ -5,6 +5,8 @@ title: Step by step
 
 # {{ page.title }}
 
+The step by step component is designed to help users navigate their way through a step-by-step process.
+
 <div class="step-by-step">
   <span class="step-by-step-side-title">Part of</span>
   <span class="step-by-step-side-title"><a href="get-social-care-help">Step by step title</a></span>
@@ -178,12 +180,16 @@ title: Step by step
 		</div>
 
 
-## Using step by step
-
-The step by step component is designed to help users navigate their way through a step-by-step process.
-
-Each step expands to reveal a list of links and text that provide users with more information.
+## When to use step by step
 
 Step by step should only be used when there is a user need for content to be ordered sequentially.
 
+## How to use step by step
+
+Each step expands to reveal a list of links and text that provide users with more information.
+
 Content held within each step should be clear and concise, signposting users to more information. It should be used as a quick guide or reference page rather than a content page. 
+
+## Content to be published
+
+- Accessibility

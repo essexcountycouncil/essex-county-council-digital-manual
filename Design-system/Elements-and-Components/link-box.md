@@ -5,6 +5,8 @@ title: Link box
 
 # {{ page.title }}
 
+Link boxes are usually displayed on topic pages and help to signpost users to the most popular or useful content within that section.
+
 <ul class="link-boxes">
   <li class="link-box">
     <div class="link-content">
@@ -47,22 +49,24 @@ title: Link box
       </li>
     </ul>
 
+## When to use link boxes
 
-## Using link boxes
+Use link boxes to signpost users to popular or useful information in a particular section from a topic page.
 
-Link boxes are usually displayed on topic pages and help to signpost users to the most popular or useful content within that section.
+## How to use link boxes
 
-The are likely to link to internal content but could sometimes link to external content - usually another site within the essex.gov.uk web estate.
+Link boxes should always consist of:
 
-Link boxes should always have:
-<ul>
-  <li>a link to another page of content</li>
-  <li>clear and concise link text</li>
-  <li>a short description of what the user can expect to find on the page</li>
-</ul>
-They shouldn't have:
-<ul>
-  <li>lengthy text</li>
-  <li>email addresses or telephone numbers</li>
-  <li>additional formatting such as bold, italics or lists</li>
-</ul>
+- a link to another page of content
+- clear and concise link text
+- a short description of what the user can expect to find on the page
+
+Link boxes should not have:
+
+- lengthy text
+- email addresses or telephone numbers
+- additional formatting such as bold, italics or lists
+
+## Content to be published
+
+- When to to use link boxes

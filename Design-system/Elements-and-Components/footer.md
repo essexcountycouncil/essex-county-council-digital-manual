@@ -86,3 +86,8 @@ Do not use the footer on any website that does not use the Essex County Council 
 ## How to use the footer
 
 Place the Footer at the bottom of every page. Nothing should be placed below it. Avoid adding extra links unles completely nescessary.
+
+## Content to be published
+
+- Accessibility
+- Social media links

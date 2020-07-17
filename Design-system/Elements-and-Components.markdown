@@ -21,11 +21,11 @@ Here you can find how to implement different page elements when creating structu
 - [Image](/essex-county-council-digital-manual/Design-system/Elements-and-Components/image)
 - [Inputs](/essex-county-council-digital-manual/Design-system/Elements-and-Components/inputs)
 - [List](/essex-county-council-digital-manual/Design-system/Elements-and-Components/list)
-- [Logo](/essex-county-council-digital-manual/Design-system/Elements-and-Components/logo)
+<!-- - [Logo](/essex-county-council-digital-manual/Design-system/Elements-and-Components/logo) -->
 - [Meta](/essex-county-council-digital-manual/Design-system/Elements-and-Components/meta)
-- [Nav](/essex-county-council-digital-manual/Design-system/Elements-and-Components/nav)
+<!-- - [Nav](/essex-county-council-digital-manual/Design-system/Elements-and-Components/nav) -->
 - [Paragraph](/essex-county-council-digital-manual/Design-system/Elements-and-Components/paragraph)
-- [Print link](/essex-county-council-digital-manual/Design-system/Elements-and-Components/print-link)
+<!-- - [Print link](/essex-county-council-digital-manual/Design-system/Elements-and-Components/print-link) -->
 - [Radio](/essex-county-council-digital-manual/Design-system/Elements-and-Components/radio)
 - [Social](/essex-county-council-digital-manual/Design-system/Elements-and-Components/social)
 - [Textarea](/essex-county-council-digital-manual/Design-system/Elements-and-Components/textarea)
@@ -45,7 +45,7 @@ Here you can find how to implement page components to incorporate different func
 - [Highlight box](/essex-county-council-digital-manual/Design-system/Elements-and-Components/highlight-box)
 - [Impact](/essex-county-council-digital-manual/Design-system/Elements-and-Components/impact)
 - [Inset](/essex-county-council-digital-manual/Design-system/Elements-and-Components/inset)
-- [Landing preview](/essex-county-council-digital-manual/Design-system/Elements-and-Components/landing-preview)
+<!-- - [Landing preview](/essex-county-council-digital-manual/Design-system/Elements-and-Components/landing-preview) -->
 - [Link box](/essex-county-council-digital-manual/Design-system/Elements-and-Components/link-box)
 - [Pagination](/essex-county-council-digital-manual/Design-system/Elements-and-Components/pagination)
 - [Phase banner](/essex-county-council-digital-manual/Design-system/Elements-and-Components/phase-banner)
@@ -53,10 +53,10 @@ Here you can find how to implement page components to incorporate different func
 - [Preview list](/essex-county-council-digital-manual/Design-system/Elements-and-Components/preview-list)
 - [Related](/essex-county-council-digital-manual/Design-system/Elements-and-Components/related)
 - [Search](/essex-county-council-digital-manual/Design-system/Elements-and-Components/search)
-- [Search header](/essex-county-council-digital-manual/Design-system/Elements-and-Components/search-header)
-- [Search home](/essex-county-council-digital-manual/Design-system/Elements-and-Components/search-home)
+<!-- - [Search header](/essex-county-council-digital-manual/Design-system/Elements-and-Components/search-header) -->
+<!-- - [Search home](/essex-county-council-digital-manual/Design-system/Elements-and-Components/search-home) -->
 - [Signup](/essex-county-council-digital-manual/Design-system/Elements-and-Components/signup)
-- [Side nav](/essex-county-council-digital-manual/Design-system/Elements-and-Components/side-nav)
+<!-- - [Side nav](/essex-county-council-digital-manual/Design-system/Elements-and-Components/side-nav) -->
 - [Skip link](/essex-county-council-digital-manual/Design-system/Elements-and-Components/skip-link)
 - [Contents](/essex-county-council-digital-manual/Design-system/Elements-and-Components/contents)
 - [Step by step](/essex-county-council-digital-manual/Design-system/Elements-and-Components/step-by-step)

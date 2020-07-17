@@ -4,6 +4,7 @@ title: Nav
 ---
 
 # {{ page.title }}
+
 <nav class="nav">
   <ul class="nav-links">
     <li>

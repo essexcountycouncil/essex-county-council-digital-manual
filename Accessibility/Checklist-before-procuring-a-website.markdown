@@ -3,7 +3,7 @@ layout: page
 categories: Accessibility
 title: Checklist before procuring a website
 description: This is a description
-live: false
+live: true
 ---
 
 # {{ page.title }}

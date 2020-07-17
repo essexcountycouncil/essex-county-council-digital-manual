@@ -14,7 +14,7 @@ We have 2 types of signup that we use at Essex County Council Website (Essex.gov
 
 ## Basic sign up
 
-## When to use sign up
+### When to use sign up
 
 <section class="signup" role="form" aria-label="Subscribe to email">
   <h2 class="section-heading">Stay up to date</h2>
@@ -52,7 +52,7 @@ We have 2 types of signup that we use at Essex County Council Website (Essex.gov
 
 ## Big sign up
 
-## When to use big sign up
+### When to use big sign up
 
 <section class="signup-background" aria-label="Subscribe to email">
   <div class="signup">
@@ -102,7 +102,7 @@ To ensure sign ups are accessible it is important that the input and label are c
 
     <label for="email">Enter your email address
       <input type="text" id="email" name="email" autocomplete="off">
-     </label>
+    </label>
 
 ## Content to be published 
 

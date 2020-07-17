@@ -5,6 +5,8 @@ title: Side nav
 
 # {{ page.title }}
 
+The side nav is a vertical list of links positioned at the right side of the body content.
+
 <div class="side-nav" role="navigation" aria-label="sidenav">
   <h3>Social care and health</h3>
   <nav id="sidenav">
