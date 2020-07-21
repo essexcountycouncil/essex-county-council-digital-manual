@@ -89,6 +89,8 @@
               <div class="page">
     <h1 id="pagination">Pagination</h1>
 
+<p>Use pagination to allow users to navigate between a set of related pages.</p>
+
 <nav class="pagination" aria-label="pagination">
   <ul>
     <li class="prev">
@@ -132,11 +134,27 @@
 &lt;/nav&gt;
 </code></pre></div></div>
 
-<h2 id="using-pagination">Using pagination</h2>
+<h2 id="when-to-use-pagination">When to use pagination</h2>
 
-<p>Pagination helps users navigate through content pages that are grouped together.</p>
+<p>Use paginationto allow users to navigate between a small group of related pages to help users find related information, for example a group of pages about paying for care and support.</p>
 
-<p>It is commonly used on information pages to enable users to move to the previous or next page of content. However it could also be adapted and used for navigating multiple pages of news articles.</p>
+<h2 id="when-not-use-pagination">When not use pagination</h2>
+
+<p>Do not use pagination on pages that are not related, this could confuse users.</p>
+
+<p>Do not use pagination on transactional pages or forms.</p>
+
+<p>Consider using <a href="/essex-county-council-digital-manual/Design-system/Elements-and-Components/buttons">buttons</a> or <a href="/essex-county-council-digital-manual/Design-system/Elements-and-Components/back">back</a> links instead.</p>
+
+<h2 id="how-to-use-pagination">How to use pagination</h2>
+
+<p>Use pagination at the bottom of the page, along with <a href="/essex-county-council-digital-manual/Design-system/Elements-and-Components/contents">contents</a> at the top of the page just below the title.</p>
+
+<p>Use the <a href="">left arrow</a> along with the word “Previous” and a link to the previous page. Use the <a href="">right arrow</a> along with the word “Next” and a link to the next page. Use the smae page titles that are used on the contents.</p>
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>The pagination component incorporates the <code>&lt;nav&gt;</code> element to show that the links are a type of navigation. This <code>&lt;nav&gt;</code> also has the attribute <code>aria-label</code> with the value <code>Pagination</code>. Screen readers will read out this label to identify what type of navigation it is.</p>
 
   </div>
 
@@ -163,14 +181,14 @@
 		</ul>
 	  </div>
 	</div>
-  </footer><!-- <script src="/assets/js/govuk-template.js?0.18.3" type="text/javascript"></script> -->
+  </footer><script src="/assets/js/govuk-template.js?0.18.3" type="text/javascript"></script>
     <!-- Javascript -->
 <!--[if lte IE 8]><script src="/public/javascripts/bind.js"></script><![endif]-->
-<!-- <script src="/essex-county-council-digital-manual/assets/js/details.polyfill.js"></script> -->
+<script src="/essex-county-council-digital-manual/assets/js/details.polyfill.js"></script>
 <script src="/essex-county-council-digital-manual/assets/js/jquery-1.11.3.js"></script>
-<!-- <script src="/essex-county-council-digital-manual/assets/js/govuk/shim-links-with-button-role.js"></script>
-<script src="/essex-county-council-digital-manual/assets/js/govuk/show-hide-content.js"></script>
-<script src="/essex-county-council-digital-manual/assets/js/application.js"></script>-->
+<script src="/essex-county-council-digital-manual/assets/js/govuk/shim-links-with-button-role.js"></script>
+<script src="/essex-county-council-digital-manual/assets/js/show-hide-content.js"></script>
+<script src="/essex-county-council-digital-manual/assets/js/application.js"></script>
 <script src="/essex-county-council-digital-manual/assets/js/close.js"></script> 
 <script src="/essex-county-council-digital-manual/assets/js/step-by-step-navigation.js"></script>
 <script type="text/javascript">
@@ -180,7 +198,7 @@
 </script>
 
 
-  <!-- <script src="/essex-county-council-digital-manual/assets/js/auto-store-data.js"></script> -->
+  <script src="/essex-county-council-digital-manual/assets/js/auto-store-data.js"></script>
 
  
     

@@ -89,9 +89,11 @@
               <div class="page">
     <h1 id="related">Related</h1>
 
+<p>The related content component is a vertical list of links, signposting users to other content that might be useful.</p>
+
 <aside class="related">
-  <h3>Related content</h3>
-  <nav aria-label="related-navigation">
+  <nav aria-labelledby="related-name">
+  <h3 id="related-name">Related content</h3>
     <ul id="related-navigation">
       <li><a href="#">Start your financial assessment</a></li>
       <li><a href="#">Independent financial advice</a></li>
@@ -101,9 +103,9 @@
 </aside>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;aside class="related"&gt;
-  &lt;h3&gt;Related content&lt;/h3&gt;
-  &lt;nav aria-label="related-nav"&gt;
-    &lt;ul id="related-nav"&gt;
+  &lt;nav aria-labelledby="related-name"&gt;
+  &lt;h3 id="related-name"&gt;Related content&lt;/h3&gt;
+    &lt;ul id="related-navigation"&gt;
       &lt;li&gt;&lt;a href="#"&gt;Start your financial assessment&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="#"&gt;Independent financial advice&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="#"&gt;Pay your care invoice&lt;/a&gt;&lt;/li&gt;
@@ -112,13 +114,23 @@
 &lt;/aside&gt;
 </code></pre></div></div>
 
-<h2 id="using-related-content">Using related content</h2>
+<h2 id="when-to-use-related">When to use related</h2>
 
-<p>The realted content component is a vertical list of links, signposting users to other content that might be useful.</p>
+<p>Use related to signpost users to content that may be related or useful.</p>
+
+<h2 id="when-not-to-use-related">When not to use related</h2>
+
+<p>Do not use related to group sets of pages.</p>
+
+<h2 id="how-to-use-related">How to use related</h2>
 
 <p>Related content links shouldn’t be the same as the links used in the page <a href="contents">contents</a> or in the <a href="breadcrumbs">breadcrumbs</a>. They should signpost users to relevant content held in different sections of the website or on external websites.</p>
 
 <p>Related content should be positioned on the right side of a page or at the bottom, below the main body of content.</p>
+
+<h3 id="accessibility">Accessibility</h3>
+
+<p>Use the <code>aria-labelledby</code> attribute to label the navigation. Ensure the attribute matches the <code>id</code> of the <code>&lt;h3&gt;</code> element. This will identify to screen readers that this heading relates to the navigition.</p>
 
   </div>
 
@@ -145,14 +157,14 @@
 		</ul>
 	  </div>
 	</div>
-  </footer><!-- <script src="/assets/js/govuk-template.js?0.18.3" type="text/javascript"></script> -->
+  </footer><script src="/assets/js/govuk-template.js?0.18.3" type="text/javascript"></script>
     <!-- Javascript -->
 <!--[if lte IE 8]><script src="/public/javascripts/bind.js"></script><![endif]-->
-<!-- <script src="/essex-county-council-digital-manual/assets/js/details.polyfill.js"></script> -->
+<script src="/essex-county-council-digital-manual/assets/js/details.polyfill.js"></script>
 <script src="/essex-county-council-digital-manual/assets/js/jquery-1.11.3.js"></script>
-<!-- <script src="/essex-county-council-digital-manual/assets/js/govuk/shim-links-with-button-role.js"></script>
-<script src="/essex-county-council-digital-manual/assets/js/govuk/show-hide-content.js"></script>
-<script src="/essex-county-council-digital-manual/assets/js/application.js"></script>-->
+<script src="/essex-county-council-digital-manual/assets/js/govuk/shim-links-with-button-role.js"></script>
+<script src="/essex-county-council-digital-manual/assets/js/show-hide-content.js"></script>
+<script src="/essex-county-council-digital-manual/assets/js/application.js"></script>
 <script src="/essex-county-council-digital-manual/assets/js/close.js"></script> 
 <script src="/essex-county-council-digital-manual/assets/js/step-by-step-navigation.js"></script>
 <script type="text/javascript">
@@ -162,7 +174,7 @@
 </script>
 
 
-  <!-- <script src="/essex-county-council-digital-manual/assets/js/auto-store-data.js"></script> -->
+  <script src="/essex-county-council-digital-manual/assets/js/auto-store-data.js"></script>
 
  
     

@@ -38,7 +38,7 @@ Use a table to make it easier for users to compare and scan information.
       </tbody>
   </table>
 </div>
-
+    <div class="table">
     <table>
       <caption>2018 care charges</caption>
         <thead>
@@ -66,6 +66,7 @@ Use a table to make it easier for users to compare and scan information.
           </tr>
         </tbody>
     </table>
+    </div>
 
 ## When to use a table
 

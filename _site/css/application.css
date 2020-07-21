@@ -358,6 +358,8 @@ input:-ms-input-placeholder { /* Internet Explorer 10-11 */ font-size: 1rem; col
 
 input::-ms-input-placeholder { /* Microsoft Edge */ font-size: 1rem; color: #040103; }
 
+.page img { max-width: 100%; }
+
 .logo-wrap { display: inline-block; margin-top: 0.8125rem; margin-bottom: 0.8125rem; }
 
 @media (max-width: 640px) { .logo-wrap { margin-top: 0.40625rem; margin-bottom: 0.40625rem; } }
