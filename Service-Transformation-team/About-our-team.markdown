@@ -5,7 +5,33 @@ title: About our team
 
 # {{ page.title }}
 
-## Mission Statement
+The Service Transformation team finds simple solutions for complex problems.
+
+We help other teams in Essex County Council by:
+
+- designing ways of working and processes
+- engaging with service users
+- helping to develop skills/knowledge
+- building digital solutions
+
+We never assume up front what the solution will be, but we work with you to help you find it.
+
+So far, we have worked with ECC colleagues on projects like:
+
+- Working with council leaders to plan for post-coronavirus recovery
+- Helping the council think about new ways of working
+- Building the [coronavirus hub](https://www.essex.gov.uk/topic/coronavirus) in 4 days
+- Creating a [prototype Wellbeing Directory](https://www.essex-gethelp.uk/) to help with coronavirus response
+- Re-designing the process for registering deaths
+- Helping with food and medicine distribution as part of coronavirus response
+- Building and adding to the [essex.gov.uk website](https://www.essex.gov.uk/)
+- Training colleagues around the council in accessibility awareness
+
+Those are just a few examples. Read more about [work we’ve done](/essex-county-council-digital-manual/Service-Transformation-team/What-we-do), and our [list of services](/essex-county-council-digital-manual/Service-Transformation-team/List-of-services).
+
+Read [our blog](https://servicetransformation.blog.essex.gov.uk/) for news updates. Contact us to set up a chat about your needs.
+
+<!-- ## Mission Statement
 
 We are committed to improving outcomes for people in Essex and helping meet the strategic aims of the Council. 
 
@@ -47,5 +73,5 @@ The types of skills needed will change depending on the phase of a project or th
 
 - **Business Designers** focus on identifying and recognising business needs and finding solutions to various business problems.  
 
-- **Continuous Improvement** practitioners focus on identifying and implementing measurable improvements based on small changes that are typically inexpensive to implement and drive value and efficiencies.  
+- **Continuous Improvement** practitioners focus on identifying and implementing measurable improvements based on small changes that are typically inexpensive to implement and drive value and efficiencies.   -->
 
