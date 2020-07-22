@@ -14,7 +14,7 @@ This manual is in constant development. If you have any questions please email [
 <div class="previews">
   <div class="preview">
     <h2 class="sub-section-heading"><a href="Service-Transformation-team">Service Transformation team</a></h2>
-    <p>Includes information about how we work, our service standards and common service patterns</p>
+    <p>Includes information about who we are and the work we do</p>
   </div>
   <div class="preview">
     <h2 class="sub-section-heading"><a href="Content-standards">Content standards</a></h2>
@@ -31,5 +31,9 @@ This manual is in constant development. If you have any questions please email [
   <div class="preview">
     <h2 class="sub-section-heading"><a href="Measuring-success">Measuring success</a></h2>
     <p>Includes guidance on using web analytics and how to measure the performance of content</p>
+  </div>
+    <div class="preview">
+    <h2 class="sub-section-heading"><a href="Service-standards-and-guidelines">Service standards and guidelines</a></h2>
+    <p>Includes guidance on how we work, service standards and common service patterns</p>
   </div>
 </div>
