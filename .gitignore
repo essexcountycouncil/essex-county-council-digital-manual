@@ -1,6 +1,8 @@
 _site*.html
 _.sass-cache
 ======
+_site/*
+_site/*.xml
 _site/*.html
 .sass-cache/
 .jekyll-cache/

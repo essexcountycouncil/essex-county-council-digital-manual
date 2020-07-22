@@ -29,4 +29,4 @@ Use the logo on your website to identify to users it is part of Essex County Cou
 
 ## How to use the logo
 
-Use the logo as part of the [header](/essex-county-council-digital-manual/Design-system/Elements-and-Components/header).
+Use the logo as part of the [header]({{site.baseurl}}/Design-system/Elements-and-Components/header).
