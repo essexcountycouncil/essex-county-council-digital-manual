@@ -18,20 +18,5 @@ title: Service Transformation team
     <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Service-Transformation-team/What-we-do">What we do</a></h2>
     <p>Includes information about work we have done</p>
   </div>
-  <div class="preview">
-    <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Service-Transformation-team/Service-standards">Service standards</a></h2>
-    <p>Includes the principles of building a good service</p>
-  </div>
-  <div class="preview">
-    <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Service-Transformation-team/Service-patterns">Service patterns</a></h2>
-    <p>Guidance on how we understand, design, improve and build services</p>
-  </div>
-  <div class="preview">
-    <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Service-Transformation-team/Agile-delivery">Agile delivery</a></h2>
-    <p>How we use the agile approach to build and run digital products and services</p>
-  </div>
-    <div class="preview">
-    <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Service-Transformation-team/User-need">User needs</a></h2>
-    <p>Includes guidance on how to understand the needs of users</p>
   </div>
 </div>
