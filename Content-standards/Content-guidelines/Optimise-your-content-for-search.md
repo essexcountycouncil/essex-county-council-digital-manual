@@ -64,7 +64,7 @@ Use headings and subheadings. They help search engines understand what you’re 
 
 Apply heading styles correctly. Use subheadings to structure your content. Use them in order, for example Heading 2 is after Heading 1, Heading 2 is followed by Heading 3. 
 
-See [creating accessible document](/essex-county-council-digital-manual/Accessibility/Creating-an-accessible-PDF) for guidance on applying heading styles.
+See [creating accessible document](/essex-county-council-digital-manual/Accessibility/Creating-an-accessible-pdf) for guidance on applying heading styles.
 
 See our [guidance on using images](using-images).
 

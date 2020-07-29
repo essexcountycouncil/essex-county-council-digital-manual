@@ -36,7 +36,7 @@ PDFs should only be used:
 - when there is a legal requirement to have a formal document  
 - a specific audience that need a special format, like an Easy Read document 
 
-The legislation says that if you create a new PDF it must be fully accessible. Use the guidance on [creating an accessible PDF](/essex-county-council-digital-manual/Accessibility/Creating-an-accessible-PDF) to help you. 
+The legislation says that if you create a new PDF it must be fully accessible. Use the guidance on [creating an accessible PDF](/essex-county-council-digital-manual/Accessibility/Creating-an-accessible-pdf) to help you. 
 
 ### Old PDFs 
 
