@@ -35,7 +35,7 @@ If your child is not offered a place at your preferred school, you can appeal ag
 
 Avoid using large blocks of text as this is hard to read. Use headings, subheadings and bullet points to break them down.  
   
-See our guidance on [creating accessible content](creating-an-accessible-pdf) for more on using headings and bulleted lists.
+See our guidance on [creating accessible content](/essex-county-council-digital-manual/Accessibility/Creating-an-accessible-PDF) for more on using headings and bulleted lists.
 
 ## Use active voice
 
