@@ -21,7 +21,7 @@ Content currently in development.
     <p>Some introduction text</p>
   </div>
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="">Google Analytics guideline</a></h2>
+    <h2 class="sub-section-heading"><a href="Google-analytics">Google Analytics</a></h2>
     <p>Some introduction text</p>
   </div>
   <div class="preview">
