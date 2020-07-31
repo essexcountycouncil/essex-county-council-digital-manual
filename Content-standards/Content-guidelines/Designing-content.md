@@ -90,6 +90,8 @@ For example:
 
 "Find out [how your carer can get support](https://www.essex.gov.uk/financial-support-for-carers "Support for carers") so they can continue caring for you."
 
+See the [using links in content page on GOV.UK](https://www.gov.uk/guidance/content-design/links) for more information.
+
 ## How users read online
 
 People don’t read online, they scan, and they won’t stay for long, or look very far. Research shows that [users only have time to read 20% to 28%](https://www.nngroup.com/articles/how-little-do-users-read/) of the words on a web page during an average visit.
