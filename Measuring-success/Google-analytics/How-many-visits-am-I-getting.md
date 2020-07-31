@@ -16,7 +16,7 @@ The first thing you will want to know is how many visits you are getting. To get
 *   The percentage of visits that are new, where the visitor hasn’t been to your site before (during that period)
 *   A pie chart comparing the number of new visitors against returning visitors
 
-![](/public/images/how-many-visits-am-i-getting.jpg?width=500&height=375)
+![]({{site.baseurl}}/assets/images/Google-analytics/how-many-visits-am-i-getting.jpg)
 
 Now let's take a deeper look.
 
@@ -24,7 +24,7 @@ Now let's take a deeper look.
 
 Let’s begin with the “Active Users” report. This can show you how many users had at least one session on your site in the last day, seven days, 14 days, and 30 days. We call this “site reach” or “stickiness.” If your marketing activities and site content encourage users to visit and return to your site, the active users in each time frame should grow.
 
-![](/public/images/audience-users-report.jpg?width=500&height=212.5)
+![]({{site.baseurl}}/assets/images/Google-analytics/audience-users-report.jpg)
 
 ## Demographics and Interests reports
 
@@ -32,7 +32,7 @@ Next, let’s look at the “Demographics” and “Interests” reports. The �
 
 Note that to see data in these reports, you must first enable advertising features in the “Demographics and Interests” reports for each property. Go into the “Admin” tab under “Property“ and select “Property Settings.” Under “Advertising Features,” set “Enable Demographics and Interest Reports” to on.
 
-![](/public/images/demo-interests-reports.jpg?width=475.34668721109404&height=500)
+![]({{site.baseurl}}/assets/images/Google-analytics/demo-interests-reports.jpg)
 
 Once activated, you will see data in your Demographics and Interests reports about the age, gender, and interests of your users. Note that if you’ve just enabled this feature, it may take a day or two for data to appear in these reports. Also, the Demographic reports may not contain any data if your site traffic is very low or your segment is too small.
 
@@ -48,7 +48,7 @@ Another analysis technique is to identify the regions where you already have a l
 
 Below “Geo,” are a set of behavior reports that help you understand how often users visited and returned to your website. The “New vs Returning” report breaks out acquisition, behavior, and conversion goal metrics for new and returning users. You can look at this comparison over time to see how audience loyalty may be shifting. Consider your website objectives, as well as your marketing activities, when evaluating the mix of new and returning users to your site.
 
-![](/public/images/behaviour-reports.jpg?width=500&height=212.5)
+![]({{site.baseurl}}/assets/images/Google-analytics/behaviour-reports.jpg)
 
 ## Technology and Mobile reports
 
@@ -58,7 +58,7 @@ For example, you can use the “Browser and Operating systems” report to quick
 
 It’s also a good idea to understand if users are migrating from desktop to mobile and plan your development accordingly. You can use the “Overview” report under “Mobile” to see a breakdown of your traffic based on smartphones, tablets, and desktop devices. Check this report to see how quickly mobile usage of your site has grown over time.
 
-![](/public/images/tech-mobile-reports.jpg?width=500&height=212.5)
+![]({{site.baseurl}}/assets/images/Google-analytics/tech-mobile-reports.jpg)
 
 The “Devices” report lets you see additional details about the devices used to browse your site. This includes the mobile device name, brand, service provider, input selector, operating system, and other dimensions like screen resolution. These reports can give your developers and designers direction on how to create a mobile-optimized experience to best suit your
 

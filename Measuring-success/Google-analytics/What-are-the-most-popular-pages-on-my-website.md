@@ -13,13 +13,13 @@ The last and final thing you will want to see, when understanding Google Analyti
 *   The percentage of visits that resulted in the visitor leaving your website after browsing previous pages on your website (known as Exit Rate)
 *   A table of your website pages in ascending order by the number of times someone has visited that page (Page Views). Page Title, Search Term and Events Category (if Event Tracking has been setup on your website) can then break down this table.
 
-![](/public/images/what-are-the-most-popular-pages.jpg?width=500&height=375)
+![]({{site.baseurl}}/assets/images/Google-analytics/what-are-the-most-popular-pages.jpg)
 
 You can find the “Behavior” reports under “Behavior” in the left-hand navigation. It’s important to understand how Google Analytics calculates behavior data. If you recall, Analytics uses a small piece of Javascript code on your website to collect data. Every time a user loads a page on your website, this tracking code creates a “pageview” that is reported in Google Analytics. Analytics uses this to calculate many of the metrics in the Behavior reports. For example, the “Total Pageviews” metric is simply the sum of each time a user loaded a page on your website.
 
 Let’s begin by looking at the “All Pages” report located under “Site Content” and scroll down to the data table.
 
-![](/public/images/behaviour-reports-2.jpg?width=500&height=250)
+![]({{site.baseurl}}/assets/images/Google-analytics/behaviour-reports-2.jpg)
 
 *   The “Pageviews” metric shows how frequently each page on your site was viewed. By default, this report will show data by the page URI. The URI is the part of the URL after the domain name in the location bar of the browser. If you switch the primary dimension of the report to “Page Title,” you can view this report by the title listed in the web page’s HTML.
 *   Other metrics in the “All Pages” report like “Average Time on Page” and “Bounce Rate” indicate how engaged users were on each page of your site. You can sort the report by these metrics to quickly find low-performing pages that need improvement or high-performing content to guide future content decisions.

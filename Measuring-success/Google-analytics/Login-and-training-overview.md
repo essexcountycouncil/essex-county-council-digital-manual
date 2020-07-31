@@ -56,7 +56,7 @@ If you have any questions, feedback or issues, please contact christopher.babaji
 <nav class="pagination" aria-label="pagination">
   <ul>
     <li class="prev">
-      <a href="Essex-county-council-digital-manual/Measuring-success/Google-analytics">
+      <a href="{{site.baseurl}}/Measuring-success/Google-analytics">
         <span class="pagination-item">
           <span class="fas fa-arrow-left"></span>Previous
         </span>

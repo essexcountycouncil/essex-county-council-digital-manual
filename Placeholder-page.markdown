@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Placeholder
+title: This content is still under development
 ---
 
 # {{ page.title }}
