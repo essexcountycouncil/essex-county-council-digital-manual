@@ -5,27 +5,17 @@ title: Measuring success
 
 # {{ page.title }}
 
-Content currently in development.
-
 <div class="previews">
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="">Why do you need to measure performance</a></h2>
-    <p>Some introduction text</p>
+    <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Measuring-success/Using-data-to-improve-your-service">Using data to improve your service</a></h2>
+    <p>Includes guidance on the benefits of measuring performance and setting key performance indicators (KPIs)</p>
   </div>
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="">What kind of business questions can analytics answer</a></h2>
-    <p>Some introduction text</p>
+    <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Measuring-success/Google-analytics">Using Google Analytics</a></h2>
+    <p>Includes practical ‘how to’ guides on using Google Analytics to measure the performance of your service </p>
   </div>
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="">Kpi framework</a></h2>
-    <p>Some introduction text</p>
-  </div>
-  <div class="preview">
-    <h2 class="sub-section-heading"><a href="">Google Analytics guideline</a></h2>
-    <p>Some introduction text</p>
-  </div>
-  <div class="preview">
-    <h2 class="sub-section-heading"><a href="">Hot jar guideline</a></h2>
-    <p>Some introduction text</p>
+    <h2 class="sub-section-heading"><a href="">Using Hotjar</a></h2>
+    <p>Includes guidance on using the Hotjar tool to understand user behaviour and get feedback </p>
   </div>
 </div>
