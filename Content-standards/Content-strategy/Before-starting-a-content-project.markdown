@@ -7,7 +7,7 @@ title: Before starting a content project
 
 Before planning your content project, you need to consider if:
 
-- there's a valid [user need](/essex-county-council-digital-manual/Service-Transformation-team/User-need)? who content is for and why they need it
+- there's a valid [user need](/essex-county-council-digital-manual/Service-standards-and-guidelines/User-need)? who content is for and why they need it
 - it's Essex County Council’s (ECC's) job to publish the content?
 - the information, advice or guidance is available elsewhere? are you duplicating content?
 - essex.gov.uk is the best platform to use? could it be a social media post or a blog?

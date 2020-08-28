@@ -27,7 +27,7 @@ title: Making your service accessible
 
 Before you design and build a service, think about who might use it and how they will access it. 
 
-You should only create something if there is a [user need](/essex-county-council-digital-manual/Service-Transformation-team/User-need) for it. 
+You should only create something if there is a [user need](/essex-county-council-digital-manual/Service-standards-and-guidelines/User-need) for it. 
 
 The GOV.UK Service Manual has detailed guidance on [how to make your service accessible](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#what-to-do-about-accessibility-in-discovery). 
 

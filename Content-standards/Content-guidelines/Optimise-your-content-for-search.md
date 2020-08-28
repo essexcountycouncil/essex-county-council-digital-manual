@@ -15,7 +15,7 @@ Search engine optimisation (SEO) ensures that search engines rank your content s
 
 Design content around user needs to ensure your content is useful and relevant.
 
-See the [user needs section](/essex-county-council-digital-manual/Service-Transformation-team/User-need) of this toolkit for more why user needs are important.
+See the [user needs section](/essex-county-council-digital-manual/Service-standards-and-guidelines/User-need) of this toolkit for more why user needs are important.
 
 ## Keywords in content
 
@@ -66,7 +66,7 @@ Apply heading styles correctly. Use subheadings to structure your content. Use t
 
 See [creating accessible document](/essex-county-council-digital-manual/Accessibility/Creating-an-accessible-pdf) for guidance on applying heading styles.
 
-See our [guidance on using images](using-images).
+See our [guidance on using images](/using-images).
 
 ## Find out what users are searching for
 

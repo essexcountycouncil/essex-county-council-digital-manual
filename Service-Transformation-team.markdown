@@ -11,7 +11,7 @@ title: Service Transformation team
     <p>Includes information about who we are and what we do</p>
   </div>
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Service-Transformation-team/List-of-services">List of services</a></h2>
+    <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Service-Transformation-team/How-we-can-help">How we can help</a></h2>
     <p>Includes information about our offer</p>
   </div>
   <div class="preview">

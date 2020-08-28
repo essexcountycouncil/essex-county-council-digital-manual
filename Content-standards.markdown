@@ -15,7 +15,7 @@ title: Content standards
     <p>How we plan deliver and publish content</p>
   </div>
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Service-Transformation-team/User-need">User needs</a></h2>
+    <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Service-standards-and-guidelines/User-need">User needs</a></h2>
     <p>Includes guidance on how to understand the needs of users</p>
   </div>
   <div class="preview">

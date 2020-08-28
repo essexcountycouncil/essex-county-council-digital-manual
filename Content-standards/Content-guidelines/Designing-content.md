@@ -128,7 +128,7 @@ This includes adding keywords in the title, teaser text, meta description and bo
   
 It’s also important to use the same terms that your audience use to search. This helps them find your content easily and quickly.
 
-See our guidance on [optimising your content for search](optimise-your-content-for-search)
+See our guidance on [optimising your content for search](Optimise-your-content-for-search)
 
 ## Make content accessible
 
@@ -136,7 +136,7 @@ Accessible information is information that people can understand.
 
 When we are designing content, we need to make sure the [content is accessible](https://www.gov.uk/guidance/content-design/planning-content#accessibity) to all users. We need to provide information in a friendly format that screen readers and other assistive technology can read.  
   
-See the [accessibility section](/docs/core/accessibility/overview) of this toolkit for guidance on how to make your content accessible.
+See the [accessibility section](/essex-county-council-digital-manual/Accessibility) of this manual for guidance on how to make your content accessible.
 
 ## Write content in pairs
 
