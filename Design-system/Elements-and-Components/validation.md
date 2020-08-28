@@ -5,7 +5,16 @@ title: Form validation
 
 # {{ page.title }}
 
-<div class="error-summary" role="alert" aria-label="error-summary-heading-example-1" tabindex="-1">
+Use form validation to highlight to users that a question has either:
+
+- not been answered
+- not been answered correctly 
+
+## Error summary
+
+The error summary should always be show when there is a validation error, even if there is only one.
+
+<div class="error-summary" role="alert" aria-label="error-summary-heading-example-1">
   <h2 class="heading-medium error-summary-heading" id="error-summary-heading-example-1">
     Message to alert the user to a problem goes here
   </h2>
@@ -16,6 +25,36 @@ title: Form validation
     <li><a href="#">Descriptive link to the question with an error</a></li>
   </ul>
 </div>
+
+    <div class="error-summary" role="alert" aria-label="error-summary-heading-example-1">
+      <h2 class="heading-medium error-summary-heading" id="error-summary-heading-example-1">
+        Message to alert the user to a problem goes here
+      </h2>
+      <p>
+        Optional description of the errors and how to correct them
+      </p>
+      <ul class="error-summary-list">
+        <li><a href="#">Descriptive link to the question with an error</a></li>
+      </ul>
+    </div>
+
+### How to use the Error summary
+
+You must:
+
+- move keyboard focus to the error summary
+- include the heading 'There is a problem'
+- link to each of the answers that have a validation errors
+- make sure the error messages in the summary match the error messages by the relevant input
+- make error messages clear and concise
+- ensure error messages are in order
+
+You should place the error summary directly after the <code>main</code> container. If your page contains a back link place it after this.
+
+## Errors messages
+
+Use an error message when there is a validation error. Explain what went wrong and how to fix it.
+
 <form class="form">
   <div class="group form-group-error">
     <label for="name">Full name</label>
@@ -42,17 +81,6 @@ title: Form validation
   <input type="submit" class="button" value="Continue">
 </form>
 
-    <div class="error-summary" role="alert" aria-label="error-summary-heading-example-1" tabindex="-1">
-      <h2 class="heading-medium error-summary-heading" id="error-summary-heading-example-1">
-        Message to alert the user to a problem goes here
-      </h2>
-      <p>
-        Optional description of the errors and how to correct them
-      </p>
-      <ul class="error-summary-list">
-        <li><a href="#">Descriptive link to the question with an error</a></li>
-      </ul>
-    </div>
     <form class="form">
       <div class="group form-group-error">
         <label for="name">Full name</label>
@@ -77,18 +105,37 @@ title: Form validation
         </select>
       </div>
       <input type="submit" class="button" value="Continue">
-    </form>
-    
+    </form>    
+
+## When to use error messages
+
+Use the error message when there is a validation error. Such as:
+
+- you need to tell the user to choose an option
+- you need the user to correct their input
+
+## When not to use error messages
+
+Only display error messages when someone tries to advance to the next part of a service. Error messages should not be used when:
+
+- when tabbing between inputs
+- when users are typing
+
+Do not use error messages to tell users they are ineligible, instead take them to a screen thats:
+
+- explains why they are not eligible
+- tell them what to do next
  
-## Descriptive error and validation messages
-    
-Use an error message to explain why what’s been entered isn’t right, and how to fix it. 
+### Descriptive error and validation messages
 
-These should only be shown if a user tries to move on to the next stage of the form, not when they select a field, are typing or move away from the field. 
+A good error message is concise, positive and specific. Avoid things like:
 
-A good error message is concise, positive and specific. Avoid things like, ‘An error occurred’ or ‘invalid information entered’. The message should make sense out of context and sound like something you’d say to a user. 
+- An error occurred
+- invalid information entered
 
-### Examples of good error messages include:
+The message should make sense out of context and sound like something you’d say to a user. 
+
+### Examples of good error messages
 
 #### Addresses
 ‘Enter a real postcode’
@@ -118,7 +165,3 @@ A good error message is concise, positive and specific. Avoid things like, ‘An
 #### Text area
 ‘Enter…’
 ‘X must between Y and Z’
-
-### When not to use validation or error messages
-
-These messages should only be used to resolve validation issues, they shouldn’t be used to tell users they’re not eligible for a service. This should be done on a separate screen that gives a way for the user to end or continue their journey. 

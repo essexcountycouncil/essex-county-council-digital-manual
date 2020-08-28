@@ -5,11 +5,13 @@ title: Page examples
 
 # {{ page.title }}
 
+- [Topic page](/essex-county-council-digital-manual/Design-system/page-examples/create-a-topic-page)
+- [Information page](/essex-county-council-digital-manual/Design-system/page-examples/create-an-information-page)
+
 Content currently in development.
 
 - Home page
 - Landing page
-- Topic page
 - Form page
 - Search results page
 

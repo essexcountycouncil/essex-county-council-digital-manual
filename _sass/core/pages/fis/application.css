@@ -829,7 +829,7 @@ select {
 }
 
 .hero.campaign {
-  background-image: url("/public/images//img/impact.jpg");
+  background-image: url("{{site.baseurl}}/assets/images/impact.jpg");
 }
 
 @media (max-width: 640px) {

@@ -5,6 +5,8 @@ title: Impact
 
 # {{ page.title }}
 
+The impact component highlights content for news, campaigns and promotions.
+
 <div class="impact">
   <div class="hero campaign">
     <div class="overlay"></div>
@@ -29,10 +31,10 @@ title: Impact
       </div>
     </div>
 
-## Using impact
-
-The impact component brings together a <a href="/docs/core/elements/hero">hero image</a> and <a href="/docs/core/elements/overlay">overlay</a> to highlight content for news, campaigns and promotions.
+## When to use impact
 
 It should only be used on the homepage and topic pages that have a campaign focus, such as the news landing page.
+
+## When not to use impact
 
 It shouldn't be used on information and topic pages.

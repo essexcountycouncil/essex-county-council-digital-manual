@@ -9,9 +9,9 @@ Use images only if there is a real user need. Avoid unnecessary decoration.
 
 ## Example
 
-<img src="/public/images/shutterstock_398303077.jpg" alt="Family of four biking through the woods"/>
+<img src="{{site.baseurl}}/assets/images/shutterstock_398303077.jpg" alt="Family of four biking through the woods"/>
 
-	<img src="/public/images/shutterstock_398303077.jpg" alt="Discover something new with the Essex Explorer Pass"/>
+	<img src="/assets/images/shutterstock_398303077.jpg" alt="Discover something new with the Essex Explorer Pass"/>
 
 ## When to use an image
 

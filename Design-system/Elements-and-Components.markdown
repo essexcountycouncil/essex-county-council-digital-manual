@@ -17,7 +17,7 @@ Here you can find how to implement different page elements when creating structu
 - [Embed](/essex-county-council-digital-manual/Design-system/Elements-and-Components/embed)
 - [External link](/essex-county-council-digital-manual/Design-system/Elements-and-Components/external-link)
 - [Headings](/essex-county-council-digital-manual/Design-system/Elements-and-Components/headings)
-- [Icon](/essex-county-council-digital-manual/Design-system/Elements-and-Components/icon)
+<!-- - [Icon](/essex-county-council-digital-manual/Design-system/Elements-and-Components/icon) -->
 - [Image](/essex-county-council-digital-manual/Design-system/Elements-and-Components/image)
 - [Inputs](/essex-county-council-digital-manual/Design-system/Elements-and-Components/inputs)
 - [List](/essex-county-council-digital-manual/Design-system/Elements-and-Components/list)
