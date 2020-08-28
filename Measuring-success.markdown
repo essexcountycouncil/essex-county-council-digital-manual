@@ -15,7 +15,7 @@ title: Measuring success
     <p>Includes practical ‘how to’ guides on using Google Analytics to measure the performance of your service </p>
   </div>
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="">Using Hotjar</a></h2>
+    <h2 class="sub-section-heading"><a href="{{site.baseurl}}/Placeholder-page">Using Hotjar</a></h2>
     <p>Includes guidance on using the Hotjar tool to understand user behaviour and get feedback </p>
   </div>
 </div>

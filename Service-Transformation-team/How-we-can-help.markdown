@@ -1,6 +1,6 @@
 ---
 layout: page
-title: List of services
+title: How we can help
 ---
 
 # {{ page.title }}
