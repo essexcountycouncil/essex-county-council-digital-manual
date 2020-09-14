@@ -31,7 +31,7 @@ Those are just a few examples. Read more about [work we’ve done](/essex-county
 
 Read [our blog](https://servicetransformation.blog.essex.gov.uk/) for news updates. Contact us to set up a chat about your needs.
 
-<!-- ## Mission Statement
+<!-- ## Mission Statement 
 
 We are committed to improving outcomes for people in Essex and helping meet the strategic aims of the Council. 
 
@@ -55,23 +55,25 @@ We work in short sprints so we can focus on the things that will add most value.
 
 We move forward when we know enough rather than when we have all the answers. 
 
-We invite feedback from others and test our ideas early to ensure we are moving in the right direction. 
+We invite feedback from others and test our ideas early to ensure we are moving in the right direction. -->
 
 ## Roles
 
-The types of skills needed will change depending on the phase of a project or the lifecycle of a service but will likely include.  
+**Delivery Management** creates an environment for success by facilitating the team in their work, unblocking issues and owning the agile delivery process. 
 
-- **User Researchers** focus on understanding user behaviours, needs and motivations and represents the voice of the user in design decisions. 
+**Product Management** takes the insights from User Research and Service Design and using agile and the lean start-up ‘learn – build – measure’ processes works with a small multi-disciplinary team to build prototypes and minimal viable products. 
 
-- **Service Designers** focus on users and their goals and how they interact with the organisation, to improve the user experience and make services better, faster and cheaper for everyone. 
+**User Research** focuses on understanding user behaviours, needs and motivations and represents the voice of the user in design decisions. 
 
-- **Product Managers** focus on the digital touchpoints for users that enable them to interact with a service and manage the lifecycle of digital products. 
+**Service Design** focuses on users and their goals and how they interact with the organisation, to improve the user experience and make services better, faster and cheaper for everyone. 
 
-- **Organisation Designers** focus on the design of structures and teams, creating alignment or fit between the strategy of the organisation and the work that it delivers.  
+**Product Design** focuses on the design of digital touchpoints for users that enable them to interact with a service and includes our approach to managing the lifecycle of digital products. 
 
-- **Content Designers** create easily understandable and findable information that serves an identified user need in the most appropriate format.  It is not just about writing text​. 
+**Organisation Design** focuses on the design of structures and teams, creating alignment or fit between the strategy of the organisation and the work that it delivers. 
 
-- **Business Designers** focus on identifying and recognising business needs and finding solutions to various business problems.  
+**Content Design** creates easily understandable and findable information that serves an identified user need in the most appropriate format. It is not just about writing text​. 
 
-- **Continuous Improvement** practitioners focus on identifying and implementing measurable improvements based on small changes that are typically inexpensive to implement and drive value and efficiencies.   -->
+**Business Design** focuses on identifying and recognising business needs and finding solutions to various business problems. 
+
+**Continuous Improvement** focuses on identifying and implementing measurable improvements based on small changes that are typically inexpensive to implement and drive value and efficiencies. 
 
