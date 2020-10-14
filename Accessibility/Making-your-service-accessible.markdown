@@ -31,8 +31,7 @@ You should only create something if there is a [user need](/essex-county-council
 
 The GOV.UK Service Manual has detailed guidance on [how to make your service accessible](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#what-to-do-about-accessibility-in-discovery). 
 
-If there is a clear user need for a new website, read the [guidance on buying a digital product or service]().  
-
+<!-- If there is a clear user need for a new website, read the [guidance on buying a digital product or service]().   -->
 This will make sure that you’ve thought about accessibility before anything has been built. 
 
 
