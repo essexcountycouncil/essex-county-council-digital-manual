@@ -1,6 +1,6 @@
 ---
 layout: page
-title: User stories
+title: User testing
 ---
 
 # {{ page.title }}
