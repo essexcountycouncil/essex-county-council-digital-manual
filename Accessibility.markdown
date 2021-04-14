@@ -23,5 +23,10 @@ title: Accessibility
     <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Accessibility/Learn-about-accessiblity">Learn about accessibility</a></h2>
     <p>Information on accessibility training and useful resources</p>
   </div>
+
+  <div class="preview">
+    <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Accessibility/Completing-a-basic-accessibility-check">Completing a basic accessibility check</a></h2>
+    <p>Tools and advice on how to check the basic accessiblity of your website</p>
+  </div>
 </div>
 
