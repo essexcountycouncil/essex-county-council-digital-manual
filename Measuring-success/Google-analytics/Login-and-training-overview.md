@@ -19,7 +19,7 @@ The training will also demonstrate how to analyze basic Audience, Acquisition, a
 
 <div class="inset">
 	<p>	
-		These training resources relate to Universal Analytics only. If you're looking for training on Google Analytics 4, please contact [Digital.Insights@essex.gov.uk](mailto:Digital.Insights@essex.gov.uk)
+		These training resources relate to Universal Analytics only. If you're looking for training on Google Analytics 4, please contact <a href="mailto:Digital.Insights@essex.gov.uk">Digital.Insights@essex.gov.uk</a>
 	</p>
 </div>
 
