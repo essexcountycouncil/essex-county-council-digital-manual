@@ -64,7 +64,7 @@ You can even click into individual referrals to see which specific web pages lin
         <span class="pagination-item">
           <span class="fas fa-arrow-left"></span>Previous
         </span>
-        <span>How many visits am i getting?</span>
+        <span>How many visits am I getting?</span>
       </a>
     </li>
     <li class="next">
