@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Google Analytics Training
+title: Google analytics Training
 ---
 # {{page.title}}
 
