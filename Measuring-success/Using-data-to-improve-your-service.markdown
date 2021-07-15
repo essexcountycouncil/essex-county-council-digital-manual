@@ -37,7 +37,7 @@ Think about:
 
 A web measurement forms the basis of reports and dashboards and will change slightly from service to service. 
 
-[See an example of a web measurement framework we use at Essex County Council (ECC) for measuring performance.](https://keelanfh.github.io/essex-county-council-digital-manual/Measuring-success/Google-analytics/Ecc-web-analytics-framework)
+[See an example of a web measurement framework we use at Essex County Council (ECC) for measuring performance](https://keelanfh.github.io/essex-county-council-digital-manual/Measuring-success/Google-analytics/Ecc-web-analytics-framework).
 
 ## How to use data  
 
