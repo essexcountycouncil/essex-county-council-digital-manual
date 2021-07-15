@@ -54,7 +54,4 @@ This includes:
 
 Find out more about [measuring success](https://www.gov.uk/service-manual/measuring-success) on GOV.UK.  
 
-Read guidance on:  
-
-- [using Google Analytics](/essex-county-council-digital-manual/Measuring-success/Google-analytics) to measure the performance of your service
-- [using HotJar]({{site.baseurl}}/Placeholder-page) to understand user behaviour and get feedback 
+[Read guidance on using Google Analytics](/essex-county-council-digital-manual/Measuring-success/Google-analytics) to measure the performance of your service.
