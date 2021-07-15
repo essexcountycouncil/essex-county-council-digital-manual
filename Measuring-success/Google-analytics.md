@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Google analytics
+title: Google Analytics
 ---
 # {{page.title}}
 
