@@ -123,7 +123,7 @@ This framework would change slightly from service area to service area.
         <span class="pagination-item">
           <span class="fas fa-arrow-left"></span>Previous
         </span>
-        <span>what are the most popular pages on my website?</span>
+        <span>What are the most popular pages on my website?</span>
       </a>
     </li>
   </ul>
