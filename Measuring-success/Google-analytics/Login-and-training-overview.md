@@ -48,7 +48,7 @@ If you have any questions, feedback or issues, please contact [Digital.Insights@
         <span class="pagination-item">
           <span class="fas fa-arrow-left"></span>Previous
         </span>
-        <span>Google analytics</span>
+        <span>Google Analytics</span>
       </a>
     </li>
     <li class="next">
