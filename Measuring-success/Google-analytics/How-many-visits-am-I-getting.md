@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How many visits am i getting?
+title: How many visits am I getting?
 ---
 # {{page.title}}
 
