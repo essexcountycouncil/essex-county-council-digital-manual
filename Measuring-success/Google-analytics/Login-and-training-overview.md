@@ -18,11 +18,14 @@ This course shows new users how to:
 The training will also demonstrate how to analyze basic Audience, Acquisition, and Behavior reports.
 
 <div class="inset">
-	<p>In case you prefer to watch videos, you can find a few videos below that take you through all the above:	
-    </p>
+	<p>	
+		These training resources relate to Universal Analytics only. If you're looking for training on Google Analytics 4, please contact [Digital.Insights@essex.gov.uk](mailto:Digital.Insights@essex.gov.uk)
+	</p>
 </div>
 
-## Video Links:
+## Videos
+
+In case you prefer to watch videos, you can find a few videos below that take you through all the above:
 
 [Google Analytics Basics: Understanding the Basics of Google Analytics](https://youtu.be/5K5h_zLbDac)
 
