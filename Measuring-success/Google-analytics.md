@@ -24,7 +24,7 @@ Find out about [Google Analytics training from the Google Academy]({{site.baseur
 <nav class="pagination" aria-label="pagination">
   <ul>
     <li class="next">
-      <a href="Login-and-training-overview">
+      <a href="{{site.baseurl}}/Measuring-success/Google-analytics/Login-and-training-overview">
         <span class="pagination-item">
           <span class="fas fa-arrow-right"></span>Next
         </span>
