@@ -194,11 +194,11 @@ The default dimension selected in the Audience Overview report is â€œLanguage.â€
       </a>
     </li>
     <li class="next">
-      <a href="How-many-visits-am-i-getting">
+      <a href="How-many-visits-am-I-getting">
         <span class="pagination-item">
           <span class="fas fa-arrow-right"></span>Next
         </span>
-        <span>How many visits am i getting?</span>
+        <span>How many visits am I getting?</span>
       </a>
     </li>
   </ul>
