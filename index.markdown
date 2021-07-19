@@ -9,7 +9,7 @@ title: Essex County Council digital manual
 
 The digital manual is a collection of best practice tools and guidance to help design and deliver high quality, consistent and cost effective services.
 
-This manual is in constant development. If you have any questions please email [ST@essex.gov.uk](mailto:ST@essex.gov.uk)
+This manual is a work in progress. If you have any questions please email [ST@essex.gov.uk](mailto:ST@essex.gov.uk)
 
 <div class="previews">
   <div class="preview">

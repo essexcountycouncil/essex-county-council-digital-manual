@@ -1,24 +1,8 @@
 ---
 layout: page
-title: Login and training overview
+title: Google Analytics training
 ---
 # {{page.title}}
-
-## Google Analytics Practice Account Login
-
-Username: eccgapractice@gmail.com
-
-Password: essex2018
-
-[Google analytics login page](https://analytics.google.com/)
-
-Preferred browser: Google Chrome
-
-<div class="inset">
-	<p>
-        Please note: No need to create properties, views or filters when you get to the 'setting up views and filters' section
-	</p>
-</div>
 
 ## Course Overview
 
@@ -34,13 +18,17 @@ This course shows new users how to:
 The training will also demonstrate how to analyze basic Audience, Acquisition, and Behavior reports.
 
 <div class="inset">
-	<p>In case you prefer to watch videos, you can find a few videos below that take you through all the above:	
-    </p>
+	<p>	
+		These training resources relate to Universal Analytics only. If you're looking for training on Google Analytics 4, please contact <a href="mailto:Digital.Insights@essex.gov.uk">Digital.Insights@essex.gov.uk</a>.
+	</p>
 </div>
 
-## Video Links:
+## Videos
+
+In case you prefer to watch videos, you can find a few videos below that take you through all the above:
 
 [Google Analytics Basics: Understanding the Basics of Google Analytics](https://youtu.be/5K5h_zLbDac)
+
 [Google Analytics: What to look for in your website reports](https://youtu.be/CHK1oR7UcN8)
 
 ## Further Reading
@@ -51,7 +39,7 @@ You will also find a link to the Google Analytics Academy, where you can create 
 
 ## Questions and Feedback
 
-If you have any questions, feedback or issues, please contact christopher.babajide@essex.gov.uk
+If you have any questions, feedback or issues, please contact [Digital.Insights@essex.gov.uk](mailto:Digital.Insights@essex.gov.uk)
 
 <nav class="pagination" aria-label="pagination">
   <ul>
@@ -60,7 +48,7 @@ If you have any questions, feedback or issues, please contact christopher.babaji
         <span class="pagination-item">
           <span class="fas fa-arrow-left"></span>Previous
         </span>
-        <span>Google analytics</span>
+        <span>Google Analytics</span>
       </a>
     </li>
     <li class="next">
@@ -68,7 +56,7 @@ If you have any questions, feedback or issues, please contact christopher.babaji
         <span class="pagination-item">
           <span class="fas fa-arrow-right"></span>Next
         </span>
-        <span>Personal budget</span>
+        <span>Google Analytics basics</span>
       </a>
     </li>
   </ul>
