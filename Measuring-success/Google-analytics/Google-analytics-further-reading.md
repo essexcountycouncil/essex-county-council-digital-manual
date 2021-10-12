@@ -23,5 +23,3 @@ You could create a Google Academy account and go through all the advance trainin
 *   [The complete guide to Google analytics campaign tracking](https://www.digitalmarketer.com/google-analytics-campaign-tracking/)
 *   [Google support - creating goals](https://support.google.com/analytics/answer/1032415?hl=en)
 *   [How to create a goal in Google analytics to track conversion](https://www.monsterinsights.com/how-to-create-a-goal-in-google-analytics-to-track-conversions/)
-
-[ECC Web Analytics Framework](/google-analytics-guide/ecc-web-analytics-framework/)
