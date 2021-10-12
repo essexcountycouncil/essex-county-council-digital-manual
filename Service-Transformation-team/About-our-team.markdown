@@ -27,7 +27,7 @@ So far, we have worked with ECC colleagues on projects like:
 - Building and adding to the [essex.gov.uk website](https://www.essex.gov.uk/)
 - Training colleagues around the council in accessibility awareness
 
-Those are just a few examples. Read more about [work we’ve done](/essex-county-council-digital-manual/Service-Transformation-team/What-we-do), and our [list of services](/essex-county-council-digital-manual/Service-Transformation-team/List-of-services).
+Those are just a few examples. Read more about [work we’ve done](/essex-county-council-digital-manual/Service-Transformation-team/What-we-do), and [how we can help](/essex-county-council-digital-manual/Service-Transformation-team/How-we-can-help).
 
 Read [our blog](https://servicetransformation.blog.essex.gov.uk/) for news updates. Contact us to set up a chat about your needs.
 
