@@ -9,7 +9,7 @@ The user groups that we need to engage with vary depending on the products that 
 
 ## Essex County Council website
 
-[essex.gov.uk](www.essex.gov.uk) has a very diverse group of users:
+[essex.gov.uk](https://www.essex.gov.uk) has a very diverse group of users:
 
 - Age range includes young people, parents, older people
 - Earnings range from some of the most affluent in the country to areas of significant deprivation like Jaywick
