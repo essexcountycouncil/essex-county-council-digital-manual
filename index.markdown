@@ -32,8 +32,12 @@ This manual is a work in progress. If you have any questions please email [ST@es
     <h2 class="sub-section-heading"><a href="Measuring-success">Measuring success</a></h2>
     <p>Includes guidance on using web analytics and how to measure the performance of content</p>
   </div>
-    <div class="preview">
+  <div class="preview">
     <h2 class="sub-section-heading"><a href="Service-standards-and-guidelines">Service standards and guidelines</a></h2>
     <p>Includes guidance on how we work, service standards and common service patterns</p>
+  </div>
+  <div class="preview">
+    <h2 class="sub-section-heading"><a href="Inclusivity-guidelines">Inclusivity guidelines</a></h2>
+    <p>How to make sure everyone can user our services</p>
   </div>
 </div>
