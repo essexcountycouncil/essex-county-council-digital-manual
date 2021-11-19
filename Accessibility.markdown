@@ -28,5 +28,9 @@ title: Accessibility
     <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Accessibility/Completing-a-basic-accessibility-check">Completing a basic accessibility check</a></h2>
     <p>Tools and advice on how to check the basic accessiblity of your website</p>
   </div>
+  <div class="preview">
+    <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Accessibility/Creating-an-accessibility-statement">Creating an accessibility statement</a></h2>
+    <p>Include best practice on how to create an accessibility statement and what to include</p>
+  </div>
 </div>
 
