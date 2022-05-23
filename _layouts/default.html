@@ -17,10 +17,15 @@
     {%- include header.html -%}
     <div class="phase-banner-background" role="region" aria-label="phasebanner">
       <div class="phase-banner" id="phasebanner">
+    {% if site.env.JEKYLL_ENV == "production" %}
         <p class="phase-content"><strong class="phase-tag">alpha</strong><span class="phase-text">This is our new digital manual - it's a work in progress.</span>
+    {% else %}
+        <p class="phase-content"><strong class="phase-tag">preview</strong><span class="phase-text">This is a preview, not the live digital manual.</span>
+    {% endif %}
         </p>
       </div>
     </div>
+
 
     <main id="content" class="markdown">
       <div class="container">
