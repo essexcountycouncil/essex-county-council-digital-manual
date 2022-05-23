@@ -1,8 +1,19 @@
-## Welcome to GitHub Pages
+## Essex County Council Digital Manual
 
-You can use the [editor on GitHub](https://github.com/JackRyan8/TestingPages/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Preview environments
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+If you want to preview changes before they go live:
+
+- Fork the repository to your own account
+- In the forked repository, go to **Settings**-**Pages** and enable Pages from the `master` branch
+- Still in **Settings**, go to the **Environments** tab
+- Click **github-pages**
+- Scroll down to the **Environment secrets** section
+- Click **Add Secret**
+- Under **Name**, enter `JEKYLL_ENV`
+- Under **Value**, enter `development`
+
+This will ensure that Google doesn't index your preview copy of the site.
 
 ### Markdown
 
