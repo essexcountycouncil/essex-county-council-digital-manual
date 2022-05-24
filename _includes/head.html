@@ -40,4 +40,6 @@
     })(window,document,'script','dataLayer','GTM-MRKRCFR');</script>
     <!-- End Google Tag Manager -->
 
-</head>
+{% if site.github.owner_name != "essexcountycouncil" %}
+   <meta name="robots" content="noindex">
+{% endif %}
