@@ -17,7 +17,11 @@
     {%- include header.html -%}
     <div class="phase-banner-background" role="region" aria-label="phasebanner">
       <div class="phase-banner" id="phasebanner">
+        {% if site.github.owner_name == "essexcountycouncil" %}
         <p class="phase-content"><strong class="phase-tag">alpha</strong><span class="phase-text">This is our new digital manual - it's a work in progress.</span>
+        {% else %}
+        <p class="phase-content"><strong class="phase-tag">preview</strong><span class="phase-text">This is the preview version of the digital manual - not the live version.</span>
+        {% endif %}
         </p>
       </div>
     </div>
