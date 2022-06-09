@@ -11,8 +11,6 @@ Training and useful resources to help you learn about accessibility.
 
 We’re developing an accessibility training module for employees on My Learning and hope to launch this in autumn 2020. 
 
-The Government Digital Service (GDS) run accessibility training sessions. Find out more in the [GOV.UK Service Manual](https://www.gov.uk/service-manual/design/user-centred-design-training-and-events). 
-
 [W3C’s Introduction to Accessibility](https://www.edx.org/course/web-accessibility-introduction) is a free online course to complete at your own pace. 
  
 ## Useful resources  
