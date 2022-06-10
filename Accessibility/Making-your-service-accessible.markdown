@@ -50,11 +50,11 @@ When you are doing research, you need to include users who have disabilities or 
 Test your website regularly with automated and manual testing. It’s important to use both methods as automated testing alone will only pick up 30% of accessibility issues. Find out more about [testing for accessibility](/essex-county-council-digital-manual/Accessibility/Making-your-service-accessible/Testing-for-accessibility). 
  
 
-## Publish an accessibility statement 
+## Write an accessibility statement 
 
 Once you’ve finished researching and testing your service, you need to write an accessibility statement. This is an important step as it’s part of the requirements of the [accessibility regulations](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps). 
  
-Read the guidance on [publishing an accessibility statement](/essex-county-council-digital-manual/Accessibility/Making-your-service-accessible/Publishing-an-accessibility-statement). 
+Read the guidance on [creating an accessibility statement](/essex-county-council-digital-manual/Accessibility/Creating-an-accessibility-statement). 
 
 
 ## Test regularly  
