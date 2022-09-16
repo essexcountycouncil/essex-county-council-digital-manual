@@ -23,7 +23,7 @@ Information alerts are used to direct a user’s attention to important informat
 
 <div class="alert info" id="tab-two">
   <div class="alert-icon">
-    <span class="fas fa-info-circle"></span>
+    <span class="fas fa-info-circle" aria-label="information" role="img"></span>
   </div>
   <div class="alert-text">
     <div class="section-heading">We are updating our system</div>
@@ -34,7 +34,7 @@ Information alerts are used to direct a user’s attention to important informat
 
     <div class="alert info" id="tab-two">
       <div class="alert-icon">
-        <span class="fas fa-info-circle"></span>
+        <span class="fas fa-info-circle" aria-label="information" role="img"></span>
       </div>
       <div class="alert-text">
         <div class="section-heading">We are updating our system</div>
@@ -53,7 +53,7 @@ Warning alerts are used to prepare users for a variety of real world issues. Thi
 
 <div class="alert warning" id="tab-three">
   <div class="alert-icon">
-    <span class="fas fa-exclamation-triangle"></span>
+    <span class="fas fa-exclamation-triangle"  aria-label="warning" role="img"></span>
   </div>
   <div class="alert-text">
     <div class="section-heading">School closures</div>
@@ -64,7 +64,7 @@ Warning alerts are used to prepare users for a variety of real world issues. Thi
 
     <div class="alert warning" id="tab-three">
       <div class="alert-icon">
-        <span class="fas fa-exclamation-triangle"></span>
+        <span class="fas fa-exclamation-triangle" aria-label="warning" role="img"></span>
       </div>
       <div class="alert-text">
         <div class="section-heading">School closures</div>
@@ -83,7 +83,7 @@ Error alerts are used to direct a user’s attention to important system errors.
 
 <div class="alert error" id="tab-one">
   <div class="alert-icon">
-    <span class="fas fa-exclamation-circle"></span>
+    <span class="fas fa-exclamation-circle" aria-label="error" role="img"></span>
   </div>
   <div class="alert-text">
     <div class="section-heading">We are experiencing some issues</div>
@@ -94,7 +94,7 @@ Error alerts are used to direct a user’s attention to important system errors.
 
     <div class="alert error" id="tab-one">
       <div class="alert-icon">
-        <span class="fas fa-exclamation-circle"></span>
+        <span class="fas fa-exclamation-circle" aria-label="error" role="img"></span>
       </div>
       <div class="alert-text">
         <div class="section-heading">We are experiencing some issues</div>
