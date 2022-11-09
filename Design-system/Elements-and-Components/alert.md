@@ -87,7 +87,7 @@ Error alerts are used to direct a user’s attention to important system errors.
   </div>
   <div class="alert-text">
     <div class="section-heading">We are experiencing some issues</div>
-    <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</p>
+    <p>You may experience some issues with our website. Please bear with us while we resolve the issue.</p>
     <button class="text" type="button" onclick="toggle_visibility('tab-one');">Hide this message</button>
   </div>
 </div>
