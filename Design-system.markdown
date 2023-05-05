@@ -11,10 +11,6 @@ title: Design System
     <p>Guidance on how we understand, design, improve and build services</p>
   </div>
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Design-system/Page-examples">Page examples</a></h2>
-    <p>Includes examples of how your branded page should look when finished</p>
-  </div>
-  <div class="preview">
     <h2 class="sub-section-heading"><a href="/essex-county-council-digital-manual/Accessibility/Making-your-service-accessible/Testing-for-accessibility">Testing for accessibility</a></h2>
     <p>The standards and techniques needed for effective accessibility testing</p>
   </div>
