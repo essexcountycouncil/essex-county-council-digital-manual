@@ -21,7 +21,7 @@ Use our practical 'how to' guides to help with writing and designing content.
 - [Using website alerts](/essex-county-council-digital-manual/Content-standards/Content-guidelines/Using-website-alerts)
 
 
-# Training and resources
+## Training and resources
 
 - [Useful tools](/essex-county-council-digital-manual/Content-standards/Content-guidelines/Useful-tools)
 - [Further reading](/essex-county-council-digital-manual/Content-standards/Content-guidelines/Further-reading)
