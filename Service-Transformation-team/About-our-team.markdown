@@ -20,8 +20,8 @@ So far, we have worked with ECC colleagues on projects like:
 
 - Working with council leaders to plan for post-coronavirus recovery
 - Helping the council think about new ways of working
-- Building the [coronavirus hub](https://www.essex.gov.uk/topic/coronavirus) in 4 days
-- Creating a [prototype Wellbeing Directory](https://www.essex-gethelp.uk/) to help with coronavirus response
+- Building the coronavirus hub in 4 days
+- Creating a prototype Wellbeing Directory to help with coronavirus response
 - Re-designing the process for registering deaths
 - Helping with food and medicine distribution as part of coronavirus response
 - Building and adding to the [essex.gov.uk website](https://www.essex.gov.uk/)
