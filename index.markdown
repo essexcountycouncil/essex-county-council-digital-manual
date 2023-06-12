@@ -25,7 +25,7 @@ This manual is a work in progress. If you have any questions please email [ST@es
     <p>Includes best practice guidance on how to make content accessible to users</p>
   </div>
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="Design-system">Design system</a></h2>
+    <h2 class="sub-section-heading"><a href="Design-system">Design and patterns library</a></h2>
     <p>Includes the styles and common components we use for essex.gov.uk</p>
   </div>
   <div class="preview">
