@@ -9,7 +9,7 @@ title: Further reading
 
 You can use these tools to tell you how clear, concise and accessible your content is:
 
-- [SMOG calculator](https://www.learningandwork.org.uk/SMOG-calculator/smogcalc.php) - free
+- [SMOG calculator](https://charactercalculator.com/smog-readability/) - free
 - [Hemingway Editor](http://www.hemingwayapp.com/) - free
 - [Readable](https://readable.com/) - full version requires payment, but you can get a free demo
 
