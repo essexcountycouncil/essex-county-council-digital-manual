@@ -62,7 +62,7 @@ This is an example of an error alert.
   </div>
   <div class="alert-text">
     <div class="section-heading">We are experiencing some issues</div>
-    <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</p>
+    <p>You may experience some issues with our website. Please bear with us while we resolve the issue.</p>
   </div>
   <button class="text" type="button" onclick="toggle_visibility('tab-one');">Hide this message</button>
 </div>
@@ -95,5 +95,5 @@ This is an example of a warning alert.
 
 ## How to implement an alert
 
-You can find guidance on how to implement an alert on the [alert component](/essex-county-council-digital-manual/Design-system/Elements-and-Components/alert) page.
+You can find guidance on how to implement an alert on the [alert component](https://www.essex.gov.uk/essex-county-councils-design-and-patterns-library/components/alert-banner) page.
  
