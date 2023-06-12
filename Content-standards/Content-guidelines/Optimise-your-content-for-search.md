@@ -66,7 +66,7 @@ Apply heading styles correctly. Use subheadings to structure your content. Use t
 
 See [creating accessible document](/essex-county-council-digital-manual/Accessibility/Creating-an-accessible-pdf) for guidance on applying heading styles.
 
-See our [guidance on using images](/using-images).
+See our [guidance on using images](/Content-standards/Content-guidelines/Using-images).
 
 ## Find out what users are searching for
 
